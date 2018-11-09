@@ -70,19 +70,3 @@ Header set Connection keep-alive
 
 </IfModule>
 ## End ##
-
-## Customer error pages ##
-ErrorDocument 400 https://solidgoldstudios.co.za/errors/400.php
-ErrorDocument 401 https://solidgoldstudios.co.za/errors/401.php
-ErrorDocument 403 https://solidgoldstudios.co.za/errors/403.php
-ErrorDocument 404 https://solidgoldstudios.co.za/index.php
-ErrorDocument 405 https://solidgoldstudios.co.za/errors/405.php
-ErrorDocument 406 https://solidgoldstudios.co.za/errors/406.php
-ErrorDocument 407 https://solidgoldstudios.co.za/errors/407.php
-ErrorDocument 408 https://solidgoldstudios.co.za/errors/408.php
-ErrorDocument 410 https://solidgoldstudios.co.za/errors/410.php
-ErrorDocument 414 https://solidgoldstudios.co.za/errors/414.php
-ErrorDocument 500 https://solidgoldstudios.co.za/errors/500.php
-ErrorDocument 502 https://solidgoldstudios.co.za/errors/502.php
-ErrorDocument 504 https://solidgoldstudios.co.za/errors/504.php
-## End ##

@@ -8,7 +8,7 @@
 	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="eduthink, edu think, education incorporated, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
+	<meta name="keywords" content="eduthink, gavin kennedy, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
 	<meta name="pagename" content="Solid Gold Podcast Channels | EduThink">
@@ -21,9 +21,9 @@
 	<meta property="og:title" content="Solid Gold Podcast Studios | EduThink" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/eduthink.php" />
+	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/eduthink.php" />
 	<meta property="og:type" content="website" />
-	<title>EduThink</title>
+	<title>EduThink with Gavin Kennedy</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -126,12 +126,35 @@
 			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-respond-y-mob align-s-tab">
 
 				<!--
+				Aside content
+				-->
+
+				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
+
+					<iframe src="https://tunein.com/embed/player/p1146474/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/eduthink-with-gavin-kennedy/id1316706544" target="_blank" rel="noopener"></a>
+					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/eduthink-with-gavin-kennedy" target="_blank" rel="noopener"></a>
+					<a class="badge-acast" href="https://www.acast.com/eduthink" target="_blank" rel="noopener"></a>
+					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>-->
+					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/EduThink-with-Gavin-Kennedy-p1146474/" target="_blank" rel="noopener"></a>
+					
+					<a class="badge-castbox" href="https://castbox.fm/channel/EduThink-with-Gavin-Kennedy-id1328103?country=us" target="_blank" rel="noopener"></a>
+					
+					<a class="badge-spotify" href="https://open.spotify.com/show/7iEyrfm8AYdpsdcLeiwB7D" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/eduthink.xml" target="_blank" rel="noopener"></a>
+
+					</div>
+
+				<!--
 				Main content
 				-->
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
 					<p class="text-l-mob">From <strong>Solid Gold Studios</strong>, this is <strong>EduThink</strong> &mdash; the podcast that explores Education in South Africa. If you're a parent, a pupil, a teacher, a principal or simply interested in education, then this is the show for you. Hosted by <a href="https://www.linkedin.com/in/gavinkennedy/" target="_blank" rel="noopener">Gavin Kennedy</a>.</p>
+					
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 
@@ -151,7 +174,7 @@
 							-->
 							<li>
 								<a href="mailto:eduthink@solidgoldstudios.co.za?subject=EduThink%20Podcast%20Query" target="_blank" rel="noopener">
-									<span class="email">Email Gavin Kennedy</span>
+									<span class="email">Email</span>
 								</a>
 							</li>
 
@@ -160,7 +183,7 @@
 							-->
 							<li>
 								<a href="http://educationincorporated.co.za/" target="_blank" rel="noopener">
-									<span class="website">Visit website</span>
+									<span class="website">Website</span>
 								</a>
 							</li>
 
@@ -182,27 +205,19 @@
 								</a>
 							</li>
 
+							<!--
+							Twitter
+							
+							<li>
+								<a href="https://twitter.com/???" target="_blank" rel="noopener">
+									<span class="twitter">Twitter wall</span>
+								</a>
+							</li>
+						-->
+
 						</ul>
 
 					</div>
-
-				</div>
-
-				<!--
-				Aside content
-				-->
-
-				<div class="flow-ttb-mob constrain-30 spread pad-respond-l-tab pad-respond-b-mob align-fs-mob justify-fs-tab border-l-tab">
-
-					<div class="pad-b-mob h3 text-l-mob">Listen here</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/eduthink-with-gavin-kennedy/id1316706544?mt=2" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/eduthink-with-gavin-kennedy" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/eduthink" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/Iraddnub52v4ud347tx3ekrx3zq?t=EduThink_with_Gavin_Kennedy" target="_blank" rel="noopener"></a>-->
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/EduThink-with-Gavin-Kennedy-p1146474/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/EduThink-with-Gavin-Kennedy-id1328103?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/7iEyrfm8AYdpsdcLeiwB7D" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/eduthink.xml" target="_blank" rel="noopener"></a>
 
 				</div>
 

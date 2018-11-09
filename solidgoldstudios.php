@@ -8,22 +8,22 @@
 	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="grounded, melanie walker, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
+	<meta name="keywords" content="Solid Gold Podcast Studios, podcaststudios.co.za, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | Grounded">
+	<meta name="pagename" content="Solid Gold Podcast Channels | Solid Gold Podcast Studios Demos and Samples">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | Grounded" />
+	<meta property="og:title" content="Solid Gold Podcast Studios | Demos and Samples" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/grounded.php" />
+	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/solidgoldstudios.php" />
 	<meta property="og:type" content="website" />
-	<title>Grounded</title>
+	<title>Solid Gold Podcast Studios</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -96,8 +96,8 @@
 
 			<div>
 
-				<h1 class="text-c-mob text-l-tab">Grounded</h1>
-				<h2 class="text-c-mob text-l-tab">Melanie Walker</span></h2>
+				<h1 class="text-c-mob text-l-tab">Solid Gold Podcast Studios</h1>
+				<h2 class="text-c-mob text-l-tab">Gavin Kennedy</span></h2>
 
 			</div>
 
@@ -105,7 +105,7 @@
 			Image
 			-->
 
-			<img src="assets/images/cover-art/channels/grounded.jpg" alt="" />
+			<img src="assets/images/cover-art/channels/solid-gold-studios-cover-0000.jpg" alt="" />
 
 		</div>
 
@@ -131,17 +131,34 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-					<iframe src="https://tunein.com/embed/player/p1146458/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+				<!-- TuneIn embedded player -->
+					<iframe src="https://tunein.com/embed/player/t126868184/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/melanie-walkers-grounded/id1400294539?mt=2" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/melanie-walkers-grounded" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/grounded" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/Izap6o2pkuwqjqn4rf7w7md74jq?t=Melanie_Walkers_Grounded" target="_blank" rel="noopener"></a>-->
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Gardening/Melanie-Walkers-Grounded-p1146458/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/Melanie-Walker's-Grounded-id1320773?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/3RFGRF9k8Th5lbpnc4QMjt" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/grounded.xml" target="_blank" rel="noopener"></a>
+
+<!-- TEMP embedded player
+
+					<iframe style="border: solid 1px #dedede;"  src="https://app.stitcher.com/splayer/f/327315/57129980" width="220" height="150" frameborder="0" scrolling="no"></iframe>
+-->					
+
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">Listen on</div>
+					
+					<!--
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/garage-band/id1441251250" target="_blank" rel="noopener"></a> -->
+
+					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/solid-gold-podcasts-studios" target="_blank" rel="noopener"></a>
+
+					<a class="badge-acast" href="https://www.acast.com/solidgoldstudios" target="_blank" rel="noopener"></a>
+<!--					
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>
+				-->
+
+					<a class="badge-tune-in" href="https://tunein.com/podcasts/Technology-Podcasts/Solid-Gold-Studios-p1176355/" target="_blank" rel="noopener"></a>
+					
+					<a class="badge-castbox" href="https://castbox.fm/channel/Solid-Gold-Studios-id1478229?country=us" target="_blank" rel="noopener"></a>
+
+					<a class="badge-spotify" href="https://open.spotify.com/show/6HqiRTx5R9s2GE9TKO7JgQ" target="_blank" rel="noopener"></a>
+	
+					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/solidgoldstudios.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 
@@ -151,7 +168,8 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
-					<p class="text-l-mob">From Solid Gold Studios welcome to Grounded. Hosted by the ever-energetic <a href="https://www.linkedin.com/in/melanie-walker-675a0413/" target="_blank" rel="noopener">Melanie Walker</a>, this podcast explores gardening and all things grounded.</p>
+					<p class="text-l-mob">Find out more about Gavin Kennedy on <a href="https://www.linkedin.com/in/gavinkennedy/" target="_blank" rel="noopener">LinkedIn</p>
+					<p class="text-l-mob"></p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 
@@ -159,19 +177,18 @@
 
 							<!--
 							Tumblr
-							
-							<li>
+							-->
+							<!-- <li>
 								<a href="???" target="_blank" rel="noopener">
 									<span class="tumblr"><strong>Episode notes</strong></span>
 								</a>
-							</li>
-						-->
+							</li> -->
 
 							<!--
 							Email
 							-->
 							<li>
-								<a href="mailto:grounded@solidgoldstudios.co.za?subject=Grounded%20Podcast%20Query" target="_blank" rel="noopener">
+								<a href="mailto:gavin@solidgoldstudios.co.za?subject=Podcast%20Query" target="_blank" rel="noopener">
 									<span class="email">Email</span>
 								</a>
 							</li>
@@ -180,8 +197,8 @@
 							Website
 							-->
 							<li>
-								<a href="https://melstreasures.co.za/" target="_blank" rel="noopener">
-									<span class="website">Visit website</span>
+								<a href="https://solidgoldstudios.co.za" target="_blank" rel="noopener">
+									<span class="website">Website</span>
 								</a>
 							</li>
 
@@ -189,7 +206,7 @@
 							LinkedIn
 							-->
 							<li>
-								<a href="https://www.linkedin.com/in/melanie-walker-675a0413/" target="_blank" rel="noopener">
+								<a href="https://www.linkedin.com/company/solid-gold-podcast-studios/" target="_blank" rel="noopener">
 									<span class="linkedin">LinkedIn profile</span>
 								</a>
 							</li>
@@ -198,8 +215,8 @@
 							Facebook
 							-->
 							<li>
-								<a href="https://www.facebook.com/melstreasures.co.za/" target="_blank" rel="noopener">
-									<span class="facebook">Facebook page</span>
+								<a href="https://www.facebook.com/solidgoldrecordingstudios/" target="_blank" rel="noopener">
+									<span class="facebook">Facebook page #BeHeard</span>
 								</a>
 							</li>
 
@@ -207,8 +224,8 @@
 							Instagram
 							-->
 							<li>
-								<a href="https://www.instagram.com/melstreasures.co.za/" target="_blank" rel="noopener">
-									<span class="instagram">Instagram page</span>
+								<a href="https://www.instagram.com/solidgoldpods/" target="_blank" rel="noopener">
+									<span class="instagram">Instagram page #BeHeard</span>
 								</a>
 							</li>
 
@@ -216,8 +233,8 @@
 							Twitter
 							-->
 							<li>
-								<a href="https://twitter.com/MelsTreasures" target="_blank" rel="noopener">
-									<span class="twitter">Twitter wall</span>
+								<a href="https://twitter.com/solidgoldpods" target="_blank" rel="noopener">
+									<span class="twitter">Twitter wall #BeHeard</span>
 								</a>
 							</li>
 

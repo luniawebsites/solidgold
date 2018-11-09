@@ -100,7 +100,7 @@
 				<div class="pad-respond-b-mob pad-t-mob">
 
 					<label for="filter">
-						<span>Live Search</span>
+						<span>Filter Podcast Channels</span>
 						<input type="text" id="filter">
 					</label>
 
@@ -154,11 +154,19 @@
 					</span>
 				</a>
 
-				<a href="eduinc.php" class="pattern-channel-item" data-pattern-channel-item="education incorporated edu inc eduinc">
+				<a href="eduinc.php" class="pattern-channel-item" data-pattern-channel-item="education incorporated edu inc eduinc boutique school education">
 					<img src="assets/images/cover-art/channels/eduinc-creative-arts.jpg" alt="" />
 					<span>
 						<p>Edu Inc Creative Arts and Language</p>
-						<p>Education Incorporated</p>
+						<p>Edu Inc Boutique School</p>
+					</span>
+				</a>
+
+				<a href="garageband.php" class="pattern-channel-item" data-pattern-channel-item="garage band adam alexander">
+					<img src="assets/images/cover-art/channels/garageband.jpg" alt="" />
+					<span>
+						<p>Garage Band</p>
+						<p>Adam Alexander</p>
 					</span>
 				</a>
 
@@ -177,6 +185,14 @@
 						<p>Petro Du Pisani</p>
 					</span>
 				</a>
+
+				<a href="solidgoldstudios.php" class="pattern-channel-item" data-pattern-channel-item="solid gold podcast studios demo sample">
+					<img src="assets/images/cover-art/channels/solid-gold-studios-cover-0000.jpg" alt="" />
+					<span>
+						<p>Solid Gold Studios</p>
+						<p>Demos and Samples</p>
+					</span>
+				</a>				
 
 				<a href="weekendparty.php" class="pattern-channel-item" data-pattern-channel-item="weekend party lance zeeman">
 					<img src="assets/images/cover-art/channels/weekend-party-entertainment-report.jpg" alt="" />

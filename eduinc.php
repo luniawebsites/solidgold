@@ -8,22 +8,22 @@
 	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="eduinc, edu inc, education incorporated, creative arts language, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
+	<meta name="keywords" content="edu inc, education incorporated, gershom jacqueline aitchison, gavin kennedy, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, another solid gold podcast, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | Edu Inc Creative Arts and Language">
+	<meta name="pagename" content="Solid Gold Podcast Channels | Edu Inc Boutique School">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | Edu Inc Creative Arts and Language" />
+	<meta property="og:title" content="Solid Gold Podcast Studios | Edu Inc Boutique School" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/eduinccreativearts.php" />
+	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/eduinc.php" />
 	<meta property="og:type" content="website" />
-	<title>Edu Inc Creative Arts and Language</title>
+	<title>Edu Inc Boutique School</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -96,8 +96,8 @@
 
 			<div>
 
-				<h1 class="text-c-mob text-l-tab">Edu Inc Creative Arts and Language</h1>
-				<h2 class="text-c-mob text-l-tab">Education Incorporated</span></h2>
+				<h1 class="text-c-mob text-l-tab">Edu Inc Boutique School</h1>
+				<h2 class="text-c-mob text-l-tab">Creative Arts and Languages</span></h2>
 
 			</div>
 
@@ -105,7 +105,7 @@
 			Image
 			-->
 
-			<img src="assets/images/cover-art/channels/eduinc-creative-arts.jpg" alt="" />
+			<img src="assets/images/cover-art/channels/eduthink-cover-000.jpg" alt="" />
 
 		</div>
 
@@ -126,14 +126,32 @@
 			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-respond-y-mob align-s-tab">
 
 				<!--
+				Aside content
+				-->
+
+				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
+
+					<iframe src="https://tunein.com/embed/player/p1174698/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/edu-inc-creative-arts-department/id1439099991" target="_blank" rel="noopener"></a>
+					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/education-incorporated-boutique-school-creative-arts-and-language" target="_blank" rel="noopener"></a>
+					<a class="badge-acast" href="https://www.acast.com/eduinccreativearts" target="_blank" rel="noopener"></a>
+					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a>-->
+					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
+					<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Language-id1455068?country=us" target="_blank" rel="noopener"></a>
+					<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/eduinccreativearts.xml" target="_blank" rel="noopener"></a>
+
+					</div>
+
+				<!--
 				Main content
 				-->
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
-					<p class="text-l-mob"></p>
-					<p class="text-l-mob"></p>
-					<p class="text-l-mob"></p>
+					<p class="text-l-mob">Visit Edu Inc Boutique School's <a href="http://educationincorporated.co.za/" target="_blank" rel="noopener">website</p>
 					<p class="text-l-mob"></p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
@@ -144,18 +162,18 @@
 							Tumblr
 							
 							<li>
-								<a href="" target="_blank" rel="noopener">
+								<a href="???" target="_blank" rel="noopener">
 									<span class="tumblr"><strong>Episode notes</strong></span>
 								</a>
 							</li>
-							-->
+						-->
 
 							<!--
 							Email
 							-->
 							<li>
-								<a href="mailto:eduinc@solidgoldstudios.co.za?subject=EduInc%20Podcast%20Query" target="_blank" rel="noopener">
-									<span class="email">Email Education Incorporated</span>
+								<a href="mailto:eduinc@solidgoldstudios.co.za?subject=???%20Podcast%20Query" target="_blank" rel="noopener">
+									<span class="email">Email</span>
 								</a>
 							</li>
 
@@ -169,6 +187,16 @@
 							</li>
 
 							<!--
+							LinkedIn
+							
+							<li>
+								<a href="https://www.linkedin.com/???/" target="_blank" rel="noopener">
+									<span class="linkedin">LinkedIn profile</span>
+								</a>
+							</li>
+						-->
+
+							<!--
 							Facebook
 							-->
 							<li>
@@ -177,27 +205,19 @@
 								</a>
 							</li>
 
+							<!--
+							Twitter
+							
+							<li>
+								<a href="https://twitter.com/???/" target="_blank" rel="noopener">
+									<span class="twitter">Twitter wall</span>
+								</a>
+							</li>
+						-->
+
 						</ul>
 
 					</div>
-
-				</div>
-
-				<!--
-				Aside content
-				-->
-
-				<div class="flow-ttb-mob constrain-30 spread pad-respond-l-tab pad-respond-b-mob align-fs-mob justify-fs-tab border-l-tab">
-
-					<div class="pad-b-mob h3 text-l-mob">Listen here</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/edu-inc-creative-arts-department/id1439099991?mt=2" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/education-incorporated-boutique-school-creative-arts-and-language" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/eduinc" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="" target="_blank" rel="noopener"></a>-->
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Langusge-id1455068?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/eduinccreativearts.xml" target="_blank" rel="noopener"></a>
 
 				</div>
 

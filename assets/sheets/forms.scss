@@ -1,0 +1,100 @@
+// Target Firefox only
+@-moz-document url-prefix("") {
+	form div {
+	}
+}
+
+/* Spacing
+---------------------------------------------------------------------------- */
+
+// Aesthetics
+
+label span {
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 $radius $radius;
+	font-family: $font-form-element;
+	//line-height: 1rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+	outline: none;
+	border-radius: $radius;
+	border: solid 1px $border-color;
+	background: #fff;
+	padding: 0 1rem;
+	width: 100%;
+	height: $height-form-element;
+	font-family: $font-form-element;
+	font-size: 0.9rem;
+	letter-spacing: -0.01rem;
+	font-weight: normal;
+	transition: $transition;
+}
+
+textarea {
+	outline: none;
+	resize: none;
+	display: block;
+	border-radius: $radius;
+	border: solid 1px $border-color;
+	background: #fff;
+	padding: 1rem;
+	width: 100%;
+	font-family: $font-form-element;
+	font-size: 0.9rem;
+	letter-spacing: -0.01rem;
+	font-weight: normal;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	border-color: $blue;
+	//background-color: #f3f9f3;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: $border-color;
+	letter-spacing: 0.01rem;
+}
+
+/* Customisations
+---------------------------------------------------------------------------- */
+
+// Disable link
+.disabled,
+:disabled {
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	opacity: 0.3;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* Forms
+	------------------------------------------------------------------------ */
+
+	form input:focus,
+	form select:focus,
+	form textarea:focus {
+		//transition: all 0.15s ease-in;
+	}
+
+}

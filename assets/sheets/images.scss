@@ -1,0 +1,272 @@
+// Default image in card pattern
+header img,
+figure img
+footer img {
+	width: 100px;
+	height: 100px;
+}
+
+img.medium {
+	width: 150px;
+	height: 150px;
+}
+
+img.large {
+	width: 220px;
+	height: 220px;
+}
+
+/* Images
+---------------------------------------------------------------------------- */
+
+// .webp and .no-webp work with modernizr-webp.min.js
+
+// Background image in card pattern
+.image-background {
+	display: block;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	//min-width: 100%;
+	height: 160px; // Minimum height for background images
+	overflow: hidden;
+}
+
+// Declare properties for cover images except hero
+.cover {
+	display: block;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+// castbox-screenshot-on-iphonex
+
+.image-castbox-screenshot-on-iphonex {
+	background: url("images/photos/castbox-screenshot-on-iphonex.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 260px 316px;
+	width: 260px;
+	height: 316px;
+}
+
+// iphone-earphones-wood-table
+
+.webp .image-iphone-earphones-wood-table {
+	background: linear-gradient(0.35turn, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("images/photos/iphone-earphones-wood-table.webp");
+	background-position: left center;
+	background-size: cover;
+}
+
+.no-webp .image-iphone-earphones-wood-table {
+	background: linear-gradient(0.35turn, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("images/photos/iphone-earphones-wood-table.jpg");
+	background-position: left center;
+	background-size: cover;
+}
+
+/*
+// audio-mixing-desk
+
+.webp .image-audio-mixing-desk {
+	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.3), transparent), url("images/photos/audio-mixing-desk.webp");
+	background-position: center center;
+	background-size: cover;
+}
+
+.no-webp .image-audio-mixing-desk {
+	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.3), transparent), url("images/photos/audio-mixing-desk.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+*/
+
+// ocean-woman-smile-purple-headphones
+
+.webp .image-ocean-woman-smile-purple-headphones {
+	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("images/photos/ocean-woman-smile-purple-headphones.webp");
+	background-position: right center;
+	background-size: cover;
+}
+
+.no-webp .image-ocean-woman-smile-purple-headphones {
+	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("images/photos/ocean-woman-smile-purple-headphones.jpg");
+	background-position: right center;
+	background-size: cover;
+}
+
+// woman-smiling-with-headphones
+
+.webp .image-woman-smiling-with-headphones {
+	background: url("images/photos/woman-smiling-with-headphones.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 296px 350px;
+	width: 296px;
+	height: 350px;
+}
+
+.no-webp .image-woman-smiling-with-headphones {
+	background: url("images/photos/woman-smiling-with-headphones.webp");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 296px 350px;
+	width: 296px;
+	height: 350px;
+}
+
+// woman-headphones-gym
+
+.webp .image-woman-headphones-gym {
+	background: url("images/photos/woman-headphones-gym.webp");
+	background-position: right top;
+	background-size: cover;
+}
+
+.no-webp .image-woman-headphones-gym {
+	background: url("images/photos/woman-headphones-gym.jpg");
+	background-position: right top;
+	background-size: cover;
+}
+
+// woman-couch-phone-macbook
+
+.webp .image-woman-couch-phone-macbook {
+	background: url("images/photos/woman-couch-phone-macbook.webp");
+	background-position: right top;
+	background-size: cover;
+}
+
+.no-webp .image-woman-couch-phone-macbook {
+	background: url("images/photos/woman-couch-phone-macbook.jpg");
+	background-position: right top;
+	background-size: cover;
+}
+
+// two-women-smiling-sharing-earphones
+
+.webp .image-two-women-smiling-sharing-earphones {
+	background: url("images/photos/two-women-smiling-sharing-earphones.webp");
+	background-position: center center;
+	background-size: cover;
+}
+
+.no-webp .image-two-women-smiling-sharing-earphones {
+	background: url("images/photos/two-women-smiling-sharing-earphones.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+// hand-holding-phone-lap-jeans
+
+.webp .image-hand-holding-phone-lap-jeans {
+	background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0.6)), url("images/photos/hand-holding-phone-lap-jeans.webp");
+	background-position: right center;
+	background-size: cover;
+}
+
+.no-webp .image-hand-holding-phone-lap-jeans {
+	background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0.6)), url("images/photos/hand-holding-phone-lap-jeans.jpg");
+	background-position: right center;
+	background-size: cover;
+}
+
+// girl-on-road-holding-headphones
+
+.image-girl-on-road-holding-headphones {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/photos/girl-on-road-holding-headphones.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+// books-piled
+
+.webp .image-books-piled {
+	background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0.6)), url("images/photos/books-piled.webp");
+	background-position: right center;
+	background-size: cover;
+}
+
+.no-webp .image-books-piled {
+	background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0.6)), url("images/photos/books-piled.jpg");
+	background-position: right center;
+	background-size: cover;
+}
+
+/* Icons
+---------------------------------------------------------------------------- */
+
+.icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// Background image in card pattern
+	.image-background,
+	.image-background,
+	.image-background {
+		height: 280px; // Minimum height for background images
+	}
+
+	// ocean
+
+	.webp .image-ocean-woman-smile-purple-headphones {
+		background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0)), url("images/photos/ocean-woman-smile-purple-headphones.webp");
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.no-webp .image-ocean-woman-smile-purple-headphones {
+		background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0)), url("images/photos/ocean-woman-smile-purple-headphones.jpg");
+		background-position: right center;
+		background-size: cover;
+	}
+
+	// hand-holding-phone-lap-jeans
+
+	.webp .image-hand-holding-phone-lap-jeans {
+		background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0)), url("images/photos/hand-holding-phone-lap-jeans.webp");
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.no-webp .image-hand-holding-phone-lap-jeans {
+		background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0)), url("images/photos/hand-holding-phone-lap-jeans.jpg");
+		background-position: right center;
+		background-size: cover;
+	}
+
+	// girl-on-road-holding-headphones
+
+	.image-girl-on-road-holding-headphones {
+		background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.4), transparent), url("images/photos/girl-on-road-holding-headphones.jpg");
+		background-position: center center;
+		background-size: cover;
+	}
+
+	// books-piled
+
+	.webp .image-books-piled {
+		background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0.1)), url("images/photos/books-piled.webp");
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.no-webp .image-books-piled {
+		background: linear-gradient(0.25turn, rgba(28, 34, 42, 0.7), rgba(28, 34, 42, 0.1)), url("images/photos/books-piled.jpg");
+		background-position: right center;
+		background-size: cover;
+	}
+
+}

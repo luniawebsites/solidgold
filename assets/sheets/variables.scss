@@ -1,0 +1,72 @@
+/* Viewports
+---------------------------------------------------------------------------- */
+
+$viewport-tablet: 720px;
+$viewport-desktop: 1024px;
+
+/* Colours
+---------------------------------------------------------------------------- */
+
+$orange: #ff8200;
+$dark-orange: #ca6b18;
+$red: #e06c75; // rgba(224, 108, 117, 1);
+$darker-red: #cc616a; // rgba(204, 97, 106, 1);
+$light-blue: rgba(86, 182, 194, 0.1);
+$blue: #56b6c2; // rgba(86, 182, 194, 1);
+$darker-blue: #50a6b1; // rgba(80, 166, 177, 1);
+$yellow: #f2d88a; // rgba(242, 216, 138, 1);
+$darker-yellow: #dbc47d; // rgba(219, 196, 125, 1);
+$light-green: rgba(143, 196, 138, 0.1);
+$green: #8fc48a; // rgba(143, 196, 138, 1);
+$darker-green: #83b27d; // rgba(131, 178, 125, 1);
+$light-grey: #f4f4f4;
+$grey: #f9f9f9; // rgba(248, 249, 249, 1);
+$darker-grey: #f3f3f3; // rgba(243, 243, 243, 1);
+$dark-grey: #283442; // rgba(28, 34, 42, 1);
+$border-color: #ddd; // rgba(221, 221, 221, 1);
+$link-color: $orange;
+$link-hover-color: $dark-orange;
+$link-active-color: $orange;
+
+/* Fonts
+---------------------------------------------------------------------------- */
+
+$font-plain: "gotham", sans-serif;
+$font-heading: "gotham-bold", sans-serif;
+$font-alt: "gotham", sans-serif;
+$font-menu: "gotham", sans-serif;
+$font-form-element: "gotham", sans-serif;
+$font-button: "gotham", sans-serif;
+$font-monospace: monospace;
+
+/* Spacing and sizing
+---------------------------------------------------------------------------- */
+
+$page-leadin-height: 3.4rem;
+$space-fixed: 1rem;
+$space-mobile: 1rem;
+$space-tablet: 1.5rem;
+$space-desktop: 2rem;
+$spread-space-fixed: 1rem;
+$spread-space-mobile: 1rem;
+$spread-space-tablet: 1.5rem;
+$spread-space-desktop: 2rem;
+$height-form-element: 2.8rem;
+$max-width: 1100px;
+$radius: 5px;
+$button-radius: 5px;
+//$pattern-leadin-links-radius: calc(#{$page-leadin-height} * 0.5);
+$pattern-leadin-links-radius: 5px;
+
+/* Lists
+---------------------------------------------------------------------------- */
+
+$list-icon-width: 30px;
+$list-icon-height: 30px;
+
+/* Misc
+---------------------------------------------------------------------------- */
+
+$shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+$scale-up: scale(1.075);
+$transition: all 0.1s ease-in;

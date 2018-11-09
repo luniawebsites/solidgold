@@ -1,0 +1,636 @@
+/* Misc
+---------------------------------------------------------------------------- */
+
+// Width for all descendants
+.width-100,
+.width-100 div,
+.width-100 figure,
+.width-100 span {
+	width: 100%;
+}
+
+/* Image background position
+---------------------------------------------------------------------------- */
+
+.bg-l-c-mob {
+	background-position: left center;
+}
+
+.bg-c-c-mob {
+	background-position: center center;
+}
+
+.bg-r-c-mob {
+	background-position: right center;
+}
+
+/* Flexbox
+---------------------------------------------------------------------------- */
+
+.flex-grow {
+	flex-grow: 2;
+}
+
+.flex-shrink {
+	flex-shrink: 2;
+}
+
+.align-fs-mob {
+	align-items: flex-start;
+}
+
+.align-c-mob {
+	align-items: center;
+}
+
+.align-fe-mob {
+	align-items: flex-end;
+}
+
+.align-s-mob {
+	align-items: stretch;
+}
+
+.justify-fs-mob {
+	justify-content: flex-start;
+}
+
+.justify-fe-mob {
+	justify-content: flex-end;
+}
+
+.justify-sb-mob {
+	justify-content: space-between;
+}
+
+.justify-sa-mob {
+	justify-content: space-around;
+}
+
+// Collapse space between containers
+.collapse-space + div {
+	padding-top: 0;
+}
+
+/* Constrain (limit width of containers)
+---------------------------------------------------------------------------- */
+
+.constrain {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: $max-width; // Use max-width here
+}
+
+.constrain-30,
+.constrain-50,
+.constrain-70,
+.constrain-80 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+// Use with a span element to keep text together
+.no-break {
+	white-space: pre;
+}
+
+// Use with a span element to create line break
+.break:after {
+	content: "\A";
+	white-space: pre;
+}
+
+/* Align text
+---------------------------------------------------------------------------- */
+
+.text-c-mob,
+.text-c-mob > h2,
+.text-c-mob > .h2,
+.text-c-mob > h3,
+.text-c-mob > .h3,
+.text-c-mob > h4,
+.text-c-mob > .h4,
+.text-c-mob > p {
+	text-align: center;
+}
+
+.text-l-mob,
+.text-l-mob > h2,
+.text-l-mob > .h2,
+.text-l-mob > h3,
+.text-l-mob > .h3,
+.text-l-mob > h4,
+.text-l-mob > .h4,
+.text-l-mob > p {
+	text-align: left;
+}
+
+.text-r-mob,
+.text-r-mob > h2,
+.text-r-mob > .h2,
+.text-r-mob > h3,
+.text-r-mob > .h3,
+.text-r-mob > h4,
+.text-r-mob > .h4,
+.text-r-mob > p {
+	text-align: right;
+}
+
+.text-j-mob,
+.text-j-mob > h2,
+.text-j-mob > .h2,
+.text-j-mob > h3,
+.text-j-mob > .h3,
+.text-j-mob > h4,
+.text-j-mob > .h4,
+.text-j-mob > p {
+	text-align: justify;
+	text-j: inter-word;
+}
+
+.text-j-c-mob,
+.text-j-c-mob h2,
+.text-j-c-mob .h2,
+.text-j-c-mob h3,
+.text-j-c-mob .h3,
+.text-j-c-mob h4,
+.text-j-c-mob .h4,
+.text-j-c-mob p {
+	text-align: justify;
+	text-j: inter-word;
+	text-align-last: center; // Force last line to center align
+}
+
+/* Underline text
+---------------------------------------------------------------------------- */
+
+.text-underline:after {
+	content: "";
+	display: block;
+	position: relative;
+	background-color: $orange;
+	margin: calc(#{$space-mobile} * 1) 0 0 0;
+}
+
+.text-l-mob.text-underline:after,
+.text-c-mob.text-underline:after,
+.text-r-mob.text-underline:after {
+	width: 100%;
+	height: 2px;
+}
+
+/* Corner radius
+---------------------------------------------------------------------------- */
+
+.radius-mob {
+	border-radius: $radius;
+	overflow: hidden;
+}
+
+.round-mob {
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+/* Borders
+---------------------------------------------------------------------------- */
+
+.border-mob {
+	border: solid 1px $border-color;
+}
+
+.border-t-mob {
+	border-top: solid 1px $border-color;
+}
+
+.border-r-mob {
+	border-right: solid 1px $border-color;
+}
+
+.border-b-mob {
+	border-bottom: solid 1px $border-color;
+}
+
+.border-l-mob {
+	border-left: solid 1px $border-color;
+}
+
+/* Shadows
+---------------------------------------------------------------------------- */
+
+.shadow-mob {
+	box-shadow: $shadow;
+}
+
+// Inset shadow at top of element
+.shadow-t-mob {
+	box-shadow: inset $shadow;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Image background position
+	---------------------------------------------------------------------------- */
+
+	.bg-l-c-tab {
+		background-position: left center;
+	}
+
+	.bg-c-c-tab {
+		background-position: center center;
+	}
+
+	.bg-r-c-tab {
+		background-position: right center;
+	}
+
+	/* Flexbox
+	---------------------------------------------------------------------------- */
+
+	.align-fs-tab {
+		align-items: flex-start;
+	}
+
+	.align-c-tab {
+		align-items: center;
+	}
+
+	.align-fe-tab {
+		align-items: flex-end;
+	}
+
+	.align-s-tab {
+		align-items: stretch;
+	}
+
+	.justify-fs-tab {
+		justify-content: flex-start;
+	}
+
+	.justify-fe-tab {
+		justify-content: flex-end;
+	}
+
+	.justify-sb-tab {
+		justify-content: space-between;
+	}
+
+	.justify-sa-tab {
+		justify-content: space-around;
+	}
+
+	/* Align text
+	---------------------------------------------------------------------------- */
+
+	.text-c-tab,
+	.text-c-tab > h2,
+	.text-c-tab > .h2,
+	.text-c-tab > h3,
+	.text-c-tab > .h3,
+	.text-c-tab > h4,
+	.text-c-tab > .h4,
+	.text-c-tab > p {
+		text-align: center;
+	}
+
+	.text-l-tab,
+	.text-l-tab > h2,
+	.text-l-tab > .h2,
+	.text-l-tab > h3,
+	.text-l-tab > .h3,
+	.text-l-tab > h4,
+	.text-l-tab > .h4,
+	.text-l-tab > p {
+		text-align: left;
+	}
+
+	.text-r-tab,
+	.text-r-tab > h2,
+	.text-r-tab > .h2,
+	.text-r-tab > h3,
+	.text-r-tab > .h3,
+	.text-r-tab > h4,
+	.text-r-tab > .h4,
+	.text-r-tab > p {
+		text-align: right;
+	}
+
+	.text-j-tab,
+	.text-j-tab > h2,
+	.text-j-tab > .h2,
+	.text-j-tab > h3,
+	.text-j-tab > .h3,
+	.text-j-tab > h4,
+	.text-j-tab > .h4,
+	.text-j-tab > p {
+		text-align: justify;
+		text-j: inter-word;
+	}
+
+	.text-j-c-tab,
+	.text-j-c-tab > h2,
+	.text-j-c-tab > .h2,
+	.text-j-c-tab > h3,
+	.text-j-c-tab > .h3,
+	.text-j-c-tab > h4,
+	.text-j-c-tab > .h4,
+	.text-j-c-tab > p {
+		text-align: justify;
+		text-j: inter-word;
+		text-align-last: center; // Force last line to center align
+	}
+
+	/* Underline text
+	---------------------------------------------------------------------------- */
+
+	.text-underline:after {
+		margin: calc(#{$space-tablet} * 1) 0 0 0;
+	}
+
+	.text-l-tab.text-underline:after {
+		width: 20%;
+		height: 2px;
+		left: 0;
+	}
+
+	.text-c-tab.text-underline:after {
+		width: 20%;
+		height: 2px;
+		left: 40%;
+	}
+
+	.text-r-tab.text-underline:after {
+		width: 20%;
+		height: 2px;
+		left: 80%;
+	}
+
+	/* Constrain (limit width of containers)
+	---------------------------------------------------------------------------- */
+
+	.constrain-30 {
+		width: calc(#{$max-width} * 0.3);
+	}
+
+	.constrain-50 {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: calc(#{$max-width} * 0.5);
+	}
+
+	.constrain-70 {
+		margin-left: auto;
+		margin-right: auto;
+		width: calc(#{$max-width} * 0.7);
+	}
+
+	.constrain-80 {
+		margin-left: auto;
+		margin-right: auto;
+		width: calc(#{$max-width} * 0.8);
+	}
+	
+	/* Corner radius
+	---------------------------------------------------------------------------- */
+
+	.radius-tab {
+		border-radius: $radius;
+		overflow: hidden;
+	}
+
+	.round-tab {
+		border-radius: 100%;
+		overflow: hidden;
+	}
+
+	/* Borders
+	---------------------------------------------------------------------------- */
+
+	.border-tab {
+		border: solid 1px $border-color;
+	}
+
+	.border-t-tab {
+		border-top: solid 1px $border-color;
+	}
+
+	.border-r-tab {
+		border-right: solid 1px $border-color;
+	}
+
+	.border-b-tab {
+		border-bottom: solid 1px $border-color;
+	}
+
+	.border-l-tab {
+		border-left: solid 1px $border-color;
+	}
+
+	/* Shadows
+	---------------------------------------------------------------------------- */
+
+	.shadow-tab {
+		box-shadow: $shadow;
+	}
+
+	// Inset shadow at top of element
+	.shadow-t-tab {
+		box-shadow: inset $shadow;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* Image background position
+	---------------------------------------------------------------------------- */
+
+	.bg-l-c-des {
+		background-position: left center;
+	}
+
+	.bg-c-c-des {
+		background-position: center center;
+	}
+
+	.bg-r-c-des {
+		background-position: right center;
+	}
+
+	/* Flexbox
+	---------------------------------------------------------------------------- */
+
+	.align-fs-des {
+		align-items: flex-start;
+	}
+
+	.align-c-des {
+		align-items: center;
+	}
+
+	.align-fe-des {
+		align-items: flex-end;
+	}
+
+	.align-s-des {
+		align-items: stretch;
+	}
+
+	.justify-fs-des {
+		justify-content: flex-start;
+	}
+
+	.justify-fe-des {
+		justify-content: flex-end;
+	}
+
+	.justify-sb-des {
+		justify-content: space-between;
+	}
+
+	.justify-sa-des {
+		justify-content: space-around;
+	}
+
+	/* Align text
+	---------------------------------------------------------------------------- */
+
+	.text-c-des,
+	.text-c-des > h2,
+	.text-c-des > .h2,
+	.text-c-des > h3,
+	.text-c-des > .h3,
+	.text-c-des > h4,
+	.text-c-des > .h4,
+	.text-c-des > p {
+		text-align: center;
+	}
+
+	.text-l-des,
+	.text-l-des > h2,
+	.text-l-des > .h2,
+	.text-l-des > h3,
+	.text-l-des > .h3,
+	.text-l-des > h4,
+	.text-l-des > .h4,
+	.text-l-des > p {
+		text-align: left;
+	}
+
+	.text-r-des,
+	.text-r-des > h2,
+	.text-r-des > .h2,
+	.text-r-des > h3,
+	.text-r-des > .h3,
+	.text-r-des > h4,
+	.text-r-des > .h4,
+	.text-r-des > p {
+		text-align: right;
+	}
+
+	.text-j-des,
+	.text-j-des > h2,
+	.text-j-des > .h2,
+	.text-j-des > h3,
+	.text-j-des > .h3,
+	.text-j-des > h4,
+	.text-j-des > .h4,
+	.text-j-des > p {
+		text-align: justify;
+		text-j: inter-word;
+	}
+
+	.text-j-c-des,
+	.text-j-c-des > h2,
+	.text-j-c-des > .h2,
+	.text-j-c-des > h3,
+	.text-j-c-des > .h3,
+	.text-j-c-des > h4,
+	.text-j-c-des > .h4,
+	.text-j-c-des > p {
+		text-align: justify;
+		text-j: inter-word;
+		text-align-last: center; // Force last line to center align
+	}
+
+	/* Underline text
+	---------------------------------------------------------------------------- */
+
+	.text-underline:after {
+		margin: calc(#{$space-desktop} * 1) 0 0 0;
+	}
+
+	.text-l-des.text-underline:after {
+		width: 20%;
+		height: 2px;
+		left: 0;
+	}
+
+	.text-c-des.text-underline:after {
+		width: 20%;
+		height: 2px;
+		left: 40%;
+	}
+
+	.text-r-des.text-underline:after {
+		width: 20%;
+		height: 2px;
+		left: 80%;
+	}
+	
+	/* Corner radius
+	---------------------------------------------------------------------------- */
+
+	.radius-des {
+		border-radius: $radius;
+		overflow: hidden;
+	}
+
+	.round-des {
+		border-radius: 100%;
+		overflow: hidden;
+	}
+
+	/* Borders
+	---------------------------------------------------------------------------- */
+
+	.border-des {
+		border: solid 1px $border-color;
+	}
+
+	.border-t-des {
+		border-top: solid 1px $border-color;
+	}
+
+	.border-r-des {
+		border-right: solid 1px $border-color;
+	}
+
+	.border-b-des {
+		border-bottom: solid 1px $border-color;
+	}
+
+	.border-l-des {
+		border-left: solid 1px $border-color;
+	}
+
+	/* Shadows
+	---------------------------------------------------------------------------- */
+
+	.shadow-des {
+		box-shadow: $shadow;
+	}
+
+	// Inset shadow at top of element
+	.shadow-t-des {
+		box-shadow: inset $shadow;
+	}
+
+}

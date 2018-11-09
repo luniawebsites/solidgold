@@ -1,0 +1,486 @@
+// Hide scrollbar
+:-webkit-scrollbar {
+	display: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+// Box model
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+// Transparent user selection
+*::selection {
+	background-color: transparent;
+}
+
+// Opaque user selection
+input::selection,
+textarea::selection {
+	background-color: $blue;
+}
+
+html {
+	@include text-plain;
+	margin: 0;
+	width: 100%;
+	font-size: 16px; // Set the initial rem size
+	box-sizing: border-box; // Set box model
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	// Remove user selection highlight
+	-ms-user-select: none;
+	user-select: none;
+}
+
+// Minimum viewport
+html,
+body {
+	min-width: 320px;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Smooth scolling on iOS and remove focus outline
+html,
+body,
+div {
+	-webkit-overflow-scrolling: touch;
+}
+
+body {
+	-ms-overflow-style: scrollbar;
+}
+
+iframe,
+object {
+	width: 100%;
+}
+
+// Remove focus line
+a:focus,
+button::-moz-focus-inner {
+	outline: none;
+	border: 0;
+}
+
+/* Tables
+---------------------------------------------------------------------------- */
+
+table {
+	//border: solid 1px $border-color;
+	margin-top: calc(#{$space-mobile} * 2);
+	margin-bottom: calc(#{$space-mobile} * 2);
+	width: 100%;
+	line-height: 1.25rem;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+thead {
+	@include text-plain;
+	margin: 0;
+}
+
+tr {
+	border-radius: $radius;
+	border-bottom: solid 1px $border-color;
+}
+
+th,
+td {
+	position: relative;
+	vertical-align: middle;
+	padding: 0.6rem 0.5rem 0.5rem 0.8rem;
+	text-align: left;
+}
+
+th {
+	top: 1px;
+}
+
+/* Typography
+---------------------------------------------------------------------------- */
+
+h1,
+h2,
+.h1,
+.h2 {
+	@include text-heading;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+h3,
+h4,
+h5,
+.h3,
+.h4,
+.h5 {
+	@include text-heading;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+}
+
+h2,
+.h2 {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+}
+
+h3,
+.h3 {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+h4,
+.h4 {
+	font-size: 1rem;
+	line-height: 1.3rem;
+}
+
+h5,
+.h5 {
+	font-size: 0.85rem;
+	line-height: 1.5rem;
+}
+
+p,
+q,
+td,
+blockquote {
+	@include text-plain;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+
+p,
+td,
+blockquote {
+	text-align: center;
+}
+
+strong {
+	font-family: $font-heading;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	@include list;
+}
+
+p small {
+	font-size: 85%;
+	line-height: 85%;
+}
+
+sup {
+	position: relative;
+	margin-left: 0.1rem;
+	top: 0.5rem;
+	font-family: $font-plain;
+	font-size: 75%;
+	font-weight: normal;
+	line-height: 0;
+	vertical-align: top;
+}
+
+// Sibling elements spacing
+
+h1 ~ p,
+.h1 ~ p,
+h2 ~ p,
+.h2 ~ p,
+h3 ~ p,
+.h3 ~ p,
+h4 ~ p,
+.h4 ~ p,
+h5 ~ p,
+.h5 ~ p,
+p ~ p,
+p ~ div {
+	margin-top: 1.25rem;
+}
+
+h1 ~ h2,
+.h1 ~ .h2,
+h1 ~ h3,
+.h1 ~ .h3,
+h1 ~ h4,
+.h1 ~ .h4,
+h1 ~ h5,
+.h1 ~ .h5,
+h2 ~ h3,
+.h2 ~ .h3,
+h2 ~ h4,
+.h2 ~ .h4,
+h2 ~ h5,
+.h2 ~ .h5,
+h3 ~ h4,
+.h3 ~ .h4,
+h3 ~ h5,
+.h3 ~ .h5,
+h4 ~ h5,
+.h4 ~ .h5,
+p ~ small {
+	margin-top: 1rem;
+}
+
+/* Links
+---------------------------------------------------------------------------- */
+
+a {
+	color: $link-color;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+p a {
+	font-family: $font-heading;
+}
+
+a:active {
+	color: $link-active-color;
+}
+
+/*
+// Automatically add icon after _blank link
+a[target="_blank"]:after {
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+	margin: 0 3px 0 5px;
+}
+*/
+
+/* Callouts
+---------------------------------------------------------------------------- */
+
+em {
+	display: block;
+	clear: left;
+	margin: 2rem 0 2rem 0;
+	padding: 1rem;
+	font-family: $font-alt;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: -0.0025rem;
+	line-height: 1.5rem;
+	text-align: left;
+}
+
+/* Other elements
+---------------------------------------------------------------------------- */
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+hr {
+	outline: none;
+	background-color: $border-color;
+	border: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	height: 1px;
+}
+
+// Image element alt text
+[alt] {
+	@include text-plain;
+	text-align: left;
+}
+
+/* Buttons
+---------------------------------------------------------------------------- */
+
+// Vertically align pseudo button text for all browsers
+.button > span {
+	display: block;
+}
+
+button,
+.button {
+	align-items: center;
+	justify-content: center;
+	outline: none;
+	border: solid 2px $dark-grey;
+	border-radius: $button-radius;
+	background-color: $dark-grey; // Default colour before themed
+	padding-right: 1rem;
+	padding-left: 1rem;
+	min-width: 170px;
+	height: 45px;
+	white-space: nowrap;
+	color: #fff;
+	font-family: $font-button;
+	font-weight: normal;
+	font-size: 1rem; // Font size must be an integer to ensure consistent vertical alignment across browsers
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.02rem;
+	line-height: 1rem;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+// Do not declare flex display for true button element (Safari)
+.button {
+	display: flex;
+}
+
+button:focus,
+.button:focus {
+	color: inherit;
+}
+
+// Inline images
+button img,
+.button img {
+	margin-right: 0.3rem;
+	padding-bottom: 0.2rem;
+	width: 1.35rem;
+	max-height: 1.75rem;
+}
+
+/* Section, header, figure, footer
+---------------------------------------------------------------------------- */
+
+header,
+section,
+figure,
+footer {
+	width: 100%;
+	overflow: hidden;
+}
+
+// Default image size
+div picture img,
+figure picture img {
+	width: 80px;
+	height: 80px;
+}
+
+img.medium {
+	width: 100px;
+	height: 100px;
+}
+
+img.large {
+	width: 120px;
+	height: 120px;
+}
+
+header .header h3,
+header .header .h3,
+figure .header h3,
+figure .header .h3,
+footer .header h3,
+footer .header .h3 {
+	//position: relative;
+	top: 1px;
+	width: 100%;
+	line-height: 1.5rem;
+	overflow: hidden;
+}
+
+/* Smallest viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 360px) {
+
+	/* Tables
+	---------------------------------------------------------------------------- */
+
+	th,
+	td {
+		font-size: 0.85rem;
+	}
+
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Tables
+	---------------------------------------------------------------------------- */
+
+	table {
+		margin-top: calc(#{$space-tablet} * 1);
+		margin-bottom: calc(#{$space-tablet} * 1);
+	}
+
+	/* Typography
+	---------------------------------------------------------------------------- */
+
+	h1,
+	.h1 {
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	h2,
+	.h2 {
+		font-size: 1.8rem;
+		line-height: 2.3rem;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* Links
+	------------------------------------------------------------------------ */
+
+	// Declare hover effect
+	a:hover {
+		color: $link-hover-color;
+	}
+
+	// Make hover effect smooth
+	a {
+		transition: $transition;
+	}
+
+	/* Tables
+	------------------------------------------------------------------------ */
+
+	table {
+		margin-top: $space-desktop;
+		margin-bottom: $space-desktop;
+	}
+
+}

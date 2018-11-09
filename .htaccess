@@ -1,0 +1,38 @@
+## Redirect requests for a non-existant directory to a .php file of the same name ##
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [L]
+
+## Working file for cache control ##
+
+<IfModule mod_headers.c>
+Header set Connection keep-alive
+
+# Cache-control headers
+
+    <filesMatch "\.(pdf|svg|jpg|jpeg|png|gif|webp)$">
+        Header set Cache-Control "max-age=0, public, must-revalidate"
+    </filesMatch>
+
+    <filesMatch "\.(js)$">
+        Header set Cache-Control "max-age=0, public, must-revalidate"
+    </filesMatch>
+
+    <filesMatch "\.(txt)$">
+        Header set Cache-Control "max-age=0, public, must-revalidate"
+    </filesMatch>
+
+    <filesMatch "\.(css)$">
+        Header set Cache-Control "max-age=0, public, must-revalidate"
+    </filesMatch>
+
+    <filesMatch "\.(html|php)$">
+        Header set Cache-Control "max-age=0, public, must-revalidate"
+    </filesMatch>
+
+</IfModule>
+## End ##
+
+## Customer error pages ##
+ErrorDocument 404 https://solidgoldstudios.co.za/index.php
+## End ##

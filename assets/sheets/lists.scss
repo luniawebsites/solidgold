@@ -1,0 +1,192 @@
+/* Zebra list
+---------------------------------------------------------------------------- */
+
+ul.list-zebra {
+	width: 100%;
+}
+
+ul.list-zebra li,
+ul.list-zebra-light-green li,
+ul.list-zebra-light-blue li {
+	padding: 0.35rem 1rem 0.35rem 1rem;
+	margin-left: -2.5rem;
+	font-family: $font-plain;
+	font-size: 0.9rem;
+	letter-spacing: -0.01rem;
+	text-align: center;
+	line-height: 1.3rem;
+	list-style-type: none;
+}
+
+ul.list-zebra li:nth-child(2n+1) {
+	background-color: $grey;
+}
+
+ul.list-zebra-light-green li:nth-child(2n+1) {
+	background-color: $light-green;
+}
+
+ul.list-zebra-light-blue li:nth-child(2n+1) {
+	background-color: $light-blue;
+}
+
+/* Flush list
+---------------------------------------------------------------------------- */
+
+ul.list-flush {
+	@include list;
+	position: relative;
+	margin-left: calc(#{$space-desktop} * -1.25);
+	list-style-type: none;
+}
+
+/* Check list
+---------------------------------------------------------------------------- */
+
+ul.list-check li {
+	position: relative;
+	margin: 0.6rem 0 0.6rem calc(#{$space-desktop} * 0.9);
+	line-height: 1.5rem;
+	list-style-type: none;
+}
+
+ul.list-check li:before {
+	content: "";
+	position: absolute;
+	border: solid 1px $border-color;
+	border-radius: 100%;
+
+	// REDO CHECK SVG URI
+
+	background-position: 50% 50%;
+	background-size: 14px;
+	background-color: $green;
+	background-repeat: no-repeat;
+	left: calc(#{$space-desktop} * -0.9);
+	width: 22px;
+	height: 22px;
+}
+
+// Sibling elements spacing
+ul.list-check ~ ul {
+	margin-top: 1rem;
+}
+
+/* Icon list
+---------------------------------------------------------------------------- */
+
+// <ul>
+.list-icon {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	//width: 100%;
+	list-style: none;
+	transition: $transition;
+}
+
+.list-icon span {
+	display: block;
+	position: relative;
+	padding-left: calc(#{$list-icon-width} + 0.75rem);
+	min-height: $list-icon-height;
+}
+
+.list-icon a {
+	color: inherit;
+}
+
+@mixin list-icon {
+	display: inline-block;
+	position: absolute;
+	border: solid 1px $border-color;
+	border-radius: 100%;
+	margin-left: calc(#{-$list-icon-width} - 0.75rem);
+	width: $list-icon-width;
+	height: $list-icon-height;
+	top: -0.2rem;
+}
+
+// Phone
+.list-icon .phone:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M6.654 6.865l3.656-.844a.85.85 0 0 1 .967.489l1.687 3.938a.84.84 0 0 1-.242.984l-2.131 1.744a13.03 13.03 0 0 0 6.23 6.229l1.744-2.13a.843.843 0 0 1 .984-.243l3.937 1.688a.853.853 0 0 1 .493.97l-.844 3.656a.844.844 0 0 1-.823.654C13.309 24 6 16.705 6 7.688c0-.394.271-.735.654-.823z' fill='%238fc48a'/%3E%3C/svg%3E");
+}
+
+// Email
+.list-icon .email:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M21.803 8.25c1.214 0 2.201.977 2.197 2.173v9.158c0 1.196-.987 2.169-2.201 2.169H8.201C6.987 21.75 6 20.777 6 19.581v-9.162c0-1.196.987-2.169 2.201-2.169h13.602zm-4.451 6.636l4.402-3.891a.495.495 0 0 0 .037-.7.514.514 0 0 0-.711-.037l-6.071 5.37-1.184-1.043c-.004-.003-.008-.007-.008-.011a.795.795 0 0 0-.082-.07l-4.819-4.25a.507.507 0 0 0-.839.371c0 .142.061.277.169.37l4.454 3.924-4.436 4.093a.495.495 0 0 0 .347.859.507.507 0 0 0 .342-.132l4.503-4.152 1.222 1.076a.51.51 0 0 0 .67-.004l1.255-1.109 4.477 4.192a.5.5 0 0 0 .346.136.504.504 0 0 0 .365-.154.492.492 0 0 0-.018-.701l-4.421-4.137z' fill='%2356b6c2'/%3E%3C/svg%3E");
+}
+
+// Location
+.list-icon .location:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M15 5c-4.143 0-7.5 3.443-7.5 7.69 0 3.434 4.902 9.693 6.78 11.965.38.46 1.06.46 1.44 0 1.878-2.272 6.78-8.531 6.78-11.965C22.5 8.443 19.143 5 15 5zm0 10.255c-1.381-.001-2.5-1.148-2.5-2.565 0-1.416 1.119-2.563 2.5-2.563s2.5 1.147 2.5 2.563c0 1.417-1.119 2.565-2.5 2.565z' fill='%23dd4c3e'/%3E%3C/svg%3E");
+}
+
+// Facebook
+.list-icon .facebook:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M16.418 12.391V9.944c0-1.109.31-1.865 1.913-1.865l1.484-.001c.309 0 .56-.249.56-.556V5.056a.558.558 0 0 0-.56-.556h-2.419c-2.947 0-4.965 1.786-4.965 5.065v2.826H10.06c-.31 0-.561.25-.56.558l.011 2.924a.559.559 0 0 0 .561.554h2.375l-.016 9.073h3.987l.015-9.073h3.157a.56.56 0 0 0 .557-.49l.349-2.925a.557.557 0 0 0-.556-.621h-3.522z' fill='%233b5998'/%3E%3C/svg%3E");
+}
+
+// YouTube
+.list-icon .youtube:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M20.846 8.023A4.154 4.154 0 0 1 25 12.177v5.646a4.154 4.154 0 0 1-4.154 4.154H9.154A4.154 4.154 0 0 1 5 17.823v-5.646a4.154 4.154 0 0 1 4.154-4.154h11.692zm-2.809 7.261l-5.469 2.609a.22.22 0 0 1-.314-.198v-5.38a.22.22 0 0 1 .319-.196l5.469 2.771a.22.22 0 0 1-.005.394z' fill='red'/%3E%3C/svg%3E");
+}
+
+// LinkedIn
+.list-icon .linkedin:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M10.357 12.279c.3 0 .544.241.544.54v9.641c0 .298-.243.54-.544.54H8.042a.542.542 0 0 1-.544-.54v-9.641c0-.299.243-.54.544-.54h2.315zm4.98 0c.276 0 .5.222.5.496v.841c.567-.846 1.411-1.499 3.208-1.499 3.978 0 3.955 3.692 3.955 5.72v4.666a.499.499 0 0 1-.5.497h-2.484a.498.498 0 0 1-.501-.497v-4.522c0-.674.2-2.956-1.774-2.956-1.531 0-1.842 1.562-1.904 2.262v5.216a.499.499 0 0 1-.5.497h-2.403a.498.498 0 0 1-.5-.497v-9.728c0-.274.224-.496.5-.496h2.403zm-6.138-.909A2.192 2.192 0 0 1 7 9.185C7 7.978 7.985 7 9.199 7c1.215 0 2.2.978 2.2 2.185a2.192 2.192 0 0 1-2.2 2.185z' fill='%230077b5'/%3E%3C/svg%3E");
+}
+
+// Twitter
+.list-icon .twitter:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M25.176 9.936a7.45 7.45 0 0 1-1.31.442 4.09 4.09 0 0 0 1.078-1.717.214.214 0 0 0-.313-.249c-.626.371-1.3.649-2.003.827a.534.534 0 0 1-.476-.118 4.093 4.093 0 0 0-2.71-1.023c-.433 0-.869.067-1.298.2a3.968 3.968 0 0 0-2.674 2.859 4.368 4.368 0 0 0-.098 1.509.149.149 0 0 1-.149.166l-.015-.001a10.74 10.74 0 0 1-7.382-3.944.214.214 0 0 0-.351.028 4.088 4.088 0 0 0-.555 2.059c0 1.11.446 2.157 1.221 2.92a3.648 3.648 0 0 1-.934-.362.214.214 0 0 0-.318.185 4.1 4.1 0 0 0 2.392 3.778l-.087.001a3.75 3.75 0 0 1-.691-.065.214.214 0 0 0-.244.275 4.108 4.108 0 0 0 3.243 2.793 7.564 7.564 0 0 1-4.234 1.285h-.473a.314.314 0 0 0-.307.236.324.324 0 0 0 .155.359 11.241 11.241 0 0 0 5.65 1.523c1.736 0 3.361-.344 4.828-1.024a10.664 10.664 0 0 0 3.532-2.647 11.591 11.591 0 0 0 2.163-3.623c.481-1.284.735-2.655.735-3.964v-.063c0-.21.095-.408.261-.542a8.128 8.128 0 0 0 1.629-1.788c.119-.178-.069-.402-.265-.315z' fill='%231da1f2' fill-rule='nonzero'/%3E%3C/svg%3E");
+}
+
+// Instagram
+.list-icon .instagram:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M18.84 5.5h-7.68a5.666 5.666 0 0 0-5.66 5.66v7.68a5.666 5.666 0 0 0 5.66 5.66h7.68a5.666 5.666 0 0 0 5.66-5.66v-7.68a5.666 5.666 0 0 0-5.66-5.66zm3.749 13.34a3.75 3.75 0 0 1-3.749 3.749h-7.68a3.75 3.75 0 0 1-3.749-3.749v-7.68a3.75 3.75 0 0 1 3.749-3.749h7.68a3.75 3.75 0 0 1 3.749 3.749v7.68z' fill='url(%23_Linear1)' fill-rule='nonzero'/%3E%3Cpath d='M15 10.086A4.919 4.919 0 0 0 10.086 15 4.919 4.919 0 0 0 15 19.914 4.919 4.919 0 0 0 19.914 15 4.919 4.919 0 0 0 15 10.086zm0 7.917a3.004 3.004 0 1 1 .001-6.007A3.004 3.004 0 0 1 15 18.003z' fill='url(%23_Linear2)' fill-rule='nonzero'/%3E%3Ccircle cx='19.924' cy='10.123' r='1.178' fill='url(%23_Linear3)'/%3E%3Cdefs%3E%3ClinearGradient id='_Linear1' x2='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 -18.7971 18.7971 0 15 24.445)'%3E%3Cstop offset='0' stop-color='%23e09b3d'/%3E%3Cstop offset='.3' stop-color='%23c74c4d'/%3E%3Cstop offset='.6' stop-color='%23c21975'/%3E%3Cstop offset='1' stop-color='%237024c4'/%3E%3C/linearGradient%3E%3ClinearGradient id='_Linear2' x2='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 -18.7971 18.7971 0 15 24.445)'%3E%3Cstop offset='0' stop-color='%23e09b3d'/%3E%3Cstop offset='.3' stop-color='%23c74c4d'/%3E%3Cstop offset='.6' stop-color='%23c21975'/%3E%3Cstop offset='1' stop-color='%237024c4'/%3E%3C/linearGradient%3E%3ClinearGradient id='_Linear3' x2='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(-90 22.184 2.26) scale(18.7971)'%3E%3Cstop offset='0' stop-color='%23e09b3d'/%3E%3Cstop offset='.3' stop-color='%23c74c4d'/%3E%3Cstop offset='.6' stop-color='%23c21975'/%3E%3Cstop offset='1' stop-color='%237024c4'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+}
+
+// WhatsApp
+.list-icon .whatsapp:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M14.534 5.411c-5.07.242-9.072 4.464-9.056 9.541a9.48 9.48 0 0 0 1.036 4.295l-1.011 4.907a.371.371 0 0 0 .449.436l4.808-1.14a9.48 9.48 0 0 0 4.092.994c5.183.079 9.504-4.036 9.666-9.217.173-5.554-4.411-10.081-9.984-9.816zm5.738 14.784A7.407 7.407 0 0 1 15 22.379a7.373 7.373 0 0 1-3.318-.778l-.67-.334-2.948.699.62-3.013-.33-.646a7.382 7.382 0 0 1-.81-3.385c0-1.991.775-3.864 2.184-5.272A7.466 7.466 0 0 1 15 7.466c1.992 0 3.864.776 5.272 2.184a7.404 7.404 0 0 1 2.184 5.272 7.47 7.47 0 0 1-2.184 5.273zm-.811-3.152l-1.845-.529a.686.686 0 0 0-.68.179l-.451.459a.674.674 0 0 1-.731.155c-.872-.354-2.708-1.986-3.176-2.802a.67.67 0 0 1 .053-.744l.394-.51a.688.688 0 0 0 .084-.698l-.776-1.756a.688.688 0 0 0-1.074-.245c-.514.435-1.125 1.097-1.199 1.83-.131 1.292.423 2.921 2.519 4.877 2.421 2.26 4.36 2.559 5.622 2.253.716-.174 1.289-.869 1.65-1.438a.688.688 0 0 0-.39-1.031z' fill='%237ad06d' fill-rule='nonzero'/%3E%3C/svg%3E");
+}
+
+// Tumblr
+.list-icon .tumblr:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M19.958 21.2s-.623.717-1.807.717-1.714-.717-1.714-1.776v-6.003h3.828V10.5h-3.828v-6h-2.883a8.121 8.121 0 0 1-4.634 6.035v3.603h2.812v6.913c0 .959.904 4.449 5.515 4.449 2.711 0 3.833-1.745 3.833-1.745L19.958 21.2z' fill='%232a445d' fill-rule='nonzero'/%3E%3C/svg%3E");
+}
+
+// Website
+.list-icon .website:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M24 12.785H6v6.965a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6.965z' fill='none' stroke='%2356b6c2'/%3E%3Cpath d='M24 10.25a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2.535h18V10.25z' fill='%2356b6c2' stroke='%2356b6c2'/%3E%3Cg fill='%23fff'%3E%3Cpath d='M8.417 11.518a1 1 0 0 0 .704-.297c.186-.187.296-.44.296-.703 0-.264-.11-.517-.296-.704a1.003 1.003 0 0 0-.704-.296c-.263 0-.516.11-.703.296a1 1 0 0 0-.297.704 1 1 0 0 0 .297.703c.187.198.44.297.703.297zM11.377 11.518a1 1 0 0 0 .703-.297 1 1 0 0 0 .297-.703 1 1 0 0 0-.297-.704 1.003 1.003 0 0 0-.703-.296c-.264 0-.517.11-.704.296-.186.187-.296.44-.296.704 0 .263.11.516.296.703.187.198.44.297.704.297zM14.336 11.518c.264 0 .517-.11.703-.297a1 1 0 0 0 .297-.703 1 1 0 0 0-.297-.704 1 1 0 0 0-.703-.296c-.264 0-.516.11-.703.296a1 1 0 0 0-.297.704 1 1 0 0 0 .297.703.954.954 0 0 0 .703.297z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* 
+	---------------------------------------------------------------------------- */
+
+	/* Icon list
+	---------------------------------------------------------------------------- */
+
+	.list-icon a:hover {
+		color: $dark-orange;
+	}
+
+}

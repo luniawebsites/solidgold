@@ -1,0 +1,751 @@
+.theme-white, td.theme-white {
+	background-color: #fff;
+	color: $dark-grey;
+}
+
+.theme-grey, td.theme-grey {
+	background-color: $grey;
+	color: $dark-grey;
+}
+
+// Dark grey
+
+.theme-dark-grey, td.theme-dark-grey {
+	background-color: $dark-grey;
+	color: $grey;
+}
+
+// Dark grey footer
+
+footer.theme-dark-grey {
+	background-image: linear-gradient(135deg, #283442 25%, #26303D 25%, #26303D 50%, #283442 50%, #283442 75%, #26303D 75%, #26303D 100%);
+	background-size: 1rem 1rem;
+}
+
+footer.theme-dark-grey h4,
+footer.theme-dark-grey div {
+	border-color: rgba(249, 249, 249, 0.35);
+	line-height: 2.3rem;
+}
+
+footer.theme-dark-grey p,
+footer.theme-dark-grey a,
+footer.theme-dark-grey li {
+	color: rgba(249, 249, 249, 0.6);
+	font-size: 0.95rem;
+	//line-height: 1.25rem;
+}
+
+footer.theme-dark-grey li a:active {
+	color: rgba(249, 249, 249, 1);
+}
+
+footer.theme-dark-grey .h4 {
+	color: rgba(249, 249, 249, 0.6);
+}
+
+// End dark grey
+
+.theme-red, td.theme-red {
+	background-color: $red;
+	color: $grey;
+}
+
+.theme-blue, td.theme-blue {
+	background-color: $blue;
+	color: $grey;
+}
+.theme-green, td.theme-green {
+	background-color: $green;
+	color: $grey;
+}
+
+.theme-yellow, td.theme-yellow {
+	background-color: $yellow;
+	color: $dark-grey;
+}
+
+/* Button themes
+---------------------------------------------------------------------------- */
+
+// Underline from centre
+
+.underline {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #fff;
+  height: 2px;
+  opacity: 0.6;
+  transition-property: left, right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.underline:hover:before,
+.underline:focus:before,
+.underline:active:before {
+  left: 0;
+  right: 0;
+}
+
+// Dark transparent
+
+button.theme-dark-grey-transparent,
+a[type="button"].theme-dark-grey-transparent,
+a.button.theme-dark-grey-transparent {
+	border: solid 2px $dark-grey;
+	background-color: transparent;
+	color: $dark-grey;
+}
+
+// Red
+
+button.theme-red,
+a[type="button"].theme-red,
+a.button.theme-red {
+	border: solid 2px transparent;
+	background-color: $red;
+	color: #fff;
+}
+
+button.theme-red:active,
+a[type="button"].theme-red:active,
+a.button.theme-red:active {
+	border: solid 2px $red;
+	background-color: $darker-red;
+}
+
+// Red transparent
+
+button.theme-red-transparent,
+a[type="button"].theme-red-transparent,
+a.button.theme-red-transparent {
+	border: solid 2px $red;
+	background-color: transparent;
+	color: $red;
+}
+
+button.theme-red-transparent:active,
+a[type="button"].theme-red-transparent:active,
+a.button.theme-red-transparent:active {
+	border: solid 2px $darker-red;
+	color: $darker-red;
+}
+
+// Blue
+
+button.theme-blue,
+a[type="button"].theme-blue,
+a.button.theme-blue {
+	border: solid 2px transparent;
+	background-color: $blue;
+	color: #fff;
+}
+
+button.theme-blue:active,
+a[type="button"].theme-blue:active,
+a.button.theme-blue:active {
+	border: solid 2px $blue;
+	background-color: $darker-blue;
+}
+
+// Blue transparent
+
+button.theme-blue-transparent,
+a[type="button"].theme-blue-transparent,
+a.button.theme-blue-transparent {
+	border: solid 2px $blue;
+	background-color: transparent;
+	color: $blue;
+}
+
+button.theme-blue-transparent:active,
+a[type="button"].theme-blue-transparent:active,
+a.button.theme-blue-transparent:active {
+	border: solid 2px $darker-blue;
+	color: $darker-blue;
+}
+
+// Green
+
+button.theme-green,
+a[type="button"].theme-green,
+a.button.theme-green {
+	border: solid 2px transparent;
+	background-color: $green;
+	color: #fff;
+}
+
+button.theme-green:active,
+a[type="button"].theme-green:active,
+a.button.theme-green:active {
+	border: solid 2px $green;
+	background-color: $darker-green;
+}
+
+// Green transparent
+
+button.theme-green-transparent,
+a[type="button"].theme-green-transparent,
+a.button.theme-green-transparent {
+	border: solid 2px $green;
+	background-color: transparent;
+	color: $green;
+}
+
+button.theme-green-transparent:active,
+a[type="button"].theme-green-transparent:active,
+a.button.theme-green-transparent:active {
+	border: solid 2px $darker-green;
+	color: $darker-green;
+}
+
+// Yellow
+
+button.theme-yellow,
+a[type="button"].theme-yellow,
+a.button.theme-yellow {
+	border: solid 2px transparent;
+	background-color: $yellow;
+	color: $dark-grey;
+}
+
+button.theme-yellow:active,
+a[type="button"].theme-yellow:active,
+a.button.theme-yellow:active {
+	border: solid 2px $yellow;
+	background-color: $darker-yellow;
+}
+
+// Yellow transparent
+
+button.theme-yellow-transparent,
+a[type="button"].theme-yellow-transparent,
+a.button.theme-yellow-transparent {
+	border: solid 2px $yellow;
+	background-color: transparent;
+	color: $yellow;
+}
+
+button.theme-yellow-transparent:active,
+a[type="button"].theme-yellow-transparent:active,
+a.button.theme-yellow-transparent:active {
+	border: solid 2px $darker-yellow;
+	color: $darker-yellow;
+}
+
+/* Fonts
+---------------------------------------------------------------------------- */
+
+.font-white {
+	color: #fff;
+}
+
+.font-red {
+	color: $red;
+}
+
+.font-green {
+	color: $green;
+}
+
+.font-blue {
+	color: $blue;
+}
+
+.font-yellow {
+	color: $yellow;
+}
+
+.font-grey {
+	color: $grey;
+}
+
+.font-dark-grey {
+	color: $dark-grey;
+}
+
+
+/* Accents
+---------------------------------------------------------------------------- */
+
+// Red
+
+.accent-red {
+	border-bottom: solid 4px $red;
+}
+
+.accent-blue {
+	border-bottom: solid 4px $blue;
+}
+
+.accent-green {
+	border-bottom: solid 4px $green;
+}
+
+.accent-yellow {
+	border-bottom: solid 4px $yellow;
+}
+
+.accent-dark-grey {
+	border-bottom: solid 4px $dark-grey;
+}
+
+/* Background image accents
+---------------------------------------------------------------------------- */
+
+// Red
+
+.flow-ttb-mob > .accent-red.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid 4px $red;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-red.image-background {
+	border-top: 0;
+	border-right: solid 4px $red;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-red.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid 4px $red;
+}
+
+// Blue
+
+.flow-ttb-mob > .accent-blue.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid 4px $blue;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-blue.image-background {
+	border-top: 0;
+	border-right: solid 4px $blue;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-blue.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid 4px $blue;
+}
+
+// Green
+
+.flow-ttb-mob > .accent-green.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid 4px $green;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-green.image-background {
+	border-top: 0;
+	border-right: solid 4px $green;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-green.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid 4px $green;
+}
+
+// Yellow
+
+.flow-ttb-mob > .accent-yellow.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid 4px $yellow;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-yellow.image-background {
+	border-top: 0;
+	border-right: solid 4px $yellow;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-yellow.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid 4px $yellow;
+}
+
+// Dark grey
+
+.flow-ttb-mob > .accent-dark-grey.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid 4px $dark-grey;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-grey.image-background {
+	border-top: 0;
+	border-right: solid 4px $dark-grey;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-grey.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid 4px $dark-grey;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Background image accents
+	---------------------------------------------------------------------------- */
+
+	// Red
+
+	.flow-ttb-tab > .accent-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $red;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-red.image-background {
+		border-top: 0;
+		border-right: solid 4px $red;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $red;
+	}
+
+	// Blue
+
+	.flow-ttb-tab > .accent-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $blue;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-blue.image-background {
+		border-top: 0;
+		border-right: solid 4px $blue;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $blue;
+	}
+
+	// Green
+
+	.flow-ttb-tab > .accent-green.image-background{
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $green;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-green.image-background {
+		border-top: 0;
+		border-right: solid 4px $green;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-green.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $green;
+	}
+
+
+	// Yellow
+
+	.flow-ttb-tab > .accent-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $yellow;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-yellow.image-background {
+		border-top: 0;
+		border-right: solid 4px $yellow;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $yellow;
+	}
+
+	// Dark grey
+
+	.flow-ttb-tab > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $dark-grey;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: solid 4px $dark-grey;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $dark-grey;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	// Dark grey footer
+
+	footer.theme-dark-grey li a:hover {
+		color: rgba(249, 249, 249, 1);
+	}
+
+	// Make effects smooth
+	button,
+	a[type="button"],
+	a.button {
+		transition: all 0.15s ease-in-out;
+	}
+
+	// Red
+	button.theme-red:hover,
+	a[type="button"].theme-red:hover,
+	a.button.theme-red:hover {
+		border: solid 2px $red;
+		background-color: $darker-red;
+	}
+
+	// Red transparent
+	button.theme-red-transparent:hover,
+	a[type="button"].theme-red-transparent:hover,
+	a.button.theme-red-transparent:hover {
+		border: solid 2px $darker-red;
+		color: $darker-red;
+	}
+
+	// Blue
+	button.theme-blue:hover,
+	a[type="button"].theme-blue:hover,
+	a.button.theme-blue:hover {
+		border: solid 2px $blue;
+		background-color: $darker-blue;
+	}
+
+	// Blue transparent
+	button.theme-blue-transparent:hover,
+	a[type="button"].theme-blue-transparent:hover,
+	a.button.theme-blue-transparent:hover {
+		border: solid 2px $darker-blue;
+		color: $darker-blue;
+	}
+
+	// Green
+	button.theme-green:hover,
+	a[type="button"].theme-green:hover,
+	a.button.theme-green:hover {
+		border: solid 2px $green;
+		background-color: $darker-green;
+	}
+
+	// Green transparent
+	button.theme-green-transparent:hover,
+	a[type="button"].theme-green-transparent:hover,
+	a.button.theme-green-transparent:hover {
+		border: solid 2px $darker-green;
+		color: $darker-green;
+	}
+
+	// Yellow
+	button.theme-yellow:hover,
+	a[type="button"].theme-yellow:hover,
+	a.button.theme-yellow:hover {
+		border: solid 2px $yellow;
+		background-color: $darker-yellow;
+	}
+
+	// Yellow transparent
+	button.theme-yellow-transparent:hover,
+	a[type="button"].theme-yellow-transparent:hover,
+	a.button.theme-yellow-transparent:hover {
+		border: solid 2px $darker-yellow;
+		color: $darker-yellow;
+	}
+
+	/* Background image accents
+	---------------------------------------------------------------------------- */
+
+	// Red
+
+	.flow-ttb-des > .accent-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $red;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-red.image-background {
+		border-top: 0;
+		border-right: solid 4px $red;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $red;
+	}
+
+	// Blue
+
+	.flow-ttb-des > .accent-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $blue;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-blue.image-background {
+		border-top: 0;
+		border-right: solid 4px $blue;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $blue;
+	}
+
+	// Green
+
+	.flow-ttb-des > .accent-green.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $green;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-green.image-background {
+		border-top: 0;
+		border-right: solid 4px $green;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-green.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $green;
+	}
+
+	// Yellow
+
+	.flow-ttb-des > .accent-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $yellow;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-yellow.image-background {
+		border-top: 0;
+		border-right: solid 4px $yellow;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $yellow;
+	}
+
+	// Dark grey
+
+	.flow-ttb-des > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid 4px $dark-grey;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: solid 4px $dark-grey;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid 4px $dark-grey;
+	}
+
+}

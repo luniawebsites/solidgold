@@ -1,0 +1,374 @@
+/* Overwrite styles (declared here to ensure high specificity)
+---------------------------------------------------------------------------- */
+
+.pattern-hero,
+.pattern-masthead {
+	color: $grey;
+}
+
+h1 {
+	font-size: 2rem;
+	line-height: 2.3rem;
+}
+
+/* Custom design pattern > Section item (used on home page to separate images and text)
+---------------------------------------------------------------------------- */
+
+.pattern-section-item figure {
+	width: 520px;
+}
+
+/* Custom design pattern > Channel item (used for cover art on channels index page)
+---------------------------------------------------------------------------- */
+
+// Force lowercase input to ensure filter script works
+input#filter {
+	text-transform: lowercase;
+}
+
+.pattern-channel-item {
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding: $space-mobile;
+	width: 50%;
+	color: $dark-grey;
+}
+
+.pattern-channel-item img {
+	border: solid 1px $border-color;
+	margin-bottom: 0.75rem;
+	width: 100%;
+	height: auto;
+}
+
+.pattern-channel-item span {
+	display: block;
+	//width: 95%;
+	height: 90px;
+}
+
+.pattern-channel-item p:nth-of-type(1) {
+	margin-bottom: -0.75rem;
+	font-family: $font-heading;
+	line-height: 1.3rem;
+	text-align: left;
+}
+
+.pattern-channel-item p:nth-of-type(2) {
+	font-size: 85%;
+	text-align: left;
+	line-height: 1.1rem;
+	opacity: 0.7;
+}
+
+/* Custom design pattern > Individual channel masthead (used on individual channel pages)
+---------------------------------------------------------------------------- */
+
+.pattern-channel-masthead {
+	min-height: 22rem;
+}
+
+.pattern-channel-masthead img {
+	margin-bottom: 2rem;
+	width: 120px;
+	height: auto;
+}
+
+/* Misc
+---------------------------------------------------------------------------- */
+
+.width-50 {
+	width: 50%;
+}
+
+.pad-b-x2 {
+	padding-bottom: calc(#{$space-fixed} * 2);
+}
+
+.font-heading {
+	font-family: $font-heading;
+}
+
+.chart {
+	max-width: 600px;
+}
+
+/* Radio button
+---------------------------------------------------------------------------- */
+
+// Label containing the slider
+.switch {
+	display: block;
+	position: relative;
+	width: 54px;
+	height: 35px;
+}
+
+@mixin switch {
+	display: block;
+	position: absolute;
+	white-space: pre;
+	top: 4px;
+	font-family: $font-heading;
+	font-size: 1.1rem;
+	text-align: left;
+	letter-spacing: -0.035rem;
+	cursor: pointer;
+}
+
+.switch:before {
+	@include switch;
+	content: "Per Episode";
+	right: 60px;
+}
+
+.switch:after {
+	@include switch;
+	content: "Per Season";
+	left: 66px;
+}
+
+// Hide default HTML checkbox
+.switch input {
+	display:none;
+}
+
+// Slider
+.slider {
+	position: absolute;
+	cursor: pointer;
+	border: solid 1px $border-color;
+	border-radius: 15px;
+	background-color: #eee;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: 0.15s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	//border: solid 1px $border-color;
+	border-radius: 15px;
+	background-color: $orange;
+	height: 22px;
+	width: 22px;
+	left: 3px;
+	bottom: 3px;
+	transition: 0.15s;
+}
+
+input:checked + .slider {
+	background-color: #eee;
+}
+
+input:focus + .slider {
+	//box-shadow: 0 0 1px $blue;
+}
+
+input:checked + .slider:before {
+	transform: translateX(19px);
+}
+
+/* Metrics
+---------------------------------------------------------------------------- */
+
+.metrics-parent {
+}
+
+.metrics-container {
+display: flex;
+flex-direction: column;
+margin-bottom: 1rem;
+width: 100%;
+height: 2rem;
+}
+
+.metrics-label {
+display: block;
+position: relative;
+margin: 0 0 $radius $radius;
+font-size: 1rem;
+font-family: $font-heading;
+font-weight: normal;
+text-align: left;
+line-height: 1.4rem;
+//letter-spacing: -0.025rem;
+opacity: 0.8;
+}
+
+@mixin metrics {
+display: block;
+position: absolute;
+border-radius: 6px;
+height: 30px;
+}
+
+@mixin metrics-active-after {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding-right: $radius;
+height: 30px;
+color: $dark-grey;
+font-size: 1.1rem;
+font-family: $font-heading;
+opacity: 0.8;
+}
+
+.metrics-1 {
+@include metrics;
+background: linear-gradient(0.25turn, transparent, $yellow);
+width: 0;
+transition: all 0.5s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.metrics-1-active {
+@include metrics;
+background: linear-gradient(0.25turn, transparent, $yellow);
+width: 80%;
+transition: all 1.5s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.metrics-1-active:after {
+@include metrics-active-after;
+content: "49%";
+}
+
+.metrics-2 {
+@include metrics;
+background: linear-gradient(0.25turn, transparent, $green);
+width: 0;
+transition: all 0.5s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.metrics-2-active {
+@include metrics;
+background: linear-gradient(0.25turn, transparent, $green);
+width: 36%;
+transition: all 1.5s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.metrics-2-active:after {
+@include metrics-active-after;
+content: "22%";
+}
+
+.metrics-3 {
+@include metrics;
+background: linear-gradient(0.25turn, transparent, $blue);
+width: 0;
+transition: all 0.5s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.metrics-3-active {
+@include metrics;
+background: linear-gradient(0.25turn, transparent, $blue);
+width: 18%;
+transition: all 1.5s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.metrics-3-active:after {
+@include metrics-active-after;
+content: "11%";
+}
+
+/* Browse Happy
+---------------------------------------------------------------------------- */
+
+// Outdated browser alert
+.browsehappy {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 1em;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Overwrite styles (declared here to ensure high specificity)
+	---------------------------------------------------------------------------- */
+
+	h1 {
+		width: 50%;
+		font-size: 2.5rem;
+		line-height: 2.8rem;
+	}
+
+	/* Custom design pattern > Channels
+	---------------------------------------------------------------------------- */
+
+	.pattern-channel-item {
+		width: 25%;
+	}
+
+	/* Custom design pattern > Individual channel masthead (used on individual channel pages)
+	---------------------------------------------------------------------------- */
+
+	.pattern-channel-masthead {
+		min-height: 18rem;
+	}
+
+	.pattern-channel-masthead img {
+		margin-bottom: 0;
+		width: 200px;
+		height: auto;
+	}
+
+	/* Misc
+	---------------------------------------------------------------------------- */
+
+	.vh-100-tab {
+		height: calc(100vh - #{$page-leadin-height} + 1px);
+	}
+
+	.pseudo-column {
+		width: 50%;
+	}
+
+	/* Metrics
+	---------------------------------------------------------------------------- */
+
+	.metrics-1-active {
+		width: 49%;
+	}
+
+	.metrics-2-active {
+		width: 22%;
+	}
+
+	.metrics-3-active {
+		width: 11%;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* Custom design pattern > Channels
+	---------------------------------------------------------------------------- */
+
+	.pattern-channel-item {
+		width: 19.5%;
+		min-height: 275px;
+	}
+
+	.pattern-channel-item:hover {
+		color: inherit;
+		transform: scale(1.1);
+	}
+
+}

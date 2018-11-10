@@ -138,6 +138,14 @@
 					</span>
 				</a>
 
+				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="the call estelle kapp">
+					<img src="assets/images/cover-art/channels/placeholder-thecall.jpg" alt="" />
+					<span>
+						<p>The Call</p>
+						<p>Estelle Kapp</p>
+					</span>
+				</a>
+
 				<a href="carmenmurray.php" class="pattern-channel-item" data-pattern-channel-item="carmen murray show">
 					<img src="assets/images/cover-art/channels/carmen-murray-show.jpg" alt="" />
 					<span>
@@ -178,6 +186,22 @@
 					</span>
 				</a>
 
+				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="lights camera action kimberleigh stark famous">
+					<img src="assets/images/cover-art/channels/placeholder-famous.jpg" alt="" />
+					<span>
+						<p>Lights, Camera, Action!</p>
+						<p>Kimberleigh Stark</p>
+					</span>
+				</a>
+
+				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="the network women in mining south africa as wimsa">
+					<img src="assets/images/cover-art/channels/placeholder-wimsa.jpg" alt="" />
+					<span>
+						<p>The Network</p>
+						<p>WiMSA | Women in Mining South Africa</p>
+					</span>
+				</a>				
+
 				<a href="onchange.php" class="pattern-channel-item" data-pattern-channel-item="on change onchange petro du pisani dupisani">
 					<img src="assets/images/cover-art/channels/on-change.jpg" alt="" />
 					<span>
@@ -199,6 +223,14 @@
 					<span>
 						<p>Weekend Party</p>
 						<p>Lance Zeeman</p>
+					</span>
+				</a>
+
+				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="what's the point elan ressel">
+					<img src="assets/images/cover-art/channels/placeholder-whatsthepoint.jpg" alt="" />
+					<span>
+						<p>What's the Point?</p>
+						<p>Elan Ressel</p>
 					</span>
 				</a>
 

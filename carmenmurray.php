@@ -155,6 +155,7 @@
 					<p class="text-l-mob">Do you want to fuel your creativity and inspire Innovation? Or... are you simply looking to put the "kapow" back into your business?</p>
 					<p class="text-l-mob">Then look no further. Join <a href="https://www.linkedin.com/in/carmen-murray-787b2323/" target="_blank" rel="noopener">Carmen Murray</a>, Entrepreneur, Innovator and Tech Fundi, with her big personality and presentation style, as she interviews celebrities, alchemists, news-makers and business experts to discover the stories behind their success.</p>
 					<p class="text-l-mob">The Carmen Murray Show will open your mind and help you turn knowledge into magic. <strong>Let knowledge be your Superpower!</strong></p>
+					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 

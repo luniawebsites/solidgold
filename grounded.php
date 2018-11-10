@@ -152,6 +152,7 @@
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
 					<p class="text-l-mob">From Solid Gold Studios welcome to Grounded. Hosted by the ever-energetic <a href="https://www.linkedin.com/in/melanie-walker-675a0413/" target="_blank" rel="noopener">Melanie Walker</a>, this podcast explores gardening and all things grounded.</p>
+					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 

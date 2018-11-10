@@ -140,7 +140,7 @@
 					<!--<a class="badge-google-podcasts" href="" target="_blank" rel="noopener"></a>-->
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Entertainment--Media/Lance-Zeemans-Weekend-Party-p1146497/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Lance-Zeeman's-Weekend-Party-Entertainment-Report-id1366224?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://podcasters.spotify.com/podcast/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>
+					<a class="badge-spotify" href="https://open.spotify.com/show/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>
 					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/weekendparty.xml" target="_blank" rel="noopener"></a>
 
 					</div>
@@ -152,8 +152,8 @@
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
 					<p class="text-l-mob">From <strong>Solid Gold Studios</strong>, this is Lance Zeeman's <strong>Weekend Party Entertainment Report</strong>.</p>
-					<p class="text-l-mob"></p>
-					
+					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
+										
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 
 						<ul class="list-icon spread">

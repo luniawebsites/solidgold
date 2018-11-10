@@ -153,6 +153,7 @@
 
 					<p class="text-l-mob">From <strong>Solid Gold Studios</strong>, this is <strong>On Change</strong>.</p>
 					<p class="text-l-mob">The podcast that explores <strong>change that works</strong> and the <strong>people</strong> who make it happen. Hosted by certified and experienced Change Practitioner, <a href="https://www.linkedin.com/in/petrodupisani?originalSubdomain=za" target="_blank" rel="noopener">Petro Du Pisani</a>.</p>
+					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80672347598571" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 					<p class="text-l-mob"></p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">

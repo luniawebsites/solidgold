@@ -200,7 +200,7 @@
 						<p>The Network</p>
 						<p>WiMSA | Women in Mining South Africa</p>
 					</span>
-				</a>				
+				</a>
 
 				<a href="onchange.php" class="pattern-channel-item" data-pattern-channel-item="on change onchange petro du pisani dupisani">
 					<img src="assets/images/cover-art/channels/on-change.jpg" alt="" />
@@ -209,6 +209,14 @@
 						<p>Petro Du Pisani</p>
 					</span>
 				</a>
+
+				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="the principal's principles dave david robinson">
+					<img src="assets/images/cover-art/channels/placeholder-principalsprinciples.jpg" alt="" />
+					<span>
+						<p>The Principal's Principles</p>
+						<p>David Robinson</p>
+					</span>
+				</a>				
 
 				<a href="solidgoldstudios.php" class="pattern-channel-item" data-pattern-channel-item="solid gold podcast studios demo sample">
 					<img src="assets/images/cover-art/channels/solid-gold-studios-cover-0000.jpg" alt="" />

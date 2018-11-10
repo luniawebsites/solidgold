@@ -135,15 +135,9 @@
 					<iframe src="https://tunein.com/embed/player/t126868184/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
 
-<!-- TEMP embedded player
-
-					<iframe style="border: solid 1px #dedede;"  src="https://app.stitcher.com/splayer/f/327315/57129980" width="220" height="150" frameborder="0" scrolling="no"></iframe>
--->					
-
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">Listen on</div>
 					
-					<!--
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/garage-band/id1441251250" target="_blank" rel="noopener"></a> -->
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/solid-gold-studios/id1441645116" target="_blank" rel="noopener"></a> 
 
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/solid-gold-podcasts-studios" target="_blank" rel="noopener"></a>
 
@@ -168,9 +162,9 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
-					<p class="text-l-mob">Find out more about Gavin Kennedy on <a href="https://www.linkedin.com/in/gavinkennedy/" target="_blank" rel="noopener">LinkedIn</p>
-					<p class="text-l-mob"></p>
-					
+					<p class="text-l-mob">Welcome to the Solid Gold Podcast Studios <strong>Demo and Sample Channel</strong>. Find out more about Gavin Kennedy on <a href="https://www.linkedin.com/in/gavinkennedy/" target="_blank" rel="noopener">LinkedIn</p>
+					<p class="text-l-mob">Before appearing as a guest on any of our podcasts, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
+										
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 
 						<ul class="list-icon spread">

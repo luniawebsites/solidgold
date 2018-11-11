@@ -188,7 +188,7 @@
 							Website
 							-->
 							<li>
-								<a href="http://emotioninmotion.co.za/" target="_blank" rel="noopener">
+								<a href="http://charlottedblignaut.co.za" target="_blank" rel="noopener">
 									<span class="website">Visit website</span>
 								</a>
 							</li>

@@ -8,22 +8,22 @@
 	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="???, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, another Solid Gold Studios podcast, #BeHeard" />
+	<meta name="keywords" content="emotion in motion, charlotte d blignaut, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, another Solid Gold Studios podcast, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | ???">
+	<meta name="pagename" content="Solid Gold Podcast Channels | Emotion in Motion with Charlotte D Blignaut">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | ???" />
+	<meta property="og:title" content="Solid Gold Podcast Studios | Emotion in Motion with Charlotte D Blignaut" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/???.php" />
+	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/emotioninmotion.php" />
 	<meta property="og:type" content="website" />
-	<title>???</title>
+	<title>Emotion in Motion with Charlotte D Blignaut</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -96,8 +96,8 @@
 
 			<div>
 
-				<h1 class="text-c-mob text-l-tab">??? Channel Name</h1>
-				<h2 class="text-c-mob text-l-tab">??? Person or Organisation Name</span></h2>
+				<h1 class="text-c-mob text-l-tab">Emotion in Motion</h1>
+				<h2 class="text-c-mob text-l-tab">Charlotte D BLignaut</span></h2>
 
 			</div>
 
@@ -105,7 +105,7 @@
 			Image
 			-->
 
-			<img src="assets/images/cover-art/channels/???.jpg" alt="" />
+			<img src="assets/images/cover-art/channels/emotioninmotion-cover-s01-0000.jpg" alt="" />
 
 		</div>
 
@@ -131,17 +131,21 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
+				<!--
 					<iframe src="https://tunein.com/embed/player/???/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+				-->
 
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/???" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/???" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/???" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a>-->
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/???" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/???" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/???.xml" target="_blank" rel="noopener"></a>
+				
+					<!-- <a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/???" target="_blank" rel="noopener"></a> -->	
+					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/emotion-in-motion" target="_blank" rel="noopener"></a>
+					<a class="badge-acast" href="https://www.acast.com/emotioninmotion" target="_blank" rel="noopener"></a>
+					<!-- <a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a> -->
+					<!-- <a class="badge-tune-in" href="https://tunein.com/podcasts/???" target="_blank" rel="noopener"></a>
+					<a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a> -->
+										<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
+					
+					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 
@@ -151,8 +155,8 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
-					<p class="text-l-mob">??? Your host <a href="https://www.linkedin.com/in/???/" target="_blank" rel="noopener"></p>
-					<p class="text-l-mob">??? show description</p>
+					<p class="text-l-mob">Join <a href="https://www.linkedin.com/in/charlottedblignaut/" target="_blank" rel="noopener">Charlotte D Blignaut</a></p>
+					<p class="text-l-mob">Open-minded mindfulness - exploring the change in Mindsets required and the relationship with evolving Consciousness in our world. Including various options shared for coping, plus bonus in learning how to expand your own consciousness, We will discuss, coach or chat, with you the audience and with various people, who are seen as leaders of change, where change has been embraced is prevalent and working well. Uncovering and sharing the many varied ways and means for improving inner balance, joy and creating authenticity of our lives life within.</p>
 
 					<!-- add link to consent form -->
 					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
@@ -163,18 +167,19 @@
 
 							<!--
 							Tumblr
-							-->
-							<li>
+						-->
+							<!-- <li>
 								<a href="???" target="_blank" rel="noopener">
 									<span class="tumblr"><strong>Episode notes</strong></span>
 								</a>
 							</li>
+						-->
 
 							<!--
 							Email
 							-->
 							<li>
-								<a href="mailto:????subject=???%20Podcast%20Query" target="_blank" rel="noopener">
+								<a href="mailto:coach@emotioninmotion.co.za?subject=Emotion%20in%20Motion%20Podcast%20Query" target="_blank" rel="noopener">
 									<span class="email">Email</span>
 								</a>
 							</li>
@@ -183,7 +188,7 @@
 							Website
 							-->
 							<li>
-								<a href="https://www.???.za/" target="_blank" rel="noopener">
+								<a href="http://emotioninmotion.co.za/" target="_blank" rel="noopener">
 									<span class="website">Visit website</span>
 								</a>
 							</li>
@@ -192,7 +197,7 @@
 							LinkedIn
 							-->
 							<li>
-								<a href="https://www.linkedin.com/???/" target="_blank" rel="noopener">
+								<a href="https://www.linkedin.com/in/charlottedblignaut/" target="_blank" rel="noopener">
 									<span class="linkedin">LinkedIn profile</span>
 								</a>
 							</li>
@@ -201,7 +206,7 @@
 							Facebook
 							-->
 							<li>
-								<a href="https://www.facebook.com/???/" target="_blank" rel="noopener">
+								<a href="https://www.facebook.com/charlotted.blignaut" target="_blank" rel="noopener">
 									<span class="facebook">Facebook page</span>
 								</a>
 							</li>
@@ -210,7 +215,7 @@
 							Twitter
 							-->
 							<li>
-								<a href="https://twitter.com/???/" target="_blank" rel="noopener">
+								<a href="https://twitter.com/CharlotteD_Muse" target="_blank" rel="noopener">
 									<span class="twitter">Twitter wall</span>
 								</a>
 							</li>

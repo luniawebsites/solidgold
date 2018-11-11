@@ -170,6 +170,14 @@
 					</span>
 				</a>
 
+				<a href="emotioninmotion.php" class="pattern-channel-item" data-pattern-channel-item="emotion in motion charlotte d blignaut">
+					<img src="assets/images/cover-art/channels/emotioninmotion-cover-s01-0000.jpg" alt="" />
+					<span>
+						<p>Emotion in Motion</p>
+						<p>Charlotte D Blignaut</p>
+					</span>
+				</a>				
+
 				<a href="garageband.php" class="pattern-channel-item" data-pattern-channel-item="garage band adam alexander">
 					<img src="assets/images/cover-art/channels/garageband.jpg" alt="" />
 					<span>

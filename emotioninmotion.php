@@ -207,7 +207,7 @@
 							-->
 							<li>
 								<a href="https://www.facebook.com/charlotted.blignaut" target="_blank" rel="noopener">
-									<span class="facebook">Facebook page</span>
+									<span class="facebook">Facebook page #body4brains</span>
 								</a>
 							</li>
 
@@ -216,7 +216,7 @@
 							-->
 							<li>
 								<a href="https://twitter.com/CharlotteD_Muse" target="_blank" rel="noopener">
-									<span class="twitter">Twitter wall</span>
+									<span class="twitter">Twitter wall #body4brains</span>
 								</a>
 							</li>
 

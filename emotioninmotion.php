@@ -130,19 +130,17 @@
 				-->
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
-
-				<!--
-					<iframe src="https://tunein.com/embed/player/???/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
-				-->
-
+				
+					<iframe src="<iframe src="https://tunein.com/embed/player/p1176826/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+				
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
 				
-					<!-- <a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/???" target="_blank" rel="noopener"></a> -->	
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/emotion-in-motion-with-charlotte-d-blignaut/id1441882031" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/emotion-in-motion" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/emotioninmotion" target="_blank" rel="noopener"></a>
 					<!-- <a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a> -->
-					<!-- <a class="badge-tune-in" href="https://tunein.com/podcasts/???" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a> -->
+					<a class="badge-tune-in" href="https://tunein.com/podcasts/Health--Wellness-Podcasts/Emotion-in-Motion-with-Charlotte-D-Blignaut-p1176826/" target="_blank" rel="noopener"></a>
+					<!-- <a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a> -->
 										<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
 					
 					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
@@ -159,7 +157,7 @@
 					<p class="text-l-mob">Open-minded mindfulness - exploring the change in Mindsets required and the relationship with evolving Consciousness in our world. Including various options shared for coping, plus bonus in learning how to expand your own consciousness, We will discuss, coach or chat, with you the audience and with various people, who are seen as leaders of change, where change has been embraced is prevalent and working well. Uncovering and sharing the many varied ways and means for improving inner balance, joy and creating authenticity of our lives life within.</p>
 
 					<!-- add link to consent form -->
-					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
+					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">media usage agreement.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">
 

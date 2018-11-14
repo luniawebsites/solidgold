@@ -154,7 +154,7 @@
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
 					<p class="text-l-mob">From <strong>Solid Gold Studios</strong>, this is <strong>EduThink</strong> &mdash; the podcast that explores Education in South Africa. If you're a parent, a pupil, a teacher, a principal or simply interested in education, then this is the show for you. Hosted by <a href="https://www.linkedin.com/in/gavinkennedy/" target="_blank" rel="noopener">Gavin Kennedy</a>.</p>
-					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">usage consent form.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
+					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">media usage agreement.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">

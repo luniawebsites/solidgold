@@ -138,7 +138,8 @@
 					</span>
 				</a>
 
-				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="the call estelle kapp">
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the call estelle kapp">
 					<img src="assets/images/cover-art/channels/placeholder-thecall.jpg" alt="" />
 					<span>
 						<p>The Call</p>
@@ -194,7 +195,8 @@
 					</span>
 				</a>
 
-				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="lights camera action kimberleigh stark famous">
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="lights camera action kimberleigh stark famous">
 					<img src="assets/images/cover-art/channels/placeholder-famous.jpg" alt="" />
 					<span>
 						<p>Lights, Camera, Action!</p>
@@ -202,7 +204,8 @@
 					</span>
 				</a>
 
-				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="the network women in mining south africa as wimsa">
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the network women in mining south africa as wimsa">
 					<img src="assets/images/cover-art/channels/placeholder-wimsa.jpg" alt="" />
 					<span>
 						<p>The Network</p>
@@ -218,7 +221,8 @@
 					</span>
 				</a>
 
-				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="the principal's principles dave david robinson">
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the principal's principles dave david robinson">
 					<img src="assets/images/cover-art/channels/placeholder-principalsprinciples.jpg" alt="" />
 					<span>
 						<p>The Principal's Principles</p>
@@ -242,7 +246,8 @@
 					</span>
 				</a>
 
-				<a href="channels.php" class="pattern-channel-item" data-pattern-channel-item="what's the point elan ressel">
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="what's the point elan ressel">
 					<img src="assets/images/cover-art/channels/placeholder-whatsthepoint.jpg" alt="" />
 					<span>
 						<p>What's the Point?</p>

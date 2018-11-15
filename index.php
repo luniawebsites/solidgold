@@ -135,7 +135,7 @@
 
 				<div class="animated fadeInUpShort">
 					<h2 class="text-l-mob">Like radio, <span class="no-break">but better.</span></h2>
-					<p class="text-l-mob">Podcasts are like having radio shows available on demand. All you need is a free app, such as <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a> or <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, and an Internet connection. Use the app to subscribe to podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
+					<p class="text-l-mob">Podcasts are like having radio shows available on demand. All you need is a free app, such as <a href="https://itunes.com/" target="_blank" rel="noopener">iTunes</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a> and an Internet connection. Use the app to subscribe to podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
 					<div class="flow-ttb-mob spread pad-t-mob pad-respond-b-mob pad-respond-b-mob justify-c-mob justify-fs-tab">
 						<h3 class="text-l-mob">Try a sample:</h3>
 						<iframe src="https://tunein.com/embed/player/t123888510/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>

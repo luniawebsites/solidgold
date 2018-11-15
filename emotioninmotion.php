@@ -140,9 +140,8 @@
 					<a class="badge-acast" href="https://www.acast.com/emotioninmotion" target="_blank" rel="noopener"></a>
 					<!-- <a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a> -->
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Health--Wellness-Podcasts/Emotion-in-Motion-with-Charlotte-D-Blignaut-p1176826/" target="_blank" rel="noopener"></a>
-					<!-- <a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a> -->
-										<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
-					
+					<a class="badge-castbox" href="https://castbox.fm/channel/id1481528" target="_blank" rel="noopener"></a>
+					<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
 					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
 
 					</div>

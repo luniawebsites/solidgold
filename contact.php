@@ -103,7 +103,7 @@
 				-->
 				<picture>
 					<source srcset="assets/images/photos/gavin-kennedy-profile.webp" type="image/webp">
-					<img class="large margin-r-mob round-mob border-mob" src="assets/images/photos/gavin-kennedy-profile.jpg" alt="Alt Text">
+					<img class="large margin-r-mob round-mob border-mob" src="assets/images/photos/gavin-kennedy-profile.jpg" alt="gavin kennedy profile photo">
 				</picture>
 
 				<!--

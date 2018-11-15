@@ -93,13 +93,28 @@
 		<div class="flow-ttb-mob width-100 constrain">
 
 			<!--
-			Text
+			Content
 			-->
 
-			<div class="flow-ttb-mob pad-respond-b-mob align-fs-mob">
+			<div class="flow-ttb-mob flow-ltr-tab pad-respond-y-mob align-fs-mob align-c-tab">
 
-				<h1 class="text-l-mob">Contact Us</h1>
-				<p class="text-l-mob">Start a conversation using the form below, or email us directly at <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">gavin@solidgoldstudios.co.za</a>. You can also start a <span class="no-break"><a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hi%20there" target="_blank" rel="noopener">WhatsApp chat</a>.</span></p>
+				<!--
+				Image
+				-->
+				<picture>
+					<source srcset="assets/images/photos/gavin-kennedy-profile.webp" type="image/webp">
+					<img class="large margin-r-mob round-mob border-mob" src="assets/images/photos/gavin-kennedy-profile.jpg" alt="Alt Text">
+				</picture>
+
+				<!--
+				Text
+				-->
+				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
+					<h1 class="text-l-mob">Hello, I'm <span class="no-break">Gavin Kennedy</span></h1>
+					<p class="text-l-mob">As founder and CEO of Solid Gold Podcast Studios, my vision is to be your Podcasts Partner of Choice, and my mission is to help you have your story heard through high-quality, creative story-telling. Feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hi%20there" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">email</a> me directly if you have any questions about podcasting.</p>
+					<p class="text-l-mob">Are you ready to <strong>#BeHeard</strong>?</p>
+
+				</div>
 
 			</div>
 

@@ -111,7 +111,7 @@
 				-->
 				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
 					<h1 class="text-l-mob">Hello, I'm <span class="no-break">Gavin Kennedy</span></h1>
-					<p class="text-l-mob">As founder and CEO of <strong>Solid Gold Podcast Studios</strong>, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>#BeHeard</strong> through high-quality, creative story-telling. Feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">email</a> me directly if you have any questions about podcasting.</p>
+					<p class="text-l-mob">As founder and CEO of <strong>Solid Gold Podcast Studios</strong>, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">email</a> me directly if you have any questions about podcasting.</p>
 					<p class="text-l-mob">Are you ready to <strong>#BeHeard</strong>?</p>
 
 				</div>

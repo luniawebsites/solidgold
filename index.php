@@ -545,9 +545,9 @@
 	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
 
 	<!--
-	Preload elements
+	PARTIAL > Schema
 	-->
-	<span class="preload-me"></span>
+	<?php echo file_get_contents("assets/partials/schema.html"); ?>
 
 	<!--
 	SCRIPT > Metrics

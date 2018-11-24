@@ -36,8 +36,8 @@
 	<!--
 	LINK > Async-load non-critical CSS
 	-->
-	<link rel="preload" href="/assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="/assets/non-critical.min.css"></noscript>
+	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
 
 	<!--
 	PARTIAL > Async-load non-critical CSS polyfill script

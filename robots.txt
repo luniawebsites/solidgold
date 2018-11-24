@@ -30,4 +30,4 @@ Disallow: /errors/
 Disallow: /*.scss$
 Disallow: /*.md$
 
-Sitemap: https://WEBSITEURL.co.za/sitemap.xml
+Sitemap: https://solidgoldstudios/sitemap.xml

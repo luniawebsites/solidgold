@@ -105,7 +105,7 @@
 			Image
 			-->
 
-			<img src="assets/images/cover-art/channels/emotioninmotion-cover-s01-0000.jpg" alt="" />
+			<img src="assets/images/cover-art/channels/emotioninmotion-cover-s02-0000.jpg" alt="" />
 
 		</div>
 

@@ -172,7 +172,7 @@
 				</a>
 
 				<a href="emotioninmotion.php" class="pattern-channel-item" data-pattern-channel-item="emotion in motion charlotte d blignaut">
-					<img src="assets/images/cover-art/channels/emotioninmotion-cover-s01-0000.jpg" alt="" />
+					<img src="assets/images/cover-art/channels/emotioninmotion-cover-s02-0000.jpg" alt="" />
 					<span>
 						<p>Emotion in Motion</p>
 						<p>Charlotte D Blignaut</p>

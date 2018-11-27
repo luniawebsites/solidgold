@@ -38,12 +38,10 @@
 	LINK > Async-load non-critical CSS
 	-->
 	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>
-		<link rel="stylesheet" href="assets/non-critical.min.css">
-	</noscript>
+	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
 
 	<!--
-	PARTIAL > Non-critical CSS load script
+	PARTIAL > Async-load non-critical CSS polyfill script
 	-->
 	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
 
@@ -93,13 +91,28 @@
 		<div class="flow-ttb-mob width-100 constrain">
 
 			<!--
-			Text
+			Content
 			-->
 
-			<div class="flow-ttb-mob pad-respond-b-mob align-fs-mob">
+			<div class="flow-ttb-mob flow-ltr-tab pad-respond-y-mob align-fs-mob align-c-tab">
 
-				<h1 class="text-l-mob">Contact Us</h1>
-				<p class="text-l-mob">Start a conversation using the form below, or email us directly at <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">gavin@solidgoldstudios.co.za</a>. You can also start a <span class="no-break"><a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hi%20there" target="_blank" rel="noopener">WhatsApp chat</a>.</span></p>
+				<!--
+				Image
+				-->
+				<picture>
+					<source srcset="assets/images/photos/gavin-kennedy-profile.webp" type="image/webp">
+					<img class="large margin-r-mob round-mob border-mob" src="assets/images/photos/gavin-kennedy-profile.jpg" alt="gavin kennedy profile photo">
+				</picture>
+
+				<!--
+				Text
+				-->
+				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
+					<h1 class="text-l-mob">Hello, I'm <span class="no-break">Gavin Kennedy</span></h1>
+					<p class="text-l-mob">As founder and CEO of <strong>Solid Gold Podcast Studios</strong>, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">email</a> me directly if you have any questions about podcasting.</p>
+					<p class="text-l-mob">Are you ready to <strong>#BeHeard</strong>?</p>
+
+				</div>
 
 			</div>
 

@@ -38,12 +38,10 @@
 	LINK > Async-load non-critical CSS
 	-->
 	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>
-		<link rel="stylesheet" href="assets/non-critical.min.css">
-	</noscript>
+	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
 
 	<!--
-	PARTIAL > Non-critical CSS load script
+	PARTIAL > Async-load non-critical CSS polyfill script
 	-->
 	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
 
@@ -96,7 +94,7 @@
 			Text
 			-->
 
-			<div class="flow-ttb-mob pad-respond-b-mob align-fs-mob">
+			<div class="flow-ttb-mob pad-respond-y-mob align-fs-mob">
 
 				<h1 class="text-l-mob">Pricing</h1>
 				<p class="text-l-mob">All our plans include publishing to Apple Podcasts, Stitcher, Acast, TuneIn, Castbox, Spotify and Google Play to reach the widest possible audience. We'll also promote your episodes on our website blog and social media platforms.</p>

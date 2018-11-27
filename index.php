@@ -38,12 +38,10 @@
 	LINK > Async-load non-critical CSS
 	-->
 	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>
-		<link rel="stylesheet" href="assets/non-critical.min.css">
-	</noscript>
+	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
 
 	<!--
-	PARTIAL > Non-critical CSS load script
+	PARTIAL > Async-load non-critical CSS polyfill script
 	-->
 	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
 
@@ -545,9 +543,9 @@
 	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
 
 	<!--
-	Preload elements
+	PARTIAL > Schema
 	-->
-	<span class="preload-me"></span>
+	<?php echo file_get_contents("assets/partials/schema.html"); ?>
 
 	<!--
 	SCRIPT > Metrics

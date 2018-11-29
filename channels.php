@@ -195,7 +195,7 @@
 
 				<!-- Coming soon -->
 				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="lights camera action kimberleigh stark famous">
-					<img src="assets/images/cover-art/channels/placeholder-famous.jpg" alt="" />
+					<img src="assets/images/cover-art/channels/famous.jpg" alt="" />
 					<span>
 						<p>Lights, Camera, Action!</p>
 						<p>Kimberleigh Stark</p>

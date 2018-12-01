@@ -193,11 +193,10 @@
 					</span>
 				</a>
 
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="lights camera action kimberleigh stark famous">
-					<img src="assets/images/cover-art/channels/famous.jpg" alt="" />
+				<a href="famous.php" class="pattern-channel-item" data-pattern-channel-item="light lights camera cameras action kim kimberleigh stark famous">
+					<img src="assets/images/cover-art/channels/famous-cover-0000.jpg" alt="" />
 					<span>
-						<p>Lights, Camera, Action!</p>
+						<p>Lights, Cameras, Action!</p>
 						<p>Kimberleigh Stark</p>
 					</span>
 				</a>

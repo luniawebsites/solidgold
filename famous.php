@@ -104,7 +104,7 @@
 			Image
 			-->
 
-			<img src="assets/images/cover-art/channels/famous-cover-000.jpg" alt="" />
+			<img src="assets/images/cover-art/channels/famous-cover-0000.jpg" alt="" />
 
 		</div>
 
@@ -137,14 +137,17 @@
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
 					<!--
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/edu-inc-creative-arts-department/id1439099991" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/education-incorporated-boutique-school-creative-arts-and-language" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/eduinccreativearts" target="_blank" rel="noopener"></a>
-				-->
+					-->
+					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lights-cameras-action-with-kimberleigh-stark" target="_blank" rel="noopener"></a>
+					<a class="badge-acast" href="https://www.acast.com/famous" target="_blank" rel="noopener"></a>
+
 					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a>-->
 					<!--
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Language-id1455068?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>
+				-->
+					<a class="badge-castbox" href="https://castbox.fm/channel/id1497486?country=us" target="_blank" rel="noopener"></a>
+					<!--
+					<a class="badge-spotify" href="https://podcasters.spotify.com/podcast/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a>
 				-->
 					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/famous.xml" target="_blank" rel="noopener"></a>
 
@@ -180,7 +183,7 @@
 							Email
 							-->
 							<li>
-								<a href="mailto:famous@solidgoldstudios.co.za?subject=Famous??%20Podcast%20Query" target="_blank" rel="noopener">
+								<a href="mailto:famous@solidgoldstudios.co.za?subject=Famous%20Podcast%20Query" target="_blank" rel="noopener">
 									<span class="email">Email</span>
 								</a>
 							</li>
@@ -212,6 +215,15 @@
 							<li>
 								<a href="https://www.facebook.com/Kimberleighstark/" target="_blank" rel="noopener">
 									<span class="facebook">Facebook page   #famous</span>
+								</a>
+							</li>
+
+							<!--
+							Instagram
+							-->
+							<li>
+								<a href="https://www.instagram.com/iemmygirl/" target="_blank" rel="noopener">
+									<span class="instagram">Instagram page   #famous</span>
 								</a>
 							</li>
 

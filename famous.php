@@ -146,9 +146,8 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
 				-->
 					<a class="badge-castbox" href="https://castbox.fm/channel/id1497486?country=us" target="_blank" rel="noopener"></a>
-					<!--
-					<a class="badge-spotify" href="https://podcasters.spotify.com/podcast/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a>
-				-->
+					
+					<a class="badge-spotify" href="https://open.spotify.com/show/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a>
 					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/famous.xml" target="_blank" rel="noopener"></a>
 
 					</div>

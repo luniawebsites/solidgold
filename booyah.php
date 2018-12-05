@@ -135,7 +135,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/boo-yah-with-carmen-murray/id1376604943" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/booyah-with-carmen-murray" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/booyah" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/I4z7wkc7m3ddtz25k25q2wfxwry?t=Boo-Yah_with_Carmen_Murray" target="_blank" rel="noopener"></a>-->
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/I4z7wkc7m3ddtz25k25q2wfxwry?t%3DBoo-Yah!_with_Carmen_Murray" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Technology-Podcasts/Boo-Yah-with-Carmen-Murray-p1174697/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Boo-Yah!-with-Carmen-Murray-id1310444?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/04MUQzR2H8St2mevIuG5Fr" target="_blank" rel="noopener"></a>

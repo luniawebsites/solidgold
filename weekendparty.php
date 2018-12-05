@@ -135,7 +135,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/lance-zeemans-weekend-party-entertainment-report/id1410068714?mt=2" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lance-zeemans-weekend-party-entertainment-report" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/weekendparty" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="" target="_blank" rel="noopener"></a>-->
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/I6xjygytvo3nmiwfzatemxidfym?t%3DLance_Zeeman&#39;s_Weekend_Party_Entertainment_Report" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Entertainment--Media/Lance-Zeemans-Weekend-Party-p1146497/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Lance-Zeeman's-Weekend-Party-Entertainment-Report-id1366224?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>

@@ -135,7 +135,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/eduthink-with-gavin-kennedy/id1316706544" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/eduthink-with-gavin-kennedy" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/eduthink" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>-->
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/Iraddnub52v4ud347tx3ekrx3zq?t%3DEduThink_with_Gavin_Kennedy" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/EduThink-with-Gavin-Kennedy-p1146474/" target="_blank" rel="noopener"></a>
 					
 					<a class="badge-castbox" href="https://castbox.fm/channel/EduThink-with-Gavin-Kennedy-id1328103?country=us" target="_blank" rel="noopener"></a>

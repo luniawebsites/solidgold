@@ -135,7 +135,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/the-carmen-murray-show/id1418488423?mt=2" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/the-carmen-murray-show" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/thecarmenmurrayshow" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/listen?u=0#/ps/Ihvz5dpilgv3q2vmyyvr626uy6u" target="_blank" rel="noopener"></a>-->
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/Ihvz5dpilgv3q2vmyyvr626uy6u?t%3DThe_Carmen_Murray_Show" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business--Economics-Podcasts/The-Carmen-Murray-Show-p1146130/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/The-Carmen-Murray-Show-id1382247?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/2j2HXj57OmjNZD6aOHsVAX" target="_blank" rel="noopener"></a>

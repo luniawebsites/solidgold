@@ -202,6 +202,7 @@
 				</a>
 
 				<!-- Coming soon -->
+				<!--
 				<a class="pattern-channel-item coming-soon" data-pattern-channel-item=" network women in mining south africa wimsa">
 					<img src="assets/images/cover-art/channels/placeholder-wimsa.jpg" alt="" />
 					<span>
@@ -209,6 +210,16 @@
 						<p>WiMSA | Women in Mining South Africa</p>
 					</span>
 				</a>
+				-->
+
+				<a href="wimsa.php" class="pattern-channel-item" data-pattern-channel-item="network wimsa women in mine mining south africa petro du pisani dupisani">
+					<img src="assets/images/cover-art/channels/wimsa.jpg" alt="" />
+					<span>
+						<p>Network</p>
+						<p>WiMSA Women in Mining South Africa</p>
+					</span>
+				</a>
+
 
 				<a href="onchange.php" class="pattern-channel-item" data-pattern-channel-item="on change onchange petro du pisani dupisani">
 					<img src="assets/images/cover-art/channels/on-change.jpg" alt="" />

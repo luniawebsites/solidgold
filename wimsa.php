@@ -137,8 +137,8 @@
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
 <!--
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/lights-cameras-action-with-kimberleigh-stark/id1445292881" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lights-cameras-action-with-kimberleigh-stark" target="_blank" rel="noopener"></a>
--->
+-->					
+					<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=338545&refid=stpr" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/wimsa" target="_blank" rel="noopener"></a>
 <!--					
 					<a class="badge-google-podcasts" href="https://play.google.com/music/m/I5verrs3l6ikb3dv7lisuttlloe?t=Lights_Cameras_Action_with_Kimberleigh_Stark" target="_blank" rel="noopener"></a>
@@ -178,7 +178,7 @@
 							Email
 							-->
 							<li>
-								<a href="mailto:wimsa@solidgoldstudios.co.za?subject=WiMSA%20Podcast%20Query" target="_blank" rel="noopener">
+								<a href="mailto:network@wimsa.org.za?subject=WiMSA%20Podcast%20Query" target="_blank" rel="noopener">
 									<span class="email">Email</span>
 								</a>
 							</li>

@@ -138,7 +138,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/edu-inc-creative-arts-department/id1439099991" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/education-incorporated-boutique-school-creative-arts-and-language" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/eduinccreativearts" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a>-->
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/I2sos64y4rpdoax3tdh7yt7fn4e?t=Edu_Inc_Creative_Arts_and_Languages" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Language-id1455068?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>

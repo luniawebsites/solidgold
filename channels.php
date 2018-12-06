@@ -202,10 +202,10 @@
 				</a>
 
 				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the network women in mining south africa as wimsa">
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item=" network women in mining south africa wimsa">
 					<img src="assets/images/cover-art/channels/placeholder-wimsa.jpg" alt="" />
 					<span>
-						<p>The Network</p>
+						<p>Network</p>
 						<p>WiMSA | Women in Mining South Africa</p>
 					</span>
 				</a>

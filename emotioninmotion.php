@@ -151,7 +151,9 @@
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
 					<p class="text-l-mob">Join <a href="https://www.linkedin.com/in/charlottedblignaut/" target="_blank" rel="noopener">Charlotte D Blignaut</a></p>
+					<p class="text-l-mob"><strong>The Naked Soul</strong> - getting passionately deep and naked with your Soul and Mind.</p>
 					<p class="text-l-mob">Open-minded mindfulness - exploring the change in Mindsets required and the relationship with evolving Consciousness in our world. Including various options shared for coping, plus bonus in learning how to expand your own consciousness, We will discuss, coach or chat, with you the audience and with various people, who are seen as leaders of change, where change has been embraced is prevalent and working well. Uncovering and sharing the many varied ways and means for improving inner balance, joy and creating authenticity of our lives life within.</p>
+					<p class="text-l-mob"><strong>Experience the ultimate marriage of your Mind, Heart and Soul - it's your destiny.</strong></p>
 
 					<!-- add link to consent form -->
 					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">media usage agreement.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>

@@ -60,6 +60,11 @@
 	-->
 	<script src="assets/scripts/combined.min.js" defer></script>
 
+	<!--
+	Google Webmaster Site Ownership Verification
+	-->
+	<meta name="google-site-verification" content="Xhtg3JduHMTfkVYmJYd0BVaanFxlEyxTRX5JELTDG94" />
+
 </head>
 
 <body class="theme-grey">

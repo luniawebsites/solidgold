@@ -58,6 +58,13 @@
 	-->
 	<script src="assets/scripts/combined.min.js" defer></script>
 
+	<!--
+	To enable Google to add this podcast to their player
+	-->
+
+	<link type="application/rss+xml" rel="alternate"
+      title="Solid Gold Studios Demo and Sample Channel | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/solidgoldstudios.xml"/>	
+
 </head>
 
 <body class="theme-grey">

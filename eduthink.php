@@ -58,6 +58,13 @@
 	-->
 	<script src="assets/scripts/combined.min.js" defer></script>
 
+	<!--
+	To enable Google to add this podcast to their player
+	-->
+
+	<link type="application/rss+xml" rel="alternate"
+      title="EduThink with Gavin Kennedy | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/eduthink.xml"/>	
+
 </head>
 
 <body class="theme-grey">

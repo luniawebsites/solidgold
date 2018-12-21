@@ -59,6 +59,13 @@
 	-->
 	<script src="assets/scripts/combined.min.js" defer></script>
 
+	<!--
+	To enable Google to add this podcast to their player
+	-->
+
+	<link type="application/rss+xml" rel="alternate"
+      title="WiMSA - Women in Mining South Africa | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/wimsa.xml"/>	
+
 </head>
 
 <body class="theme-grey">

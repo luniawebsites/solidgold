@@ -58,6 +58,13 @@
 	-->
 	<script src="assets/scripts/combined.min.js" defer></script>
 
+	<!--
+	To enable Google to add this podcast to their player
+	-->
+
+	<link type="application/rss+xml" rel="alternate"
+      title="The Carmen Murray Show | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
+
 </head>
 
 <body class="theme-grey">

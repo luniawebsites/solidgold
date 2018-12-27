@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="On Change with Petro du Pisani | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/onchange.xml"/>
+      title="On Change with Petro du Pisani | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/onchange.xml"/>
 
 </head>
 

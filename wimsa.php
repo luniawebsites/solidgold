@@ -64,7 +64,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="WiMSA - Women in Mining South Africa | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/wimsa.xml"/>	
+      title="WiMSA - Women in Mining South Africa | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/wimsa.xml"/>	
 
 </head>
 
@@ -147,7 +147,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business--Economics-Podcasts/Network--Women-in-Mining-South-Africa-p1180592/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/id1500900?country=za" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/2KJsDKJE3LZvaQqtEr8uZk" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/wimsa.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/wimsa.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

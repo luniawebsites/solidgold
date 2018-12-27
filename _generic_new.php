@@ -139,7 +139,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/???" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/???" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/???.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/???.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

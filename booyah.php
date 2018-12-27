@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Boo-Yah! with Carmen Muray | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/booyah.xml"/>	
+      title="Boo-Yah! with Carmen Muray | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/booyah.xml"/>	
 
 </head>
 
@@ -146,7 +146,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Technology-Podcasts/Boo-Yah-with-Carmen-Murray-p1174697/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Boo-Yah!-with-Carmen-Murray-id1310444?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/04MUQzR2H8St2mevIuG5Fr" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/booyah.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/booyah.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

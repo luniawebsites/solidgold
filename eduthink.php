@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="EduThink with Gavin Kennedy | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/eduthink.xml"/>	
+      title="EduThink with Gavin Kennedy | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduthink.xml"/>	
 
 </head>
 
@@ -148,7 +148,7 @@
 					<a class="badge-castbox" href="https://castbox.fm/channel/EduThink-with-Gavin-Kennedy-id1328103?country=us" target="_blank" rel="noopener"></a>
 					
 					<a class="badge-spotify" href="https://open.spotify.com/show/7iEyrfm8AYdpsdcLeiwB7D" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/eduthink.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduthink.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

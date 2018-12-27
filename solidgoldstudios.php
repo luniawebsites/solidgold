@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Solid Gold Studios Demo and Sample Channel | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/solidgoldstudios.xml"/>	
+      title="Solid Gold Studios Demo and Sample Channel | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/solidgoldstudios.xml"/>	
 
 </head>
 
@@ -157,7 +157,7 @@
 
 					<a class="badge-spotify" href="https://open.spotify.com/show/6HqiRTx5R9s2GE9TKO7JgQ" target="_blank" rel="noopener"></a>
 	
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/solidgoldstudios.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/solidgoldstudios.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

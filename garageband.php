@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Garage Band | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/garageband.xml"/>	
+      title="Garage Band | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/garageband.xml"/>	
 
 </head>
 
@@ -148,7 +148,7 @@
 					<a class="badge-castbox" href="https://castbox.fm/channel/Garage-Band-by-Adam-Alexander-id1472703" target="_blank" rel="noopener"></a>
 					
 					<a class="badge-spotify" href="https://open.spotify.com/show/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/garageband.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/garageband.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

@@ -66,7 +66,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="EduInc Boutique School | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/eduinc.xml"/>	
+      title="EduInc Boutique School | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduinc.xml"/>	
 
 </head>
 
@@ -149,7 +149,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Language-id1455068?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/eduinccreativearts.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduinccreativearts.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

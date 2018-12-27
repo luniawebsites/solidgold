@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="The Carmen Murray Show | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
+      title="The Carmen Murray Show | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
 
 </head>
 
@@ -146,7 +146,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business--Economics-Podcasts/The-Carmen-Murray-Show-p1146130/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/The-Carmen-Murray-Show-id1382247?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/2j2HXj57OmjNZD6aOHsVAX" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/thecarmenmurrayshow.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/thecarmenmurrayshow.xml" target="_blank" rel="noopener"></a>
 
 				</div>
 

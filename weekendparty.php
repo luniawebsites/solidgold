@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Lance Zeeman's Weekend Party Entertainment Report | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/weekendparty.xml"/>	
+      title="Lance Zeeman's Weekend Party Entertainment Report | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/weekendparty.xml"/>	
 
 </head>
 
@@ -146,7 +146,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Entertainment--Media/Lance-Zeemans-Weekend-Party-p1146497/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Lance-Zeeman's-Weekend-Party-Entertainment-Report-id1366224?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/weekendparty.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/weekendparty.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

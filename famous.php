@@ -64,7 +64,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Kimberleigh Stark's Lights, Cameras, Action! | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/famous.xml"/>
+      title="Kimberleigh Stark's Lights, Cameras, Action! | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/famous.xml"/>
 
 </head>
 
@@ -148,7 +148,7 @@
 				<a class="badge-castbox" href="https://castbox.fm/channel/id1497486?country=us" target="_blank" rel="noopener"></a>
 					
 					<a class="badge-spotify" href="https://open.spotify.com/show/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/famous.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/famous.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

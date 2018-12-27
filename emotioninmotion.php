@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Emotion in Motin with Charlotte D BLignaut | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/emotioninmotion.xml"/>	
+      title="Emotion in Motin with Charlotte D BLignaut | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/emotioninmotion.xml"/>	
 
 </head>
 
@@ -147,7 +147,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Health--Wellness-Podcasts/Emotion-in-Motion-with-Charlotte-D-Blignaut-p1176826/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/id1481528" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

@@ -146,7 +146,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business/On-Change-with-Petro-du-Pisani-p1146999/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/On-Change-with-Petro-du-Pisani-id1319916?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/0Dy3meQJTfg9pD5cUkMEju" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/onchange.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/onchange.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

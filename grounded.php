@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Melanie Walker's Grounded | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/grounded.xml"/>
+      title="Melanie Walker's Grounded | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/grounded.xml"/>
 
 
 </head>
@@ -147,7 +147,7 @@
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Gardening/Melanie-Walkers-Grounded-p1146458/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Melanie-Walker's-Grounded-id1320773?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/3RFGRF9k8Th5lbpnc4QMjt" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://podcaststudios.co.za/rss/grounded.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/grounded.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

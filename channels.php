@@ -202,6 +202,15 @@
 				</a>
 
 				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="vuuma collaborations mineshare simine gary lane harry sinko">
+					<img src="assets/images/cover-art/channels/mineshare-cover-s01-0000.jpg" alt="" />
+					<span>
+						<p>MineShare</p>
+						<p>Vuuma Collaborations</p>
+					</span>
+				</a>
+
+				<!-- Coming soon -->
 				<!--
 				<a class="pattern-channel-item coming-soon" data-pattern-channel-item=" network women in mining south africa wimsa">
 					<img src="assets/images/cover-art/channels/placeholder-wimsa.jpg" alt="" />

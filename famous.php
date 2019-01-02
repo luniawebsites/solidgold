@@ -64,7 +64,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Kimberleigh Stark's Lights, Cameras, Action! | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/famous.xml"/>
+      title="Kimberleigh Stark's Lights, Cameras, Action! | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/famous.xml"/>
 
 </head>
 

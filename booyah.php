@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Boo-Yah! with Carmen Muray | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/booyah.xml"/>	
+      title="Boo-Yah! with Carmen Muray | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/booyah.xml"/>	
 
 </head>
 

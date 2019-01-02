@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="The Carmen Murray Show | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
+      title="The Carmen Murray Show | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
 
 </head>
 

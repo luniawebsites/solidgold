@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Emotion in Motin with Charlotte D BLignaut | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/emotioninmotion.xml"/>	
+      title="Emotion in Motin with Charlotte D BLignaut | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/emotioninmotion.xml"/>	
 
 </head>
 

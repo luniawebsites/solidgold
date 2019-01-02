@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Solid Gold Studios Demo and Sample Channel | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/solidgoldstudios.xml"/>	
+      title="Solid Gold Studios Demo and Sample Channel | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/solidgoldstudios.xml"/>	
 
 </head>
 

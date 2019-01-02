@@ -62,8 +62,8 @@
 	To enable Google to add this podcast to their player
 	-->
 
-	<link type="application/rss+xml" rel="alternate"
-      title="Melanie Walker's Grounded | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/grounded.xml"/>
+	<link rel="alternate" type="application/rss+xml" title="Melanie Walker's Grounded | another Solid Gold podcast"
+		href="https://podcaststudios.co.za/rss/grounded.xml"/>
 
 
 </head>

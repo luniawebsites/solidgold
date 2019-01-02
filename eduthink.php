@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="EduThink with Gavin Kennedy | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduthink.xml"/>	
+      title="EduThink with Gavin Kennedy | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/eduthink.xml"/>	
 
 </head>
 

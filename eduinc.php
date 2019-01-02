@@ -66,7 +66,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="EduInc Boutique School | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduinc.xml"/>	
+      title="EduInc Boutique School | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/eduinccreativearts.xml"/>	
 
 </head>
 

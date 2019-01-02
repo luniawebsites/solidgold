@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Garage Band | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/garageband.xml"/>	
+      title="Garage Band | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/garageband.xml"/>	
 
 </head>
 

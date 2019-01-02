@@ -64,7 +64,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="WiMSA - Women in Mining South Africa | another Solid Gold podcast" href="https://chtbl.com/track/podcaststudios.co.za/rss/wimsa.xml"/>	
+      title="WiMSA - Women in Mining South Africa | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/wimsa.xml"/>	
 
 </head>
 

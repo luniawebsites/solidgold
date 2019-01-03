@@ -142,7 +142,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/on-change-with-petro-du-pisani/id1315923608?mt=2" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/on-change-with-petro-du-pisani" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/onchange" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://play.google.com/music/m/Iupzguv3v7yof4iz73cnubscmdy?t%3DOn_Change_with_Petro_du_Pisani" target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvb25jaGFuZ2UueG1s" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business/On-Change-with-Petro-du-Pisani-p1146999/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/On-Change-with-Petro-du-Pisani-id1319916?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/0Dy3meQJTfg9pD5cUkMEju" target="_blank" rel="noopener"></a>

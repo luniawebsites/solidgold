@@ -143,7 +143,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/melanie-walkers-grounded/id1400294539?mt=2" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/melanie-walkers-grounded" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/grounded" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://play.google.com/music/m/Izap6o2pkuwqjqn4rf7w7md74jq?t%3DMelanie_Walker's_Grounded" target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ3JvdW5kZWQueG1s" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Gardening/Melanie-Walkers-Grounded-p1146458/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/Melanie-Walker's-Grounded-id1320773?country=us" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/3RFGRF9k8Th5lbpnc4QMjt" target="_blank" rel="noopener"></a>

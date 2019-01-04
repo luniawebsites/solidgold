@@ -142,7 +142,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/garage-band/id1441251250" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/garage-band" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/garageband" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://play.google.com/music/m/I6yaxierh66beg2u7jxib33aese?t=Garage_Band_by_Adam_Alexander" target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ2FyYWdlYmFuZC54bWw%3D" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Radio-Drama-Podcasts/Garage-Band-by-Adam-Alexander-p1175853/" target="_blank" rel="noopener"></a>
 					
 					<a class="badge-castbox" href="https://castbox.fm/channel/Garage-Band-by-Adam-Alexander-id1472703" target="_blank" rel="noopener"></a>

@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 
 <head>
@@ -190,6 +190,15 @@
 					<span>
 						<p>Grounded</p>
 						<p>Melanie Walker</p>
+					</span>
+				</a>
+
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="gun firearm gosa">
+					<img src="assets/images/cover-art/channels/gosa-cover-s01-0000.jpg" alt="" />
+					<span>
+						<p>Gun Talk</p>
+						<p>Gun Owners South Africa</p>
 					</span>
 				</a>
 

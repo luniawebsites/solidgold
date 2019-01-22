@@ -140,7 +140,7 @@
 					<iframe src="https://tunein.com/embed/player/t126868184/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
 
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">Listen on</div>
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
 					
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/solid-gold-studios/id1441645116" target="_blank" rel="noopener"></a> 
 

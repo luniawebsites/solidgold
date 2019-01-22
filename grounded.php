@@ -139,7 +139,7 @@
 
 					<iframe src="https://tunein.com/embed/player/p1146458/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">Also available on</div>
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/melanie-walkers-grounded/id1400294539?mt=2" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/melanie-walkers-grounded" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/grounded" target="_blank" rel="noopener"></a>

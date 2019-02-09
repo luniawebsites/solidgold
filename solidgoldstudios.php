@@ -147,9 +147,9 @@
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/solid-gold-podcasts-studios" target="_blank" rel="noopener"></a>
 
 					<a class="badge-acast" href="https://www.acast.com/solidgoldstudios" target="_blank" rel="noopener"></a>
-<!--					
-					<a class="badge-google-podcasts" href="https://play.google.com/music/m/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>
-				-->
+
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc29saWRnb2xkc3R1ZGlvcy54bWw%3D" target="_blank" rel="noopener"></a>
+
 
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Technology-Podcasts/Solid-Gold-Studios-p1176355/" target="_blank" rel="noopener"></a>
 					

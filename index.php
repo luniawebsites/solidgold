@@ -539,10 +539,11 @@
 				<ul>
 					<li>We produce your podcasts in our professional studios, and host them online for you.</li>
 					<li>Podcasting is very popular&mdash;and the audience is growing.</li>
-					<li>People listen to podcasts at home, at work, while driving and in many other places.</li>
-					<li>The trend is to listen to podcasts instead of radio or music.</li>
+					<li>People listen to podcasts at home, at work, while cooking, at gym, and while driving.</li>
+					<li>There is a large shift away from radio listnership to podcasts.</li>
 					<li>Podcasts engage people deeply.</li>
 					<li>Podcasts are made to educate, inform or entertain (usually in some combination).</li>
+					<li>If you're appearing as a guest on any of our channels, <a href=http://bit.ly/sgsmua>please complete the media usage agreement</a> first.
 				</ul>
 			</article>
 

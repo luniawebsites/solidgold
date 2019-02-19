@@ -143,7 +143,7 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/network-women-in-mining-south-africa/id1445859854" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=338545&refid=stpr" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/wimsa" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://play.google.com/music/m/Ip5gufcypl6uz6h4qbuvbqypmzq?t%3DNetwork_%257C_Women_in_Mining_South_Africa" target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvd2ltc2EueG1s" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business--Economics-Podcasts/Network--Women-in-Mining-South-Africa-p1180592/" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/id1500900?country=za" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/2KJsDKJE3LZvaQqtEr8uZk" target="_blank" rel="noopener"></a>

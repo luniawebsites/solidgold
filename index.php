@@ -288,6 +288,7 @@
 					<h2 class="text-l-mob">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
 					<p class="text-l-mob"><strong>One quarter of the US population</strong> listened to a podcast last month. There are more than half-a-million active podcast shows and almost 20-million episodes listed on iTunes alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
 					<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener">Podcast Insight Stats</a></small></p>
+							
 				</div>
 
 			</div>
@@ -306,7 +307,14 @@
 
 			<header class="constrain pad-respond-xy-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
+				
 				<p class="constrain-80 text-l-mob text-c-tab">We offer so much more than just podcast recording. Our full service guides you right from the start through the entire process. Whether you're a complete beginner or a seasoned professional, we ensure everything gets done right.</p>
+
+				<p>Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://itunes.apple.com/gb/podcast/podcast-guest-101/id1453148446">Apple Podcasts</a> and <a href="https://castbox.fm/channel/Podcast-Guest-101-id2017044?country=za">CastBox</a>
+					</p>
+							
+				<p>If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. To book your space on our next Master Class, <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">drop us a mail</a></p>
+								
 			</header>
 
 			<!--

@@ -147,8 +147,7 @@
 					<a class="badge-google-podcasts" href="https://play.google.com/music/m/I5verrs3l6ikb3dv7lisuttlloe?t=Lights_Cameras_Action_with_Kimberleigh_Stark" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/Arts--Culture-Podcasts/Lights-Cameras-Action-with-Kimberleigh-Stark-p1179805/" target="_blank" rel="noopener"></a> -->
 					<a class="badge-castbox" href="https://castbox.fm/ch/2024398?country=za" target="_blank" rel="noopener"></a>
-					<!-- 
-					<a class="badge-spotify" href="https://open.spotify.com/show/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a> -->
+					<a class="badge-spotify" href="https://open.spotify.com/show/2gwzQPL0kpCcnB33Gz0aAl" target="_blank" rel="noopener"></a>
 					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/guntalk.xml" target="_blank" rel="noopener"></a>
 
 					</div>

@@ -194,7 +194,7 @@
 				</a>
 
 				<a href="guntalk.php" class="pattern-channel-item" data-pattern-channel-item="gun firearm gosa">
-					<img src="assets/images/cover-art/channels/guntalk-cover-s01-0000" alt="" />
+					<img src="assets/images/cover-art/channels/guntalk-cover-s01-0000.jpg" alt="" />
 					<span>
 						<p>Gun Talk</p>
 						<p>Gun Owners South Africa</p>

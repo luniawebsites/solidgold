@@ -310,7 +310,7 @@
 				
 				<p class="constrain-80 text-l-mob text-c-tab">We offer so much more than just podcast recording. Our full service guides you right from the start through the entire process. Whether you're a complete beginner or a seasoned professional, we ensure everything gets done right.</p>
 
-				<p>Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://itunes.apple.com/gb/podcast/podcast-guest-101/id1453148446">Apple Podcasts</a> and <a href="https://castbox.fm/channel/Podcast-Guest-101-id2017044?country=za">CastBox</a>
+				<p>Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <!-- <a href="https://itunes.apple.com/gb/podcast/podcast-guest-101/id1453148446"> --> Apple Podcasts <!-- </a> --> and <a href="https://castbox.fm/channel/id2022036?country=za">CastBox</a>
 					</p>
 							
 				<p>If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. To book your space on our next Master Class, <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">drop us a mail</a></p>

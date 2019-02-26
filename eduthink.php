@@ -140,14 +140,12 @@
 
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/eduthink-with-gavin-kennedy/id1316706544" target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZWR1dGhpbmsueG1s" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/eduthink-with-gavin-kennedy" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/eduthink" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZWR1dGhpbmsueG1s" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/EduThink-with-Gavin-Kennedy-p1146474/" target="_blank" rel="noopener"></a>
-					
 					<a class="badge-castbox" href="https://castbox.fm/channel/EduThink-with-Gavin-Kennedy-id1328103?country=us" target="_blank" rel="noopener"></a>
-					
 					<a class="badge-spotify" href="https://open.spotify.com/show/7iEyrfm8AYdpsdcLeiwB7D" target="_blank" rel="noopener"></a>
+					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/EduThink-with-Gavin-Kennedy-p1146474/" target="_blank" rel="noopener"></a>					
 					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduthink.xml" target="_blank" rel="noopener"></a>
 
 					</div>

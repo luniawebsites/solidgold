@@ -139,15 +139,15 @@
 					<iframe src="https://tunein.com/embed/player/p1176826/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 				
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-				
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/emotion-in-motion-with-charlotte-d-blignaut/id1441882031" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/emotion-in-motion" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/emotioninmotion" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZW1vdGlvbmlubW90aW9uLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Health--Wellness-Podcasts/Emotion-in-Motion-with-Charlotte-D-Blignaut-p1176826/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/id1481528" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1441882031" target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZW1vdGlvbmlubW90aW9uLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/emotion-in-motion" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/emotion-in-motion-with-charlotte-d-blignaut" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Health-podcasts/-842920" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/id1481528" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/49kCtiMKfLk75ZrgdGDdiz" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Health--Wellness-Podcasts/Emotion-in-Motion-with-Charlotte-D-Blignaut-p1176826/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/emotioninmotion.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

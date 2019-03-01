@@ -139,16 +139,15 @@
 					<iframe src="https://tunein.com/embed/player/p1146999/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/on-change-with-petro-du-pisani/id1315923608?mt=2" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvb25jaGFuZ2UueG1s" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/on-change-with-petro-du-pisani" target="_blank" rel="noopener"></a>
-					<a class="badge-playerfm" href="https://player.fm/series/2340044" target="_blank" rel="noopener"></a>					
-					<a class="badge-acast" href="https://www.acast.com/onchange" target="_blank" rel="noopener"></a>
-					<a class="badge-himalaya" href="https://www.himalaya.com/Business-podcasts/-590428" target="_blank" rel="noopener"></a>					
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business/On-Change-with-Petro-du-Pisani-p1146999/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/On-Change-with-Petro-du-Pisani-id1319916?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/0Dy3meQJTfg9pD5cUkMEju" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/onchange.xml" target="_blank" rel="noopener"></a>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1315923608" target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvb25jaGFuZ2UueG1s" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/on-change-with-petro-du-pisani" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/2340044" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Business-podcasts/-590428" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/On-Change-with-Petro-du-Pisani-id1319916?country=us" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/0Dy3meQJTfg9pD5cUkMEju" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Business/On-Change-with-Petro-du-Pisani-p1146999/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/onchange.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

@@ -140,14 +140,15 @@
 				<iframe src="https://tunein.com/embed/player/p1180592/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 				
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/network-women-in-mining-south-africa/id1445859854" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=338545&refid=stpr" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/wimsa" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvd2ltc2EueG1s" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Business--Economics-Podcasts/Network--Women-in-Mining-South-Africa-p1180592/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/id1500900?country=za" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/2KJsDKJE3LZvaQqtEr8uZk" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/wimsa.xml" target="_blank" rel="noopener"></a>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1445859854" target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvd2ltc2EueG1s" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=338545&refid=stpr" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/network-women-in-mining-south-africa" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Business-podcasts/-891409" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/id1500900?country=za" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/2KJsDKJE3LZvaQqtEr8uZk" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Business--Economics-Podcasts/Network--Women-in-Mining-South-Africa-p1180592/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/wimsa.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

@@ -139,14 +139,15 @@
 					<iframe src="https://tunein.com/embed/player/p1146497/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/lance-zeemans-weekend-party-entertainment-report/id1410068714?mt=2" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lance-zeemans-weekend-party-entertainment-report" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/weekendparty" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvd2Vla2VuZHBhcnR5LnhtbA%3D%3D" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Entertainment--Media/Lance-Zeemans-Weekend-Party-p1146497/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/Lance-Zeeman's-Weekend-Party-Entertainment-Report-id1366224?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/weekendparty.xml" target="_blank" rel="noopener"></a>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1410068714" target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvd2Vla2VuZHBhcnR5LnhtbA%3D%3D" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lance-zeemans-weekend-party-entertainment-report" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/lance-zeemans-weekend-party-entertainment-report" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Society%20&%20Culture-podcasts/-647477" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/Lance-Zeeman's-Weekend-Party-Entertainment-Report-id1366224?country=us" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Entertainment--Media/Lance-Zeemans-Weekend-Party-p1146497/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/weekendparty.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

@@ -140,16 +140,15 @@
 				<iframe src="https://tunein.com/embed/player/p1179805/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 				
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/lights-cameras-action-with-kimberleigh-stark/id1445292881" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lights-cameras-action-with-kimberleigh-stark" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/famous" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZmFtb3VzLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Arts--Culture-Podcasts/Lights-Cameras-Action-with-Kimberleigh-Stark-p1179805/" target="_blank" rel="noopener"></a>
-				<a class="badge-castbox" href="https://castbox.fm/channel/id1497486?country=us" target="_blank" rel="noopener"></a>
-					
-					<a class="badge-spotify" href="https://open.spotify.com/show/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/famous.xml" target="_blank" rel="noopener"></a>
-
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1445292881 " target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZmFtb3VzLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lights-cameras-action-with-kimberleigh-stark" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/lights-cameras-action-with-kimberleigh-stark" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Performing%20Arts-podcasts/-865283" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/id1497486" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/6Rp40NOBZgkgVniuegu25D" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Arts--Culture-Podcasts/Lights-Cameras-Action-with-Kimberleigh-Stark-p1179805/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/famous.xml" target="_blank" rel="noopener"></a>
 					</div>
 
 				<!--

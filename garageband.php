@@ -139,16 +139,15 @@
 					<iframe src="https://tunein.com/embed/player/t126742708/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/garage-band/id1441251250" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/garage-band" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/garageband" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ2FyYWdlYmFuZC54bWw%3D" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Radio-Drama-Podcasts/Garage-Band-by-Adam-Alexander-p1175853/" target="_blank" rel="noopener"></a>
-					
-					<a class="badge-castbox" href="https://castbox.fm/channel/Garage-Band-by-Adam-Alexander-id1472703" target="_blank" rel="noopener"></a>
-					
-					<a class="badge-spotify" href="https://open.spotify.com/show/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/garageband.xml" target="_blank" rel="noopener"></a>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1441251250 " target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ2FyYWdlYmFuZC54bWw%3D" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/garage-band" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/garage-band-by-adam-alexander" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Comedy-podcasts/-829143" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/Garage-Band-by-Adam-Alexander-id1472703" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/5WQBcc5OqitG595rXCd2DR" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Radio-Drama-Podcasts/Garage-Band-by-Adam-Alexander-p1175853/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/garageband.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

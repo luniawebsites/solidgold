@@ -142,14 +142,15 @@
 					<iframe src="https://tunein.com/embed/player/p1174698/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
 					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
-					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/edu-inc-creative-arts-department/id1439099991" target="_blank" rel="noopener"></a>
-					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/education-incorporated-boutique-school-creative-arts-and-language" target="_blank" rel="noopener"></a>
-					<a class="badge-acast" href="https://www.acast.com/eduinccreativearts" target="_blank" rel="noopener"></a>
-					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZWR1aW5jY3JlYXRpdmVhcnRzLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
-					<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
-					<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Language-id1455068?country=us" target="_blank" rel="noopener"></a>
-					<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>
-					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduinccreativearts.xml" target="_blank" rel="noopener"></a>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1439099991" target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZWR1aW5jY3JlYXRpdmVhcnRzLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
+<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/education-incorporated-boutique-school-creative-arts-and-language" target="_blank" rel="noopener"></a>
+<a class="badge-playerfm" href="https://player.fm/series/education-incorporated-boutique-school" target="_blank" rel="noopener"></a>
+<a class="badge-himalaya" href="https://www.himalaya.com/Education-podcasts/-775071" target="_blank" rel="noopener"></a>
+<a class="badge-castbox" href="https://castbox.fm/channel/Edu-Inc-Creative-Arts-and-Language-id1455068?country=us" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/6GQ0e5qZWWldztpDcJnGdX" target="_blank" rel="noopener"></a>
+<a class="badge-tune-in" href="https://tunein.com/podcasts/Education-Podcasts/Education-Incorporated-Boutique-School-Creative-p1174698/" target="_blank" rel="noopener"></a>
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/eduinccreativearts.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

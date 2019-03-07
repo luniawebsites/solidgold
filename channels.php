@@ -177,6 +177,15 @@
 					</span>
 				</a>				
 
+				<a href="extralessons.php" class="pattern-channel-item" data-pattern-channel-item="Kip McGrath extra lessons tutor math afrikaans">
+					<img src="assets/images/cover-art/channels/extralessons-cover-s01-0000.jpg" alt="" />
+					<span>
+						<p>Extra Lessons</p>
+						<p>Kip Lessons</p>
+					</span>
+				</a>
+
+
 				<a href="garageband.php" class="pattern-channel-item" data-pattern-channel-item="garage band adam alexander">
 					<img src="assets/images/cover-art/channels/garageband.jpg" alt="" />
 					<span>

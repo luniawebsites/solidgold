@@ -12,7 +12,7 @@
 	<meta name="keywords" content="gosa, gun, firearm, shoot, corporate communication, another solid gold podcast, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | Gun Talk">
+	<meta name="pagename" content="Gun Talk by Gun Owners South Africa (GOSA) | Another Solid Gold Podcast">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
@@ -24,7 +24,7 @@
 	<meta property="og:locale" content="en_ZA" />
 	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/guntalk.php" />
 	<meta property="og:type" content="website" />
-	<title>Gun Talk | GOSA Gun Owners South Africa</title>
+	<title>Gun Talk by Gun Owners South Africa (GOSA) | Another Solid Gold Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -64,7 +64,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Gun Talk | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/guntalk.xml"/>
+      title="Gun Talk by Gun Owners South Africa (GOSA) | Another Solid Gold Podcast" href="https://podcaststudios.co.za/rss/guntalk.xml"/>
 
 </head>
 
@@ -103,7 +103,7 @@
 			<div>
 
 				<h1 class="text-c-mob text-l-tab">Gun Talk</h1>
-				<h2 class="text-c-mob text-l-tab">GOSA Gun Owners South Africa</span></h2>
+				<h2 class="text-c-mob text-l-tab">by Gun Owners South Africa (GOSA)</span></h2>
 
 			</div>
 
@@ -137,16 +137,26 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-				<!-- <iframe src="https://tunein.com/embed/player/p1179805/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe> -->
-				
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
+<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+
+<!-- EMBEDDED PLAYER GOES HERE -->
+<iframe src="https://castbox.fm/app/castbox/player/id2024398/id130875517?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+<!-- EMBEDDED PLAYER GOES HERE -->
+
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+
 <a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1453843539 " target="_blank" rel="noopener"></a>
 <a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ3VudGFsay54bWw%3D" target="_blank" rel="noopener"></a>
+<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/gun-talk-by-gosa-805290" target="_blank" rel="noopener"></a>
 <a class="badge-stitcher" href="https://www.stitcher.com/s?fid=375470&refid=stpr" target="_blank" rel="noopener"></a>
-<a class="badge-playerfm" href="not yet" target="_blank" rel="noopener"></a>
+<a class="badge-pocket-casts" href="http://pca.st/itunes/1453843539" target="_blank" rel="noopener"></a>
 <a class="badge-himalaya" href="https://www.himalaya.com/Non-Profit-podcasts/-983527" target="_blank" rel="noopener"></a>
 <a class="badge-castbox" href="https://castbox.fm/ch/2024398" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/2gwzQPL0kpCcnB33Gz0aAl" target="_blank" rel="noopener"></a>
+
+
+<a class="badge-overcast" href="https://overcast.fm/itunes1453843539" target="_blank" rel="noopener"></a>
 
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/guntalk.xml" target="_blank" rel="noopener"></a>
 

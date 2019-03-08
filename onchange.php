@@ -11,19 +11,19 @@
 	<meta name="keywords" content="on change, petro du pisani, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | On Change">
+	<meta name="pagename" content="On Change with Petro du Pisani | Another Solid Gold Podcast">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | On Change" />
+	<meta property="og:title" content="On Change with Petro du Pisani | Another Solid Gold Podcast" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
 	<meta property="og:url" content="https://solidgoldstudios.co.za/onchange.php" />
 	<meta property="og:type" content="website" />
-	<title>On Change</title>
+	<title>On Change with Petro du Pisani | Another Solid Gold Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -136,17 +136,28 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-					<iframe src="https://tunein.com/embed/player/p1146999/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
+<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
 
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
+<!-- EMBEDDED PLAYER GOES HERE -->
+<iframe src="https://castbox.fm/app/castbox/player/id1319916?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+<!-- EMBEDDED PLAYER GOES HERE -->
+
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+
 <a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1315923608" target="_blank" rel="noopener"></a>
 <a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvb25jaGFuZ2UueG1s" target="_blank" rel="noopener"></a>
+<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/on-change-with-petro-du-pisani-592488" target="_blank" rel="noopener"></a>
 <a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/on-change-with-petro-du-pisani" target="_blank" rel="noopener"></a>
+<a class="badge-pocket-casts" href="http://pca.st/itunes/1315923608" target="_blank" rel="noopener"></a>
 <a class="badge-playerfm" href="https://player.fm/series/2340044" target="_blank" rel="noopener"></a>
 <a class="badge-himalaya" href="https://www.himalaya.com/Business-podcasts/-590428" target="_blank" rel="noopener"></a>
 <a class="badge-castbox" href="https://castbox.fm/channel/On-Change-with-Petro-du-Pisani-id1319916?country=us" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/0Dy3meQJTfg9pD5cUkMEju" target="_blank" rel="noopener"></a>
-<a class="badge-tune-in" href="https://tunein.com/podcasts/Business/On-Change-with-Petro-du-Pisani-p1146999/" target="_blank" rel="noopener"></a>
+
+
+<a class="badge-overcast" href="https://overcast.fm/itunes1315923608" target="_blank" rel="noopener"></a>
+
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/onchange.xml" target="_blank" rel="noopener"></a>
 
 					</div>

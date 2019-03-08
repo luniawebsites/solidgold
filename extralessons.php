@@ -12,19 +12,19 @@
 	<meta name="keywords" content="Kip McGrath, Kumon, Master Maths, Extra Lessons, Saturday School, Tutor, Teach, remedial, Vishani Lukman, Paul Albrecht, another Solid Gold podcast, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | Understanding Extra Lessons">
+	<meta name="pagename" content="Understanding Extra Lessons | Another Solid Gold Podcast">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | Understanding Extra Lessons" />
+	<meta property="og:title" content="Understanding Extra Lessons | Another Solid Gold Podcast" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
 	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/extralessons.php" />
 	<meta property="og:type" content="website" />
-	<title>Understanding Extra Lessons</title>
+	<title>Understanding Extra Lessons | Another Solid Gold Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -137,13 +137,20 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-				<!-- <iframe src="https://tunein.com/embed/player/p1179805/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe> -->
-				
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+
+<!-- EMBEDDED PLAYER GOES HERE -->
+<iframe src="https://castbox.fm/app/castbox/player/id2042453/id134318629?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+<!-- EMBEDDED PLAYER GOES HERE -->
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=380779&refid=stpr" target="_blank" rel="noopener"></a>
 <a class="badge-castbox" href="https://castbox.fm/channel/id2042453" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/2NQPeVHXwYzgLoeZZxsIbI" target="_blank" rel="noopener"></a>
-
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/extralessons.xml" target="_blank" rel="noopener"></a>
+
+
 
 					</div>
 

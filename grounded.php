@@ -11,19 +11,19 @@
 	<meta name="keywords" content="grounded, melanie walker, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | Grounded">
+	<meta name="pagename" content="Grounded | Another Solid Gold Podcast">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | Grounded" />
+	<meta property="og:title" content="Grounded | Another Solid Gold Podcast" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
 	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/grounded.php" />
 	<meta property="og:type" content="website" />
-	<title>Grounded</title>
+	<title>Grounded | Another Solid Gold Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -137,18 +137,33 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-					<iframe src="https://tunein.com/embed/player/p1146458/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+
+<!-- EMBEDDED PLAYER GOES HERE -->
+<iframe src="https://castbox.fm/app/castbox/player/id1320773?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+<!-- EMBEDDED PLAYER GOES HERE -->
+
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+
 <a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1400294539" target="_blank" rel="noopener"></a>
 <a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ3JvdW5kZWQueG1s" target="_blank" rel="noopener"></a>
+<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/melanie-walkers-grounded-692238" target="_blank" rel="noopener"></a>
 <a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/melanie-walkers-grounded" target="_blank" rel="noopener"></a>
+<a class="badge-pocket-casts" href="http://pca.st/itunes/1400294539" target="_blank" rel="noopener"></a>
 <a class="badge-playerfm" href="https://player.fm/series/2350403" target="_blank" rel="noopener"></a>
 <a class="badge-himalaya" href="https://www.himalaya.com/Outdoor-podcasts/-588411" target="_blank" rel="noopener"></a>
 <a class="badge-castbox" href="https://castbox.fm/channel/Melanie-Walker's-Grounded-id1320773?country=us" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/3RFGRF9k8Th5lbpnc4QMjt" target="_blank" rel="noopener"></a>
-<a class="badge-tune-in" href="https://tunein.com/podcasts/Gardening/Melanie-Walkers-Grounded-p1146458/" target="_blank" rel="noopener"></a>
+
+
+<a class="badge-overcast" href="https://overcast.fm/itunes1400294539" target="_blank" rel="noopener"></a>
+
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/grounded.xml" target="_blank" rel="noopener"></a>
+
+
 
 					</div>
 
@@ -158,7 +173,7 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
-					<p class="text-l-mob">From Solid Gold Studios welcome to Grounded. Hosted by the ever-energetic <a href="https://www.linkedin.com/in/melanie-walker-675a0413/" target="_blank" rel="noopener">Melanie Walker</a>, this podcast explores gardening and all things grounded.</p>
+					<p class="text-l-mob">From Solid Gold Studios welcome to <strong>Grounded</strong>. Hosted by the ever-energetic <a href="https://www.linkedin.com/in/melanie-walker-675a0413/" target="_blank" rel="noopener">Melanie Walker</a>, this podcast explores gardening and all things grounded.</p>
 					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">media usage agreement.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 					
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">

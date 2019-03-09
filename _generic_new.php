@@ -135,10 +135,15 @@
 					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/???" target="_blank" rel="noopener"></a>
 					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/???" target="_blank" rel="noopener"></a>
 					<a class="badge-acast" href="https://www.acast.com/???" target="_blank" rel="noopener"></a>
-					<!--<a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a>-->
+					<a class="badge-google-podcasts" href="https://play.google.com/music/m/???" target="_blank" rel="noopener"></a>
 					<a class="badge-tune-in" href="https://tunein.com/podcasts/???" target="_blank" rel="noopener"></a>
 					<a class="badge-castbox" href="https://castbox.fm/channel/???" target="_blank" rel="noopener"></a>
 					<a class="badge-spotify" href="https://open.spotify.com/show/???" target="_blank" rel="noopener"></a>
+					<a class="badge-radio-public" href="???" target="_blank" rel="noopener"></a>
+					<a class="badge-pocket-casts" href="???" target="_blank" rel="noopener"></a>
+					<a class="badge-overcast" href="???" target="_blank" rel="noopener"></a>
+					<a class="badge-castro" href="???" target="_blank" rel="noopener"></a>
+					<a class="badge-podchaser" href="???" target="_blank" rel="noopener"></a>
 					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/???.xml" target="_blank" rel="noopener"></a>
 
 					</div>

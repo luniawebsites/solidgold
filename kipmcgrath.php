@@ -144,9 +144,21 @@
 <iframe src="https://castbox.fm/app/castbox/player/id2045311/id134844758?v=4.1.0&autoplay=1" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
 <!-- EMBEDDED PLAYER GOES HERE -->
 
+
 <div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+
+
+
+
+<a class="badge-stitcher" href="​​https://www.stitcher.com/s?fid=381659&refid=stpr" target="_blank" rel="noopener"></a>
+
+
+
 <a class="badge-castbox" href="https://castbox.fm/channel/id2045311" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/0IA0CcMwdX7sZhcHW5lt9e" target="_blank" rel="noopener"></a>
+
+
+
 
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/kipmcgrath.xml" target="_blank" rel="noopener"></a>
 

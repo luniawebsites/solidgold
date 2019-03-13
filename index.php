@@ -138,7 +138,7 @@
 
 				<div class="animated fadeInUpShort">
 					<h2 class="text-l-mob">Like radio, <span class="no-break">but better.</span></h2>
-					<p class="text-l-mob">Podcasts are like having radio shows available on demand. All you need is a free app, such as <a href="https://itunes.com/" target="_blank" rel="noopener">iTunes</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a> and an Internet connection. Use the app to subscribe to podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
+					<p class="text-l-mob">Podcasts are like having every radio show ever made available on demand. All you need is a free app, such as <a href="https://itunes.com/" target="_blank" rel="noopener">iTunes</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a>, an Internet connection and time to listen, most commonly while commuting, at gym or even while preparing meals. Use the app to subscribe to podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
 					<div class="flow-ttb-mob spread pad-t-mob pad-respond-b-mob pad-respond-b-mob justify-c-mob justify-fs-tab">
 						<h3 class="text-l-mob">Try a sample:</h3>
 						<iframe src="https://tunein.com/embed/player/t123888510/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
@@ -158,9 +158,20 @@
 			<div class="pad-respond-y-mob constrain animated fadeInUpShort">
 				<h2 class="pseudo-column pad-b-mob text-l-mob font-white animated">Tell the world your story.</h2>
 				<p class="pseudo-column text-l-mob font-white">This short clip from Petro Du Pisani's channel <a href="onchange.php">On Change</a> gives you a powerful demonstration of the effect of sincere and motivated story-telling.</p>
+				<p class="pseudo-column text-l-mob font-white">Sharing your <strong>Origin Story</strong> is possibly the most effective way to share how your personal or business values were shaped.</p>
+				
+<!-- remove old TuneIn player
 				<div class="pseudo-column">
 					<iframe src="https://tunein.com/embed/player/t126868184/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 				</div>
+remove TuneIn player -->				
+
+<div>
+    <p>Listen to Corrie Petzer's Origin Story (dur 2:21)</p>
+    <audio style="width:100%" controls src="https://podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3"></audio>
+</div>
+
+
 			</div>
 
 		</section>
@@ -310,8 +321,23 @@
 				
 				<p class="constrain-80 text-l-mob text-c-tab">We offer so much more than just podcast recording. Our full service guides you right from the start through the entire process. Whether you're a complete beginner or a seasoned professional, we ensure everything gets done right.</p>
 
-				<p>Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://itunes.apple.com/gb/podcast/solid-gold-studios-podcast-guest-101/id1453577648 ">Apple Podcasts</a> and <a href="https://castbox.fm/channel/id2022036?country=za">CastBox</a>
+			</header>
+
+			<header class="constrain pad-respond-xy-mob">
+				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
+
+				<p>Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a>
 					</p>
+
+			<div>
+    			<p>Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</p>
+    			<audio style="width:100%" controls src="https://podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3"></audio>
+			</div>
+
+			<div>
+    			<p>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</p>
+    			<audio style="width:100%" controls src="https://podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3"></audio>
+			</div>			
 							
 				<p>If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. To book your space on our next Master Class, <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">drop us a mail</a></p>
 								

@@ -97,7 +97,7 @@
 			<div class="flow-ttb-mob pad-respond-y-mob align-fs-mob">
 
 				<h1 class="text-l-mob">Pricing</h1>
-				<p class="text-l-mob">All our plans include publishing to Google Podcasts, Apple Podcasts, Spotify, Stitcher and Castbox (along with several others like Himalaya and Player FM) to help you reach the widest possible audience. You also get a web page on our site with your "bio" and links to the various platforms. Oh yes, we also Tweet and post to social platforms on a regular basis so our audience knows about you.</p>
+				<p class="text-l-mob">All our plans include publishing to Google Podcasts, Apple Podcasts, Spotify, Stitcher and Castbox (along with several others like Himalaya and Player FM) to help you reach the widest possible audience. You also get a web page on our site with your "bio" and links to the various platforms. Oh yes, we regularly <a href="https://twitter.com/solidgoldpods">Tweet (#BeHeard)</a> and post to <a href="https://facebook.com/solidgoldpodcaststudios/">social platforms</a> so our audience learns about you and your story.</p>
 				<p class="text-l-mob"><a href="contact.php">Contact us</a> for a personalised pricing plan that works for you.</p>
 
 			</div>

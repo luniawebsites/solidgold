@@ -138,15 +138,7 @@
 				Form
 				-->
 
-				<form action="https://formspree.io/gavin@solidgoldstudios.co.za" method="POST">
-
-					<!--
-					Hidden inputs
-					-->
-
-					<input type="hidden" name="_subject" value="[Website Message]" />
-					<input type="hidden" name="_next" value="https://solidgoldstudios.co.za/form-to-email-success.php" />
-					<input type="text" name="_gotcha" style="display:none" />
+				<form accept-charset="UTF-8" action="https://usebasin.com/f/ea7e33ad9af1" method="POST">
 
 					<!--
 					Visible inputs
@@ -161,7 +153,7 @@
 									<label for="name">
 
 											<span>Name</span>
-											<input type="text" name="name" tabindex="1" required />
+											<input type="text" name="name" id="name" tabindex="1" required />
 
 									</label>
 
@@ -171,7 +163,7 @@
 									<label for="email">
 
 											<span>Email</span>
-											<input type="email" name="_replyto" tabindex="2" required />
+											<input type="email" name="email" id="email" tabindex="2" required />
 
 									</label>
 
@@ -183,14 +175,14 @@
 								<label for="name">
 
 									<span>Message</span>
-									<textarea id="message" name="message" rows="4" tabindex="3" required></textarea>
+									<textarea name="message" id="message" rows="4" tabindex="3" required></textarea>
 
 								</label>
 
 							</div>
 							<div class="flow-ttb-mob align-c-mob pad-respond-t-mob">
 
-								<button class="theme-blue" type="submit">Send Message</button>
+								<button class="theme-blue" type="submit" id="section_contactform_button_submit">Send Message</button>
 
 							</div>
 

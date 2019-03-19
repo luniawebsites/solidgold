@@ -97,14 +97,21 @@
 			<div class="flow-ttb-mob pad-respond-y-mob align-fs-mob">
 
 				<h1 class="text-l-mob">Pricing</h1>
-				<p class="text-l-mob">All our plans include publishing to Apple Podcasts, Stitcher, Acast, TuneIn, Castbox, Spotify and Google Play to reach the widest possible audience. We'll also promote your episodes on our website blog and social media platforms.</p>
-				<p class="text-l-mob"><a href="contact.php">Contact us</a> for a custom pricing plan designed to suit your needs.</p>
+				<p class="text-l-mob">All our plans include publishing to Google Podcasts, Apple Podcasts, Spotify, Stitcher and Castbox (along with several others like Himalaya and Player FM) to help you reach the widest possible audience. You also get a web page on our site with your "bio" and links to the various platforms. Oh yes, we regularly <a href="https://twitter.com/solidgoldpods">Tweet (#BeHeard)</a> and post to <a href="https://facebook.com/solidgoldpodcaststudios/">social platforms</a> so our audience learns about you and your story.</p>
+				<p class="text-l-mob"><a href="contact.php">Contact us</a> for a personalised pricing plan that works for you.</p>
 
 			</div>
 
 		</div>
 
 	</header>
+
+				<header class="constrain pad-respond-xy-mob">
+				<h2 class="text-underline text-l-mob text-c-tab">What does it cost to produce and publish a podcast?</h1>
+				<p class="constrain-80 text-l-mob text-c-tab">The extent of the investment in your podcast will vary based on several factors including <strong>frequency</strong> and <strong>complexity</strong>. Is it a once-off series of FAQ episodes? Is it a weekly commentary? Do you have 1 guest or 3? Those kinds of things. When we meet to discuss your objectives and how we'll work together to achieve them, we'll agree on a price that will be in line with the 3 models described below. In all instances, there are <strong>production and publishing</strong> costs and on-going <strong>hosting</strong> costs. Not only are podcast files much larger than you're used to with a regular website, they also need to be served fast and reliably to many simultaneous users.</p>
+				<p class="constrain-80 text-l-mob text-c-tab">Our hosting charges start at <strong>R39 per month</strong> and only start increasing once you've made more than a dozen or so episodes. Below is a calculator that will give you some insight into the estimated costs for 3 tiers of production.</p>
+				</header>
+
 
 	<div class="flow-ttb-mob pad-respond-t-mob theme-white">
 
@@ -121,6 +128,8 @@
 			<p class="text-c-mob">All prices exclude VAT.</p>
 
 		</div>
+
+
 	</div>
 
 	<main>

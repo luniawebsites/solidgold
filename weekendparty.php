@@ -11,19 +11,19 @@
 	<meta name="keywords" content="weekend party entertainment report, lance zeeman, shane the duke wellington, hot 91.9 fm, podcasts, channel, clients, recording, studio, broadcast, radio, corporate communication, anohter solid gold podcast, gavin kennedy, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | Weekend Party Entertainment Report">
+	<meta name="pagename" content="Lance Zeeman's Weekend Party Entertainment Report | Another SOlid GOld Podcast">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | Weekend Party Entertainment Report" />
+	<meta property="og:title" content="Lance Zeeman's Weekend Party Entertainment Report | Another SOlid GOld Podcast" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
 	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/weekendparty.php" />
 	<meta property="og:type" content="website" />
-	<title>Weekend Party Entertainment Report</title>
+	<title>Lance Zeeman's Weekend Party Entertainment Report | Another SOlid GOld Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -63,7 +63,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Lance Zeeman's Weekend Party Entertainment Report | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/weekendparty.xml"/>	
+      title="Lance Zeeman's Weekend Party Entertainment Report | Another Solid Gold Podcast" href="https://podcaststudios.co.za/rss/weekendparty.xml"/>	
 
 </head>
 
@@ -101,7 +101,7 @@
 
 			<div>
 
-				<h1 class="text-c-mob text-l-tab">weekend-party-entertainment-report</h1>
+				<h1 class="text-c-mob text-l-tab">Weekend Party Entertainment Report</h1>
 				<h2 class="text-c-mob text-l-tab">Lance Zeeman</span></h2>
 
 			</div>
@@ -136,17 +136,30 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-					<iframe src="https://tunein.com/embed/player/p1146497/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 
-					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN NOW by selecting your favourite player below</div>
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+
+<!-- EMBEDDED PLAYER GOES HERE -->
+<iframe src="https://castbox.fm/app/castbox/player/id1366224?v=4.1.1&autoplay=1" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+<!-- EMBEDDED PLAYER GOES HERE -->
+
+
+<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+
 <a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1410068714" target="_blank" rel="noopener"></a>
 <a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvd2Vla2VuZHBhcnR5LnhtbA%3D%3D" target="_blank" rel="noopener"></a>
+<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/lance-zeemans-weekend-party-en-701450" target="_blank" rel="noopener"></a>
 <a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/lance-zeemans-weekend-party-entertainment-report" target="_blank" rel="noopener"></a>
+<a class="badge-pocket-casts" href="http://pca.st/itunes/1410068714" target="_blank" rel="noopener"></a>
 <a class="badge-playerfm" href="https://player.fm/series/lance-zeemans-weekend-party-entertainment-report" target="_blank" rel="noopener"></a>
 <a class="badge-himalaya" href="https://www.himalaya.com/Society%20&%20Culture-podcasts/-647477" target="_blank" rel="noopener"></a>
 <a class="badge-castbox" href="https://castbox.fm/channel/Lance-Zeeman's-Weekend-Party-Entertainment-Report-id1366224?country=us" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/2EG94kW7Ty3FJYltwv7iKb" target="_blank" rel="noopener"></a>
-<a class="badge-tune-in" href="https://tunein.com/podcasts/Entertainment--Media/Lance-Zeemans-Weekend-Party-p1146497/" target="_blank" rel="noopener"></a>
+
+
+<a class="badge-overcast" href="https://overcast.fm/itunes1410068714" target="_blank" rel="noopener"></a>
+
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/weekendparty.xml" target="_blank" rel="noopener"></a>
 
 					</div>
@@ -157,7 +170,7 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
-					<p class="text-l-mob">From <strong>Solid Gold Studios</strong>, this is Lance Zeeman's <strong>Weekend Party Entertainment Report</strong>.</p>
+					<p class="text-l-mob">From <strong>Solid Gold Studios</strong>, this is <strong>Lance Zeeman's Weekend Party Entertainment Report</strong>.</p>
 					<p class="text-l-mob">Before appearing as a guest, please remember to complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener">media usage agreement.</a> This enables us to publish and frees you to use the programme for your own promotional purposes.</p>
 										
 					<div class="flow-ttb-mob flow-ltr-tab width-100 spread-respond pad-respond-t-mob align-fs-mob justify-fs-mob border-t-mob">

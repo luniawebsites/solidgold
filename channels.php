@@ -211,6 +211,15 @@
 					</span>
 				</a>
 
+				<a href="kipmcgrath.php" class="pattern-channel-item" data-pattern-channel-item="Kip McGrath extra lessons tutor math afrikaans">
+					<img src="assets/images/cover-art/channels/kipmcgrath-cover-s01-0000.jpg" alt="" />
+					<span>
+						<p>Kip McGrath</p>
+						<p>Extra Lessons FAQ</p>
+					</span>
+				</a>
+
+
 				<a href="famous.php" class="pattern-channel-item" data-pattern-channel-item="light lights camera cameras action kim kimberleigh stark famous">
 					<img src="assets/images/cover-art/channels/famous-cover-0000.jpg" alt="" />
 					<span>

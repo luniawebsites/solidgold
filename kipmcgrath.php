@@ -12,19 +12,19 @@
 	<meta name="keywords" content="Kip McGrath, Kumon, Master Maths, Extra Lessons, Saturday School, Tutor, Teach, remedial, Vishani Lukman, Paul Albrecht, another Solid Gold podcast, #BeHeard" />
 	<meta name="description" content="Podcast channel #BeHeard" />
 	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Understanding Extra Lessons | Another Solid Gold Podcast">
+	<meta name="pagename" content="Kip McGrath Extra Lessons FAQ | Another Solid Gold Podcast">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 	<!--
 	PARTIAL > Base URL
 		-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Understanding Extra Lessons | Another Solid Gold Podcast" />
+	<meta property="og:title" content="Kip McGrath Extra Lessons FAQ | Another Solid Gold Podcast" />
 	<meta property="og:description" content="Podcast channels #BeHeard" />
 	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/extralessons.php" />
+	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/kipmcgrath.php" />
 	<meta property="og:type" content="website" />
-	<title>Understanding Extra Lessons | Another Solid Gold Podcast</title>
+	<title>Kip McGrath Extra Lessons FAQ | Another Solid Gold Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
@@ -64,7 +64,7 @@
 	-->
 
 	<link type="application/rss+xml" rel="alternate"
-      title="Understanding Extra Lessons | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/extralessons.xml"/>
+      title="Kip McGrath Extra Lessons FAQ | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/kipmcgrath.xml"/>
 
 </head>
 
@@ -102,8 +102,8 @@
 
 			<div>
 
-				<h1 class="text-c-mob text-l-tab">Extra Lessons</h1>
-				<h2 class="text-c-mob text-l-tab">Understanding Extra Lessons</span></h2>
+				<h1 class="text-c-mob text-l-tab">Kip McGrath Extra Lessons</h1>
+				<h2 class="text-c-mob text-l-tab">Frequently Asked Questions</span></h2>
 
 			</div>
 
@@ -111,7 +111,7 @@
 			Image
 			-->
 
-			<img src="assets/images/cover-art/channels/extralessons-cover-s01-0000.jpg" alt="" />
+			<img src="assets/images/cover-art/channels/kipmcgrath-cover-s01-0000.jpg" alt="" />
 
 		</div>
 
@@ -141,19 +141,26 @@
 <div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
 
 <!-- EMBEDDED PLAYER GOES HERE -->
-<iframe src="https://castbox.fm/app/castbox/player/id2042453/id134318629?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+<iframe src="https://castbox.fm/app/castbox/player/id2045311/id134844758?v=4.1.0&autoplay=1" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
 <!-- EMBEDDED PLAYER GOES HERE -->
 
+
 <div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
-<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1455458814 " target="_blank" rel="noopener"></a>
-<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZXh0cmFsZXNzb25zLnhtbA%3D%3D" target="_blank" rel="noopener"></a>
-<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/understanding-extra-lessons-814442" target="_blank" rel="noopener"></a>
-<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=380779&refid=stpr" target="_blank" rel="noopener"></a>
-<a class="badge-pocket-casts" href="http://pca.st/itunes/1455458814" target="_blank" rel="noopener"></a>
-<a class="badge-castbox" href="https://castbox.fm/channel/id2042453" target="_blank" rel="noopener"></a>
-<a class="badge-spotify" href="https://open.spotify.com/show/2NQPeVHXwYzgLoeZZxsIbI" target="_blank" rel="noopener"></a>
-<a class="badge-overcast" href="https://overcast.fm/itunes1455458814" target="_blank" rel="noopener"></a>
-<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/extralessons.xml" target="_blank" rel="noopener"></a>
+
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1455811681" target="_blank" rel="noopener"></a>
+<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mva2lwbWNncmF0aC54bWw%3D" target="_blank" rel="noopener"></a>
+
+<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=381659&refid=stpr" target="_blank" rel="noopener"></a>
+<a class="badge-pocket-casts" href="http://pca.st/itunes/1455811681" target="_blank" rel="noopener"></a>
+
+
+<a class="badge-castbox" href="https://castbox.fm/channel/id2045311" target="_blank" rel="noopener"></a>
+<a class="badge-spotify" href="https://open.spotify.com/show/0IA0CcMwdX7sZhcHW5lt9e" target="_blank" rel="noopener"></a>
+
+
+<a class="badge-overcast" href="https://overcast.fm/itunes1455811681" target="_blank" rel="noopener"></a>
+
+<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/kipmcgrath.xml" target="_blank" rel="noopener"></a>
 
 
 
@@ -165,6 +172,7 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
+					<p class="text-l-mob">Welcome to Kip McGrath Extra Lessons.</p>
 					<p class="text-l-mob">Have the words 'EXTRA LESSONS' popped up in your family recently?</p>
 					<p class="text-l-mob">If so, this podcast series is for you!</p>
 					<p class="text-l-mob">You'll hear Extra Lessons specialists answer parents' frequently asked question. They share their insights and advice, explain why extra lessons may be needed, how they work and also guide you on selecting the right Tutor for your child. They also answer questions on Maths, Afrikaans, CAPS, IEB and many other topics that will help you to help your child be the best they can be.</p>
@@ -189,7 +197,7 @@
 							Email
 							-->
 							<li>
-								<a href="mailto:extralessons@solidgoldstudios.co.za?subject=Extra%20Lessons%20Podcast%20Query" target="_blank" rel="noopener">
+								<a href="mailto:kipmcgrath@solidgoldstudios.co.za?subject=Kip%20McGrath%20Podcast%20Query" target="_blank" rel="noopener">
 									<span class="email">Email</span>
 								</a>
 							</li>
@@ -199,7 +207,7 @@
 						-->
 							
 							<li>
-								<a href="http://kiplessons.co.za?utm_source=Extra%20Lessons%20Podcast" target="_blank" rel="noopener">
+								<a href="http://kiplessons.co.za?utm_source=Kip%20McGrath%20Podcast" target="_blank" rel="noopener">
 									<span class="website">Visit website</span>
 								</a>
 							</li>

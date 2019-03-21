@@ -144,6 +144,7 @@
 					<a class="badge-overcast" href="???" target="_blank" rel="noopener"></a>
 					<a class="badge-castro" href="???" target="_blank" rel="noopener"></a>
 					<a class="badge-podchaser" href="???" target="_blank" rel="noopener"></a>
+					<a class="badge-podnews" href="???" target="_blank" rel="noopener"></a>
 					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/???.xml" target="_blank" rel="noopener"></a>
 
 					</div>

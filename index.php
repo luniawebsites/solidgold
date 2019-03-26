@@ -320,7 +320,7 @@ remove TuneIn player -->
 			<header class="constrain pad-respond-xy-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
 				
-				<p class="constrain-80 text-l-mob text-c-tab">We are so much more than a podcast recording studio. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right.</p>
+				<p class="constrain-80 text-l-mob text-c-tab">We are so much more than a <strong>podcast recording studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
 
 			</header>
 

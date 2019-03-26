@@ -159,8 +159,10 @@
 
 
 <a class="badge-overcast" href="https://overcast.fm/itunes1418488423/the-carmen-murray-show" target="_blank" rel="noopener"></a>
-
 <a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/thecarmenmurrayshow.xml" target="_blank" rel="noopener"></a>
+<p>Use <strong>PodNews</strong> for Episode Links</p>
+<a class="badge-podnews" href="https://podnews.net/podcast/1418488423/episode-links" target="_blank" rel="noopener"></a>
+
 
 
 

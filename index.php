@@ -169,7 +169,7 @@ remove TuneIn player -->
 
 <div>
     <p>Listen to Corrie Petzer's Origin Story (dur 2:21)</p>
-    <audio style="width:100%" controls src="https://podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3"></audio>
+    <audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3"></audio>
 </div>
 
 
@@ -320,7 +320,7 @@ remove TuneIn player -->
 			<header class="constrain pad-respond-xy-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
 				
-				<p class="constrain-80 text-l-mob text-c-tab">We offer so much more than just podcast recording. Our full service guides you right from the start through the entire process. Whether you're a complete beginner or a seasoned professional, we ensure everything gets done right.</p>
+				<p class="constrain-80 text-l-mob text-c-tab">We are so much more than a podcast recording studio. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right.</p>
 
 			</header>
 
@@ -332,12 +332,12 @@ remove TuneIn player -->
 
 			<div>
     			<p>Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</p>
-    			<audio style="width:100%" controls src="https://podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3"></audio>
+    			<audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3"></audio>
 			</div>
 
 			<div>
     			<p>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</p>
-    			<audio style="width:100%" controls src="https://podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3"></audio>
+    			<audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3"></audio>
 			</div>			
 							
 				<p class="constrain-80 text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. To book your space on our next Master Class, <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">drop us a mail</a></p>

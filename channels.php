@@ -202,20 +202,37 @@
 					</span>
 				</a>
 
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="gun firearm gosa">
+				<a href="guntalk.php" class="pattern-channel-item" data-pattern-channel-item="gun talk by gosa">
 					<img src="assets/images/cover-art/channels/gosa-cover-s01-0000.jpg" alt="" />
 					<span>
 						<p>Gun Talk</p>
 						<p>Gun Owners South Africa</p>
 					</span>
+				</a>				
+
+				<!-- Coming soon -->
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="i get it now what vuuma collaborations">
+					<img src="assets/images/cover-art/channels/placeholder-i-get-it-now-what.jpg" alt="" />
+					<span>
+						<p>I Get It! Now What?</p>
+						<p>Vuuma Collaborations</p>
+					</span>
 				</a>
+
 
 				<a href="kipmcgrath.php" class="pattern-channel-item" data-pattern-channel-item="Kip McGrath extra lessons tutor math afrikaans">
 					<img src="assets/images/cover-art/channels/kipmcgrath-cover-s01-0000.jpg" alt="" />
 					<span>
 						<p>Kip McGrath</p>
 						<p>Extra Lessons FAQ</p>
+					</span>
+				</a>
+
+				<a href="liftasyourise.php" class="pattern-channel-item" data-pattern-channel-item="lift as you rise red bull music tall racks records">
+					<img src="assets/images/cover-art/channels/liftasyourise.jpg" alt="" />
+					<span>
+						<p>Lift As You Rise</p>
+						<p>Red Bull Music and Tall Racks Records</p>
 					</span>
 				</a>
 

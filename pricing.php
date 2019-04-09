@@ -109,7 +109,7 @@
 				<header class="constrain pad-respond-xy-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">What does it cost to produce and publish a podcast?</h1>
 				<p class="constrain-80 text-l-mob text-c-tab">The extent of the investment in your podcast will vary based on several factors including <strong>frequency</strong> and <strong>complexity</strong>. Is it a once-off series of FAQ episodes? Is it a weekly commentary? Do you have 1 guest or 3? Those kinds of things. When we meet to discuss your objectives and how we'll work together to achieve them, we'll agree on a price that will be in line with the 3 models described below. In all instances, there are <strong>production and publishing</strong> costs and on-going <strong>hosting</strong> costs. Not only are podcast files much larger than you're used to with a regular website, they also need to be served fast and reliably to many simultaneous users.</p>
-				<p class="constrain-80 text-l-mob text-c-tab">Our hosting charges start at <strong>R39 per month</strong> and only start increasing once you've made more than a dozen or so episodes. Below is a calculator that will give you some insight into the estimated costs for 3 tiers of production.</p>
+				<p class="constrain-80 text-l-mob text-c-tab">Our hosting charges start at <strong>R79 per month</strong> and only increase based on number of monthly episodes hosted (such as intense frequency channels) and when very large data volumes are required (for example when your target audience for an channel is greater than 2 million). These measures ensure that adequate data delivey and throughput are maintained. Below is a calculator that will give you some insight into the estimated costs for 3 tiers of production.</p>
 				</header>
 
 

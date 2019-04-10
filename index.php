@@ -101,9 +101,16 @@
 					<p class="pseudo-column pad-b-mob text-l-mob">Being heard is one of our greatest human needs.</p>
 					<p class="pseudo-column pad-b-mob text-l-mob">We are podcast professionals and will help you plan, produce and publish your podcasts so you can share <span class="no-break"><strong>your</strong> story with the world.</span></p>
 				</div>
-				<div class="flow-ttb-mob flow-ltr-tab spread pad-t-mob align-fs-mob justify-fs-tab">
+				<div class="flow-ttb-mob flow-ltr-tab spread pad-y-mob align-fs-mob justify-fs-tab">
 					<a class="button theme-blue" href="#weoffer"><span>Learn More</span></a>
 					<a class="button theme-blue-transparent" href="channels.php">See Channels</a>
+				</div>
+				<div class="flow-ltr-mob spread-respond pad-t-mob justify-fs-mob">
+					<span class="text-small">First South African Network on Castbox</span>
+				</div>
+				<div class="flow-ltr-mob spread-respond pad-t-mob align-fs-mob justify-fs-mob">
+					<a class="brand-castbox-first-network" href="https://castbox.fm/networks/Solid%20Gold%20Studios-486?country=za&utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener"></a>
+					<a class="brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener"></a>
 				</div>
 			</div>
 
@@ -160,18 +167,17 @@
 				<h2 class="pseudo-column pad-b-mob text-l-mob font-white animated">Tell the world your story.</h2>
 				<p class="pseudo-column text-l-mob font-white">This short clip from Petro Du Pisani's channel <a href="onchange.php">On Change</a> gives you a powerful demonstration of the effect of sincere and motivated story-telling.</p>
 				<p class="pseudo-column text-l-mob font-white">Telling your <strong>Origin Story</strong> is possibly the most effective way to share how your personal or business values were shaped.</p>
-				
-<!-- remove old TuneIn player
-				<div class="pseudo-column">
-					<iframe src="https://tunein.com/embed/player/t126868184/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
-				</div>
-remove TuneIn player -->				
 
-<div>
-    <p>Listen to Corrie Petzer's Origin Story (dur 2:21)</p>
-    <audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3"></audio>
-</div>
-
+				<!--
+				Audio player
+				-->
+				<figure>
+					<figcaption class="text-white">Listen to Corrie Petzer's Origin Story (dur 2:21)</figcaption>
+					<audio preload="metadata" controls>
+						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
+						<p>Your browser doesn't support HTML5 audio.</p>
+					</audio>
+				</figure>
 
 			</div>
 
@@ -317,32 +323,40 @@ remove TuneIn player -->
 			Section header
 			-->
 
-			<header class="constrain pad-respond-xy-mob">
+			<div class="constrain pad-respond-xy-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
-				
 				<p class="constrain-80 text-l-mob text-c-tab">We are so much more than a <strong>podcast recording studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
-
-			</header>
-
-			<header class="constrain pad-respond-xy-mob">
-				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
-
-				<p class="constrain-80 text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a>
-					</p>
-
-			<div>
-    			<p>Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</p>
-    			<audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3"></audio>
 			</div>
 
-			<div>
-    			<p>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</p>
-    			<audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3"></audio>
-			</div>			
-							
+			<div class="constrain pad-respond-xy-mob">
+				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
+				<p class="constrain-80 text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a></p>
+
+				<!--
+				Audio player
+				-->
+				<figure>
+					<figcaption class="text-c-mob">Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</figcaption>
+					<audio preload="metadata" controls>
+						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
+						<p>Your browser doesn't support HTML5 audio.</p>
+					</audio>
+				</figure>
+
+				<!--
+				Audio player
+				-->
+				<figure>
+					<figcaption class="text-c-mob">Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</figcaption>
+					<audio preload="metadata" controls>
+						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
+						<p>Your browser doesn't support HTML5 audio.</p>
+					</audio>
+				</figure>
+
 				<p class="constrain-80 text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. To book your space on our next Master Class, <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">drop us a mail</a></p>
-								
-			</header>
+
+			</div>
 
 			<!--
 			Container

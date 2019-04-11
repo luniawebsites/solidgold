@@ -102,7 +102,7 @@
 
 			<div>
 
-				<h1 class="text-c-mob text-l-tab">Lift As You Rise</h1>
+				<h1 class="text-c-mob text-l-tab">Lift As You Rise Conversation</h1>
 				<h2 class="text-c-mob text-l-tab">Red Bull Music and Tall Racks Records</span></h2>
 
 			</div>
@@ -227,7 +227,7 @@
 							
 							<li>
 								<a href="https://www.instagram.com/tallracksrec/" target="_blank" rel="noopener">
-									<span class="instagram">Instagram page #RedBullMusic #TallRacksRecords #LiftAsYouRise</span>
+									<span class="instagram">Instagram page #RedBullMusic @TallRacksRecords @LiftAsYouRise</span>
 								</a>
 							</li>
 
@@ -237,7 +237,7 @@
 							
 							<li>
 								<a href="https://twitter.com/TallRacksRec//" target="_blank" rel="noopener">
-									<span class="twitter">Twitter wall #RedBullMusic #TallRacksRecords #LiftAsYouRise</span>
+									<span class="twitter">Twitter wall #RedBullMusic @TallRacksRecords @LiftAsYouRise</span>
 								</a>
 							</li>
 						

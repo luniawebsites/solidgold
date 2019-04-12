@@ -143,8 +143,9 @@
 <!-- EMBEDDED PLAYER GOES HERE -->
 <iframe src="https://castbox.fm/app/castbox/player/id2080156?v=4.1.190404&autoplay=1" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
 <!-- EMBEDDED PLAYER GOES HERE -->
-
 <div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
+<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1459154337" target="_blank" rel="noopener"></a>
+<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/lift-as-you-rise-830528" target="_blank" rel="noopener"></a>
 <a class="badge-stitcher" href="https://www.stitcher.com/s?fid=388873&refid=stpr" target="_blank" rel="noopener"></a>
 <a class="badge-castbox" href="https://castbox.fm/channel/id2080156?country=za" target="_blank" rel="noopener"></a>
 <a class="badge-spotify" href="https://open.spotify.com/show/3QkDBtd6RHkZW6Fc2KvfNH" target="_blank" rel="noopener"></a>
@@ -217,7 +218,7 @@
 							-->
 							<li>
 								<a href="https://www.facebook.com/tallracksrecords/" target="_blank" rel="noopener">
-									<span class="facebook">Facebook page</span>
+									<span class="facebook">Facebook</span>
 								</a>
 							</li>
 
@@ -227,7 +228,7 @@
 							
 							<li>
 								<a href="https://www.instagram.com/tallracksrec/" target="_blank" rel="noopener">
-									<span class="instagram">Instagram page #RedBullMusic @TallRacksRecords @LiftAsYouRise</span>
+									<span class="instagram">Instagram #LiftAsYouRise @RedBullMusic @TallRacksRecords</span>
 								</a>
 							</li>
 
@@ -237,7 +238,7 @@
 							
 							<li>
 								<a href="https://twitter.com/TallRacksRec//" target="_blank" rel="noopener">
-									<span class="twitter">Twitter wall #RedBullMusic @TallRacksRecords @LiftAsYouRise</span>
+									<span class="twitter">Twitter #LiftAsYouRise @RedBullMusic @TallRacksRecords</span>
 								</a>
 							</li>
 						

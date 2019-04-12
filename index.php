@@ -173,7 +173,7 @@
 				-->
 				<figure>
 					<figcaption class="text-white">Listen to Corrie Petzer's Origin Story (dur 2:21)</figcaption>
-					<audio preload="metadata" controls>
+					<audio preload="none" controls>
 						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
 						<p>Your browser doesn't support HTML5 audio.</p>
 					</audio>
@@ -337,7 +337,7 @@
 				-->
 				<figure>
 					<figcaption class="text-c-mob">Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</figcaption>
-					<audio preload="metadata" controls>
+					<audio preload="none" controls>
 						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
 						<p>Your browser doesn't support HTML5 audio.</p>
 					</audio>
@@ -348,7 +348,7 @@
 				-->
 				<figure>
 					<figcaption class="text-c-mob">Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</figcaption>
-					<audio preload="metadata" controls>
+					<audio preload="none" controls>
 						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
 						<p>Your browser doesn't support HTML5 audio.</p>
 					</audio>

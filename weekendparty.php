@@ -23,7 +23,7 @@
 	<meta property="og:locale" content="en_ZA" />
 	<meta property="og:url" content="https://solidgoldstudios.co.za/channels/weekendparty.php" />
 	<meta property="og:type" content="website" />
-	<title>Lance Zeeman's Weekend Party Entertainment Report | Another SOlid GOld Podcast</title>
+	<title>Lance Zeeman's Weekend Party Entertainment Report | Another Solid Gold Podcast</title>
 	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
 	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 

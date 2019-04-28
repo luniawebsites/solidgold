@@ -331,9 +331,9 @@
 			<div class="constrain pad-respond-y-mob">
 
 				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
-				<p class="constrain-80 text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a>.</p>
+				<p class="text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a>.</p>
 
-				<div class="flow-ttb-mob flow-ltr-tab spread pad-y-mob">
+				<div class="flow-ttb-mob flow-ltr-tab spread align-s-mob pad-y-mob">
 
 					<!--
 					Audio player
@@ -357,13 +357,13 @@
 							<h3>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</h3>
 							<audio class="pad-t-mob" preload="none" controls>
 								<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
-						</audio>
+							</audio>
 						</div>
 					</div>
 
 				</div>
 
-				<p class="text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. Drop us a mail to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">book your space on our next Master Class</a>.</p>
+				<p class="text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. Drop us a mail to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener">book your space on our next Master Class</a>.</p>
 
 			</div>
 

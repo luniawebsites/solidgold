@@ -62,8 +62,7 @@
 	To enable Google to add this podcast to their player
 	-->
 
-	<link type="application/rss+xml" rel="alternate"
-      title="The Carmen Murray Show | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
+	<link type="application/rss+xml" rel="alternate" title="The Carmen Murray Show | another Solid Gold podcast" href="https://podcaststudios.co.za/rss/thecarmenmurrayshow.xml"/>	
 
 </head>
 
@@ -136,35 +135,26 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+
+					<!-- EMBEDDED PLAYER GOES HERE -->
+					<iframe src="https://castbox.fm/app/castbox/player/id1382247?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+					<!-- EMBEDDED PLAYER GOES HERE -->
 
 
-<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
 
-<!-- EMBEDDED PLAYER GOES HERE -->
-<iframe src="https://castbox.fm/app/castbox/player/id1382247?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
-<!-- EMBEDDED PLAYER GOES HERE -->
-
-
-<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
-
-<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1418488423" target="_blank" rel="noopener"></a>
-<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvdGhlY2FybWVubXVycmF5c2hvdy54bWw%3D" target="_blank" rel="noopener"></a>
-
-<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/the-carmen-murray-show" target="_blank" rel="noopener"></a>
-
-<a class="badge-playerfm" href="https://player.fm/series/the-carmen-murray-show" target="_blank" rel="noopener"></a>
-<a class="badge-himalaya" href="https://www.himalaya.com/Business-podcasts/-792008" target="_blank" rel="noopener"></a>
-<a class="badge-castbox" href="https://castbox.fm/channel/The-Carmen-Murray-Show-id1382247?country=us" target="_blank" rel="noopener"></a>
-<a class="badge-spotify" href="https://open.spotify.com/show/2j2HXj57OmjNZD6aOHsVAX" target="_blank" rel="noopener"></a>
-
-
-<a class="badge-overcast" href="https://overcast.fm/itunes1418488423/the-carmen-murray-show" target="_blank" rel="noopener"></a>
-<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/thecarmenmurrayshow.xml" target="_blank" rel="noopener"></a>
-<p>Use <strong>PodNews</strong> for Episode Links</p>
-<a class="badge-podnews" href="https://podnews.net/podcast/1418488423/episode-links" target="_blank" rel="noopener"></a>
-
-
-
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1418488423" target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvdGhlY2FybWVubXVycmF5c2hvdy54bWw%3D" target="_blank" rel="noopener"></a>
+					<a class="badge-stitcher" href="https://www.stitcher.com/podcast/solid-gold-studios/the-carmen-murray-show" target="_blank" rel="noopener"></a>
+					<a class="badge-playerfm" href="https://player.fm/series/the-carmen-murray-show" target="_blank" rel="noopener"></a>
+					<a class="badge-himalaya" href="https://www.himalaya.com/Business-podcasts/-792008" target="_blank" rel="noopener"></a>
+					<a class="badge-castbox" href="https://castbox.fm/channel/The-Carmen-Murray-Show-id1382247?country=us" target="_blank" rel="noopener"></a>
+					<a class="badge-spotify" href="https://open.spotify.com/show/2j2HXj57OmjNZD6aOHsVAX" target="_blank" rel="noopener"></a>
+					<a class="badge-overcast" href="https://overcast.fm/itunes1418488423/the-carmen-murray-show" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/thecarmenmurrayshow.xml" target="_blank" rel="noopener"></a>
+					<p class="text-r-tab">Use <strong>PodNews</strong> for Episode Links</p>
+					<a class="badge-podnews" href="https://podnews.net/podcast/1418488423/episode-links" target="_blank" rel="noopener"></a>
 
 				</div>
 

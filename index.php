@@ -331,7 +331,7 @@
 			<div class="constrain pad-respond-y-mob">
 
 				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
-				<p class="text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a>.</p>
+				<p class="text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assist you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. This will give you step-by-step basic guidelines on how to be an <strong>effective podcasts guest</strong> and get your message across. To listen now, simply <a href="https://fanlink.to/sgsgreen">click here</a> , oh, and  keep a pen and paper handy to make some notes.</p>
 
 				<div class="flow-ttb-mob flow-ltr-tab spread align-s-mob pad-y-mob">
 

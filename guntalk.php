@@ -137,28 +137,24 @@
 
 				<div class="flow-ttb-mob constrain-30 spread pad-respond-r-tab pad-respond-b-mob align-c-mob align-fe-tab justify-c-mob justify-fs-tab border-r-tab">
 
-<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">LISTEN HERE NOW</div>
 
-<!-- EMBEDDED PLAYER GOES HERE -->
-<iframe src="https://castbox.fm/app/castbox/player/id2024398/id130875517?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
-<!-- EMBEDDED PLAYER GOES HERE -->
+					<!-- EMBEDDED PLAYER GOES HERE -->
+					<iframe src="https://castbox.fm/app/castbox/player/id2024398/id130875517?v=4.1.0&autoplay=0" style="width:100%; height:220px;" scrolling="no" frameborder="no"></iframe>
+					<!-- EMBEDDED PLAYER GOES HERE -->
 
+					<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
 
-<div class="pad-y-mob h2 text-c-mob text-r-tab">Or you can select your preferred podcast player below</div>
-
-<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1453843539 " target="_blank" rel="noopener"></a>
-<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ3VudGFsay54bWw%3D" target="_blank" rel="noopener"></a>
-<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/gun-talk-by-gosa-805290" target="_blank" rel="noopener"></a>
-<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=375470&refid=stpr" target="_blank" rel="noopener"></a>
-<a class="badge-pocket-casts" href="http://pca.st/itunes/1453843539" target="_blank" rel="noopener"></a>
-<a class="badge-himalaya" href="https://www.himalaya.com/Non-Profit-podcasts/-983527" target="_blank" rel="noopener"></a>
-<a class="badge-castbox" href="https://castbox.fm/ch/2024398" target="_blank" rel="noopener"></a>
-<a class="badge-spotify" href="https://open.spotify.com/show/2gwzQPL0kpCcnB33Gz0aAl" target="_blank" rel="noopener"></a>
-
-
-<a class="badge-overcast" href="https://overcast.fm/itunes1453843539" target="_blank" rel="noopener"></a>
-
-<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/guntalk.xml" target="_blank" rel="noopener"></a>
+					<a class="badge-apple-podcasts" href="https://itunes.apple.com/gb/podcast/id1453843539 " target="_blank" rel="noopener"></a>
+					<a class="badge-google-podcasts" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3MvZ3VudGFsay54bWw%3D" target="_blank" rel="noopener"></a>
+					<a class="badge-podchaser" href="https://www.podchaser.com/podcasts/gun-talk-by-gosa-805290" target="_blank" rel="noopener"></a>
+					<a class="badge-stitcher" href="https://www.stitcher.com/s?fid=375470&refid=stpr" target="_blank" rel="noopener"></a>
+					<a class="badge-pocket-casts" href="http://pca.st/itunes/1453843539" target="_blank" rel="noopener"></a>
+					<a class="badge-himalaya" href="https://www.himalaya.com/Non-Profit-podcasts/-983527" target="_blank" rel="noopener"></a>
+					<a class="badge-castbox" href="https://castbox.fm/ch/2024398" target="_blank" rel="noopener"></a>
+					<a class="badge-spotify" href="https://open.spotify.com/show/2gwzQPL0kpCcnB33Gz0aAl" target="_blank" rel="noopener"></a>
+					<a class="badge-overcast" href="https://overcast.fm/itunes1453843539" target="_blank" rel="noopener"></a>
+					<a class="badge-rss-feed" href="https://chtbl.com/track/podcaststudios.co.za/rss/guntalk.xml" target="_blank" rel="noopener"></a>
 
 					</div>
 

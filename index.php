@@ -201,7 +201,7 @@
 
 				<header class="pad-respond-xy-mob animated fadeInUpShort">
 					<h2 class="text-l-mob text-c-tab text-underline">Why people listen to podcasts.</span></h2>
-					<p class="constrain-80 text-l-mob text-c-tab"><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. Content is as varied as the topics of discussion in the world. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables&mdash;if you can imagine it, you can podcast it.</p>
+					<p class="text-l-mob text-c-tab"><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. Content is as varied as the topics of discussion in the world. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables&mdash;if you can imagine it, you can podcast it.</p>
 				</header>
 
 			</div>
@@ -317,44 +317,53 @@
 		SECTION > We offer an end-to-end podcast service
 		-->
 
-		<section class="pad-respond-x-tab pad-respond-y-mob theme-white border-b-mob" id="weoffer">
+		<section class="pad-respond-x-mob pad-respond-y-mob theme-white border-b-mob" id="weoffer">
 
 			<!--
 			Section header
 			-->
 
-			<div class="constrain pad-respond-xy-mob">
+			<div class="constrain pad-respond-y-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
-				<p class="constrain-80 text-l-mob text-c-tab">We are so much more than a <strong>podcast recording studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
+				<p class="text-l-mob text-c-tab">We are so much more than a <strong>podcast recording studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
 			</div>
 
-			<div class="constrain pad-respond-xy-mob">
+			<div class="constrain pad-respond-y-mob">
+
 				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
-				<p class="constrain-80 text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assit you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. It's available on <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0c3R1ZGlvcy5jby56YS9yc3Mvc2dzcG9kY2FzdGd1ZXN0MTAxLnhtbA%3D%3D&episode=c2dzcG9kY2FzdGd1ZXN0MTAxLTAx">Google Podcasts</a> and <a href="https://castbox.fm/app/castbox/player/id2022036/id130381416?v=4.1.1&autoplay=1">CastBox</a></p>
+				<p class="text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assist you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. This will give you step-by-step basic guidelines on how to be an <strong>effective podcasts guest</strong> and get your message across. To listen now, simply <a href="https://fanlink.to/sgsgreen">click here</a> , oh, and  keep a pen and paper handy to make some notes.</p>
 
-				<!--
-				Audio player
-				-->
-				<figure>
-					<figcaption class="text-c-mob">Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</figcaption>
-					<audio preload="none" controls>
-						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
-						<p>Your browser doesn't support HTML5 audio.</p>
-					</audio>
-				</figure>
+				<div class="flow-ttb-mob flow-ltr-tab spread align-s-mob pad-y-mob">
 
-				<!--
-				Audio player
-				-->
-				<figure>
-					<figcaption class="text-c-mob">Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</figcaption>
-					<audio preload="none" controls>
-						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
-						<p>Your browser doesn't support HTML5 audio.</p>
-					</audio>
-				</figure>
+					<!--
+					Audio player
+					-->
 
-				<p class="constrain-80 text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. To book your space on our next Master Class, <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query">drop us a mail</a></p>
+					<div class="width-100 pad-respond-xy-mob align-fs-mob radius-mob border-tab">
+						<div class="text-c-mob text-l-tab grow">
+							<h3>Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</h3>
+							<audio class="pad-t-mob" preload="none" controls>
+								<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
+							</audio>
+						</div>
+					</div>
+
+					<!--
+					Audio player
+					-->
+
+					<div class="width-100 pad-respond-xy-mob align-fs-mob radius-mob border-tab">
+						<div class="text-c-mob text-l-tab grow">
+							<h3>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</h3>
+							<audio class="pad-t-mob" preload="none" controls>
+								<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
+							</audio>
+						</div>
+					</div>
+
+				</div>
+
+				<p class="text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. Drop us a mail to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener">book your space on our next Master Class</a>.</p>
 
 			</div>
 

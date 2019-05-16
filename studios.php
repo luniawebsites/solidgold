@@ -114,96 +114,57 @@
 	<main>
 
 		<!--
-		SECTION > Studio 1
+		SECTION > Studios
 		-->
 
 		<section class="pad-respond-xy-mob theme-white-grey border-b-mob">
 
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-fs-mob pad-respond-y-mob">
+			<div class="flow-ttb-mob spread-respond">
 
 				<!--
-				Image
+				Studio 1
 				-->
 
-				<div class="radius-mob image-studio-1 border-mob"></div>
+				<figure class="flow-ttb-mob flow-ltr-tab spread-respond pad-respond-xy-mob align-fs-mob radius-mob theme-white border-tab">
+					<picture>
+						<source srcset="assets/images/photos/studio-1.webp" type="image/webp" />
+						<img class="studios border-mob" src="assets/images/photos/studio-1.jpg" alt="" />
+					</picture>
+					<div>
+						<div class="h3 text-l-mob">Studio 1</div>
+						<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
+					</div>
+				</figure>
 
 				<!--
-				Text
+				Studio 2
 				-->
 
-				<div>
-					<h2 class="text-l-mob">Studio 1</h2>
-					<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
-							
-				</div>
-
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > Studio 2
-		-->
-
-		<section class="pad-respond-xy-mob theme-white-grey border-b-mob">
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-rtl-tab width-100 constrain spread-respond align-fs-mob pad-respond-y-mob">
+				<figure class="flow-ttb-mob flow-rtl-tab spread-respond pad-respond-xy-mob align-fs-mob radius-mob theme-white border-tab">
+					<picture>
+						<source srcset="assets/images/photos/studio-2.webp" type="image/webp" />
+						<img class="studios border-mob" src="assets/images/photos/studio-2.jpg" alt="" />
+					</picture>
+					<div>
+						<div class="h3 text-l-mob">Studio 2</div>
+						<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
+					</div>
+				</figure>
 
 				<!--
-				Image
+				Studio 3
 				-->
 
-				<div class="align-s-mob radius-mob image-studio-2 border-mob"></div>
-
-				<!--
-				Text
-				-->
-
-				<div>
-					<h2 class="text-l-mob">Studio 2</h2>
-					<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
-							
-				</div>
-
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > Studio 3
-		-->
-
-		<section class="pad-respond-xy-mob theme-white-grey border-b-mob">
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-fs-mob pad-respond-y-mob">
-
-				<!--
-				Image
-				-->
-
-				<div class="align-s-mob radius-mob image-studio-3 border-mob"></div>
-
-				<!--
-				Text
-				-->
-
-				<div>
-					<h2 class="text-l-mob">Studio 3</h2>
-					<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
-							
-				</div>
+				<figure class="flow-ttb-mob flow-ltr-tab spread-respond pad-respond-xy-mob align-fs-mob radius-mob theme-white border-tab">
+					<picture>
+						<source srcset="assets/images/photos/studio-3.webp" type="image/webp" />
+						<img class="studios border-mob" src="assets/images/photos/studio-3.jpg" alt="" />
+					</picture>
+					<div>
+						<div class="h3 text-l-mob">Studio 3</div>
+						<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
+					</div>
+				</figure>
 
 			</div>
 

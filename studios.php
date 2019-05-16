@@ -123,13 +123,13 @@
 			Container
 			-->
 
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-y-mob">
+			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-fs-mob pad-respond-y-mob">
 
 				<!--
 				Image
 				-->
 
-				<div class="align-s-mob radius-mob image-studio-1 border-mob"></div>
+				<div class="radius-mob image-studio-1 border-mob"></div>
 
 				<!--
 				Text
@@ -155,7 +155,7 @@
 			Container
 			-->
 
-			<div class="flow-ttb-mob flow-rtl-tab width-100 constrain spread-respond pad-respond-y-mob">
+			<div class="flow-ttb-mob flow-rtl-tab width-100 constrain spread-respond align-fs-mob pad-respond-y-mob">
 
 				<!--
 				Image
@@ -187,7 +187,7 @@
 			Container
 			-->
 
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-y-mob">
+			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-fs-mob pad-respond-y-mob">
 
 				<!--
 				Image

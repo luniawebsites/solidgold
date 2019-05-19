@@ -146,8 +146,8 @@
 
 				<div class="animated fadeInUpShort">
 					<h2 class="text-l-mob">What's the big deal with voice?</h2>
-					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchanble? A world where natural language searches (as opposed to keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
-					<p class="text-l-mob">Google are now transcribing all podcasts, indexing the content and including a 'play' button in search results alongside the usual results. This makes it imperative that businesses produce regular rich voice-based content (i.e. podcasts) to ensure they remain relevant and can be found.</p>					
+					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
+					<p class="text-l-mob">Google now transcribe all podcasts, index the content, and include a 'play' button in the search results. This makes it imperative that businesses produce regular, meaningful, content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
 					<p></p>
 
 					<h2 class="text-l-mob">Everything, Everywhere, <span class="no-break">Any Time!</span></h2>

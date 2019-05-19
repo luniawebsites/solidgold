@@ -101,11 +101,11 @@
 				-->
 				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
 					<h1 class="text-l-mob">Our Studios</h1>
-					<p class="text-l-mob">Every Solid Gold studio is air-conditioned, comfortably furnished, and professionally equipped for quality recordings. We understand and appreciate that to have open, honest, and meaningful conversations, hosts and guests alike need to feel comfortable and safe. We also understand that our clients' recording, production, editing, and hosting needs vary in complexity and budget.</p>
-					<p class="text-l-mob">To cater for this, we have built a range of different studios suited for vaarious options, and we're certain one of them is perfect for your specific needs. From the large high-counter studio (perfect for group conversations) to the DIY studio (ideal for hobbyists) and the post-production studio (where the focus is on large client/producer/director seating area) we have a studio for you.</p>
-					<p class="text-l-mob">7 (yes, seven) new Studios are coming soon, including a large multi-purpose studio catering for 'fireside conversations', 'couch conversations', 'wingback chair interviews' and has camera capacity for simultaneous YouTube recording.</p>					
-					<p class="text-l-mob">All studios can record Skype/WhatsApp/telephone conversations as well as additional Client sources (e.g. playout from laptops Etc during a recording).</p>					
-					<p class="text-l-mob">Our open-plan office space is designed specifically to facilitate and encourage creative interaction during the entire production process. With free wi-fi, unlimited coffee, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many Clients like to work from our offices on recording days.</p>					
+					<p class="text-l-mob">All Solid Gold studios are professionally equipped for high-quality recording and are air-conditioned and comfortably furnished. We understand and appreciate that to have open, honest, and meaningful conversations, hosts and guests alike need to feel comfortable and at ease. We also understand that our Clients' recording, production, editing, and hosting needs vary in complexity and budget.</p>
+					<p class="text-l-mob">To cater for this range of needs we have built a number of studios catering to varying requirements, and we're certain one of them is perfect for you. From a large high-counter studio (custom designed for group conversations) to a DIY studio (ideal for hobbyists) and the post-production studio (where the focus is on large client/producer/director seating area) we have a studio that will match your recording requirements.</p>
+					<p class="text-l-mob">7 (yes, seven) additional new studios will be ready soon, including a large multi-purpose studio catering for 'fire-side conversations', 'couch conversations', 'armchair interviews' and has camera capacity for simultaneous video recording.</p>					
+					<p class="text-l-mob">All studios can record Skype/WhatsApp/telephone conversations as well as additional Client sources (e.g. playout from laptops or Echo during a recording).</p>					
+					<p class="text-l-mob">Our open-plan office space is designed specifically to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many Clients like to work from our offices on recording days.</p>					
 				</div>
 
 			</div>
@@ -135,7 +135,7 @@
 					</picture>
 					<div>
 						<div class="h3 text-l-mob">Studio 1 : Large Professional and Corporate</div>
-						<p class="text-l-mob">Studio 1 is designed and furnished to facilitate conversation. A solid wood and leather-inlayed countertop at 'bar' height, and raised leather seating, make this an ideal setting for in-depth discussions and interviews.</p>
+						<p class="text-l-mob">Studio 1 is designed and furnished to facilitate conversation. A solid wood and leather-inlay countertop at 'bar' height, and raised leather seating, makes this an ideal setting for in-depth discussions and interviews. This studio easily accommodates larger groups for panel discussions and group interviews and announcements.</p>
 					</div>
 				</figure>
 
@@ -150,7 +150,7 @@
 					</picture>
 					<div>
 						<div class="h3 text-l-mob">Studio 2 : Dry-Hire, DIY and Hobbyist</div>
-						<p class="text-l-mob">Studio 2 is perfect for the DIY/hobbyist podcaster who has  basic skills and needs a high quality place to record. Professionally equipped for 3 people, and available to hire, by the hour, without requiring a sound engineer, this is the ideal studio for the podcast beginner.</p>
+						<p class="text-l-mob">Studio 2 is perfect for the DIY/hobbyist podcaster who has basic skills and needs a high quality, quiet, place to record. Professionally equipped for 3 people, and available to hire by the hour (without the need for a sound engineer) this is the ideal studio for private podcast enthusiasts and beginners alike.</p>
 					</div>
 				</figure>
 
@@ -180,7 +180,7 @@
 					</picture>
 					<div>
 						<div class="h3 text-l-mob">Studio 4 : Large 'TV-like' studio</div>
-						<p class="text-l-mob">Studio 4 (under construction) looks a bit more like a television studio. It is designed to be very versatile and allow for a vast range of conversations to be recorded. Intended layouts include for armchair conversations, a boardbook desk layout, a lounge/couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for the specific recordings.</p>
+						<p class="text-l-mob">Studio 4 (under construction) looks a bit more like a television studio than our other studios. And for good reason. It is designed to be very versatile and allows for a vast range of conversations to be recorded. Recording configurations include armchair conversations, a boardbook desk layout, a lounge/couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for the specific recordings. There's also an infinity curve and a 'green screen' for chromakey shoots.</p>
 					</div>
 				</figure>
 
@@ -195,7 +195,7 @@
 					</picture>
 					<div>
 						<div class="h3 text-l-mob">Studios 5 - 10 : Coming Soon!</div>
-						<p class="text-l-mob">There is strong and growing demand for niche-studios specifically designed for extended bookings and recordings. In particular, for author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and even monthly hire in the very enar future.</p>
+						<p class="text-l-mob">We're experiencing strong, and growing, demand for niche-studios specifically designed for extended bookings and recordings. In particular, for author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and even monthly hire in the very near future.</p>
 					</div>
 				</figure>
 

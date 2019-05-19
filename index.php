@@ -145,8 +145,13 @@
 				-->
 
 				<div class="animated fadeInUpShort">
-					<h2 class="text-l-mob">Like radio, <span class="no-break">but better.</span></h2>
-					<p class="text-l-mob">Podcasts are like having every radio show ever made available on demand. All you need is a free app, such as <a href="https://itunes.com/" target="_blank" rel="noopener">iTunes</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a>, an Internet connection and time to listen, most commonly while commuting, at gym or even while preparing meals. Use the app to subscribe to podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
+					<h2 class="text-l-mob">What's the big deal with voice?</h2>
+					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchanble? A world where natural language searches (as opposed to keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
+					<p class="text-l-mob">Google are now transcribing all podcasts, indexing the content and including a 'play' button in search results alongside the usual results. This makes it imperative that businesses produce regular rich voice-based content (i.e. podcasts) to ensure they remain relevant and can be found.</p>					
+					<p></p>
+
+					<h2 class="text-l-mob">Everything, Everywhere, <span class="no-break">Any Time!</span></h2>
+					<p class="text-l-mob"><strong>Podcasts are like radio, but better</strong> since you now have every radio show ever made available on demand. To join the exploding podcast revolution, all you need is a free app to manage and play your podcast collection, such as <a href="https://itunes.com/" target="_blank" rel="noopener">Apple Podcasts (iTunes)</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a>, an Internet connection and time to listen, most commonly while commuting, at gym or even while preparing meals. Use the app to follow podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
 					<div class="flow-ttb-mob spread pad-t-mob pad-respond-b-mob pad-respond-b-mob justify-c-mob justify-fs-tab">
 						<h3 class="text-l-mob">Try a sample:</h3>
 						<iframe src="https://tunein.com/embed/player/t123888510/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>

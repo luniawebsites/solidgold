@@ -101,8 +101,11 @@
 				-->
 				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
 					<h1 class="text-l-mob">Our Studios</h1>
-					<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
-
+					<p class="text-l-mob">Every Solid Gold studio is air-conditioned, comfortably furnished, and professionally equipped for quality recordings. We understand and appreciate that to have open, honest, and meaningful conversations, hosts and guests alike need to feel comfortable and safe. We also understand that our clients' recording, production, editing, and hosting needs vary in complexity and budget.</p>
+					<p class="text-l-mob">To cater for this, we have built a range of different studios suited for vaarious options, and we're certain one of them is perfect for your specific needs. From the large high-counter studio (perfect for group conversations) to the DIY studio (ideal for hobbyists) and the post-production studio (where the focus is on large client/producer/director seating area) we have a studio for you.</p>
+					<p class="text-l-mob">7 (yes, seven) new Studios are coming soon, including a large multi-purpose studio catering for 'fireside conversations', 'couch conversations', 'wingback chair interviews' and has camera capacity for simultaneous YouTube recording.</p>					
+					<p class="text-l-mob">All studios can record Skype/WhatsApp/telephone conversations as well as additional Client sources (e.g. playout from laptops Etc during a recording).</p>					
+					<p class="text-l-mob">Our open-plan office space is designed specifically to facilitate and encourage creative interaction during the entire production process. With free wi-fi, unlimited coffee, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many Clients like to work from our offices on recording days.</p>					
 				</div>
 
 			</div>
@@ -131,8 +134,8 @@
 						<img class="studios border-mob" src="assets/images/photos/studio-1.jpg" alt="" />
 					</picture>
 					<div>
-						<div class="h3 text-l-mob">Studio 1</div>
-						<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
+						<div class="h3 text-l-mob">Studio 1 : Large Professional and Corporate</div>
+						<p class="text-l-mob">Studio 1 is designed and furnished to facilitate conversation. A solid wood and leather-inlayed countertop at 'bar' height, and raised leather seating, make this an ideal setting for in-depth discussions and interviews.</p>
 					</div>
 				</figure>
 
@@ -146,8 +149,8 @@
 						<img class="studios border-mob" src="assets/images/photos/studio-2.jpg" alt="" />
 					</picture>
 					<div>
-						<div class="h3 text-l-mob">Studio 2</div>
-						<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
+						<div class="h3 text-l-mob">Studio 2 : Dry-Hire, DIY and Hobbyist</div>
+						<p class="text-l-mob">Studio 2 is perfect for the DIY/hobbyist podcaster who has  basic skills and needs a high quality place to record. Professionally equipped for 3 people, and available to hire, by the hour, without requiring a sound engineer, this is the ideal studio for the podcast beginner.</p>
 					</div>
 				</figure>
 
@@ -161,10 +164,41 @@
 						<img class="studios border-mob" src="assets/images/photos/studio-3.jpg" alt="" />
 					</picture>
 					<div>
-						<div class="h3 text-l-mob">Studio 3</div>
-						<p class="text-l-mob">Lorem ipsum dolor sit amet, everti doctus aperiam eu qui, eam ex ullum dicunt splendide. Eu elaboraret efficiendi adversarium sea, sint modus evertitur sed ei, te verear virtute recteque mea. Vis ea velit erant luptatum, in graeci eruditi vis. Ad his equidem facilis tincidunt. Ei liber ocurreret adipiscing nam, dico recusabo sea ut, id est idque assentior mnesarchum.</p>
+						<div class="h3 text-l-mob">Studio 3 : Post-Production</div>
+						<p class="text-l-mob">Studio 3 probably looks the most familiar to communication and media professionals as it has a separate soundproof booth and a larger couch area for directors/producers/clients. This studio is oriented toward post-production, though it is also used for recording and production of audiobooks, radio commercials and video soundtracks.</p>
 					</div>
 				</figure>
+
+				<!--
+				Studio 4
+				-->
+
+				<figure class="flow-ttb-mob flow-rtl-tab spread-respond pad-respond-xy-mob align-fs-mob radius-mob theme-white border-tab">
+					<picture>
+						<source srcset="assets/images/photos/studio-4.webp" type="image/webp" />
+						<img class="studios border-mob" src="assets/images/photos/studio-4.jpg" alt="" />
+					</picture>
+					<div>
+						<div class="h3 text-l-mob">Studio 4 : Large 'TV-like' studio</div>
+						<p class="text-l-mob">Studio 4 (under construction) looks a bit more like a television studio. It is designed to be very versatile and allow for a vast range of conversations to be recorded. Intended layouts include for armchair conversations, a boardbook desk layout, a lounge/couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for the specific recordings.</p>
+					</div>
+				</figure>
+
+				<!--
+				Studios 5 - 10
+				-->
+
+				<figure class="flow-ttb-mob flow-ltr-tab spread-respond pad-respond-xy-mob align-fs-mob radius-mob theme-white border-tab">
+					<picture>
+						<source srcset="assets/images/photos/studio-5.webp" type="image/webp" />
+						<img class="studios border-mob" src="assets/images/photos/studio-5.jpg" alt="" />
+					</picture>
+					<div>
+						<div class="h3 text-l-mob">Studios 5 - 10 : Coming Soon!</div>
+						<p class="text-l-mob">There is strong and growing demand for niche-studios specifically designed for extended bookings and recordings. In particular, for author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and even monthly hire in the very enar future.</p>
+					</div>
+				</figure>
+
 
 			</div>
 

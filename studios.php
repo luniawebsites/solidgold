@@ -101,11 +101,8 @@
 				-->
 				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
 					<h1 class="text-l-mob">Our Studios</h1>
-					<p class="text-l-mob">All Solid Gold studios are professionally equipped for high-quality recording and are air-conditioned and comfortably furnished. We understand and appreciate that to have open, honest, and meaningful conversations, hosts and guests alike need to feel comfortable and at ease. We also understand that our Clients' recording, production, editing, and hosting needs vary in complexity and budget.</p>
-					<p class="text-l-mob">To cater for this range of needs we have built a number of studios catering to varying requirements, and we're certain one of them is perfect for you. From a large high-counter studio (custom designed for group conversations) to a DIY studio (ideal for hobbyists) and the post-production studio (where the focus is on large client/producer/director seating area) we have a studio that will match your recording requirements.</p>
-					<p class="text-l-mob">7 (yes, seven) additional new studios will be ready soon, including a large multi-purpose studio catering for 'fire-side conversations', 'couch conversations', 'armchair interviews' and has camera capacity for simultaneous video recording.</p>					
-					<p class="text-l-mob">All studios can record Skype/WhatsApp/telephone conversations as well as additional Client sources (e.g. playout from laptops or Echo during a recording).</p>					
-					<p class="text-l-mob">Our open-plan office space is designed specifically to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many Clients like to work from our offices on recording days.</p>					
+					<p class="text-l-mob">All Solid Gold studios are professionally equipped for high-quality recording and are air-conditioned and comfortably furnished. We understand and appreciate that to have open, honest, and meaningful conversations, hosts and guests alike need to feel comfortable and at ease. We also understand that our clients' recording, production, editing, and hosting needs vary in complexity and budget.</p>
+					
 				</div>
 
 			</div>
@@ -122,7 +119,17 @@
 
 		<section class="pad-respond-xy-mob theme-white-grey border-b-mob">
 
-			<div class="flow-ttb-mob spread-respond">
+			<div class="flow-ttb-mob constrain pad-respond-y-mob">
+
+				<p class="text-l-mob">To cater for this range of needs we have built a number of studios catering to varying requirements, and we're certain one of them is perfect for you. From a large high-counter studio (custom designed for group conversations) to a DIY studio (ideal for hobbyists) and the post-production studio (where the focus is on large client/producer/director seating area) we have a studio that will match your recording requirements.</p>
+				<p class="text-l-mob">7 (yes, seven) additional new studios will be ready soon, including a large multi-purpose studio that caters for "fire-side conversations", "couch conversations", "armchair interviews" and has camera capacity for simultaneous video recording.</p>					
+				<p class="text-l-mob">All studios can record Skype, WhatsApp and telephone conversations as well as additional client sources (such as playout from laptops or Echo during a recording).</p>					
+				<p class="text-l-mob">Our open-plan office space is designed specifically to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many clients like to work from our offices on recording days.</p>
+
+			</div>
+
+
+			<div class="flow-ttb-mob spread-respond constrain">
 
 				<!--
 				Studio 1

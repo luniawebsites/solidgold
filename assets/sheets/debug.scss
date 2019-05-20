@@ -1,0 +1,22 @@
+// Find accessibility problems
+html,
+div,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+ul li,
+ol li,
+em,
+input,
+textarea {
+	border: dashed 1px $red;
+	// background-color: #fff;
+	// color: #b50082;
+}

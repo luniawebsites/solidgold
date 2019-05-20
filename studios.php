@@ -179,8 +179,8 @@
 						<img class="studios border-mob" src="assets/images/photos/studio-4.jpg" alt="" />
 					</picture>
 					<div>
-						<div class="h3 text-l-mob">Studio 4 : Large 'TV-like' studio</div>
-						<p class="text-l-mob">Studio 4 (under construction) looks a bit more like a television studio than our other studios. And for good reason. It is designed to be very versatile and allows for a vast range of conversations to be recorded. Recording configurations include armchair conversations, a boardbook desk layout, a lounge/couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for the specific recordings. There's also an infinity curve and a 'green screen' for chromakey shoots.</p>
+						<div class="h3 text-l-mob">Studio 4 : Large "TV-like" studio</div>
+						<p class="text-l-mob">Studio 4 (under construction) looks a bit more like a television studio than our other studios. And for good reason. It is designed to be very versatile and allows for a vast range of conversations to be recorded. Recording configurations include armchair conversations, a boardbook desk layout, a lounge/couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for the specific recordings. There's also an infinity curve and a "green screen" for chroma key shoots.</p>
 					</div>
 				</figure>
 
@@ -194,8 +194,8 @@
 						<img class="studios border-mob" src="assets/images/photos/studio-5.jpg" alt="" />
 					</picture>
 					<div>
-						<div class="h3 text-l-mob">Studios 5 - 10 : Coming Soon!</div>
-						<p class="text-l-mob">We're experiencing strong, and growing, demand for niche-studios specifically designed for extended bookings and recordings. In particular, for author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and even monthly hire in the very near future.</p>
+						<div class="h3 text-l-mob">Studios 5 to 10 : Coming Soon!</div>
+						<p class="text-l-mob">We're experiencing strong, and growing, demand for niche studios specifically designed for extended bookings and recordings. In particular, for author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and even monthly hire in the very near future.</p>
 					</div>
 				</figure>
 

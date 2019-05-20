@@ -92,7 +92,7 @@
 			<div>
 				<div class="pad-respond-y-mob">
 
-					<h1 class="text-l-mob">Podcast channels.</span></h1>
+					<h1 class="text-l-mob">Podcast channels</span></h1>
 
 				</div>
 				<div class="pad-respond-b-mob pad-t-mob">

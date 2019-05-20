@@ -128,7 +128,7 @@
 		What does it cost
 		-->
 
-		<section class="pad-respond-xy-mob theme-white border-b-mob">
+		<section class="pad-respond-x-mob theme-white border-b-mob">
 
 			<div class="flow-ttb-mob theme-white">
 
@@ -141,7 +141,7 @@
 
 				</div>
 
-				<div class="pad-respond-t-mob">
+				<div class="pad-respond-y-mob">
 
 					<p class="text-c-mob">All prices exclude VAT.</p>
 

@@ -106,39 +106,48 @@
 
 	</header>
 
-				<header class="constrain pad-respond-xy-mob">
-				<h2 class="text-underline text-l-mob text-c-tab">What does it cost to produce and publish a podcast?</h1>
-				<p class="constrain-80 text-l-mob text-c-tab">The extent of the investment in your podcast will vary based on several factors, including <strong>frequency</strong> and <strong>complexity</strong>. Is it a once-off series of FAQ episodes? Is it a weekly commentary? Do you have 1 guest or 3? Those kinds of things. When we meet to discuss your objectives and how we'll work together to achieve them, we'll agree on a price that will be in line with the 3 models described below. In all instances, there are <strong>production and publishing</strong> costs and on-going <strong>hosting</strong> costs. Not only are podcast files much larger than you're used to with a regular website, they also need to be served fast and reliably to many simultaneous users.</p>
-				<p class="constrain-80 text-l-mob text-c-tab">Our hosting charges start at <strong>R79 per month</strong> and only increase based on number of monthly episodes hosted (such as intense frequency channels) and when very large data volumes are required (for example when your target audience for a channel is greater than 2 million). These measures ensure that adequate data delivey and throughput are maintained. Below is a calculator that will give you some insight into the estimated costs for <span class="no-break">3 tiers</span> of production.</p>
-				</header>
-
-
-	<div class="flow-ttb-mob pad-respond-t-mob theme-white">
-
-		<div class="pad-respond-t-mob">
-
-			<label class="switch">
-				<input type="checkbox" name="control" id="control" autocomplete="off" />
-				<span class="slider"></span>
-			</label>
-
-		</div>
-		<div class="pad-respond-t-mob">
-
-			<p class="text-c-mob">All prices exclude VAT.</p>
-
-		</div>
-
-
-	</div>
-
 	<main>
 
 		<!--
-		Pricing tables
+		What does it cost
 		-->
 
-		<section class="pad-respond-xy-mob theme-white border-b-mob">
+		<section class="pad-respond-xy-mob theme-white">
+
+			<div class="constrain pad-respond-t-mob">
+
+				<h2 class="text-underline text-l-mob">What does it cost to produce and publish a podcast?</h1>
+				<p class="text-l-mob">The extent of the investment in your podcast will vary based on several factors, including <strong>frequency</strong> and <strong>complexity</strong>. Is it a once-off series of FAQ episodes? Is it a weekly commentary? Do you have 1 guest or 3? Those kinds of things. When we meet to discuss your objectives and how we'll work together to achieve them, we'll agree on a price that will be in line with the 3 models described below. In all instances, there are <strong>production and publishing</strong> costs and on-going <strong>hosting</strong> costs. Not only are podcast files much larger than you're used to with a regular website, they also need to be served fast and reliably to many simultaneous users.</p>
+				<p class="text-l-mob">Our hosting charges start at <strong>R79 per month</strong> and only increase based on number of monthly episodes hosted (such as intense frequency channels) and when very large data volumes are required (for example when your target audience for a channel is greater than 2 million). These measures ensure that adequate data delivey and throughput are maintained. Below is a calculator that will give you some insight into the estimated costs for <span class="no-break">3 tiers</span> of production.</p>
+
+			</div>
+
+		</section>
+
+		<!--
+		What does it cost
+		-->
+
+		<section class="pad-respond-x-mob theme-white border-b-mob">
+
+			<div class="flow-ttb-mob theme-white">
+
+				<div class="pad-respond-t-mob">
+
+					<label class="switch">
+						<input type="checkbox" name="control" id="control" autocomplete="off" />
+						<span class="slider"></span>
+					</label>
+
+				</div>
+
+				<div class="pad-respond-y-mob">
+
+					<p class="text-c-mob">All prices exclude VAT.</p>
+
+				</div>
+
+			</div>
 
 			<!--
 			Container (per episode)

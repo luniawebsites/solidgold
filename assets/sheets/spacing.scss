@@ -274,9 +274,10 @@ ul.spread:last-child {
 	margin-bottom: 0;
 }
 
-// Left to right
+// Left to right, right to left
 
-.spread-respond.flow-ltr-mob > * {
+.spread-respond.flow-ltr-mob > *,
+.spread-respond.flow-rtl-mob > * {
 	margin-top: 0;
 	margin-right: calc(#{$spread-space-mobile} * 0.5);
 	margin-bottom: 0;
@@ -289,6 +290,14 @@ ul.spread:last-child {
 
 .spread-respond.flow-ltr-mob > *:last-child {
 	margin-right: 0;
+}
+
+.spread-respond.flow-rtl-mob > *:first-child {
+	margin-right: 0;
+}
+
+.spread-respond.flow-rtl-mob > *:last-child {
+	margin-left: 0;
 }
 
 /* Tablet viewport
@@ -508,10 +517,12 @@ ul.spread:last-child {
 		margin-bottom: 0;
 	}
 
-	// Left to right
+	// Left to right, right to left
 
 	.spread-respond.flow-ltr-mob > *,
-	.spread-respond.flow-ltr-tab > * {
+	.spread-respond.flow-ltr-tab > *,
+	.spread-respond.flow-rtl-mob > *,
+	.spread-respond.flow-rtl-tab > * {
 		margin-top: 0;
 		margin-right: calc(#{$spread-space-tablet} * 0.5);
 		margin-bottom: 0;
@@ -526,6 +537,16 @@ ul.spread:last-child {
 	.spread-respond.flow-ltr-mob > *:last-child,
 	.spread-respond.flow-ltr-tab > *:last-child {
 		margin-right: 0;
+	}
+
+	.spread-respond.flow-rtl-mob > *:first-child,
+	.spread-respond.flow-rtl-tab > *:first-child {
+		margin-right: 0;
+	}
+
+	.spread-respond.flow-rtl-mob > *:last-child,
+	.spread-respond.flow-rtl-tab > *:last-child {
+		margin-left: 0;
 	}
 
 }
@@ -759,7 +780,10 @@ ul.spread:last-child {
 
 	.spread-respond.flow-ltr-mob > *,
 	.spread-respond.flow-ltr-tab > *,
-	.spread-respond.flow-ltr-des > * {
+	.spread-respond.flow-ltr-des > *,
+	.spread-respond.flow-rtl-mob > *,
+	.spread-respond.flow-rtl-tab > *,
+	.spread-respond.flow-rtl-des > *  {
 		margin-top: 0;
 		margin-right: calc(#{$spread-space-desktop} * 0.5);
 		margin-bottom: 0;
@@ -776,6 +800,18 @@ ul.spread:last-child {
 	.spread-respond.flow-ltr-tab > *:last-child,
 	.spread-respond.flow-ltr-des > *:last-child {
 		margin-right: 0;
+	}
+
+	.spread-respond.flow-rtl-mob > *:first-child,
+	.spread-respond.flow-rtl-tab > *:first-child,
+	.spread-respond.flow-rtl-des > *:first-child {
+		margin-right: 0;
+	}
+
+	.spread-respond.flow-rtl-mob > *:last-child,
+	.spread-respond.flow-rtl-tab > *:last-child,
+	.spread-respond.flow-rtl-des > *:last-child {
+		margin-left: 0;
 	}
 
 }

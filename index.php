@@ -140,7 +140,8 @@
 					<h2 class="text-l-mob">What's the big deal with voice?</h2>
 					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
 					<p class="text-l-mob">Google now transcribes all podcasts, indexes the content, and includes a "play" button in the search results. This makes it imperative that businesses produce regular, meaningful, and content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
-					<p class="text-l-mob">For all your strategic communication requirements, audio, voice, and podcast solutions <a class="no-break" href="contact.php">get in touch with us</a> and we'll guide you through the process. <strong>Your needs are central to us!</strong></p>
+					<p class="text-l-mob">For all your <strong>strategic communication requirements</strong>, audio, voice, and podcast solutions <a class="no-break" href="contact.php">get in touch with us</a> and we'll guide you through the process.</p>
+					<p class="text-l-mob"><strong>Your needs are central to us!</strong></p>
 
 
 				</div>

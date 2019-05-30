@@ -121,6 +121,39 @@
 	<main>
 
 		<!--
+		SECTION > What's the big deal
+		-->
+
+		<section class="pattern-section-item pad-respond-x-mob pad-respond-y-mob theme-white border-b-mob">
+
+			<!--
+			Container
+			-->
+
+			<div class="flow-btt-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-y-mob align-fe-tab animatedParent animateOnce">
+
+				<!--
+				Text
+				-->
+
+				<div class="animated fadeInUpShort">
+					<h2 class="text-l-mob">What's the big deal with voice?</h2>
+					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
+					<p class="text-l-mob">Google now transcribes all podcasts, indexes the content, and includes a "play" button in the search results. This makes it imperative that businesses produce regular, meaningful, and content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
+					<p class="text-l-mob">For all your <strong>strategic communication requirements</strong>, audio, voice, and podcast solutions <a class="no-break" href="contact.php">get in touch with us</a> and we'll guide you through the process.</p>
+					<p class="text-l-mob"><strong>Your needs are central to us!</strong></p>
+
+
+				</div>
+
+			</div>
+
+		</section>
+
+
+
+
+		<!--
 		SECTION > Like radio, but better
 		-->
 
@@ -145,11 +178,6 @@
 				-->
 
 				<div class="animated fadeInUpShort">
-					<h2 class="text-l-mob">What's the big deal with voice?</h2>
-					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
-					<p class="text-l-mob">Google now transcribe all podcasts, index the content, and include a 'play' button in the search results. This makes it imperative that businesses produce regular, meaningful, content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
-					<p></p>
-
 					<h2 class="text-l-mob">Everything, Everywhere, <span class="no-break">Any Time!</span></h2>
 					<p class="text-l-mob"><strong>Podcasts are like radio, but better</strong> since you now have every radio show ever made available on demand. To join the exploding podcast revolution, all you need is a free app to manage and play your podcast collection, such as <a href="https://itunes.com/" target="_blank" rel="noopener">Apple Podcasts (iTunes)</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a>, an Internet connection and time to listen, most commonly while commuting, at gym or even while preparing meals. Use the app to follow podcast channels of your choice, and the app will download new episodes for you to listen to when you choose.</p>
 					<div class="flow-ttb-mob spread pad-t-mob pad-respond-b-mob pad-respond-b-mob justify-c-mob justify-fs-tab">

@@ -164,6 +164,7 @@
 
 				<div class="flow-ttb-mob constrain-70 pad-respond-b-mob justify-fs-mob">
 
+					<p class="text-l-mob">Welcome to South Africa's first gun-related podcast.</p>
 					<p class="text-l-mob">If you are a South African who lawfully owns a firearm, you are us... and we are you.</p>
 					<p class="text-l-mob">We are the blanket organisation for all of the Provincial GOSAs, the Municipal GOSAs, and the Ward GOSAs.</p>
 					<p class="text-l-mob">Our principles are simple:</p>

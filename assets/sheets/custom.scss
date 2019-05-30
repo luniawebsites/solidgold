@@ -83,6 +83,27 @@ input#filter {
 	opacity: 0.8;
 }
 
+.pattern-channel-item.private-channel:before {
+	content: "Private Channel";
+	display: block;
+	position: absolute;
+	border: solid 1px #fff;
+	border-radius: $radius;
+	background-color: $yellow;
+	padding: 0.5rem;
+	height: 2rem;
+	top: 0.5rem;
+	left: 0.5rem;
+	color: $dark-grey;
+	font-family: $font-heading;
+	font-size: 0.7rem;
+	text-align: center;
+	letter-spacing: 0.0005rem;
+	line-height: 0.9rem; 
+	box-shadow: $shadow;
+	opacity: 0.95;
+}
+
 /* Custom design pattern > Individual channel masthead (used on individual channel pages)
 ---------------------------------------------------------------------------- */
 
@@ -392,7 +413,8 @@ content: "11%";
 		transform: scale(1.1);
 	}
 
-	.pattern-channel-item.coming-soon:hover {
+	.pattern-channel-item.coming-soon:hover,
+	.pattern-channel-item.private-channel:hover {
 		color: inherit;
 		transform: scale(1);
 	}

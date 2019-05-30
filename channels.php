@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -185,6 +185,14 @@
 					</span>
 				</a>
 
+				<!-- Private Channel -->
+				<a class="pattern-channel-item private-channel" data-pattern-channel-item="future proof your child extra lessons paul janet albrecht">
+					<img src="assets/images/cover-art/channels/fpyc.jpg" alt="" />
+					<span>
+						<p>Future Proof Your Child</p>
+						<p>Paul Albrecht</p>
+					</span>
+				</a>
 
 				<a href="garageband.php" class="pattern-channel-item" data-pattern-channel-item="garage band adam alexander">
 					<img src="assets/images/cover-art/channels/garageband.jpg" alt="" />

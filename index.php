@@ -143,7 +143,7 @@
 					<h2 class="text-l-mob">VSO is replacing SEO</h2>
 					<p class="text-l-mob">Google now transcribes all podcasts, indexes the content, and includes a "play" button in the search results. This makes it imperative that businesses produce regular, meaningful, and content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
 					<p class="text-l-mob">For all your <strong>strategic communication requirements</strong>, audio, voice, and podcast solutions <a class="no-break" href="contact.php">get in touch with us</a> and we'll guide you through the process.</p>
-					<p class="text-l-mob"><strong>Your needs are central to us!</strong></p>
+					<p class="text-l-mob"><strong>You and your story</strong> are <strong>central</strong> to our business.</p>
 
 
 				</div>

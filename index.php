@@ -138,7 +138,9 @@
 
 				<div class="animated fadeInUpShort">
 					<h2 class="text-l-mob">What's the big deal with voice?</h2>
-					<p class="text-l-mob">Can you imaging the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
+					<p class="text-l-mob">Picture the implications for your business of a world where your conversations, about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, are all easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in your conversations being included in the results? Well, imagine no more. This is now a reality and signals a major shift from SEO to <strong>VSO (voice search optimisation)</strong>.</p>
+					<p></p>
+					<h2 class="text-l-mob">VSO is replacing SEO</h2>
 					<p class="text-l-mob">Google now transcribes all podcasts, indexes the content, and includes a "play" button in the search results. This makes it imperative that businesses produce regular, meaningful, and content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
 					<p class="text-l-mob">For all your <strong>strategic communication requirements</strong>, audio, voice, and podcast solutions <a class="no-break" href="contact.php">get in touch with us</a> and we'll guide you through the process.</p>
 					<p class="text-l-mob"><strong>Your needs are central to us!</strong></p>
@@ -178,7 +180,7 @@
 				-->
 
 				<div class="animated fadeInUpShort">
-					<h2 class="text-l-mob">Podcasts : <span class="no-break">Everything! Everywhere!</span></h2>
+					<h2 class="text-l-mob">Podcasts : <span class="no-break">Anything! Everywhere!</span></h2>
 					<p class="text-l-mob"><strong>Podcasts are like radio, but better</strong> since you now have the world's audio content available on demand, wherever you are, whenever you want. To join the exploding podcast revolution, all you need is a free app to manage and play your podcast collection, such as <a href="https://itunes.com/" target="_blank" rel="noopener">Apple Podcasts (iTunes)</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a>, an Internet connection and time to listen, most commonly while commuting, at gym or even while preparing meals. Use the app to follow podcast channels of your choice, and the app will download new episodes for you automatically.</p>
 					<div class="flow-ttb-mob spread pad-t-mob pad-respond-b-mob pad-respond-b-mob justify-c-mob justify-fs-tab">
 						<h3 class="text-l-mob">Try a sample:</h3>

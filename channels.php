@@ -137,7 +137,7 @@
 				</a>
 
 				<!-- Coming soon -->
-				<a class="pattern-channel-item private-channel" data-pattern-channel-item="the call estelle kapp">
+				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the call estelle kapp">
 					<img src="assets/images/cover-art/channels/placeholder-thecall.jpg" alt="" />
 					<span>
 						<p>The Call</p>

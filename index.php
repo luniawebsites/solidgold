@@ -210,7 +210,7 @@
 				<figure>
 					<figcaption class="text-white">Listen to Corrie Petzer's Origin Story (dur 2:21)</figcaption>
 					<audio preload="none" controls>
-						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
+						<source src="https://chtbl.com/track/85158/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
 						<p>Your browser doesn't support HTML5 audio.</p>
 					</audio>
 				</figure>
@@ -361,7 +361,7 @@
 
 			<div class="constrain pad-respond-y-mob">
 				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
-				<p class="text-l-mob text-c-tab">We are so much more than a <strong>podcast recording studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
+				<p class="text-l-mob text-c-tab">We are so much more than a <strong>podcast studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
 			</div>
 
 			<div class="constrain pad-respond-y-mob">
@@ -379,7 +379,7 @@
 						<div class="text-c-mob text-l-tab grow">
 							<h3>Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</h3>
 							<audio class="pad-t-mob" preload="none" controls>
-								<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
+								<source src="https://chtbl.com/track/85158/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
 							</audio>
 						</div>
 					</div>
@@ -392,7 +392,7 @@
 						<div class="text-c-mob text-l-tab grow">
 							<h3>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</h3>
 							<audio class="pad-t-mob" preload="none" controls>
-								<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
+								<source src="https://chtbl.com/track/85158/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
 							</audio>
 						</div>
 					</div>
@@ -624,7 +624,7 @@
 				<h2 class="pad-b-mob text-l-mob">Too long, didn't read (TL;DR)</h2>
 				<ul>
 					<li>We will help you plan your podcast.</li>
-					<li>We produce your podcasts in our professional studios, and publish them for you.</li>
+					<li>We record in our professional podcast studios, and publish for you.</li>
 					<li>We provide affordable hosting for your podcasts.</li>
 					<li>Podcasting is very popular&mdash;and the audience is growing.</li>
 					<li>People listen to podcasts at home, at work, while cooking, at gym, and while driving.</li>

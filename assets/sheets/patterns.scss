@@ -147,10 +147,10 @@ a.pattern-page-nav-dropdown-heading:focus {
 	min-height: 18rem;
 }
 
-/* Tablet viewport
+/* Desktop viewport
 ---------------------------------------------------------------------------- */
 
-@media screen and (min-width: $viewport-tablet) {
+@media screen and (min-width: $viewport-desktop) {
 
 	/* Page leadin
 	---------------------------------------------------------------------------- */
@@ -160,7 +160,7 @@ a.pattern-page-nav-dropdown-heading:focus {
 	}
 
 	.pattern-page-leadin .brand svg {
-		width: 160px;
+		width: 170px;
 	}
 
 	.pattern-page-leadin .link span {
@@ -175,6 +175,10 @@ a.pattern-page-nav-dropdown-heading:focus {
 		cursor: pointer;
 	}
 
+	.pattern-page-leadin .link span:hover {
+		opacity: 0.7;
+	}
+
 	/* Page nav
 	---------------------------------------------------------------------------- */
 
@@ -183,28 +187,10 @@ a.pattern-page-nav-dropdown-heading:focus {
 	}
 
 	/* Hero
----------------------------------------------------------------------------- */
+	---------------------------------------------------------------------------- */
 
 	.pattern-hero {
 		height: calc(100vh - #{$page-leadin-height} + 1px);
-	}
-
-}
-
-/* Desktop viewport
----------------------------------------------------------------------------- */
-
-@media screen and (min-width: $viewport-desktop) {
-
-	/* Page leadin
----------------------------------------------------------------------------- */
-
-	.pattern-page-leadin .brand svg {
-		width: 170px;
-	}
-
-	.pattern-page-leadin .link span:hover {
-		opacity: 0.7;
 	}
 
 }

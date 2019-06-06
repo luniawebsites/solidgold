@@ -75,11 +75,6 @@
 	<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
 
 	<!--
-	PARTIAL > Browse Happy compatibility notice
-	-->
-	<?php echo file_get_contents("assets/partials/browse-happy.html"); ?>
-
-	<!--
 	PARTIAL > Global page leadin with logo and menu
 	-->
 	<?php echo file_get_contents("assets/partials/page-leadin.html"); ?>

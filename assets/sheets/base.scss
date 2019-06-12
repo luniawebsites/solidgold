@@ -25,7 +25,7 @@ html {
 
 // Transparent user selection
 *::selection {
-	// background-color: transparent;
+	background-color: $blue;
 }
 
 // Opaque user selection

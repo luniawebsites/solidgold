@@ -90,7 +90,7 @@ PARTIAL > IE10/IE11 notice
 
 			<h1 id="header_examples_h1_channelexamples">There must be 50 ways to use a podcast</h1>
 
-			<p>Podcasts are extremely versatile, covering practically unlimited topics.</p>
+			<p>Below we describe many of the common, effective and unusual implementations of voice/audio programming that are being used by people, companies, non-profits, schools and practically anybody with a story to tell.</p>
 
 			<form>
 

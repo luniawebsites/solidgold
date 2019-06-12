@@ -1,52 +1,82 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+/*
 // Target Firefox only
 @-moz-document url-prefix("") {
-	form div {
+	div {
 	}
 }
+*/
 
-/* Spacing
----------------------------------------------------------------------------- */
+// Add red star after required label text
+.form_optional:after,
+.form-optional--text {
+	content: " *";
+	font-weight: bold;
+	color: $green;
+}
 
-// Aesthetics
-
-label span {
-	display: flex;
-	flex-direction: column;
-	margin: 0 0 $radius $radius;
+label {
+	display: block;
+	position: relative;
+	margin: 0 0 0 calc(#{$space-fixed} * 0.5);
 	font-family: $font-form-element;
-	//line-height: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: -0.01rem;
+	line-height: 1.2rem;
+	text-align: left;
+	user-select: none; // Remove user selection highlight
+}
+
+label + input,
+label + textarea,
+label + select,
+label + div {
+	margin-top: calc(#{$radius} * 1);
+	transition: all 0.15s ease-in;
 }
 
 input[type="text"],
+input[type="number"],
 input[type="password"],
 input[type="email"],
 input[type="tel"],
 select {
 	outline: none;
 	border-radius: $radius;
-	border: solid 1px $border-color;
+	border: solid 1px rgba(0, 165, 150, 0.4);
 	background: #fff;
 	padding: 0 1rem;
 	width: 100%;
 	height: $height-form-element;
 	font-family: $font-form-element;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	letter-spacing: -0.01rem;
 	font-weight: normal;
 	transition: $transition;
 }
+
+input[type="file"] {
+	display: none;
+	position: absolute; // Old browser fallback
+	opacity: 0; // Old browser fallback
+ }
 
 textarea {
 	outline: none;
 	resize: none;
 	display: block;
 	border-radius: $radius;
-	border: solid 1px $border-color;
+	border: solid 1px rgba(0, 165, 150, 0.4);
 	background: #fff;
 	padding: 1rem;
 	width: 100%;
 	font-family: $font-form-element;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	letter-spacing: -0.01rem;
 	font-weight: normal;
 }
@@ -54,18 +84,17 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-	border-color: $blue;
-	//background-color: #f3f9f3;
+	border: solid 1px $green;
+	background-color: #fff;
+	box-shadow: $shadow;
 }
 
 input::placeholder,
 textarea::placeholder {
-	color: $border-color;
+	color: rgba(40, 35, 55, 0.35);
 	letter-spacing: 0.01rem;
+	user-select: none; // Remove user selection highlight
 }
-
-/* Customisations
----------------------------------------------------------------------------- */
 
 // Disable link
 .disabled,
@@ -77,24 +106,172 @@ textarea::placeholder {
 	opacity: 0.3;
 }
 
-/* Tablet viewport
+/* Check checkbox
 ---------------------------------------------------------------------------- */
+
+// Hide default
+label[class*="check__container"] input {
+	display: none;
+}
+
+// Container
+label[class*="check__container"] {
+	display: block;
+	position: relative;
+	border: solid 1px rgba(0, 165, 150, 0.4);
+	margin: 0;
+	width: 28px;
+	height: 28px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+// Target checbox inputs
+.check__container--checkbox {
+	border-radius: $radius;
+}
+
+// Target radio inputs
+.check__container--radio {
+	border-radius: 100%;
+}
+
+// Create custom input
+.check__mark {
+	position: absolute;
+	height: 28px;
+	width: 28px;
+	opacity: 0;
+}
+
+.check__text {
+	position: relative;
+}
+
+label[class*="check__container"] input:not(:checked) ~ .check__mark {
+	background-color: #fff;
+	opacity: 1;
+}
+
+label[class*="check__container"] input:checked ~ .check__mark {
+	position: absolute;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='1.5'%3E%3Cpath d='M22 11c0-6.071-4.929-11-11-11S0 4.929 0 11s4.929 11 11 11 11-4.929 11-11z' fill='none'/%3E%3Cpath d='M9.232 14.536l7.071-7.072M5.697 11l3.535 3.536' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E");
+	background-color: $green;
+	height: 28px;
+	width: 28px;
+	opacity: 1;
+}
+
+/* Slider switch radio button
+---------------------------------------------------------------------------- */
+
+// Label containing the slider
+.switch {
+	display: block;
+	position: relative;
+	width: 60px;
+	height: 36px;
+}
+
+// Hide default HTML checkbox
+.switch input {
+	display: none;
+}
+
+/*
+.switch:before {
+	display: block;
+	position: relative;
+	content: "NO";
+	top: 8px;
+	right: 4rem;
+	color: $red;
+	text-align: right;
+}
+*/
+
+// Slider
+.switch .slider {
+	position: absolute;
+	cursor: pointer;
+	border: solid 1px $red;
+	border-radius: 18px;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	// transition: 0.15s;
+	box-shadow: inset 0 1px 1px 0 $border-color-light;
+}
+
+// Knob
+.switch .slider:before {
+	position: absolute;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='1.5'%3E%3Cpath d='M22 11c0-6.071-4.929-11-11-11S0 4.929 0 11s4.929 11 11 11 11-4.929 11-11z' fill='none'/%3E%3Cpath d='M7.464 14.536l7.072-7.072m0 7.072L7.464 7.464' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E");
+	border-radius: 100%;
+	background-color: $red;
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	text-align: center;
+	box-shadow: 0 1px 1px 0 $border-color-light;
+	transition: transform 0.25s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+}
+
+.switch input:checked + .slider {
+	border: solid 1px $green;
+}
+
+.switch input:checked + .slider:before {
+	background-color: $green;
+}
+
+.switch input:focus + .slider {
+	//box-shadow: 0 0 1px $blue;
+}
+
+.switch input:checked + .slider:before {
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='1.5'%3E%3Cpath d='M22 11c0-6.071-4.929-11-11-11S0 4.929 0 11s4.929 11 11 11 11-4.929 11-11z' fill='none'/%3E%3Cpath d='M9.232 14.536l7.071-7.072M5.697 11l3.535 3.536' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E");
+	transform: translateX(23px);
+}
+
+/* Disabled labels and inputs (kept down here for specificity)
+---------------------------------------------------------------------------- */
+
+
+.disable label {
+	pointer-events: none;
+	opacity: 0.2;
+}
+
+.disable input {
+	border: solid 1px transparent;
+	pointer-events: none;
+}
+
+.disable input::placeholder {
+	opacity: 0;
+}
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-tablet) {
 }
 
-/* Desktop viewport
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-desktop) {
-
-	/* Forms
-	------------------------------------------------------------------------ */
 
 	form input:focus,
 	form select:focus,
 	form textarea:focus {
-		//transition: all 0.15s ease-in;
+		transition: all 0.15s ease-in;
 	}
 
 }

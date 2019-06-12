@@ -1,32 +1,20 @@
 User-agent: *
-Disallow: /_originals/
-Disallow: /assets/_sheets/
-Disallow: /scripts/
-Disallow: /errors/
+Disallow: /sheets/
 Disallow: /*.scss$
 Disallow: /*.md$
 
 User-agent: Googlebot
-Disallow: /_originals/
-Disallow: /assets/_sheets/
-Disallow: /scripts/
-Disallow: /errors/
+Disallow: /sheets/
 Disallow: /*.scss$
 Disallow: /*.md$
 
 User-agent: Googlebot-Mobile
-Disallow: /_originals/
-Disallow: /assets/_sheets/
-Disallow: /scripts/
-Disallow: /errors/
+Disallow: /sheets/
 Disallow: /*.scss$
 Disallow: /*.md$
 
 User-agent: Googlebot-Image
-Disallow: /_originals/
-Disallow: /assets/_sheets/
-Disallow: /scripts/
-Disallow: /errors/
+Disallow: /sheets/
 Disallow: /*.scss$
 Disallow: /*.md$
 

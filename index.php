@@ -1,698 +1,878 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
+
+<!--
+PARTIAL > Base URL
+-->
+<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+
+<!--
+PARTIAL > Google Tag Manager script
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
+
+<!-- 
+LINK & PARTIAL > Defer load non-critical CSS
+-->
+<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
+
+<meta name="description" content="Podcast recording studios #BeHeard" />
+<meta name="robots" content="index, follow" />
+<meta name="classification" content="business" />
+<meta name="pagename" content="Solid Gold Podcast Studios" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta property="og:title" content="Solid Gold Podcast Studios | #BeHeard" />
+<meta property="og:description" content="Podcast recording studios #BeHeard" />
+<meta property="og:locale" content="en_ZA" />
+<meta property="og:url" content="https://solidgoldstudios.co.za/" />
+<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:type" content="website" />
+<title>Solid Gold Podcast Studios | #BeHeard</title>
+<link rel="canonical" href="https://solidgoldstudios.co.za/index.php" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
+
+<!--
+Prerender most likely next page
+-->
+<link rel="prerender" href="channels.php">
+
+<!--
+SCRIPT > Inline load modernizer webp detection (defer causes images not to show in IE11)
+-->
+<script>
+	<?php echo file_get_contents("assets/scripts/modernizr-webp.js"); ?>
+</script>
+
+<!--
+PARTIAL > Google Tag Manager body
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+
+<!--
+STYLES > Inline load critical CSS
+-->
+<style>
+	<?php echo file_get_contents("assets/critical.min.css"); ?>
+</style>
+
+<!--
+PARTIAL > Leader with menu
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
+
+<!--
+PARTIAL > IE10/IE11 notice
+-->
+<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+
+<!--
+HEADER > Hero
+-->
+
+<header class="pad-respond-xy-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
+
 	<!--
-	PARTIAL > Google Tag Manager script
+	Container
 	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="podcast, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
-	<meta name="description" content="Podcast recording studio #BeHeard" />
-	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Studios | #BeHeard">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="MobileOptimized" content="320">
-	<!--
-	PARTIAL > Base URL
+
+	<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain spread-respond pad-y-mob">
+
+		<!--
+		Image
 		-->
-	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | #BeHeard" />
-	<meta property="og:description" content="Podcast recording studio #BeHeard" />
-	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/" />
-	<meta property="og:image" content="http://www.solidgoldstudios.co.za/assets/images/logo.png" />
-	<meta property="og:type" content="website" />
-	<link rel="canonical" href="https://solidgoldstudios.co.za/" />
-	<title>Solid Gold Podcast Studios | #BeHeard</title>
-	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
-	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
-	<!-- 
-	LINK > Critical CSS
-	-->
-	<link rel="stylesheet" href="assets/critical.min.css" />
+		<div class="width-50-tab margin-b-mob-only encimage-sketch-group-on-phones"></div>
 
-	<!--
-	LINK > Async-load non-critical CSS
-	-->
-	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+		<!--
+		Copy
+		-->
 
-	<!--
-	PARTIAL > Async-load non-critical CSS polyfill script
-	-->
-	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
+		<div class="width-50-tab">
 
-	<!--
-	PARTIAL > Cookie notice
-	-->
-	<?php echo file_get_contents("assets/partials/cookies.html"); ?>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_beingheardis">Being heard is one of our greatest human needs. #BeHeard</h1>
 
-	<!--
-	SCRIPT > jQuery CDN
-	-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<p>We are the podcast professionals and will help you plan, produce and publish your podcasts so you can share your story with the world.</p>
 
-	<!--
-	SCRIPT > Combined and deferred
-	-->
-	<script src="assets/scripts/combined.min.js" defer></script>
+			<p class="pad-t-mob">We are the first South African network on Castbox.</p>
+
+			<div class="flexdir-ltr-mob spread-mob pad-t-mob">
+
+				<a class="encimage-brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="IAB logo" id="header_hero_a_iab" aria-label="IAB logo"></a>
+
+				<a class="encimage-brand-castbox-first-network" href="https://castbox.fm/networks/Solid%20Gold%20Studios-486?country=za&utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="Castbox logo" id="header_hero_a_castbox" aria-label="Castbox logo"></a>
+
+			</div>
+
+			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
+
+				<a class="button primary" href="#section_whatarepodcasts" title="Learn more about podcasts and why they are so popular" id="header_hero_a_aboutpodcasts" aria-labelledby="header_hero_a_aboutpodcasts header_hero_h1_beingheardis" data-smoothscroll="yes"><span>About Podcasts</span></a>
+
+				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_beingheardis"><span>Podcast Channels</span></a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
+
+<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	Google Webmaster Site Ownership Verification
+	SECTION > Tell the world your story
 	-->
-	<meta name="google-site-verification" content="Xhtg3JduHMTfkVYmJYd0BVaanFxlEyxTRX5JELTDG94" />
 
-</head>
-
-<body class="theme-grey">
-
-	<!--
-	PARTIAL > Google Tag Manager body
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
-
-	<!--
-	PARTIAL > Global page leadin with logo and menu
-	-->
-	<?php echo file_get_contents("assets/partials/page-leadin.html"); ?>
-
-	<!--
-	Hero
-	-->
-	<header class="pattern-hero flow-ttb-mob vh-100-tab pad-respond-xy-mob image-iphone-earphones-wood-table theme-white border-b-mob">
+	<section class="pad-respond-xy-mob theme-dark-grey-mob" id="section_telltheworld" aria-labelledby="section_telltheworld_h2_telltheworld">
 
 		<!--
 		Container
 		-->
 
-		<div class="width-100 constrain pad-respond-y-mob">
+		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
 
-			<div>
-				<div>
-					<h1 class="text-l-mob">#BeHeard</span></h1>
-					<p class="pseudo-column pad-b-mob text-l-mob">Being heard is one of our greatest human needs. We are podcast professionals and will help you plan, produce and publish your podcasts so you can share <span class="no-break"><strong>your</strong> story with the world.</span></p>
+			<!--
+			Header
+			-->
+
+			<header class="flexdir-ttb-mob pad-b-mob">
+
+				<h2 class="text-c-mob" id="section_telltheworld_h2_telltheworld">Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
+
+				<p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="section_telltheworld_a_onchange" aria-labelledby="section_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
+
+			</header>
+
+			<!--
+			Origin Story
+			-->
+
+			<figure>
+
+				<div class="flexdir-ttb-mob flexpos-ct-mob">
+
+					<h3 class="text-c-mob">Corrie Petzer's Origin Story</h3>
+
+					<audio class="pad-t-mob" preload="none" controls>
+						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
+					</audio>
+
+					<figcaption class="pad-t-mob text-c-mob">Duration 2:21</figcaption>
+
 				</div>
-				<div class="flow-ttb-mob flow-ltr-tab spread pad-y-mob align-fs-mob justify-fs-tab">
-					<a class="button theme-blue" href="#weoffer"><span>Learn More</span></a>
-					<a class="button theme-blue-transparent" href="channels.php">See Channels</a>
-				</div>
-				<div class="flow-ltr-mob spread-respond pad-t-mob align-fs-mob justify-fs-mob">
-					<a class="brand-castbox-first-network" href="https://castbox.fm/networks/Solid%20Gold%20Studios-486?country=za&utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener"></a>
-					<a class="brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener"></a>
-				</div>
-				<div class="flow-ltr-mob spread-respond pad-t-mob justify-fs-mob">
-					<span class="text-small">We are the first South African Network on Castbox</span>
-				</div>
+
+			</figure>
+
+		</div>
+
+	</section>
+
+	<!--
+	SECTION > Blog posts
+	-->
+
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_blogposts" aria-labelledby="section_blogposts_h2_blogposts">
+
+		<h2 id="section_blogposts_h2_blogposts" hidden>Blog posts</h2>
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain pad-respond-y-mob">
+
+			<!--
+			Inner container for flexbox
+			-->
+
+			<div class="pad-respond-r-tab border-r-tab">
+
+				<div aria-hidden="true"><span class="text-heading-badge--light">Blog Posts</span></div>
+
+				<!--
+				SCRIPT > Display content from post
+				-->
+
+				<?php
+					@$dir = "assets/posts/"; // Posts directory
+					@$dir_url = "https://solidgoldstudios.co.za/assets/posts/";
+					@$sort = 1; // 0 for ascending order and 1 for descending order
+					@$per_page = 1; // Number of posts to display per page
+					@$posts = scandir($dir, $sort);
+					@$total_pages = ceil((count($posts) - 2) / $per_page);
+					if (!isset($_GET['page']) || $_GET['page'] < 1 || $_GET['page'] > $total_pages) {
+						@$page = 1;
+					}
+					else {
+						@$page = $_GET['page'];
+					}
+					@$page_start = ($page - 1) * $per_page;
+					@$page_limit = ($page) * $per_page;
+					// Load posts
+					for (@$i=$page_start; $i < $page_limit; $i++) {
+						if (array_key_exists($i, $posts)) {
+						if (!is_dir($posts[$i])) {
+							if (file_exists($dir . $posts[$i])) {
+								// Begin curl
+								@$url = $dir_url . $posts[$i];
+								@$ch = curl_init($url);
+								curl_setopt($ch, CURLOPT_URL, $url);
+								curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+								curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+								curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+								curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
+								@$cn = curl_exec($ch);
+								@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+								// Check response
+								if ($status == 200) {
+
+									// Get data from between opening and closing pseudo XML elements
+									@$content = $cn;
+
+									// Title data
+									@$break_title_c = explode("</title>", $content);
+									@$break_title_o = explode("<title>", $break_title_c[0]);
+
+									// Intro data
+									@$break_intro_c = explode("</intro>", $content);
+									@$break_intro_o = explode("<intro>", $break_intro_c[0]);
+
+									// Conditional statement
+
+									if (count($break_title_o) > 1) {
+
+										// Define variables
+										@$title = $break_title_o[1];
+										@$intro = $break_intro_o[1];
+
+										// Write HTML content
+										echo "
+											<h2>". $title . "</h2>
+											<p>" . $intro . "</p>
+											<div class='flexdir-ttb-mob flexpos-lc-mob pad-double-t-mob'>
+												<a class='button primary' href='post-template.php?post=" . $posts[$i] . "' title='Read post' id='section_blogposts_h2_readmore' aria-labelledby='section_blogposts_h2_readmore'><span>Read Post</span></a>
+											</div>
+										";
+										}
+									}
+								}
+							}
+						}
+					}
+				?>
+
+			</div>
+
+			<!--
+			SCRIPT > Link to titles of posts from posts folder
+			-->
+
+			<div class="flexdir-ttb-mob flexpos-lt-mob width-60-tab pad-respond-x-mob-only pad-double-t-mob-only pad-respond-l-tab">
+
+				<?php
+					@$dir = "assets/posts/"; // Posts directory
+					@$dir_url = "https://solidgoldstudios.co.za/assets/posts/";
+					@$sort = 1; // 0 for ascending order and 1 for descending order
+					@$per_page = 4; // Number of posts to display per page
+					@$posts = scandir($dir, $sort);
+					@$total_pages = ceil((count($posts) - 2) / $per_page);
+					if (!isset($_GET['page']) || $_GET['page'] < 1 || $_GET['page'] > $total_pages) {
+						@$page = 1;
+					}
+					else {
+						@$page = $_GET['page'];
+					}
+					@$page_start = ($page - 1) * $per_page;
+					@$page_limit = ($page) * $per_page;
+					// Load posts
+					for (@$i=$page_start; $i < $page_limit; $i++) {
+						if (array_key_exists($i, $posts)) {
+						if (!is_dir($posts[$i])) {
+							if (file_exists($dir . $posts[$i])) {
+								// Begin curl
+								@$url = $dir_url . $posts[$i];
+								@$ch = curl_init($url);
+								curl_setopt($ch, CURLOPT_URL, $url);
+								curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+								curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+								curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+								curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
+								@$cn = curl_exec($ch);
+								@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+								// Check response
+								if ($status == 200) {
+
+									// Get data from between opening and closing pseudo XML elements
+									@$content = $cn;
+
+									// Title data
+									@$break_title_c = explode("</title>", $content);
+									@$break_title_o = explode("<title>", $break_title_c[0]);
+
+									// Conditional statement
+
+									if (count($break_title_o) > 1) {
+
+										// Define variables
+										@$title = $break_title_o[1];
+
+										// Write HTML content
+										echo "
+											<div class='text-heading-small'><a href='post-template.php?post=" . $posts[$i] . "'>". $title . "</a></div>
+										";
+										}
+									}
+								}
+							}
+						}
+					}
+				?>
+
 			</div>
 
 		</div>
 
-	</header>
+	</section>
 
-	<main>
+	<!--
+	SECTION > What are podcasts?
+	-->
 
-		<!--
-		SECTION > What's the big deal
-		-->
-
-		<section class="pattern-section-item pad-respond-x-mob pad-respond-y-mob theme-white border-b-mob">
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-btt-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-y-mob align-fe-tab animatedParent animateOnce">
-
-				<!--
-				Text
-				-->
-
-				<div class="animated fadeInUpShort">
-					<h2 class="text-l-mob">What's the big deal with voice?</h2>
-
-					<p class="text-l-mob">Can you imagine the implications for your business of a world where your conversations, particularly about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, can all be easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in conversations you've had being included in the results? Well, imagine no more. This is now a reality and signals a major shift to V-SEO (voice search engine optimisation).</p>
-					<p class="text-l-mob">Picture the implications for your business of a world where your conversations, about your products and services, are transcribed into text and then indexed and made searchable? A world where deep-dive conversations you have with customers, suppliers and industry experts, are all easily found because the actual words you spoke were searchable? A world where natural language searches (as opposed to only keyword-driven) result in your conversations being included in the results? Well, imagine no more. This is now a reality and signals a major shift from SEO to <strong>VSO (voice search optimisation)</strong>.</p>
-					<p></p>
-					<h2 class="text-l-mob">VSO is replacing SEO</h2>
-					<p class="text-l-mob">Google now transcribes all podcasts, indexes the content, and includes a "play" button in the search results. This makes it imperative that businesses produce regular, meaningful, and content-rich voice-based content (i.e. podcasts) to ensure they remain relevant and findable.</p>					
-					<p class="text-l-mob">For all your <strong>strategic communication requirements</strong>, audio, voice, and podcast solutions <a class="no-break" href="contact.php">get in touch with us</a> and we'll guide you through the process.</p>
-					<p class="text-l-mob"><strong>You and your story</strong> are <strong>central</strong> to our business.</p>
-
-
-				</div>
-
-			</div>
-
-		</section>
-
-
-
+	<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
 
 		<!--
-		SECTION > Like radio, but better
+		Container
 		-->
 
-		<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white border-b-mob">
+		<div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lb-mob flexpos-cb-tab constrain pad-respond-t-mob">
 
 			<!--
-			Container
+			Image
 			-->
 
-			<div class="flow-btt-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-t-mob align-fe-tab animatedParent animateOnce">
+			<figure class="flexdir-ltr-tab flexpos-cb-tab width-80-tab width-70-des pad-t-mob">
 
-				<!--
-				Image
-				-->
+				<div class="image-castbox-screenshot-on-iphonex bgpos-lb-mob bgpos-cb-tab"></div>
 
-				<figure class="flow-ttb-mob pad-t-mob animated fadeInUp">
-					<div class="image-castbox-screenshot-on-iphonex"></div>
-				</figure>
-
-				<!--
-				Text
-				-->
-
-				<div class="animated fadeInUpShort">
-					<h2 class="text-l-mob">Podcasts : <span class="no-break">Anything! Everywhere!</span></h2>
-					<p class="text-l-mob"><strong>Podcasts are like radio, but better</strong> since you now have the world's audio content available on demand, wherever you are, whenever you want. To join the exploding podcast revolution, all you need is a free app to manage and play your podcast collection, such as <a href="https://itunes.com/" target="_blank" rel="noopener">Apple Podcasts (iTunes)</a>, <a href="https://castbox.fm/" target="_blank" rel="noopener">Castbox</a>, <a href="https://stitcher.com/" target="_blank" rel="noopener">Stitcher</a>, or <a href="https://spotify.com/" target="_blank" rel="noopener">Spotify</a>, an Internet connection and time to listen, most commonly while commuting, at gym or even while preparing meals. Use the app to follow podcast channels of your choice, and the app will download new episodes for you automatically.</p>
-					<div class="flow-ttb-mob spread pad-t-mob pad-respond-b-mob pad-respond-b-mob justify-c-mob justify-fs-tab">
-						<h3 class="text-l-mob">Try a sample:</h3>
-						<iframe src="https://tunein.com/embed/player/t123888510/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
-					</div>
-				</div>
-
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > Tell the world your story
-		-->
-
-		<section class="pad-respond-xy-mob image-books-piled theme-white border-b-mob animatedParent animateOnce">
-
-			<div class="pad-respond-y-mob constrain animated fadeInUpShort">
-				<h2 class="pseudo-column pad-b-mob text-l-mob font-white animated">Tell the world your story.</h2>
-				<p class="pseudo-column text-l-mob font-white">This short clip from Petro Du Pisani's channel <a href="onchange.php">On Change</a> gives you a powerful demonstration of the effect of sincere and motivated story-telling.</p>
-				<p class="pseudo-column text-l-mob font-white">Telling your <strong>Origin Story</strong> is possibly the most effective way to share how your personal or business values were shaped.</p>
-
-				<!--
-				Audio player
-				-->
-				<figure>
-					<figcaption class="text-white">Listen to Corrie Petzer's Origin Story (dur 2:21)</figcaption>
-					<audio preload="none" controls>
-						<source src="https://chtbl.com/track/85158/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
-						<p>Your browser doesn't support HTML5 audio.</p>
-					</audio>
-				</figure>
-
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > Why people listen
-		-->
-
-		<section class="pad-respond-x-tab pad-respond-b-mob align-fe-tab theme-grey border-b-mob">
+			</figure>
 
 			<!--
-			Container
+			Copy
 			-->
 
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-t-mob animatedParent animateOnce">
+			<div class="margin-b-mob pad-respond-b-mob">
 
-				<!--
-				Section header
-				-->
+				<div aria-hidden="true"><span class="text-heading-badge--light">What Are Podcasts?</span></div>
 
-				<header class="pad-respond-xy-mob animated fadeInUpShort">
-					<h2 class="text-l-mob text-c-tab text-underline">Why people listen to podcasts.</span></h2>
-					<p class="text-l-mob text-c-tab"><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. Content is as varied as the topics of discussion in the world. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables&mdash;if you can imagine it, you can podcast it.</p>
-				</header>
+				<h2 id="section_whatarepodcasts_h2_podcastsanythingeverywhere">Podcasts: <span class="no-break">Anything! Everywhere!</span></h2>
 
-			</div>
+				<p><strong>Like radio, but better.</strong> Podcasts are episodes of audio content that are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel.</p>
 
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond pad-y-mob align-s-mob">
-
-				<!--
-				Item
-				-->
-
-				<figure class="flow-ttb-mob pad-respond-xy-mob radius-mob theme-white border-tab">
-						<picture class="animatedParent animateOnce">
-							<source srcset="assets/images/photos/two-women-smiling-sharing-earphones.webp" type="image/webp" />
-							<img class="medium border-mob round-mob animated fadeInUpShort" src="assets/images/photos/two-women-smiling-sharing-earphones.jpg" alt="" />
-						</picture>
-						<div class="pad-respond-t-mob grow">
-							<div class="h3">Genuine engagement</div>
-							<p>Podcasts dive deeply into your content and help build trust between you and your audience.</p>
-						</div>
-				</figure>
-
-				<!--
-				Item
-				-->
-
-				<figure class="flow-ttb-mob pad-respond-xy-mob radius-mob theme-white border-tab">
-						<picture class="animatedParent animateOnce">
-							<source srcset="assets/images/photos/woman-headphones-gym.webp" type="image/webp" />
-							<img class="medium border-mob round-mob animated fadeInUpShort" src="assets/images/photos/woman-headphones-gym.jpg" alt="" />
-						</picture>
-						<div class="pad-respond-t-mob grow">
-						<div class="h3">Always available</div>
-							<p>Podcasts are a great companion to daily life and turn an activity into an informative experience.</p>
-						</div>
-				</figure>
-
-				<!--
-				Item
+				<p><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables—if you can imagine it, you can podcast it.</p>
 				
-
-				<figure class="flow-ttb-mob pad-respond-xy-mob theme-white">
-						<picture class="animatedParent animateOnce">
-							<source srcset="assets/images/photos/woman-couch-phone-macbook.webp" type="image/webp" />
-							<img class="medium border-mob round-mob animated fadeInUpShort" src="assets/images/photos/woman-couch-phone-macbook.jpg" alt="" />
-						</picture>
-						<div class="pad-respond-t-mob grow">
-							<div class="h3">Changing habits</div>
-							<p>Half of all listeners play podcasts while at home, instead of doing something else they used to do.</p>
-						</div>
-				</figure>
-				-->
+				<p>Use a free app such as <a href="https://itunes.apple.com/us/app/apple-podcasts/id525463029?mt=8" target="_blank" rel="noopener" id="section_whatarepodcasts_a_applepodcasts" aria-labelledby="section_whatarepodcasts_a_applepodcasts">Apple Podcasts</a>, <a href="https://castbox.fm/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_castbox" aria-labelledby="section_whatarepodcasts_a_castbox">Castbox</a>, <a href="https://www.stitcher.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_stitcher" aria-labelledby="section_whatarepodcasts_a_stitcher">Stitcher</a> or <a href="https://www.spotify.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_spotify" aria-labelledby="section_whatarepodcasts_a_spotify">Spotify</a> to follow podcast channels of your choice. The app can even download new episodes for you automatically.</p>
 
 			</div>
 
-		</section>
+		</div>
 
-		<!--
-		SECTION > You have a captive audience
-		-->
-
-		<section class="pad-respond-xy-mob image-girl-on-road-holding-headphones theme-white border-b-mob animatedParent animateOnce">
-
-			<div class="pad-respond-y-mob constrain animated fadeInUpShort">
-				<h2 class="pseudo-column pad-b-mob text-l-mob font-white animated">You have a captive audience.</h2>
-				<p class="pseudo-column text-l-mob font-white">Your audience <strong>chooses</strong> to listen to you, and is likely to do so while driving around. This is something they can't do with a video or a brochure.</p>
-				<p class="pseudo-column text-l-mob font-white">It's like your customers asking you to send a sales representative to drive around with them explaining a case study.</p>
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > Podcasting is big
-		-->
-
-		<section class="pattern-section-item pad-respond-xy-mob theme-dark-grey border-b-mob">
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-y-mob animatedParent animateOnce">
-
-				<!--
-				Image
-				-->
-
-				<figure class="flow-ttb-mob pad-y-mob text-c-mob theme-dark-grey animated fadeInUpShort">
-					<p class="pad-b-mob text-c-mob text-l-tab">Percentage of US population listening</p>
-					<div class="margin-t-mob image-chart"></div>
-				</figure>
-
-
-				<!--
-				Text
-				-->
-
-				<div class="animated fadeInUpShort">
-					<h2 class="text-l-mob">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
-					<p class="text-l-mob"><strong>One quarter of the US population</strong> listened to a podcast last month. There are more than half-a-million active podcast shows and almost 20-million episodes listed on iTunes alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
-					<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener">Podcast Insight Stats</a></small></p>
-							
-				</div>
-
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > We offer an end-to-end podcast service
-		-->
-
-		<section class="pad-respond-x-mob pad-respond-y-mob theme-white border-b-mob" id="weoffer">
-
-			<!--
-			Section header
-			-->
-
-			<div class="constrain pad-respond-y-mob">
-				<h2 class="text-underline text-l-mob text-c-tab">We offer an end-to-end podcast service.</h1>
-				<p class="text-l-mob text-c-tab">We are so much more than a <strong>podcast studio</strong>. Our full service offering guides you right from the start through the entire process. Whether you're an abosolute beginner or a seasoned professional, we ensure everything gets done right. From concept, through podcast production, to publishing and even your hosting.</p>
-			</div>
-
-			<div class="constrain pad-respond-y-mob">
-
-				<h2 class="text-underline text-l-mob text-c-tab">We offer Guest Training.</h1>			
-				<p class="text-l-mob text-c-tab">Ensuring that <strong>your</strong> message is heard is our highest priority. To assist you with this, we've put together a short <strong>"Podcast Guest 101"</strong> course which you can listen to as a podcast. This will give you step-by-step basic guidelines on how to be an <strong>effective podcasts guest</strong> and get your message across. To listen now, simply <a href="https://fanlink.to/sgsgreen">click here</a> , oh, and  keep a pen and paper handy to make some notes.</p>
-
-				<div class="flow-ttb-mob flow-ltr-tab spread align-s-mob pad-y-mob">
-
-					<!--
-					Audio player
-					-->
-
-					<div class="width-100 pad-respond-xy-mob align-fs-mob radius-mob border-tab">
-						<div class="text-c-mob text-l-tab grow">
-							<h3>Intro to our <strong>Podcast Guest 101</strong> series (dur 2:08)</h3>
-							<audio class="pad-t-mob" preload="none" controls>
-								<source src="https://chtbl.com/track/85158/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
-							</audio>
-						</div>
-					</div>
-
-					<!--
-					Audio player
-					-->
-
-					<div class="width-100 pad-respond-xy-mob align-fs-mob radius-mob border-tab">
-						<div class="text-c-mob text-l-tab grow">
-							<h3>Episode 1 | <strong>Getting Settled</strong> (dur 2:00)</h3>
-							<audio class="pad-t-mob" preload="none" controls>
-								<source src="https://chtbl.com/track/85158/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
-							</audio>
-						</div>
-					</div>
-
-				</div>
-
-				<p class="text-l-mob text-c-tab">If you're going to be a guest on more podcasts in future (and given the explosive growth in this space, that's highly likely) then you may want to join us on our <strong>Podcast Guest Master Class</strong>. Drop us a mail to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener">book your space on our next Master Class</a>.</p>
-
-			</div>
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob constrain spread-respond pad-respond-y-mob">
-
-				<!--
-				Frame
-				-->
-
-				<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-s-mob animatedParent animateOnce">
-
-					<!--
-					Item
-					-->
-
-					<div class="pad-respond-xy-mob align-fs-mob radius-mob theme-grey border-tab">
-						<span class="bg-c-c-mob bg-l-c-tab icon-hand-paintbrush animated fadeInUpShort"></span>
-						<div class="text-c-mob text-l-tab pad-t-mob grow">
-							<h3>Personality design</h3>
-							<p>We help you explore how your show will look, sound and feel. What does the introduction sound like? Is it loud and brash, or soft and intellectual? Is your cover art bright red or subdued blue?</p>
-						</div>
-					</div>
-
-					<!--
-					Item
-					-->
-
-					<div class="pad-respond-xy-mob align-fs-mob radius-mob theme-grey border-tab">
-						<span class="bg-c-c-mob bg-l-c-tab icon-guests animated fadeInUpShort"></span>
-						<div class="text-c-mob text-l-tab pad-t-mob grow">
-							<h3>Studio recording</h3>
-							<p>This is the fun bit, where you're now in one of our professional recording studios, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<!--
-				Frame
-				-->
-
-				<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-s-mob animatedParent animateOnce">
-
-					<!--
-					Item
-					-->
-
-					<div class="pad-respond-xy-mob align-fs-mob radius-mob theme-grey border-tab">
-						<span class="bg-c-c-mob bg-l-c-tab icon-scissors animated fadeInUpShort"></span>
-						<div class="text-c-mob text-l-tab pad-t-mob grow">
-							<h3>Editing</h3>
-							<p>One of our experienced editors dives in and makes everything sound better. Unwanted "ums and ahs" are removed, misspoken sentences are taken out, the content is cleaned up and bed music is laid down.</p>
-							</div>
-					</div>
-
-					<!--
-					Item
-					-->
-
-					<div class="pad-respond-xy-mob align-fs-mob radius-mob theme-grey border-tab">
-						<span class="bg-c-c-mob bg-l-c-tab icon-website-stars animated fadeInUpShort"></span>
-						<div class="text-c-mob text-l-tab pad-t-mob grow">
-							<h3>Hosting</h3>
-							<p>We host all your podcasts and provide you with a dedicated web page for sharing show notes, additional information about each episode, pictures, links to guests and other resources.</p>
-							</div>
-					</div>
-
-				</div>
-
-				<!--
-				Frame
-				-->
-
-				<div class="flow-ttb-mob flow-ltr-tab width-100 constrain spread-respond align-s-mob animatedParent animateOnce">
-
-					<!--
-					Item
-					-->
-
-					<div class="pad-respond-xy-mob align-fs-mob radius-mob theme-grey border-tab">
-						<span class="bg-c-c-mob bg-l-c-tab icon-publishing animated fadeInUpShort"></span>
-						<div class="text-c-mob text-l-tab pad-t-mob grow">
-							<h3>Publishing</h3>
-							<p>We take care of getting your show to the widest possible audience using the largest, most trusted networks and aggregators, including iTunes, Spotify, Google Play, Stitcher, Castbox, Acast and TuneIn.</p>
-							</div>
-					</div>
-
-					<!--
-					Item
-					-->
-
-					<div class="pad-respond-xy-mob align-fs-mob radius-mob theme-grey border-tab">
-						<span class="bg-c-c-mob bg-l-c-tab icon-rocket animated fadeInUpShort"></span>
-						<div class="text-c-mob text-l-tab pad-t-mob grow">
-							<h3>Promotion</h3>
-							<p>We promote your episodes on our website blog and social media platforms. If you choose our <a href="pricing.php">Business</a> package (or higher), you can embed the episode on your own website.</p>
-							</div>
-					</div>
-
-				</div>
-
-			</div>
-
-		</section>
-
-		<!--
-		SECTION > Your audience is everywhere
-		-->
-
-		<section class="pad-respond-xy-mob image-ocean-woman-smile-purple-headphones theme-white border-b-mob animatedParent animateOnce">
-
-			<!--
-			Section header
-			-->
-
-			<header class="constrain pad-respond-y-mob animated fadeInUpShort">
-				<h2 class="pseudo-column pad-b-mob text-l-mob font-white">Your audience is everywhere.</h2>
-				<p class="pseudo-column text-l-mob font-white">More than one in three podcast listeners are engaged while driving, commuting, walking or working out. Time that was once spent listening to conventional radio or music is now being used more productively.</p>
-			</header>
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-ltr-tab constrain pad-t-mob align-s-mob animated fadeInUpShort">
-
-				<!--
-				Graphic
-				-->
-
-				<figure>
-					<div class="metrics-parent">
-						<div>
-						<div class="metrics-label text-l-tab font-white">Home</div>
-					</div>
-
-					<div class="metrics-container">
-							<div class="metrics-1"></div>
-					</div>
-
-					<div>
-						<div class="metrics-label text-l-tab font-white">Driving</div>
-					</div>
-
-					<div class="metrics-container">
-						<div class="metrics-2"></div>
-					</div>
-
-					<div>
-						<div class="metrics-label text-l-tab font-white">Work</div>
-					</div>
-
-					<div class="metrics-container">
-						<div class="metrics-3"></div>
-					</div>
-				</figure>
-
-			</div>
-
-			<footer class="constrain pad-respond-y-mob">
-
-				<div class="flow-ttb-mob text-l-mob font-white">
-					<p><small>Source: <a href="http://www.edisonresearch.com/infinite-dial-2018/" target="_blank" rel="noopener">Edison Research</a></small></p>
-				</div>
-
-			</footer>
-
-		</section>
-
-		<!--
-		SECTION > Not yet convinced
-		-->
-
-		<section class="pattern-section-item pad-respond-x-mob pad-respond-y-mob theme-grey border-b-mob">
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-btt-mob flow-ltr-tab width-100 constrain spread-respond pad-respond-y-mob align-c-mob animatedParent animateOnce">
-
-				<!--
-				Item
-				-->
-
-				<figure class="flow-ttb-mob pad-y-mob">
-					<iframe src="https://widgets.itunes.apple.com/widget.html?c=us&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=Some of our podcast clients&t=Solid Gold Podcasts&m=podcast&e=podcast&w=300&h=370&ids=1315923608,1376604943,1316706544,1418488423,1410068714&wt=playlist&partnerId=&affiliate_id=&at=1001lPBR&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:300px;height:370px;border:0px"></iframe>
-				</figure>
-
-				<!--
-				Text
-				-->
-
-				<div>
-					<h2 class="pad-b-mob text-l-mob">Not yet convinced, but still interested?</h2>
-					<p class="pad-b-mob text-l-mob">Download a podcast player for your phone from the <a href="https://www.apple.com/ios/app-store/" target="_blank" rel="noopener">App Store</a> or on <a href="https://play.google.com/store/search?q=podcast&hl=en" target="_blank" rel="noopener">Google Play</a>. Start exploring and trying episodes you might like. Once you've listened to a few and experienced this phenomenon for yourself, <a class="no-break" href="contact.php">get in touch with us</a> and we can discuss how we can help you tell your story and #BeHeard.</p>
-					<div class="flow-ltr-mob spread pad-b-mob align-c-mob justify-c-mob justify-fs-tab">
-						<a class="badge-app-store" href="https://www.apple.com/ios/app-store/" target="_blank" rel="noopener"></a>
-						<a class="badge-google-play" href="https://play.google.com/store/search?q=podcast&c=apps&hl=en" target="_blank" rel="noopener"></a>
-					</div>
-				</div>
-
-			</div>
-
-		</section>
-
-		<!--
-		TL;DR
-		-->
-
-		<section class="pad-respond-xy-mob theme-white border-b-mob">
-
-			<!--
-			Section header
-			-->
-
-			<article class="constrain pad-respond-y-mob">
-				<h2 class="pad-b-mob text-l-mob">Too long, didn't read (TL;DR)</h2>
-				<ul>
-					<li>We will help you plan your podcast.</li>
-					<li>We record in our professional podcast studios, and publish for you.</li>
-					<li>We provide affordable hosting for your podcasts.</li>
-					<li>Podcasting is very popular&mdash;and the audience is growing.</li>
-					<li>People listen to podcasts at home, at work, while cooking, at gym, and while driving.</li>
-					<li>There is a large shift away from radio listnership to podcasts.</li>
-					<li>Podcasts engage people deeply.</li>
-					<li>Podcasts educate, inform and entertain (usually in some combination).</li>
-<!-- 					<li>If you're appearing as a guest on any of our channels, <a href=http://bit.ly/sgsmua>please complete the media usage agreement</a> first.</li> -->
-					<li>We are the first Network from South Africa to be listed on <a href="https://castbox.fm/">Castbox</a>.</li>
-				</ul>
-			</article>
-
-		</section>
-
-	</main>
+	</section>
 
 	<!--
-	PARTIAL > Global page footer
+	SECTION > Why podcast?
 	-->
-	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
+
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_whypodcast" aria-labelledby="section_whypodcast_h2_youhavea">
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lb-tab constrain spread-respond pad-y-mob">
+
+			<!--
+			Image
+			-->
+
+			<figure class="flexdir-ttb-mob flexdir-ttb-tab theme-dark-grey">
+
+				<div class="margin-b-mob-only encimage-sketch-woman-on-couch"></div>
+
+			</figure>
+
+			<!--
+			Copy
+			-->
+
+			<div class="flexdir-ttb-mob theme-light-grey-mob">
+
+				<div aria-hidden="true"><span class="text-heading-badge--light">Why Podcast?</span></div>
+
+				<h2 id="section_whypodcast_h2_youhavea">You have a captive audience.</h2>
+
+				<p>Your audience <strong>chooses to listen to you</strong>, and is likely to do so while driving around. This is something they can't do with a video or a brochure. It's like your customers asking you to send a sales representative to drive around with them explaining a case study.</p>
+
+			</div>
+
+		</div>
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob constrain pad-y-mob">
+
+			<!--
+			Sub-container for flexbox
+			-->
+
+			<div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
+
+				<!--
+				Genuine engagement
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="encimage-sketch-woman-phone-love" title="Woman holding cell phone with hearts"></div>
+
+					<h3 class="pad-t-mob text-c-mob">Genuine engagement</h3>
+
+					<p class="text-c-mob">Podcasts dive deeply into your content and help build trust between you and your audience.</p>
+
+				</figure>
+
+				<!--
+				Always available
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="encimage-sketch-swinging-on-tree" title="Woman looking at device while swinging on tree"></div>
+
+					<h3 class="pad-t-mob text-c-mob">Always available</h3>
+
+					<p class="text-c-mob">Podcasts are a great companion to daily life and turn an activity into an informative experience.</p>
+
+				</figure>
+
+			</div>
+
+		</div>
+
+	</section>
 
 	<!--
-	PARTIAL > Schema
+	SECTION > Statistics
 	-->
-	<?php echo file_get_contents("assets/partials/schema.html"); ?>
+
+	<section class="pad-respond-xy-mob theme-white-mob" id="section_statistics" aria-labelledby="section_statistics_h2_podcastingisbig">
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-btt-mob flexdir-rtl-tab flexpos-cc-tab constrain spread-respond pad-respond-y-mob">
+
+			<!--
+			Image
+			-->
+
+			<figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab">
+
+				<figcaption class="pad-double-b-mob">US population that listens to podcasts each month</figcaption>
+
+				<div class="image-chart"></div>
+
+			</figure>
+
+			<!--
+			Copy
+			-->
+
+			<div class="pad-b-mob-only">
+
+				<div aria-hidden="true"><span class="text-heading-badge--light">Statistics</span></div>
+
+				<h2 id="section_statistics_h2_podcastingisbig">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
+
+				<p class="text-l-mob"><strong>32% of the US population</strong> listened to a podcast last month. There are more than 700,000 active podcast shows and more than 20-million episodes listed on Apple Podcasts alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
+
+				<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_statistics_a_podcastinsightstats" aria-labelledby="section_statistics_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2019</span>)</small></p>
+						
+			</div>
+
+		</div>
+
+	</section>
 
 	<!--
-	SCRIPT > Metrics
+	SECTION > Your listeners are everywhere
 	-->
-	<script>
 
-		var position = 3600; // Scroll position when animation begins
+	<section class="pad-respond-xy-mob theme-white-mob border-t-mob" id="section_yourlistenersare" aria-labelledby="section_yourlistenersare_h2_yourlistenersare">
 
-		$(function() {
-			var header = $(".metrics-1");
-			$(window).scroll(function() {
-				var scroll = $(window).scrollTop();
+		<!--
+		Container
+		-->
 
-				if (scroll >= position) {
-						header.removeClass('metrics-1').addClass("metrics-1-active");
-				} else {
-						header.removeClass("metrics-1-active").addClass('metrics-1');
-				}
-			});
-		});
+		<div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-y-mob">
 
-		$(function() {
-			var header = $(".metrics-2");
-			$(window).scroll(function() {
-				var scroll = $(window).scrollTop();
+			<div class="width-60-des">
 
-				if (scroll >= position) {
-					header.removeClass('metrics-2').addClass("metrics-2-active");
-				} else {
-					header.removeClass("metrics-2-active").addClass('metrics-2');
-				}
-			});
-		});
+				<!--
+				Table
+				-->
 
-		$(function() {
-			var header = $(".metrics-3");
-			$(window).scroll(function() {
-				var scroll = $(window).scrollTop();
+				<figure class="flexdir-ttb-mob flexpos-rc-mob pad-xy-mob theme-light-grey-mob border-mob">
 
-				if (scroll >= position) {
-					header.removeClass('metrics-3').addClass("metrics-3-active");
-				} else {
-					header.removeClass("metrics-3-active").addClass('metrics-3');
-				}
-			});
-		});
+					<p class="pad-b-mob caption">US podcast listeners by location</p>
 
-	</script>
+					<table>
 
-</body>
+						<tr>
+							<td>Home</td>
+							<td class="text-r-mob">49%</td>
+						</tr>
+
+						<tr>
+							<td>Driving</td>
+							<td class="text-r-mob">22%</td>
+						</tr>
+
+						<tr>
+							<td>Work</td>
+							<td class="text-r-mob">11%</td>
+						</tr>
+
+						<tr>
+							<td>Exercising</td>
+							<td class="text-r-mob">4%</td>
+						</tr>
+
+						<tr>
+							<td>Walking around</td>
+							<td class="text-r-mob">3%</td>
+						</tr>
+
+					</table>
+
+				</figure>
+
+			</div>
+
+			<!--
+			Copy
+			-->
+
+			<div class="flexdir-ttb-mob pad-b-mob-only">
+
+				<h2 id="section_yourlistenersare_h2_yourlistenersare">Your listeners are everywhere.</h2>
+
+				<p>Nearly one in three podcast listeners are engaged while <strong>driving, exercising or walking around</strong>. Time that was once spent listening to radio or music is now being used productively.</p>
+
+				<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_yourlistenersare_a_podcastinsightstats" aria-labelledby="section_yourlistenersare_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2019</span>)</small></p>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!--
+	SECTION > Services
+	-->
+
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_services" aria-labelledby="section_services_h2_weofferan">
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain pad-respond-y-mob">
+
+			<!--
+			Copy
+			-->
+
+			<div class="flexdir-ttb-mob theme-light-grey-mob">
+
+				<div aria-hidden="true"><span class="text-heading-badge--light">Services</span></div>
+
+				<h2 id="section_services_h2_weofferan">We offer an end-to-end podcast service.</h2>
+
+				<p>We are so much more than a podcast recording studio. Our full service offering guides you right from the start through the entire process. Whether you're an <strong>absolute beginner or a seasoned professional</strong>, we ensure everything gets done right—including concept, production, publishing and even hosting.</p>
+
+			</div>
+
+		</div>
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob constrain pad-y-mob">
+
+			<!--
+			Sub-container for grid
+			-->
+
+			<div class="grid-auto-respond-16">
+
+				<!--
+				Personality design
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="icon-hand-paintbrush" title="Hand holding paintbrush"></div>
+
+					<h3 class="pad-t-mob">Personality design</h3>
+
+					<p>We help you explore how your show will look, sound and feel. What does the introduction sound like? Is it loud and brash, or soft and intellectual? Is your cover art bright red or subdued blue?</p>
+
+				</figure>
+
+				<!--
+				Studio recording
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="icon-guests" title="Three excited people"></div>
+
+					<h3 class="pad-t-mob">Studio recording</h3>
+
+					<p>This is the fun bit, where you're now in one of our professional recording studios, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
+
+				</figure>
+
+				<!--
+				Editing
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="icon-scissors" title="Pair of scissors"></div>
+
+					<h3 class="pad-t-mob">Editing</h3>
+
+					<p>One of our experienced editors dives in and makes everything sound better. Unwanted "ums and ahs" are removed, misspoken sentences are taken out, the content is cleaned up and bed music is laid down.</p>
+
+				</figure>
+
+				<!--
+				Editing
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="icon-website-stars" title="Web browser page with stars"></div>
+
+					<h3 class="pad-t-mob">Hosting</h3>
+
+					<p>We host all your podcasts and provide you with a dedicated web page for sharing show notes, additional information about each episode, pictures, links to guests and other resources.</p>
+
+				</figure>
+
+				<!--
+				Publishing
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="icon-publishing" title="Web browser page with play button"></div>
+
+					<h3 class="pad-t-mob">Publishing</h3>
+
+					<p>We take care of getting your show to the widest possible audience using the largest, most trusted networks and aggregators, including Apple Podcasts, Spotify, Google Play, Stitcher, Castbox and TuneIn.</p>
+
+				</figure>
+
+				<!--
+				Promotion
+				-->
+
+				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="icon-rocket" title="Rocket lifting off"></div>
+
+					<h3 class="pad-t-mob">Promotion</h3>
+
+					<p>We promote your episodes on our website blog and social media platforms. If you choose our <a href="pricing.php" id="section_services_a_businesspackage" aria-label="section_services_a_businesspackage">business package</a> (or higher), you can embed the episode on your own website.</p>
+
+				</figure>
+
+			</div>
+
+	</section>
+
+	<!--
+	SECTION > Guest training
+	-->
+
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_guesttraining" aria-labelledby="section_guesttraining_h2_guidelinesonhow">
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-b-mob">
+
+			<!--
+			Image
+			-->
+
+			<figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab theme-dark-grey">
+
+				<div class="margin-y-mob encimage-sketch-podcast-training" title="Guest sitting at table with microphone"></div>
+
+			</figure>
+
+			<!--
+			Copy
+			-->
+
+			<div class="flexdir-ttb-mob theme-light-grey-mob">
+
+				<div aria-hidden="true"><span class="text-heading-badge--light">Guest Training</span></div>
+
+				<h2 id="section_guesttraining_h2_guidelinesonhow">Guidelines on how to be an effective podcast guest.</h2>
+
+				<p>Ensuring that your message is heard is our highest priority. To help you with this, we've put together a free <a href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" id="section_guesttraining_a_podcastguest101" aria-labelledby="section_guesttraining_a_podcastguest101">Podcast Guest 101 Course</a> which you can listen to as a podcast.</p>
+				
+				<p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
+
+				<p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
+
+			</div>
+
+		</div>
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob constrain pad-y-mob">
+
+			<!--
+			Sub-container for flexbox
+			-->
+
+			<div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
+
+				<!--
+				Intro to our Podcast Guest 101 series
+				-->
+
+				<figure class="pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="flexdir-ttb-mob flexpos-ct-mob">
+
+						<h3 class="text-c-mob">Introduction</h3>
+
+						<audio class="pad-t-mob" preload="none" controls>
+							<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
+						</audio>
+
+						<figcaption class="pad-t-mob text-c-mob">Duration 2:08</figcaption>
+
+					</div>
+
+				</figure>
+
+				<!--
+				Episode 1: Getting Settled
+				-->
+
+				<figure class="pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<div class="flexdir-ttb-mob flexpos-ct-mob">
+
+						<h3 class="text-c-mob">Episode 1: Getting Settled</h3>
+
+						<audio class="pad-t-mob" preload="none" controls>
+							<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
+						</audio>
+
+						<figcaption class="pad-t-mob text-c-mob">Duration 1:59</figcaption>
+
+					</div>
+
+				</figure>
+
+			</div>
+
+			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
+
+				<a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
+
+				<a class="button secondary" href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" title="Email us to book your space on our next Master Class" id="section_guesttraining_a_bookmasterclass" aria-labelledby="section_guesttraining_a_bookmasterclass"><span>Book Master Class</span></a>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!--
+	SECTION > Not yet convinced, but still interested?
+	-->
+
+	<section class="pad-respond-xy-mob theme-dark-grey-mob" id="section_notyetconvinced" aria-labelledby="section_notyetconvinced_h2_notyetconvinced">
+
+		<!--
+		Container
+		-->
+
+		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
+
+			<div class="flexdir-ttb-mob">
+
+				<h2 class="text-c-mob" id="section_notyetconvinced_h2_notyetconvinced">Not yet convinced, but still interested?</h2>
+
+				<p class="text-c-mob">Download a podcast player for your phone from the App Store or on Google Play. Start exploring and trying episodes you might like. Once you've listened to a few and experienced this phenomenon for yourself, <a href="contact.php" id="section_notyetconvinced_a_getintouch" aria-labelledby="section_notyetconvinced_a_getintouch">get in touch with us</a> and we can discuss how we can help you tell your story and <i>#BeHeard</i>.</p>
+
+				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob">
+
+						<a class="badge-app-store" href="https://www.apple.com/ios/app-store/" target="_blank" rel="noopener" title="App Store" id="section_notyetconvinced_a_appstore" aria-label="App Store"></a>
+
+						<a class="badge-google-play" href="https://play.google.com/store/search?q=podcast&c=apps&hl=en"  target="_blank" rel="noopener" title="Google Play" id="section_notyetconvinced_a_googleplay" aria-label="Google Play"></a>
+
+					</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+</div>
+
+<!--
+PARTIAL > Page footer
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
+
+<!--
+PARTIAL > Schema
+-->
+<?php echo file_get_contents("assets/partials/schema.html"); ?>
+
+<!--
+SCRIPT > jQuery scripts
+-->
+<script src="assets/scripts/jquery/jquery.min.js"></script>
+<script src="assets/scripts/jquery/pushy.min.js" defer></script>
+<script src="assets/scripts/jquery/scroll.min.js" defer></script>
 
 </html>

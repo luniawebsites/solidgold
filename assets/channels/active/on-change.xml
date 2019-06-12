@@ -1,0 +1,40 @@
+<channelPageData>
+
+	<resources>
+		<title>On Change</title> <!-- e.g. Lift As You Rise -->
+		<host>Petro Du Pisani</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>on change petro du pisani</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>on-change.jpg</coverFileName> <!-- File name with extension -->
+		<agreement>yes</agreement> <!-- yes or empty -->
+		<email>petro@integrichange.co.za</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl>https://castbox.fm/app/castbox/player/id1319916/id157093262?v=8.0.190531&autoplay=0</playlistUrl> <!-- Full URL -->
+		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<facebookUrl></facebookUrl> <!-- Full URL -->
+		<twitterUrl></twitterUrl> <!-- Full URL -->
+		<linkedinUrl>https://www.linkedin.com/in/petrodupisani/</linkedinUrl> <!-- Full URL -->
+		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<tumblrUrl>https://onchangeblog.tumblr.com/</tumblrUrl> <!-- Full URL -->
+		<rssUrl>https://chtbl.com/track/podcaststudios.co.za/rss/onchange.xml</rssUrl> <!-- Full URL -->
+		<extraUrl></extraUrl> <!-- Full URL -->
+		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>From Solid Gold Podcast Studios, this is On Change.</p>
+		<p>The podcast that explores change that works and the people who make it happen. Hosted by certified and experienced Change Practitioner, Petro Du Pisani.</p>
+	</description>
+
+</channelPageData>
+
+<!--
+Cover images should be 400x400px.
+
+If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.
+
+Website address element must include http:// or https://.
+
+Do not add "mailto:"" in the email element — this is done automatically in the script where relevant.
+
+Everything within the description element above will display between title and host and the buttons.
+-->

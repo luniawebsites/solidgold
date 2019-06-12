@@ -1,22 +1,21 @@
 /* TEAM */
 	Web designer: Sheldon Kennedy
 	Site: https://lunia.co.za/
-	Twitter: @life_traveller
+	Twitter: @LuniaWebsites
 	From: Johannesburg, South Africa
 
 /* THANKS */
+	Name: https://yandex.com/company/ (BEM syntax methodology)
 	Name: https://github.com/necolas/normalize.css
-	Name: https://stephanwagner.me/jBox/
-	Name: http://benalman.com/projects/jquery-dotimeout-plugin/
-	Name: http://jackonthe.net and Andy Meetan
-	Name: https://modernizr.com/
-	Name: https://jquery.org/
-	Name: Filament Group, Inc. (for loadCSS)
+	Name: https://www.filamentgroup.com/ (loadCSS)
+	Name: https://modernizr.com/ (compatibility testing)
 	Name: https://jakearchibald.github.io/svgomg/
-	Name: https://yoksel.github.io/url-encoder/
+	Name: https://github.com/christophery/pushy/ (Pushy off-canvas menu)
+	Name: https://instant.page/ (link preloader)
+	Name: https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
 
 /* SITE */
 	Language: English
 	Standards: HTML5, CSS3
 	Components: Modernizr, jQuery
-	Software: VSCode, Koala, Affinity Designer, Affinity Photo, ImageOptim, WebPonize, Savage, Minify, Cyberduck
+	Software: VSCode, MAMP, Prepros, Affinity Designer, Affinity Photo, XnConvert, ImageOptim, Savage

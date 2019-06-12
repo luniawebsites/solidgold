@@ -1,0 +1,41 @@
+<channelPageData>
+
+	<resources>
+		<title>Boo-Yah!</title> <!-- e.g. Lift As You Rise -->
+		<host>Carmen Murray</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>boo yah carmen murray</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>boo-yah.jpg</coverFileName> <!-- File name with extension -->
+		<agreement>yes</agreement> <!-- yes or empty -->
+		<email>hello@carmenmurray.com</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl>https://tunein.com/program/?programid=1174697&utm_medium=referral&utm_content=p1174697&utm_source=geminiEmbedTitle&st=0</playlistUrl> <!-- Full URL -->
+		<websiteUrl>https://www.boo-yah.co.za</websiteUrl> <!-- Full URL -->
+		<facebookUrl>https://www.facebook.com/BooYahZA</facebookUrl> <!-- Full URL -->
+		<twitterUrl>https://twitter.com/BooYahZA</twitterUrl> <!-- Full URL -->
+		<linkedinUrl>https://www.linkedin.com/in/carmen-murray-787b2323</linkedinUrl> <!-- Full URL -->
+		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl>https://chtbl.com/track/podcaststudios.co.za/rss/booyah.xml</rssUrl> <!-- Full URL -->
+		<extraUrl></extraUrl> <!-- Full URL -->
+		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>Host and founder of Boo-Yah!, Carmen Murray, together with various co-hosts, presents an insightful and fun show aimed at empowering everyone by sharing information and insights on trends that will set you and your brand up for success.</p>
+		<p>Featuring interviews with industry heavyweights, they will be unpacking everything from new technologies to the latest marketing trends as well as sharing awesome case studies to get your creative juices flowing and to stay ahead of the curve.</p>
+		<p>Carmen aims to celebrate women in tech and all movers and shakers who are disrupting the business world through learning about their journeys, sharing valuable lessons and best practice empowerment strategies to make your business stand out in the new digital age.</p>
+	</description>
+
+</channelPageData>
+
+<!--
+Cover images should be 400x400px.
+
+If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.
+
+Website address element must include http:// or https://.
+
+Do not add "mailto:"" in the email element — this is done automatically in the script where relevant.
+
+Everything within the description element above will display between title and host and the buttons.
+-->

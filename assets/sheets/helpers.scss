@@ -1,93 +1,66 @@
-/* Misc
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
 
-// Width for all descendants
-.width-100,
-.width-100 div,
-.width-100 figure,
-.width-100 span {
-	width: 100%;
+.flexwrap {
+	flex-wrap: wrap;
 }
 
-/* Image background position
----------------------------------------------------------------------------- */
-
-.bg-l-c-mob {
-	background-position: left center;
+.hidden {
+	display: none;
 }
 
-.bg-c-c-mob {
-	background-position: center center;
+.fade-in {
+	animation: fade-in 0.1s ease-in;
 }
 
-.bg-r-c-mob {
-	background-position: right center;
+// Counter
+.text-counter > .h2:before {
+	counter-increment: section;
+	content: "" counter(section) ". ";
+ }
+
+// Bold text
+.text-bold {
+	font-weight: bold;
 }
 
-/* Flexbox
----------------------------------------------------------------------------- */
-
-.flex-grow {
-	flex-grow: 2;
+// Test uppercase
+.text-uppercase {
+	text-transform: uppercase;
 }
 
-.flex-shrink {
-	flex-shrink: 2;
+// Highlight text
+.text-highlight {
+	background-color: $light-yellow;
 }
 
-.align-fs-mob {
-	align-items: flex-start;
+// Heading badge
+
+%text-heading-badge {
+	display: inline-block;
+	border-radius: $radius;
+	margin-bottom: calc(#{$space-fixed} * 2);
+	padding: calc(#{$space-fixed} * 0.5) calc(#{$space-fixed} * 0.66) calc(#{$space-fixed} * 0.466) calc(#{$space-fixed} * 0.66);
+	width: auto;
+	font-size: 0.85rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.035rem;
+	opacity: 0.2;
 }
 
-.align-c-mob {
-	align-items: center;
+.text-heading-badge--light {
+	@extend %text-heading-badge;
+	background-color: $dark-grey;
+	color: $light-grey;
 }
 
-.align-fe-mob {
-	align-items: flex-end;
-}
-
-.align-s-mob {
-	align-items: stretch;
-}
-
-.justify-fs-mob {
-	justify-content: flex-start;
-}
-
-.justify-fe-mob {
-	justify-content: flex-end;
-}
-
-.justify-sb-mob {
-	justify-content: space-between;
-}
-
-.justify-sa-mob {
-	justify-content: space-around;
-}
-
-// Collapse space between containers
-.collapse-space + div {
-	padding-top: 0;
-}
-
-/* Constrain (limit width of containers)
----------------------------------------------------------------------------- */
-
-.constrain {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: $max-width; // Use max-width here
-}
-
-.constrain-30,
-.constrain-50,
-.constrain-70,
-.constrain-80 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+.text-heading-badge--dark {
+	@extend %text-heading-badge;
+	background-color: $light-grey;
+	color: $dark-grey;
 }
 
 // Use with a span element to keep text together
@@ -101,8 +74,83 @@
 	white-space: pre;
 }
 
-/* Align text
----------------------------------------------------------------------------- */
+.flex-grow {
+	flex-grow: 2;
+}
+
+.flex-shrink {
+	flex-shrink: 2;
+}
+
+// Collapse space between containers
+.collapse-space + div {
+	padding-top: 0;
+}
+
+// Width
+// --------------------------------------------------------------------------------------------------------------
+
+.width-auto-mob {
+	width: auto;
+}
+
+.width-0-mob {
+	width: 0;
+}
+
+.width-10-mob {
+	width: 10%;
+}
+
+.width-20-mob {
+	width: 20%;
+}
+
+.width-30-mob {
+	width: 30%;
+}
+
+.width-40-mob {
+	width: 40%;
+}
+
+.width-50-mob {
+	width: 50%;
+}
+
+.width-60-mob {
+	width: 60%;
+}
+
+.width-70-mob {
+	width: 70%;
+}
+
+.width-80-mob {
+	width: 80%;
+}
+
+.width-90-mob {
+	width: 90%;
+}
+
+.width-100-mob {
+	width: 100%;
+}
+
+// Height
+// --------------------------------------------------------------------------------------------------------------
+
+.height-auto-mob {
+	height: auto;
+}
+
+.height-100-mob {
+	height: 100%;
+}
+
+// Align text
+// --------------------------------------------------------------------------------------------------------------
 
 .text-c-mob,
 .text-c-mob > h2,
@@ -146,42 +194,24 @@
 .text-j-mob > .h4,
 .text-j-mob > p {
 	text-align: justify;
-	text-j: inter-word;
+	text-justify: inter-word;
 }
 
-.text-j-c-mob,
-.text-j-c-mob h2,
-.text-j-c-mob .h2,
-.text-j-c-mob h3,
-.text-j-c-mob .h3,
-.text-j-c-mob h4,
-.text-j-c-mob .h4,
-.text-j-c-mob p {
+.text-jc-mob,
+.text-jc-mob h2,
+.text-jc-mob .h2,
+.text-jc-mob h3,
+.text-jc-mob .h3,
+.text-jc-mob h4,
+.text-jc-mob .h4,
+.text-jc-mob p {
 	text-align: justify;
-	text-j: inter-word;
+	text-justify: inter-word;
 	text-align-last: center; // Force last line to center align
 }
 
-/* Underline text
----------------------------------------------------------------------------- */
-
-.text-underline:after {
-	content: "";
-	display: block;
-	position: relative;
-	background-color: $orange;
-	margin: calc(#{$space-mobile} * 1) 0 0 0;
-}
-
-.text-l-mob.text-underline:after,
-.text-c-mob.text-underline:after,
-.text-r-mob.text-underline:after {
-	width: 100%;
-	height: 2px;
-}
-
-/* Corner radius
----------------------------------------------------------------------------- */
+// Corner radius
+// --------------------------------------------------------------------------------------------------------------
 
 .radius-mob {
 	border-radius: $radius;
@@ -193,31 +223,31 @@
 	overflow: hidden;
 }
 
-/* Borders
----------------------------------------------------------------------------- */
+// Borders
+// --------------------------------------------------------------------------------------------------------------
 
 .border-mob {
-	border: solid 1px $border-color;
+	border: solid 1px $border-color-light;
 }
 
 .border-t-mob {
-	border-top: solid 1px $border-color;
+	border-top: solid 1px $border-color-light;
 }
 
 .border-r-mob {
-	border-right: solid 1px $border-color;
+	border-right: solid 1px $border-color-light;
 }
 
 .border-b-mob {
-	border-bottom: solid 1px $border-color;
+	border-bottom: solid 1px $border-color-light;
 }
 
 .border-l-mob {
-	border-left: solid 1px $border-color;
+	border-left: solid 1px $border-color-light;
 }
 
-/* Shadows
----------------------------------------------------------------------------- */
+// Shadows
+// --------------------------------------------------------------------------------------------------------------
 
 .shadow-mob {
 	box-shadow: $shadow;
@@ -228,63 +258,76 @@
 	box-shadow: inset $shadow;
 }
 
-/* Tablet viewport
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-tablet) {
 
-	/* Image background position
-	---------------------------------------------------------------------------- */
+	// Width
+	// --------------------------------------------------------------------------------------------------------------
 
-	.bg-l-c-tab {
-		background-position: left center;
+	.width-auto-tab {
+		width: auto;
 	}
 
-	.bg-c-c-tab {
-		background-position: center center;
+	.width-0-tab {
+		width: 0;
 	}
 
-	.bg-r-c-tab {
-		background-position: right center;
+	.width-10-tab {
+		width: 10%;
 	}
 
-	/* Flexbox
-	---------------------------------------------------------------------------- */
-
-	.align-fs-tab {
-		align-items: flex-start;
+	.width-20-tab {
+		width: 20%;
 	}
 
-	.align-c-tab {
-		align-items: center;
+	.width-30-tab {
+		width: 30%;
 	}
 
-	.align-fe-tab {
-		align-items: flex-end;
+	.width-40-tab {
+		width: 40%;
 	}
 
-	.align-s-tab {
-		align-items: stretch;
+	.width-50-tab {
+		width: 50%;
 	}
 
-	.justify-fs-tab {
-		justify-content: flex-start;
+	.width-60-tab {
+		width: 60%;
 	}
 
-	.justify-fe-tab {
-		justify-content: flex-end;
+	.width-70-tab {
+		width: 70%;
 	}
 
-	.justify-sb-tab {
-		justify-content: space-between;
+	.width-80-tab {
+		width: 80%;
 	}
 
-	.justify-sa-tab {
-		justify-content: space-around;
+	.width-90-tab {
+		width: 90%;
 	}
 
-	/* Align text
-	---------------------------------------------------------------------------- */
+	.width-100-tab {
+		width: 100%;
+	}
+
+	// Height
+	// --------------------------------------------------------------------------------------------------------------
+
+	.height-auto-tab {
+		height: auto;
+	}
+
+	.height-100-tab {
+		height: 100%;
+	}
+
+	// Align text
+	// --------------------------------------------------------------------------------------------------------------
 
 	.text-c-tab,
 	.text-c-tab > h2,
@@ -328,74 +371,24 @@
 	.text-j-tab > .h4,
 	.text-j-tab > p {
 		text-align: justify;
-		text-j: inter-word;
+		text-justify: inter-word;
 	}
 
-	.text-j-c-tab,
-	.text-j-c-tab > h2,
-	.text-j-c-tab > .h2,
-	.text-j-c-tab > h3,
-	.text-j-c-tab > .h3,
-	.text-j-c-tab > h4,
-	.text-j-c-tab > .h4,
-	.text-j-c-tab > p {
+	.text-jc-tab,
+	.text-jc-tab > h2,
+	.text-jc-tab > .h2,
+	.text-jc-tab > h3,
+	.text-jc-tab > .h3,
+	.text-jc-tab > h4,
+	.text-jc-tab > .h4,
+	.text-jc-tab > p {
 		text-align: justify;
-		text-j: inter-word;
+		text-justify: inter-word;
 		text-align-last: center; // Force last line to center align
 	}
-
-	/* Underline text
-	---------------------------------------------------------------------------- */
-
-	.text-underline:after {
-		margin: calc(#{$space-tablet} * 1) 0 0 0;
-	}
-
-	.text-l-tab.text-underline:after {
-		width: 20%;
-		height: 2px;
-		left: 0;
-	}
-
-	.text-c-tab.text-underline:after {
-		width: 20%;
-		height: 2px;
-		left: 40%;
-	}
-
-	.text-r-tab.text-underline:after {
-		width: 20%;
-		height: 2px;
-		left: 80%;
-	}
-
-	/* Constrain (limit width of containers)
-	---------------------------------------------------------------------------- */
-
-	.constrain-30 {
-		width: calc(#{$max-width} * 0.3);
-	}
-
-	.constrain-50 {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: calc(#{$max-width} * 0.5);
-	}
-
-	.constrain-70 {
-		margin-left: auto;
-		margin-right: auto;
-		width: calc(#{$max-width} * 0.7);
-	}
-
-	.constrain-80 {
-		margin-left: auto;
-		margin-right: auto;
-		width: calc(#{$max-width} * 0.8);
-	}
 	
-	/* Corner radius
-	---------------------------------------------------------------------------- */
+	// Corner radius
+	// --------------------------------------------------------------------------------------------------------------
 
 	.radius-tab {
 		border-radius: $radius;
@@ -407,31 +400,31 @@
 		overflow: hidden;
 	}
 
-	/* Borders
-	---------------------------------------------------------------------------- */
+	// Borders
+	// --------------------------------------------------------------------------------------------------------------
 
 	.border-tab {
-		border: solid 1px $border-color;
+		border: solid 1px $border-color-light;
 	}
 
 	.border-t-tab {
-		border-top: solid 1px $border-color;
+		border-top: solid 1px $border-color-light;
 	}
 
 	.border-r-tab {
-		border-right: solid 1px $border-color;
+		border-right: solid 1px $border-color-light;
 	}
 
 	.border-b-tab {
-		border-bottom: solid 1px $border-color;
+		border-bottom: solid 1px $border-color-light;
 	}
 
 	.border-l-tab {
-		border-left: solid 1px $border-color;
+		border-left: solid 1px $border-color-light;
 	}
 
-	/* Shadows
-	---------------------------------------------------------------------------- */
+	// Shadows
+	// --------------------------------------------------------------------------------------------------------------
 
 	.shadow-tab {
 		box-shadow: $shadow;
@@ -444,63 +437,85 @@
 
 }
 
-/* Desktop viewport
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-desktop) {
 
-	/* Image background position
-	---------------------------------------------------------------------------- */
+	// Constrain
+	// --------------------------------------------------------------------------------------------------------------
 
-	.bg-l-c-des {
-		background-position: left center;
+	.constrain {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: $max-width;
 	}
 
-	.bg-c-c-des {
-		background-position: center center;
+	// Width
+	// --------------------------------------------------------------------------------------------------------------
+
+	.width-auto-des {
+		width: auto;
 	}
 
-	.bg-r-c-des {
-		background-position: right center;
+	.width-0-des {
+		width: 0;
 	}
 
-	/* Flexbox
-	---------------------------------------------------------------------------- */
-
-	.align-fs-des {
-		align-items: flex-start;
+	.width-10-des {
+		width: 10%;
 	}
 
-	.align-c-des {
-		align-items: center;
+	.width-20-des {
+		width: 20%;
 	}
 
-	.align-fe-des {
-		align-items: flex-end;
+	.width-30-des {
+		width: 30%;
 	}
 
-	.align-s-des {
-		align-items: stretch;
+	.width-40-des {
+		width: 40%;
 	}
 
-	.justify-fs-des {
-		justify-content: flex-start;
+	.width-50-des {
+		width: 50%;
 	}
 
-	.justify-fe-des {
-		justify-content: flex-end;
+	.width-60-des {
+		width: 60%;
 	}
 
-	.justify-sb-des {
-		justify-content: space-between;
+	.width-70-des {
+		width: 70%;
 	}
 
-	.justify-sa-des {
-		justify-content: space-around;
+	.width-80-des {
+		width: 80%;
 	}
 
-	/* Align text
-	---------------------------------------------------------------------------- */
+	.width-90-des {
+		width: 90%;
+	}
+
+	.width-100-des {
+		width: 100%;
+	}
+
+	// Height
+	// --------------------------------------------------------------------------------------------------------------
+
+	.height-auto-des {
+		height: auto;
+	}
+
+	.height-100-des {
+		height: 100%;
+	}
+
+	// Align text
+	// --------------------------------------------------------------------------------------------------------------
 
 	.text-c-des,
 	.text-c-des > h2,
@@ -544,49 +559,24 @@
 	.text-j-des > .h4,
 	.text-j-des > p {
 		text-align: justify;
-		text-j: inter-word;
+		text-justify: inter-word;
 	}
 
-	.text-j-c-des,
-	.text-j-c-des > h2,
-	.text-j-c-des > .h2,
-	.text-j-c-des > h3,
-	.text-j-c-des > .h3,
-	.text-j-c-des > h4,
-	.text-j-c-des > .h4,
-	.text-j-c-des > p {
+	.text-jc-des,
+	.text-jc-des > h2,
+	.text-jc-des > .h2,
+	.text-jc-des > h3,
+	.text-jc-des > .h3,
+	.text-jc-des > h4,
+	.text-jc-des > .h4,
+	.text-jc-des > p {
 		text-align: justify;
-		text-j: inter-word;
+		text-justify: inter-word;
 		text-align-last: center; // Force last line to center align
 	}
-
-	/* Underline text
-	---------------------------------------------------------------------------- */
-
-	.text-underline:after {
-		margin: calc(#{$space-desktop} * 1) 0 0 0;
-	}
-
-	.text-l-des.text-underline:after {
-		width: 20%;
-		height: 2px;
-		left: 0;
-	}
-
-	.text-c-des.text-underline:after {
-		width: 20%;
-		height: 2px;
-		left: 40%;
-	}
-
-	.text-r-des.text-underline:after {
-		width: 20%;
-		height: 2px;
-		left: 80%;
-	}
 	
-	/* Corner radius
-	---------------------------------------------------------------------------- */
+	// Corner radius
+	// --------------------------------------------------------------------------------------------------------------
 
 	.radius-des {
 		border-radius: $radius;
@@ -598,31 +588,31 @@
 		overflow: hidden;
 	}
 
-	/* Borders
-	---------------------------------------------------------------------------- */
+	// Borders
+	// --------------------------------------------------------------------------------------------------------------
 
 	.border-des {
-		border: solid 1px $border-color;
+		border: solid 1px $border-color-light;
 	}
 
 	.border-t-des {
-		border-top: solid 1px $border-color;
+		border-top: solid 1px $border-color-light;
 	}
 
 	.border-r-des {
-		border-right: solid 1px $border-color;
+		border-right: solid 1px $border-color-light;
 	}
 
 	.border-b-des {
-		border-bottom: solid 1px $border-color;
+		border-bottom: solid 1px $border-color-light;
 	}
 
 	.border-l-des {
-		border-left: solid 1px $border-color;
+		border-left: solid 1px $border-color-light;
 	}
 
-	/* Shadows
-	---------------------------------------------------------------------------- */
+	// Shadows
+	// --------------------------------------------------------------------------------------------------------------
 
 	.shadow-des {
 		box-shadow: $shadow;

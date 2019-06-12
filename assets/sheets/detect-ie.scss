@@ -1,0 +1,22 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+.detect-ie {
+	display: none;
+}
+
+// Target IE 10 and IE11 using high-contrast selector
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+
+	.detect-ie {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		z-index: 100;
+		animation: fade-in 1s ease; // Animation helps show the user that the page has changed
+	}
+
+}

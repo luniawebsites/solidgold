@@ -1,0 +1,667 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Declare flexbox defaults for all flexbox directions
+[class*="flexpos"] {
+	display: flex;
+}
+
+// left top
+
+.flexdir-ttb-mob.flexpos-lt-mob,
+.flexdir-ltr-mob.flexpos-lt-mob {
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.flexdir-btt-mob.flexpos-lt-mob {
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.flexdir-rtl-mob.flexpos-lt-mob {
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+// left center
+
+.flexdir-ttb-mob.flexpos-lc-mob,
+.flexdir-btt-mob.flexpos-lc-mob {
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.flexdir-ltr-mob.flexpos-lc-mob {
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flexdir-rtl-mob.flexpos-lc-mob {
+	align-items: center;
+	justify-content: flex-end;
+}
+
+// left bottom
+
+.flexdir-ttb-mob.flexpos-lb-mob {
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.flexdir-btt-mob.flexpos-lb-mob {
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.flexdir-ltr-mob.flexpos-lb-mob {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.flexdir-rtl-mob.flexpos-lb-mob {
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+// left justify
+
+.flexdir-ttb-mob.flexpos-lj-mob,
+.flexdir-btt-mob.flexpos-lj-mob {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+// center top
+
+.flexdir-ttb-mob.flexpos-ct-mob {
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flexdir-btt-mob.flexpos-ct-mob {
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.flexdir-ltr-mob.flexpos-ct-mob,
+.flexdir-rtl-mob.flexpos-ct-mob {
+	align-items: flex-start;
+	justify-content: center;
+}
+
+// center center
+
+.flexdir-ttb-mob.flexpos-cc-mob,
+.flexdir-btt-mob.flexpos-cc-mob,
+.flexdir-ltr-mob.flexpos-cc-mob,
+.flexdir-rtl-mob.flexpos-cc-mob {
+	align-items: center;
+	justify-content: center;
+}
+
+// center bottom
+
+.flexdir-ttb-mob.flexpos-cb-mob {
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.flexdir-btt-mob.flexpos-cb-mob {
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flexdir-ltr-mob.flexpos-cb-mob,
+.flexdir-rtl-mob.flexpos-cb-mob {
+	align-items: flex-end;
+	justify-content: center;
+}
+
+// centre justify
+
+.flexdir-ttb-mob.flexpos-cj-mob,
+.flexdir-btt-mob.flexpos-cj-mob {
+	align-items: center;
+	justify-content: space-between;
+}
+
+// right top
+
+.flexdir-ttb-mob.flexpos-rt-mob {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.flexdir-btt-mob.flexpos-rt-mob {
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.flexdir-ltr-mob.flexpos-rt-mob {
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.flexdir-rtl-mob.flexpos-rt-mob {
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+// right center
+
+.flexdir-ttb-mob.flexpos-rc-mob,
+.flexdir-btt-mob.flexpos-rc-mob {
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.flexdir-ltr-mob.flexpos-rc-mob {
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.flexdir-rtl-mob.flexpos-rc-mob {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+// right bottom
+
+.flexdir-ttb-mob.flexpos-rb-mob,
+.flexdir-ltr-mob.flexpos-rb-mob {
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.flexdir-btt-mob.flexpos-rb-mob,
+.flexdir-rtl-mob.flexpos-rb-mob {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+// right justify
+
+.flexdir-ttb-mob.flexpos-rj-mob,
+.flexdir-btt-mob.flexpos-rj-mob {
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+// justify top
+
+.flexdir-ltr-mob.flexpos-jt-mob,
+.flexdir-rtl-mob.flexpos-jt-mob {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+// justify center
+
+.flexdir-ltr-mob.flexpos-jc-mob,
+.flexdir-rtl-mob.flexpos-jc-mob {
+	align-items: center;
+	justify-content: space-between;
+}
+
+// justify bottom
+
+.flexdir-ltr-mob.flexpos-jb-mob,
+.flexdir-rtl-mob.flexpos-jb-mob {
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// left top
+
+	.flexdir-ttb-tab.flexpos-lt-tab,
+	.flexdir-ltr-tab.flexpos-lt-tab {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.flexdir-btt-tab.flexpos-lt-tab {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-tab.flexpos-lt-tab {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	// left center
+
+	.flexdir-ttb-tab.flexpos-lc-tab,
+	.flexdir-btt-tab.flexpos-lc-tab {
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+	.flexdir-ltr-tab.flexpos-lc-tab {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.flexdir-rtl-tab.flexpos-lc-tab {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	// left bottom
+
+	.flexdir-ttb-tab.flexpos-lb-tab {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.flexdir-btt-tab.flexpos-lb-tab {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.flexdir-ltr-tab.flexpos-lb-tab {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.flexdir-rtl-tab.flexpos-lb-tab {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	// left justify
+
+	.flexdir-ttb-tab.flexpos-lj-tab,
+	.flexdir-btt-tab.flexpos-lj-tab {
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	// center top
+
+	.flexdir-ttb-tab.flexpos-ct-tab {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.flexdir-btt-tab.flexpos-ct-tab {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.flexdir-ltr-tab.flexpos-ct-tab,
+	.flexdir-rtl-tab.flexpos-ct-tab {
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+	// center center
+
+	.flexdir-ttb-tab.flexpos-cc-tab,
+	.flexdir-btt-tab.flexpos-cc-tab {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.flexdir-ltr-tab.flexpos-cc-tab,
+	.flexdir-rtl-tab.flexpos-cc-tab {
+		align-items: center;
+		justify-content: center;
+	}
+
+	// center bottom
+
+	.flexdir-ttb-tab.flexpos-cb-tab, {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.flexdir-btt-tab.flexpos-cb-tab, {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.flexdir-ltr-tab.flexpos-cb-tab,
+	.flexdir-rtl-tab.flexpos-cb-tab {
+		align-items: flex-end;
+		justify-content: center;
+	}
+
+	// center justify
+
+	.flexdir-ttb-tab.flexpos-cj-tab,
+	.flexdir-btt-tab.flexpos-cj-tab {
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// right top
+
+	.flexdir-ttb-tab.flexpos-rt-tab {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.flexdir-btt-tab.flexpos-rt-tab {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.flexdir-ltr-tab.flexpos-rt-tab {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-tab.flexpos-rt-tab {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	// right center
+
+	.flexdir-ttb-tab.flexpos-rc-tab,
+	.flexdir-btt-tab.flexpos-rc-tab {
+		align-items: flex-end;
+		justify-content: center;
+	}
+
+	.flexdir-ltr-tab.flexpos-rc-tab {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-tab.flexpos-rc-tab {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	// right bottom
+
+	.flexdir-ttb-tab.flexpos-rb-tab {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.flexdir-btt-tab.flexpos-rb-tab {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.flexdir-ltr-tab.flexpos-rb-tab {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-tab.flexpos-rb-tab {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	// right justify
+
+	.flexdir-ttb-tab.flexpos-rj-tab,
+	.flexdir-btt-tab.flexpos-rj-tab {
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
+	// justify top
+
+	.flexdir-ltr-tab.flexpos-jt-tab,
+	.flexdir-rtl-tab.flexpos-jt-tab {
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	// justify center
+
+	.flexdir-ltr-tab.flexpos-jc-tab,
+	.flexdir-rtl-tab.flexpos-jc-tab {
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// justify bottom
+
+	.flexdir-ltr-tab.flexpos-jb-tab,
+	.flexdir-rtl-tab.flexpos-jb-tab {
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+
+	// left top
+
+	.flexdir-ttb-des.flexpos-lt-des,
+	.flexdir-ltr-des.flexpos-lt-des {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.flexdir-btt-des.flexpos-lt-des {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-des.flexpos-lt-des {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	// left center
+
+	.flexdir-ttb-des.flexpos-lc-des,
+	.flexdir-btt-des.flexpos-lc-des {
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+	.flexdir-ltr-des.flexpos-lc-des {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.flexdir-rtl-des.flexpos-lc-des {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	// left bottom
+
+	.flexdir-ttb-des.flexpos-lb-des {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.flexdir-btt-des.flexpos-lb-des {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.flexdir-ltr-des.flexpos-lb-des {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.flexdir-rtl-des.flexpos-lb-des {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	// left justify
+
+	.flexdir-ttb-des.flexpos-lj-des,
+	.flexdir-btt-des.flexpos-lj-des {
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	// center top
+
+	.flexdir-ttb-des.flexpos-ct-des {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.flexdir-btt-des.flexpos-ct-des {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.flexdir-ltr-des.flexpos-ct-des,
+	.flexdir-rtl-des.flexpos-ct-des {
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+	// center center
+
+	.flexdir-ttb-des.flexpos-cc-des,
+	.flexdir-btt-des.flexpos-cc-des {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.flexdir-ltr-des.flexpos-cc-des,
+	.flexdir-rtl-des.flexpos-cc-des {
+		align-items: center;
+		justify-content: center;
+	}
+
+	// center bottom
+
+	.flexdir-ttb-des.flexpos-cb-des, {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.flexdir-btt-des.flexpos-cb-des, {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.flexdir-ltr-des.flexpos-cb-des,
+	.flexdir-rtl-des.flexpos-cb-des {
+		align-items: flex-end;
+		justify-content: center;
+	}
+
+	// center justify
+
+	.flexdir-ttb-des.flexpos-cj-des,
+	.flexdir-btt-des.flexpos-cj-des {
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// right top
+
+	.flexdir-ttb-des.flexpos-rt-des {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.flexdir-btt-des.flexpos-rt-des {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.flexdir-ltr-des.flexpos-rt-des {
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-des.flexpos-rt-des {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	// right center
+
+	.flexdir-ttb-des.flexpos-rc-des,
+	.flexdir-btt-des.flexpos-rc-des {
+		align-items: flex-end;
+		justify-content: center;
+	}
+
+	.flexdir-ltr-des.flexpos-rc-des {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-des.flexpos-rc-des {
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	// right bottom
+
+	.flexdir-ttb-des.flexpos-rb-des {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.flexdir-btt-des.flexpos-rb-des {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	.flexdir-ltr-des.flexpos-rb-des {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.flexdir-rtl-des.flexpos-rb-des {
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+
+	// right justify
+
+	.flexdir-ttb-des.flexpos-rj-des,
+	.flexdir-btt-des.flexpos-rj-des {
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
+	// justify top
+
+	.flexdir-ltr-des.flexpos-jt-des,
+	.flexdir-rtl-des.flexpos-jt-des {
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	// justify center
+
+	.flexdir-ltr-des.flexpos-jc-des,
+	.flexdir-rtl-des.flexpos-jc-des {
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// justify bottom
+
+	.flexdir-ltr-des.flexpos-jb-des,
+	.flexdir-rtl-des.flexpos-jb-des {
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+
+}

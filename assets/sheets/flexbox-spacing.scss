@@ -1,0 +1,1596 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Fixed-size padding
+// --------------------------------------------------------------------------------------------------------------
+
+.pad-x-mob,
+.pad-x-mob-only {
+	padding-right: $space-fixed;
+	padding-left: $space-fixed;
+}
+
+.pad-y-mob,
+.pad-y-mob-only {
+	padding-top: $space-fixed;
+	padding-bottom: $space-fixed;
+}
+
+.pad-xy-mob,
+.pad-xy-mob-only {
+	padding: $space-fixed;
+}
+
+.pad-t-mob,
+.pad-t-mob-only {
+	padding-top: $space-fixed;
+}
+
+.pad-r-mob,
+.pad-r-mob-only {
+	padding-right: $space-fixed;
+}
+
+.pad-b-mob,
+.pad-b-mob-only {
+	padding-bottom: $space-fixed;
+}
+
+.pad-l-mob,
+.pad-l-mob-only {
+	padding-left: $space-fixed;
+}
+
+// Half-size fixed padding
+// --------------------------------------------------------------------------------------------------------------
+
+.pad-half-x-mob,
+.pad-half-x-mob-only {
+	padding-right: calc(#{$space-fixed} * 0.5);
+	padding-left: calc(#{$space-fixed} * 0.5);
+}
+
+.pad-half-y-mob,
+.pad-half-y-mob-only {
+	padding-top: calc(#{$space-fixed} * 0.5);
+	padding-bottom: calc(#{$space-fixed} * 0.5);
+}
+
+.pad-half-xy-mob,
+.pad-half-xy-mob-only {
+	padding: calc(#{$space-fixed} * 0.5);
+}
+
+.pad-half-t-mob,
+.pad-half-t-mob-only {
+	padding-top: calc(#{$space-fixed} * 0.5);
+}
+
+.pad-half-r-mob,
+.pad-half-r-mob-only {
+	padding-right: calc(#{$space-fixed} * 0.5);
+}
+
+.pad-half-b-mob,
+.pad-half-b-mob-only {
+	padding-bottom: calc(#{$space-fixed} * 0.5);
+}
+
+.pad-half-l-mob,
+.pad-half-l-mob-only {
+	padding-left: calc(#{$space-fixed} * 0.5);
+}
+
+// Double-size fixed padding
+// --------------------------------------------------------------------------------------------------------------
+
+.pad-double-x-mob,
+.pad-double-x-mob-only {
+	padding-right: calc(#{$space-fixed} * 2);
+	padding-left: calc(#{$space-fixed} * 2);
+}
+
+.pad-double-y-mob,
+.pad-double-y-mob-only {
+	padding-top: calc(#{$space-fixed} * 2);
+	padding-bottom: calc(#{$space-fixed} * 2);
+}
+
+.pad-double-xy-mob,
+.pad-double-xy-mob-only {
+	padding: calc(#{$space-fixed} * 2);
+}
+
+.pad-double-t-mob,
+.pad-double-t-mob-only {
+	padding-top: calc(#{$space-fixed} * 2);
+}
+
+.pad-double-r-mob,
+.pad-double-r-mob-only {
+	padding-right: calc(#{$space-fixed} * 2);
+}
+
+.pad-double-b-mob,
+.pad-double-b-mob-only {
+	padding-bottom: calc(#{$space-fixed} * 2);
+}
+
+.pad-double-l-mob,
+.pad-double-l-mob-only {
+	padding-left: calc(#{$space-fixed} * 2);
+}
+
+// Responsive padding
+// --------------------------------------------------------------------------------------------------------------
+
+.pad-respond-x-mob {
+	padding-right: $space-mobile;
+	padding-left: $space-mobile;
+}
+
+.pad-respond-y-mob {
+	padding-top: $space-mobile;
+	padding-bottom: $space-mobile;
+}
+
+.pad-respond-xy-mob {
+	padding: $space-mobile;
+}
+
+.pad-respond-t-mob {
+	padding-top: $space-mobile;
+}
+
+.pad-respond-r-mob {
+	padding-right: $space-mobile;
+}
+
+.pad-respond-b-mob {
+	padding-bottom: $space-mobile;
+}
+
+.pad-respond-l-mob {
+	padding-left: $space-mobile;
+}
+
+// Fixed-size margins
+// --------------------------------------------------------------------------------------------------------------
+
+.margin-x-mob,
+.margin-x-mob-only {
+	margin-right: $space-fixed;
+	margin-left: $space-fixed;
+}
+
+.margin-y-mob,
+.margin-y-mob-only {
+	margin-top: $space-fixed;
+	margin-bottom: $space-fixed;
+}
+
+.margin-t-mob,
+.margin-t-mob-only {
+	margin-top: $space-fixed;
+}
+
+.margin-b-mob,
+.margin-b-mob-only {
+	margin-bottom: $space-fixed;
+}
+
+.margin-r-mob,
+.margin-r-mob-only {
+	margin-right: $space-fixed;
+}
+
+.margin-l-mob,
+.margin-l-mob-only {
+	margin-left: $space-fixed;
+}
+
+// Responsive margins
+// --------------------------------------------------------------------------------------------------------------
+
+.margin-respond-x-mob {
+	margin-right: $space-mobile;
+	margin-left: $space-mobile;
+}
+
+.margin-respond-y-mob {
+	margin-top: $space-mobile;
+	margin-bottom: $space-mobile;
+}
+
+.margin-respond-xy-mob {
+	margin: $space-mobile;
+}
+
+.margin-respond-t-mob {
+	margin-top: $space-mobile;
+}
+
+.margin-respond-r-mob {
+	margin-right: $space-mobile;
+}
+
+.margin-respond-b-mob {
+	margin-bottom: $space-mobile;
+}
+
+.margin-respond-l-mob {
+	margin-left: $space-mobile;
+}
+
+// Fixed-size spread
+// --------------------------------------------------------------------------------------------------------------
+
+// Top to bottom, bottom to top
+
+.spread-mob.flexdir-ttb-mob > *,
+.spread-mob.flexdir-btt-mob > *,
+.spread-mob-only.flexdir-ttb-mob > *,
+.spread-mob-only.flexdir-btt-mob > * {
+	margin-top: calc(#{$spread-space-fixed} * 0.5);
+	margin-right: 0;
+	margin-bottom: calc(#{$spread-space-fixed} * 0.5);
+	margin-left: 0;
+}
+
+.spread-mob.flexdir-ttb-mob > *:first-child,
+.spread-mob.flexdir-btt-mob > *:last-child,
+.spread-mob-only.flexdir-ttb-mob > *:first-child,
+.spread-mob-only.flexdir-btt-mob > *:last-child {
+	margin-top: 0;
+}
+
+.spread-mob.flexdir-ttb-mob > *:last-child,
+.spread-mob.flexdir-btt-mob > *:first-child,
+.spread-mob-only.flexdir-ttb-mob > *:last-child,
+.spread-mob-only.flexdir-btt-mob > *:first-child {
+	margin-bottom: 0;
+}
+
+// Left to right, right to left
+
+.spread-mob.flexdir-ltr-mob > *,
+.spread-mob.flexdir-rtl-mob > *,
+.spread-mob-only.flexdir-ltr-mob > *,
+.spread-mob-only.flexdir-rtl-mob > * {
+	margin-top: 0;
+	margin-right: calc(#{$spread-space-fixed} * 0.5);
+	margin-bottom: 0;
+	margin-left: calc(#{$spread-space-fixed} * 0.5);
+}
+
+.spread-mob.flexdir-ltr-mob > *:first-child,
+.spread-mob.flexdir-rtl-mob > *:last-child,
+.spread-mob-only.flexdir-ltr-mob > *:first-child,
+.spread-mob-only.flexdir-rtl-mob > *:last-child {
+	margin-left: 0;
+}
+
+.spread-mob.flexdir-ltr-mob > *:last-child,
+.spread-mob.flexdir-rtl-mob > *:first-child,
+.spread-mob-only.flexdir-ltr-mob > *:last-child,
+.spread-mob-only.flexdir-rtl-mob > *:first-child {
+	margin-right: 0;
+}
+
+// Half-size fixed spread
+// --------------------------------------------------------------------------------------------------------------
+
+// Top to bottom, bottom to top
+
+.spread-half-mob.flexdir-ttb-mob > *,
+.spread-half-mob.flexdir-btt-mob > *,
+.spread-half-mob-only.flexdir-ttb-mob > *,
+.spread-half-mob-only.flexdir-btt-mob > * {
+	margin-top: calc(#{$spread-space-fixed} * 0.25);
+	margin-right: 0;
+	margin-bottom: calc(#{$spread-space-fixed} * 0.25);
+	margin-left: 0;
+}
+
+.spread-half-mob.flexdir-ttb-mob > *:first-child,
+.spread-half-mob.flexdir-btt-mob > *:last-child,
+.spread-half-mob-only.flexdir-ttb-mob > *:first-child,
+.spread-half-mob-only.flexdir-btt-mob > *:last-child {
+	margin-top: 0;
+}
+
+.spread-half-mob.flexdir-ttb-mob > *:last-child,
+.spread-half-mob.flexdir-btt-mob > *:first-child,
+.spread-half-mob-only.flexdir-ttb-mob > *:last-child,
+.spread-half-mob-only.flexdir-btt-mob > *:first-child {
+	margin-bottom: 0;
+}
+
+// Left to right, right to left
+
+.spread-half-mob.flexdir-ltr-mob > *,
+.spread-half-mob.flexdir-rtl-mob > *,
+.spread-half-mob-only.flexdir-ltr-mob > *,
+.spread-half-mob-only.flexdir-rtl-mob > * {
+	margin-top: 0;
+	margin-right: calc(#{$spread-space-fixed} * 0.25);
+	margin-bottom: 0;
+	margin-left: calc(#{$spread-space-fixed} * 0.25);
+}
+
+.spread-half-mob.flexdir-ltr-mob > *:first-child,
+.spread-half-mob.flexdir-rtl-mob > *:last-child,
+.spread-half-mob-only.flexdir-ltr-mob > *:first-child,
+.spread-half-mob-only.flexdir-rtl-mob > *:last-child {
+	margin-left: 0;
+}
+
+.spread-half-mob.flexdir-ltr-mob > *:last-child,
+.spread-half-mob.flexdir-rtl-mob > *:first-child,
+.spread-half-mob-only.flexdir-ltr-mob > *:last-child,
+.spread-half-mob-only.flexdir-rtl-mob > *:first-child {
+	margin-right: 0;
+}
+
+// Double-size fixed spread
+// --------------------------------------------------------------------------------------------------------------
+
+// Top to bottom, bottom to top
+
+.spread-double-mob.flexdir-ttb-mob > *,
+.spread-double-mob.flexdir-btt-mob > *,
+.spread-double-mob-only.flexdir-ttb-mob > *,
+.spread-double-mob-only.flexdir-btt-mob > * {
+	margin-top: calc(#{$spread-space-fixed} * 1);
+	margin-right: 0;
+	margin-bottom: calc(#{$spread-space-fixed} * 1);
+	margin-left: 0;
+}
+
+.spread-double-mob.flexdir-ttb-mob > *:first-child,
+.spread-double-mob.flexdir-btt-mob > *:last-child,
+.spread-double-mob-only.flexdir-ttb-mob > *:first-child,
+.spread-double-mob-only.flexdir-btt-mob > *:last-child {
+	margin-top: 0;
+}
+
+.spread-double-mob.flexdir-ttb-mob > *:last-child,
+.spread-double-mob.flexdir-btt-mob > *:first-child,
+.spread-double-mob-only.flexdir-ttb-mob > *:last-child,
+.spread-double-mob-only.flexdir-btt-mob > *:first-child {
+	margin-bottom: 0;
+}
+
+// Left to right, right to left
+
+.spread-double-mob.flexdir-ltr-mob > *,
+.spread-double-mob.flexdir-rtl-mob > *,
+.spread-double-mob-only.flexdir-ltr-mob > *,
+.spread-double-mob-only.flexdir-rtl-mob > * {
+	margin-top: 0;
+	margin-right: calc(#{$spread-space-fixed} * 1);
+	margin-bottom: 0;
+	margin-left: calc(#{$spread-space-fixed} * 1);
+}
+
+.spread-double-mob.flexdir-ltr-mob > *:first-child,
+.spread-double-mob.flexdir-rtl-mob > *:last-child,
+.spread-double-mob-only.flexdir-ltr-mob > *:first-child,
+.spread-double-mob-only.flexdir-rtl-mob > *:last-child {
+	margin-left: 0;
+}
+
+.spread-double-mob.flexdir-ltr-mob > *:last-child,
+.spread-double-mob.flexdir-rtl-mob > *:first-child,
+.spread-double-mob-only.flexdir-ltr-mob > *:last-child,
+.spread-double-mob-only.flexdir-rtl-mob > *:first-child {
+	margin-right: 0;
+}
+
+// Responsive spread
+// --------------------------------------------------------------------------------------------------------------
+
+// Top to bottom, bottom to top
+
+.spread-respond.flexdir-ttb-mob > *,
+.spread-respond.flexdir-btt-mob > * {
+	margin-top: calc(#{$spread-space-mobile} * 0.5);
+	margin-right: 0;
+	margin-bottom: calc(#{$spread-space-mobile} * 0.5);
+	margin-left: 0;
+}
+
+.spread-respond.flexdir-ttb-mob > *:first-child,
+.spread-respond.flexdir-btt-mob > *:last-child {
+	margin-top: 0;
+}
+
+.spread-respond.flexdir-ttb-mob > *:last-child,
+.spread-respond.flexdir-btt-mob > *:first-child {
+	margin-bottom: 0;
+}
+
+// Left to right, right to left
+
+.spread-respond.flexdir-ltr-mob > *,
+.spread-respond.flexdir-rtl-mob > * {
+	margin-top: 0;
+	margin-right: calc(#{$spread-space-mobile} * 0.5);
+	margin-bottom: 0;
+	margin-left: calc(#{$spread-space-mobile} * 0.5);
+}
+
+.spread-respond.flexdir-ltr-mob > *:first-child,
+.spread-respond.flexdir-rtl-mob > *:last-child {
+	margin-left: 0;
+}
+
+.spread-respond.flexdir-ltr-mob > *:last-child,
+.spread-respond.flexdir-rtl-mob > *:first-child {
+	margin-right: 0;
+}
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// Initialise ringfenced fixed-size padding from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-x-mob-only {
+		padding-right: initial;
+		padding-left: initial;
+	}
+
+	.pad-y-mob-only {
+		padding-top: initial;
+		padding-bottom: initial;
+	}
+
+	.pad-xy-mob-only {
+		padding: initial;
+	}
+
+	.pad-t-mob-only {
+		padding-top: initial;
+	}
+
+	.pad-r-mob-only {
+		padding-right: initial;
+	}
+
+	.pad-b-mob-only {
+		padding-bottom: initial;
+	}
+
+	.pad-l-mob-only {
+		padding-left: initial;
+	}
+
+	// Initialise ringfenced half-size fixed padding from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-half-x-mob-only {
+		padding-right: initial;
+		padding-left: initial;
+	}
+
+	.pad-half-y-mob-only {
+		padding-top: initial;
+		padding-bottom: initial;
+	}
+
+	.pad-half-xy-mob-only {
+		padding: initial;
+	}
+
+	.pad-half-t-mob-only {
+		padding-top: initial;
+	}
+
+	.pad-half-r-mob-only {
+		padding-right: initial;
+	}
+
+	.pad-half-b-mob-only {
+		padding-bottom: initial;
+	}
+
+	.pad-half-l-mob-only {
+		padding-left: initial;
+	}
+
+	// Initialise ringfenced double-size fixed padding from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-double-x-mob-only {
+		padding-right: initial;
+		padding-left: initial;
+	}
+
+	.pad-double-y-mob-only {
+		padding-top: initial;
+		padding-bottom: initial;
+	}
+
+	.pad-double-xy-mob-only {
+		padding: initial;
+	}
+
+	.pad-double-t-mob-only {
+		padding-top: initial;
+	}
+
+	.pad-double-r-mob-only {
+		padding-right: initial;
+	}
+
+	.pad-double-b-mob-only {
+		padding-bottom: initial;
+	}
+
+	.pad-double-l-mob-only {
+		padding-left: initial;
+	}
+
+	// Initialise ringfenced fixed-size margins from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.margin-x-mob-only {
+		margin-right: initial;
+		margin-left: initial;
+	}
+	
+	.margin-y-mob-only {
+		margin-top: initial;
+		margin-bottom: initial;
+	}
+	
+	.margin-t-mob-only {
+		margin-top: initial;
+	}
+	
+	.margin-b-mob-only {
+		margin-bottom: initial;
+	}
+	
+	.margin-r-mob-only {
+		margin-right: initial;
+	}
+	
+	.margin-l-mob-only {
+		margin-left: initial;
+	}
+
+	// Initialise ringfenced fixed-size spread from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom, bottom to top
+
+	.spread-mob-only.flexdir-ttb-mob > *,
+	.spread-mob-only.flexdir-btt-mob > * {
+		margin-top: initial;
+		margin-right: 0;
+		margin-bottom: initial;
+		margin-left: 0;
+	}
+
+	.spread-mob-only.flexdir-ttb-mob > *:first-child,
+	.spread-mob-only.flexdir-btt-mob > *:last-child {
+		margin-top: 0;
+	}
+
+	.spread-mob-only.flexdir-ttb-mob > *:last-child,
+	.spread-mob-only.flexdir-btt-mob > *:first-child {
+		margin-bottom: 0;
+	}
+
+	// Left to right, right to left
+
+	.spread-mob-only.flexdir-ltr-mob > *,
+	.spread-mob-only.flexdir-rtl-mob > * {
+		margin-top: 0;
+		margin-right: initial;
+		margin-bottom: 0;
+		margin-left: initial;
+	}
+
+	.spread-mob-only.flexdir-ltr-mob > *:first-child,
+	.spread-mob-only.flexdir-rtl-mob > *:last-child {
+		margin-left: 0;
+	}
+
+	.spread-mob-only.flexdir-ltr-mob > *:last-child,
+	.spread-mob-only.flexdir-rtl-mob > *:first-child {
+		margin-right: 0;
+	}
+
+	// Initialise ringfenced half-size fixed spread from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom, bottom to top
+
+	.spread-half-mob-only.flexdir-ttb-mob > *,
+	.spread-half-mob-only.flexdir-btt-mob > * {
+		margin-top: initial;
+		margin-right: 0;
+		margin-bottom: initial;
+		margin-left: 0;
+	}
+
+	.spread-half-mob-only.flexdir-ttb-mob > *:first-child,
+	.spread-half-mob-only.flexdir-btt-mob > *:last-child {
+		margin-top: 0;
+	}
+
+	.spread-half-mob-only.flexdir-ttb-mob > *:last-child,
+	.spread-half-mob-only.flexdir-btt-mob > *:first-child {
+		margin-bottom: 0;
+	}
+
+	// Left to right, right to left
+
+	.spread-half-mob-only.flexdir-ltr-mob > *,
+	.spread-half-mob-only.flexdir-rtl-mob > * {
+		margin-top: 0;
+		margin-right: initial;
+		margin-bottom: 0;
+		margin-left: initial;
+	}
+
+	.spread-half-mob-only.flexdir-ltr-mob > *:first-child,
+	.spread-half-mob-only.flexdir-rtl-mob > *:last-child {
+		margin-left: 0;
+	}
+
+	.spread-half-mob-only.flexdir-ltr-mob > *:first-child,
+	.spread-half-mob-only.flexdir-rtl-mob > *:last-child {
+		margin-right: 0;
+	}
+
+	// Initialise ringfenced double-size fixed spread from mobile viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom, bottom to top
+
+	.spread-double-mob-only.flexdir-ttb-mob > *,
+	.spread-double-mob-only.flexdir-btt-mob > * {
+		margin-top: initial;
+		margin-right: 0;
+		margin-bottom: initial;
+		margin-left: 0;
+	}
+
+	.spread-double-mob-only.flexdir-ttb-mob > *:first-child,
+	.spread-double-mob-only.flexdir-btt-mob > *:last-child {
+		margin-top: 0;
+	}
+
+	.spread-double-mob-only.flexdir-ttb-mob > *:last-child,
+	.spread-double-mob-only.flexdir-btt-mob > *:first-child {
+		margin-bottom: 0;
+	}
+
+	// Left to right, right to left
+
+	.spread-double-mob-only.flexdir-ltr-mob > *,
+	.spread-double-mob-only.flexdir-rtl-mob > * {
+		margin-top: 0;
+		margin-right: initial;
+		margin-bottom: 0;
+		margin-left: initial;
+	}
+
+	.spread-double-mob-only.flexdir-ltr-mob > *:first-child,
+	.spread-double-mob-only.flexdir-rtl-mob > *:last-child {
+		margin-left: 0;
+	}
+
+	.spread-double-mob-only.flexdir-ltr-mob > *:last-child,
+	.spread-double-mob-only.flexdir-rtl-mob > *:first-child {
+		margin-right: 0;
+	}
+
+	// Fixed-size padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-x-tab,
+	.pad-x-tab-only {
+		padding-right: $space-fixed;
+		padding-left: $space-fixed;
+	}
+
+	.pad-y-tab,
+	.pad-y-tab-only {
+		padding-top: $space-fixed;
+		padding-bottom: $space-fixed;
+	}
+
+	.pad-xy-tab,
+	.pad-xy-tab-only {
+		padding: $space-fixed;
+	}
+
+	.pad-t-tab,
+	.pad-t-tab-only {
+		padding-top: $space-fixed;
+	}
+
+	.pad-r-tab,
+	.pad-r-tab-only {
+		padding-right: $space-fixed;
+	}
+
+	.pad-b-tab,
+	.pad-b-tab-only {
+		padding-bottom: $space-fixed;
+	}
+
+	.pad-l-tab,
+	.pad-l-tab-only {
+		padding-left: $space-fixed;
+	}
+
+	// Half-size fixed padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-half-x-tab,
+	.pad-half-x-tab-only {
+		padding-right: calc(#{$space-fixed} * 0.5);
+		padding-left: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-y-tab,
+	.pad-half-y-tab-only {
+		padding-top: calc(#{$space-fixed} * 0.5);
+		padding-bottom: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-xy-tab,
+	.pad-half-xy-tab-only {
+		padding: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-t-tab,
+	.pad-half-t-tab-only {
+		padding-top: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-r-tab,
+	.pad-half-r-tab-only {
+		padding-right: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-b-tab,
+	.pad-half-b-tab-only {
+		padding-bottom: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-l-tab,
+	.pad-half-l-tab-only {
+		padding-left: calc(#{$space-fixed} * 0.5);
+	}
+
+	// Double-size fixed padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-double-x-tab,
+	.pad-double-x-tab-only {
+		padding-right: calc(#{$space-fixed} * 2);
+		padding-left: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-y-tab,
+	.pad-double-y-tab-only {
+		padding-top: calc(#{$space-fixed} * 2);
+		padding-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-xy-tab,
+	.pad-double-xy-tab-only {
+		padding: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-t-tab,
+	.pad-double-t-tab-only {
+		padding-top: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-r-tab,
+	.pad-double-r-tab-only {
+		padding-right: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-b-tab,
+	.pad-double-b-tab-only {
+		padding-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-l-tab,
+	.pad-double-l-tab-only {
+		padding-left: calc(#{$space-fixed} * 2);
+	}
+
+	// Responsive padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Responsive spacing redefines earlier viewport declarations
+
+	.pad-respond-x-mob,
+	.pad-respond-x-tab {
+		padding-right: $space-tablet;
+		padding-left: $space-tablet;
+	}
+
+	.pad-respond-y-mob,
+	.pad-respond-y-tab {
+		padding-top: $space-tablet;
+		padding-bottom: $space-tablet;
+	}
+
+	.pad-respond-xy-mob,
+	.pad-respond-xy-tab {
+		padding: $space-tablet;
+	}
+
+	.pad-respond-t-mob,
+	.pad-respond-t-tab {
+		padding-top: $space-tablet;
+	}
+
+	.pad-respond-r-mob,
+	.pad-respond-r-tab {
+		padding-right: $space-tablet;
+	}
+
+	.pad-respond-b-mob,
+	.pad-respond-b-tab {
+		padding-bottom: $space-tablet;
+	}
+
+	.pad-respond-l-mob,
+	.pad-respond-l-tab {
+		padding-left: $space-tablet;
+	}
+
+	// Fixed-size margins
+	// --------------------------------------------------------------------------------------------------------------
+
+	.margin-x-tab,
+	.margin-x-tab-only {
+		margin-right: $space-fixed;
+		margin-left: $space-fixed;
+	}
+
+	.margin-y-tab,
+	.margin-y-tab-only {
+		margin-top: $space-fixed;
+		margin-bottom: $space-fixed;
+	}
+
+	.margin-xy-tab,
+	.margin-xy-tab-only {
+		margin: $space-fixed;
+	}
+
+	.margin-t-tab,
+	.margin-t-tab-only {
+		margin-top: $space-fixed;
+	}
+
+	.margin-b-tab,
+	.margin-b-tab-only {
+		margin-bottom: $space-fixed;
+	}
+
+	.margin-r-tab,
+	.margin-r-tab-only {
+		margin-right: $space-fixed;
+	}
+
+	.margin-l-tab,
+	.margin-l-tab-only {
+		margin-left: $space-fixed;
+	}
+
+	// Responsive margins
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Responsive spacing redefines earlier viewport declarations
+
+	.margin-respond-x-mob,
+	.margin-respond-x-tab {
+		margin-right: $space-tablet;
+		margin-left: $space-tablet;
+	}
+
+	.margin-respond-y-mob,
+	.margin-respond-y-tab {
+		margin-top: $space-tablet;
+		margin-bottom: $space-tablet;
+	}
+
+	.margin-respond-xy-mob,
+	.margin-respond-xy-tab {
+		margin: $space-tablet;
+	}
+
+	.margin-respond-t-mob,
+	.margin-respond-t-tab {
+		margin-top: $space-tablet;
+	}
+
+	.margin-respond-r-mob,
+	.margin-respond-r-tab {
+		margin-right: $space-tablet;
+	}
+
+	.margin-respond-b-mob,
+	.margin-respond-b-tab {
+		margin-bottom: $space-tablet;
+	}
+
+	.margin-respond-l-mob,
+	.margin-respond-l-tab {
+		margin-left: $space-tablet;
+	}
+
+	// Fixed-size spread
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom, bottom to top
+
+	.spread-mob.flexdir-ttb-tab > *,
+	.spread-mob.flexdir-btt-tab > *,
+	.spread-tab.flexdir-ttb-tab > *,
+	.spread-tab.flexdir-btt-tab > *,
+	.spread-tab-only.flexdir-ttb-tab > *,
+	.spread-tab-only.flexdir-btt-tab > * {
+		margin-top: calc(#{$spread-space-fixed} * 0.5);
+		margin-right: 0;
+		margin-bottom: calc(#{$spread-space-fixed} * 0.5);
+		margin-left: 0;
+	}
+
+	.spread-mob.flexdir-ttb-tab > *:first-child,
+	.spread-tab.flexdir-ttb-tab > *:first-child,
+	.spread-tab-only.flexdir-ttb-tab > *:first-child {
+		margin-top: 0;
+	}
+
+	.spread-mob.flexdir-btt-tab > *:first-child,
+	.spread-tab.flexdir-btt-tab > *:first-child,
+	.spread-tab-only.flexdir-btt-tab > *:first-child {
+		margin-bottom: 0;
+	}
+
+	.spread-mob.flexdir-ttb-tab > *:last-child,
+	.spread-tab.flexdir-ttb-tab > *:last-child,
+	.spread-tab-only.flexdir-ttb-tab > *:last-child {
+		margin-bottom: 0;
+	}
+
+	.spread-mob.flexdir-btt-tab > *:last-child,
+	.spread-tab.flexdir-btt-tab > *:last-child,
+	.spread-tab-only.flexdir-btt-tab > *:last-child {
+		margin-top: 0;
+	}
+
+	// Left to right, right to left
+
+	.spread-mob.flexdir-ltr-tab > *,
+	.spread-mob.flexdir-rtl-tab > *,
+	.spread-tab.flexdir-ltr-tab > *,
+	.spread-tab.flexdir-rtl-tab > *,
+	.spread-tab-only.flexdir-ltr-tab > *,
+	.spread-tab-only.flexdir-rtl-tab > * {
+		margin-top: 0;
+		margin-right: calc(#{$spread-space-fixed} * 0.5);
+		margin-bottom: 0;
+		margin-left: calc(#{$spread-space-fixed} * 0.5);
+	}
+
+	.spread-mob.flexdir-ltr-tab > *:first-child,
+	.spread-tab.flexdir-ltr-tab > *:first-child,
+	.spread-tab-only.flexdir-ltr-tab > *:first-child {
+		margin-left: 0;
+	}
+
+	.spread-mob.flexdir-rtl-tab > *:first-child,
+	.spread-tab.flexdir-rtl-tab > *:first-child,
+	.spread-tab-only.flexdir-rtl-tab > *:first-child {
+		margin-right: 0;
+	}
+
+	.spread-mob.flexdir-ltr-tab > *:last-child,
+	.spread-tab.flexdir-ltr-tab > *:last-child,
+	.spread-tab-only.flexdir-ltr-tab > *:last-child {
+		margin-right: 0;
+	}
+
+	.spread-mob.flexdir-rtl-tab > *:last-child,
+	.spread-tab.flexdir-rtl-tab > *:last-child,
+	.spread-tab-only.flexdir-rtl-tab > *:last-child {
+		margin-left: 0;
+	}
+
+	// Responsive spread
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Responsive spacing redefines earlier viewport declarations
+
+	// Top to bottom, bottom to top
+
+	.spread-respond.flexdir-ttb-mob > *,
+	.spread-respond.flexdir-ttb-tab > *,
+	.spread-respond.flexdir-btt-mob > *,
+	.spread-respond.flexdir-btt-tab > * {
+		margin-top: calc(#{$spread-space-tablet} * 0.5);
+		margin-right: 0;
+		margin-bottom: calc(#{$spread-space-tablet} * 0.5);
+		margin-left: 0;
+	}
+
+	.spread-respond.flexdir-ttb-mob > *:first-child,
+	.spread-respond.flexdir-ttb-tab > *:first-child {
+		margin-top: 0;
+	}
+
+	.spread-respond.flexdir-btt-mob > *:first-child,
+	.spread-respond.flexdir-btt-tab > *:first-child {
+		margin-bottom: 0;
+	}
+
+	.spread-respond.flexdir-ttb-mob > *:last-child,
+	.spread-respond.flexdir-ttb-tab > *:last-child {
+		margin-bottom: 0;
+	}
+
+	.spread-respond.flexdir-btt-mob > *:last-child,
+	.spread-respond.flexdir-btt-tab > *:last-child {
+		margin-top: 0;
+	}
+
+	// Left to right, right to left
+
+	.spread-respond.flexdir-ltr-mob > *,
+	.spread-respond.flexdir-ltr-tab > *,
+	.spread-respond.flexdir-rtl-mob > *,
+	.spread-respond.flexdir-rtl-tab > * {
+		margin-top: 0;
+		margin-right: calc(#{$spread-space-tablet} * 0.5);
+		margin-bottom: 0;
+		margin-left: calc(#{$spread-space-tablet} * 0.5);
+	}
+
+	.spread-respond.flexdir-ltr-mob > *:first-child,
+	.spread-respond.flexdir-ltr-tab > *:first-child {
+		margin-left: 0;
+	}
+
+	.spread-respond.flexdir-rtl-mob > *:first-child,
+	.spread-respond.flexdir-rtl-tab > *:first-child {
+		margin-right: 0;
+	}
+
+	.spread-respond.flexdir-ltr-mob > *:last-child,
+	.spread-respond.flexdir-ltr-tab > *:last-child {
+		margin-right: 0;
+	}
+
+	.spread-respond.flexdir-rtl-mob > *:last-child,
+	.spread-respond.flexdir-rtl-tab > *:last-child {
+		margin-left: 0;
+	}
+
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+
+	// Initialise ringfenced fixed-size padding from tablet viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-x-tab-only {
+		padding-right: initial;
+		padding-left: initial;
+	}
+
+	.pad-y-tab-only {
+		padding-top: initial;
+		padding-bottom: initial;
+	}
+
+	.pad-xy-tab-only {
+		padding: initial;
+	}
+
+	.pad-t-tab-only {
+		padding-top: initial;
+	}
+
+	.pad-r-tab-only {
+		padding-right: initial;
+	}
+
+	.pad-b-tab-only {
+		padding-bottom: initial;
+	}
+
+	.pad-l-tab-only {
+		padding-left: initial;
+	}
+
+	// Initialise ringfenced half-size fixed padding from tablet viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-half-x-tab-only {
+		padding-right: initial;
+		padding-left: initial;
+	}
+
+	.pad-half-y-tab-only {
+		padding-top: initial;
+		padding-bottom: initial;
+	}
+
+	.pad-half-xy-tab-only {
+		padding: initial;
+	}
+
+	.pad-half-t-tab-only {
+		padding-top: initial;
+	}
+
+	.pad-half-r-tab-only {
+		padding-right: initial;
+	}
+
+	.pad-half-b-tab-only {
+		padding-bottom: initial;
+	}
+
+	.pad-half-l-tab-only {
+		padding-left: initial;
+	}
+
+	// Initialise ringfenced double-size fixed padding from tablet viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-double-x-tab-only {
+		padding-right: initial;
+		padding-left: initial;
+	}
+
+	.pad-double-y-tab-only {
+		padding-top: initial;
+		padding-bottom: initial;
+	}
+
+	.pad-double-xy-tab-only {
+		padding: initial;
+	}
+
+	.pad-double-t-tab-only {
+		padding-top: initial;
+	}
+
+	.pad-double-r-tab-only {
+		padding-right: initial;
+	}
+
+	.pad-double-b-tab-only {
+		padding-bottom: initial;
+	}
+
+	.pad-double-l-tab-only {
+		padding-left: initial;
+	}
+
+	// Initialise ringfenced fixed-size margins from tablet viewport
+	// --------------------------------------------------------------------------------------------------------------
+
+	.margin-x-tab-only {
+		margin-right: initial;
+		margin-left: initial;
+	}
+
+	.margin-y-tab-only {
+		margin-top: initial;
+		margin-bottom: initial;
+	}
+
+	.margin-xy-tab-only {
+		margin: initial;
+	}
+
+	.margin-t-tab-only {
+		margin-top: initial;
+	}
+
+	.margin-b-tab-only {
+		margin-bottom: initial;
+	}
+
+	.margin-r-tab-only {
+		margin-right: initial;
+	}
+
+	.margin-l-tab-only {
+		margin-left: initial;
+	}
+
+	// Fixed-size padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-x-des {
+		padding-right: $space-fixed;
+		padding-left: $space-fixed;
+	}
+
+	.pad-y-des {
+		padding-top: $space-fixed;
+		padding-bottom: $space-fixed;
+	}
+
+	.pad-xy-des {
+		padding: $space-fixed;
+	}
+
+	.pad-t-des {
+		padding-top: $space-fixed;
+	}
+
+	.pad-r-des {
+		padding-right: $space-fixed;
+	}
+
+	.pad-b-des {
+		padding-bottom: $space-fixed;
+	}
+
+	.pad-l-des {
+		padding-left: $space-fixed;
+	}
+
+	// Half-size fixed padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-half-x-des {
+		padding-right: calc(#{$space-fixed} * 0.5);
+		padding-left: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-y-des {
+		padding-top: calc(#{$space-fixed} * 0.5);
+		padding-bottom: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-xy-des {
+		padding: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-t-des {
+		padding-top: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-r-des {
+		padding-right: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-b-des {
+		padding-bottom: calc(#{$space-fixed} * 0.5);
+	}
+
+	.pad-half-l-des {
+		padding-left: calc(#{$space-fixed} * 0.5);
+	}
+
+	// Double-size fixed padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	.pad-double-x-des {
+		padding-right: calc(#{$space-fixed} * 2);
+		padding-left: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-y-des {
+		padding-top: calc(#{$space-fixed} * 2);
+		padding-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-xy-des {
+		padding: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-t-des {
+		padding-top: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-r-des {
+		padding-right: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-b-des {
+		padding-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.pad-double-l-des {
+		padding-left: calc(#{$space-fixed} * 2);
+	}
+
+	// Responsive padding
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Responsive spacing must also redefine eartlier viewport declarations
+
+	.pad-respond-x-mob,
+	.pad-respond-x-tab,
+	.pad-respond-x-des {
+		padding-right: $space-desktop;
+		padding-left: $space-desktop;
+	}
+
+	.pad-respond-y-mob,
+	.pad-respond-y-tab,
+	.pad-respond-y-des {
+		padding-top: $space-desktop;
+		padding-bottom: $space-desktop;
+	}
+
+	.pad-respond-xy-mob,
+	.pad-respond-xy-tab,
+	.pad-respond-xy-des {
+		padding: $space-desktop;
+	}
+
+	.pad-respond-t-mob,
+	.pad-respond-t-tab,
+	.pad-respond-t-des {
+		padding-top: $space-desktop;
+	}
+
+	.pad-respond-r-mob,
+	.pad-respond-r-tab,
+	.pad-respond-r-des {
+		padding-right: $space-desktop;
+	}
+
+	.pad-respond-b-mob,
+	.pad-respond-b-tab,
+	.pad-respond-b-des {
+		padding-bottom: $space-desktop;
+	}
+
+	.pad-respond-l-mob,
+	.pad-respond-l-tab,
+	.pad-respond-l-des {
+		padding-left: $space-desktop;
+	}
+
+	// Fixed-size margins
+	// --------------------------------------------------------------------------------------------------------------
+
+	.margin-x-des {
+		margin-right: $space-fixed;
+		margin-left: $space-fixed;
+	}
+
+	.margin-y-des {
+		margin-top: $space-fixed;
+		margin-bottom: $space-fixed;
+	}
+
+	.margin-xy-des {
+		margin: $space-fixed;
+	}
+
+	.margin-t-des {
+		margin-top: $space-fixed;
+	}
+
+	.margin-b-des {
+		margin-bottom: $space-fixed;
+	}
+
+	.margin-r-des {
+		margin-right: $space-fixed;
+	}
+
+	.margin-l-des {
+		margin-left: $space-fixed;
+	}
+
+	// Responsive margins
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Responsive spacing must also redefine eartlier viewport declarations
+
+	.margin-respond-x-mob,
+	.margin-respond-x-tab,
+	.margin-respond-x-des {
+		margin-right: $space-desktop;
+		margin-left: $space-desktop;
+	}
+
+	.margin-respond-y-mob,
+	.margin-respond-y-tab,
+	.margin-respond-y-des {
+		margin-top: $space-desktop;
+		margin-bottom: $space-desktop;
+	}
+
+	.margin-respond-xy-mob,
+	.margin-respond-xy-tab,
+	.margin-respond-xy-des {
+		margin: $space-desktop;
+	}
+
+	.margin-respond-t-mob,
+	.margin-respond-t-tab,
+	.margin-respond-t-des {
+		margin-top: $space-desktop;
+	}
+
+	.margin-respond-r-mob,
+	.margin-respond-r-tab,
+	.margin-respond-r-des {
+		margin-right: $space-desktop;
+	}
+
+	.margin-respond-b-mob,
+	.margin-respond-b-tab,
+	.margin-respond-b-des {
+		margin-bottom: $space-desktop;
+	}
+
+	.margin-respond-l-mob,
+	.margin-respond-l-tab,
+	.margin-respond-l-des {
+		margin-left: $space-desktop;
+	}
+
+	// Fixed-size spread
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom, bottomn to top
+
+	.spread.flexdir-ttb-des > *,
+	.spread.flexdir-btt-des > * {
+		margin-top: calc(#{$spread-space-fixed} * 0.5);
+		margin-right: 0;
+		margin-bottom: calc(#{$spread-space-fixed} * 0.5);
+		margin-left: 0;
+	}
+
+	.spread.flexdir-ttb-des > *:first-child {
+		margin-top: 0;
+	}
+
+	.spread.flexdir-btt-des > *:first-child {
+		margin-bottom: 0;
+	}
+
+	.spread.flexdir-ttb-des > *:last-child {
+		margin-bottom: 0;
+	}
+
+	.spread.flexdir-btt-des > *:last-child {
+		margin-top: 0;
+	}
+
+	// Left to right, right to left
+
+	.spread.flexdir-ltr-des > *,
+	.spread.flexdir-rtl-des > * {
+		margin-top: 0;
+		margin-right: calc(#{$spread-space-fixed} * 0.5);
+		margin-bottom: 0;
+		margin-left: calc(#{$spread-space-fixed} * 0.5);
+	}
+
+	.spread.flexdir-ltr-des > *:first-child {
+		margin-left: 0;
+	}
+
+	.spread.flexdir-rtl-des > *:first-child {
+		margin-right: 0;
+	}
+
+	.spread.flexdir-ltr-des > *:last-child {
+		margin-right: 0;
+	}
+
+	.spread.flexdir-rtl-des > *:last-child {
+		margin-left: 0;
+	}
+
+	// Responsive spread
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Responsive spacing redefines earlier viewport declarations
+
+	// Top to bottom, bottom to top
+
+	.spread-respond.flexdir-ttb-mob > *,
+	.spread-respond.flexdir-ttb-tab > *,
+	.spread-respond.flexdir-ttb-des > *,
+	.spread-respond.flexdir-btt-mob > *,
+	.spread-respond.flexdir-btt-tab > *,
+	.spread-respond.flexdir-btt-des > * {
+		margin-top: calc(#{$spread-space-desktop} * 0.5);
+		margin-right: 0;
+		margin-bottom: calc(#{$spread-space-desktop} * 0.5);
+		margin-left: 0;
+	}
+
+	.spread-respond.flexdir-ttb-mob > *:first-child,
+	.spread-respond.flexdir-ttb-tab > *:first-child,
+	.spread-respond.flexdir-ttb-des > *:first-child {
+		margin-top: 0;
+	}
+
+	.spread-respond.flexdir-btt-mob > *:first-child,
+	.spread-respond.flexdir-btt-tab > *:first-child,
+	.spread-respond.flexdir-btt-des > *:first-child {
+		margin-bottom: 0;
+	}
+
+	.spread-respond.flexdir-ttb-mob > *:last-child,
+	.spread-respond.flexdir-ttb-tab > *:last-child,
+	.spread-respond.flexdir-ttb-des > *:last-child {
+		margin-bottom: 0;
+	}
+
+	 .spread-respond.flexdir-btt-mob > *:last-child,
+	 .spread-respond.flexdir-btt-tab > *:last-child,
+	 .spread-respond.flexdir-btt-des > *:last-child {
+		margin-top: 0;
+	}
+
+	// Left to right, right ot left
+
+	.spread-respond.flexdir-ltr-mob > *,
+	.spread-respond.flexdir-ltr-tab > *,
+	.spread-respond.flexdir-ltr-des > *,
+	.spread-respond.flexdir-rtl-mob > *,
+	.spread-respond.flexdir-rtl-tab > *,
+	.spread-respond.flexdir-rtl-des > * {
+		margin-top: 0;
+		margin-right: calc(#{$spread-space-desktop} * 0.5);
+		margin-bottom: 0;
+		margin-left: calc(#{$spread-space-desktop} * 0.5);
+	}
+
+	.spread-respond.flexdir-ltr-mob > *:first-child,
+	.spread-respond.flexdir-ltr-tab > *:first-child,
+	.spread-respond.flexdir-ltr-des > *:first-child {
+		margin-left: 0;
+	}
+
+	.spread-respond.flexdir-rtl-mob > *:first-child,
+	.spread-respond.flexdir-rtl-tab > *:first-child,
+	.spread-respond.flexdir-rtl-des > *:first-child {
+		margin-right: 0;
+	}
+
+	.spread-respond.flexdir-ltr-mob > *:last-child,
+	.spread-respond.flexdir-ltr-tab > *:last-child,
+	.spread-respond.flexdir-ltr-des > *:last-child {
+		margin-right: 0;
+	}
+
+	.spread-respond.flexdir-rtl-mob > *:last-child,
+	.spread-respond.flexdir-rtl-tab > *:last-child,
+	.spread-respond.flexdir-rtl-des > *:last-child {
+		margin-left: 0;
+	}
+
+}

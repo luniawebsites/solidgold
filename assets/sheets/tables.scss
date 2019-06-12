@@ -1,0 +1,55 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+table {
+	@extend %text-plain; // Source on "mixins-global.scss" sheet
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+thead {
+	margin: 0;
+}
+
+tr {
+	border-bottom: dashed 1px $border-color-light;
+}
+
+tr:last-of-type {
+	border-bottom: 0;
+}
+
+th,
+td {
+	position: relative;
+	vertical-align: top;
+	padding: 0.5rem 0 0.5rem 0;
+	font-size: 0.95rem;
+	text-align: left;
+}
+
+th:not(:th) {
+	top: 1px;
+}
+
+td:last-of-type {
+	text-align: right;
+}
+
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-tablet) {
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+}

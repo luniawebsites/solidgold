@@ -1,0 +1,67 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Page footer
+// --------------------------------------------------------------------------------------------------------------
+
+footer h2,
+footer p,
+footer a,
+footer li {
+	margin: 4px 0;
+	padding: calc(#{$space-fixed} * 0.35) 0 calc(#{$space-fixed} * 0.35) 0;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: $font-plain;
+	font-size: 0.85rem;
+	line-height: 1.1rem;
+	transition: $transition;
+}
+
+footer h2 {
+	font-weight: bold;
+}
+
+footer p {
+	padding: 0;
+	line-height: 1.25rem;
+}
+
+footer a:active {
+	color: #fff;
+}
+
+footer ul {
+	margin: 0 0 0 -1.25rem;
+	list-style: none;
+}
+
+footer p > a,
+footer li > a {
+	color: rgba(255, 255, 255, 0.8);
+	border-bottom: none;
+}
+
+footer h2 + ul {
+	padding-top: 0;
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+}
+
+// ==============================================================================================================
+// Hover
+// ==============================================================================================================
+
+@media (hover: hover) {
+
+	footer a:hover {
+		color: #fff;
+	}
+
+}

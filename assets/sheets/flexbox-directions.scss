@@ -1,0 +1,108 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Declare flexbox
+[class*="flexdir"] {
+	display: flex;
+}
+
+// Declare flexbox defaults for all flexbox directions
+[class*="flexdir"] {
+	display: flex;
+}
+
+// IE11 fix to ensure block level text wraps instead of running off the sides
+[class*="flexdir"] div,
+[class*="flexdir"] figure,
+[class*="flexdir"] span,
+[class*="flexdir"] fieldset {
+	max-width: 100%;
+}
+
+// Flex directions
+// --------------------------------------------------------------------------------------------------------------
+
+// Top to bottom
+.flexdir-ttb-mob {
+	flex-direction: column;
+}
+
+// Bottom to top
+.flexdir-btt-mob {
+	flex-direction: column-reverse;
+}
+
+// Left to right
+.flexdir-ltr-mob {
+	flex-direction: row;
+}
+
+// Right to left
+.flexdir-rtl-mob {
+	flex-direction: row-reverse;
+}
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// Flex directions
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom
+	.flexdir-ttb-tab {
+		flex-direction: column;
+	}
+
+	// Bottom to top
+	.flexdir-btt-tab {
+		flex-direction: column-reverse;
+	}
+
+	// Left to right
+	.flexdir-ltr-tab {
+		flex-direction: row;
+	}
+
+	// Right to left
+	.flexdir-rtl-tab {
+		flex-direction: row-reverse;
+	}
+
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+
+	// Flex directions
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Top to bottom
+	.flexdir-ttb-des {
+		flex-direction: column;
+	}
+
+	// Bottomn to top
+	.flexdir-btt-des {
+		flex-direction: column-reverse;
+	}
+
+	// Left to right
+	.flexdir-ltr-des {
+		flex-direction: row;
+	}
+
+	// Right to left
+	.flexdir-rtl-des {
+		flex-direction: row-reverse;
+	}
+
+
+}

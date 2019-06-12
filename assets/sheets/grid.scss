@@ -1,0 +1,92 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Auto-grid support by Andy Bell
+
+// IE11 fallback
+
+[class*="grid-auto-respond"] > *, {
+	max-width: 400px;
+}
+
+[class*="grid-auto-respond"] > * + * {
+	margin-top: $space-mobile;
+}
+
+// Grid proper
+
+@supports (display: grid) {
+
+	// 16rem wide
+	.grid-auto-respond-16 {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+		grid-gap: $space-mobile;
+	}
+
+	// 20rem wide
+	.grid-auto-respond-20 {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+		grid-gap: $space-mobile;
+	}
+
+	// Channels
+	.grid-auto-respond-channel {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+		grid-gap: $space-fixed;
+	}
+
+	// Examples
+	.grid-auto-respond-example {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+		grid-gap: $space-fixed;
+	}
+
+	[class*="grid-auto-respond"] > * {
+		max-width: unset;
+	}
+
+	[class*="grid-auto-respond"] > * + * {
+		margin-top: unset;
+	}
+
+}
+
+ // ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// Grid proper
+	@supports (display: grid) {
+
+		// Channels
+		.grid-auto-respond-channel {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+			grid-gap: $space-fixed;
+		}
+
+		// Examples
+		.grid-auto-respond-example {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+			grid-gap: $space-fixed;
+		}
+
+	}
+
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+}

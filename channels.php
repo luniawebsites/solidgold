@@ -1,361 +1,411 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<!--
-	PARTIAL > Google Tag Manager script
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="podcast, channel, client, recording, studio, broadcast, radio, corporate communication, #BeHeard" />
-	<meta name="description" content="Podcast channels #BeHeard" />
-	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Channels | #BeHeard">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="MobileOptimized" content="320">
-	<!--
-	PARTIAL > Base URL
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
+
+<!--
+PARTIAL > Base URL
+-->
+<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+
+<!--
+PARTIAL > Google Tag Manager script
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
+
+<!-- 
+LINK & PARTIAL > Defer load non-critical CSS
+-->
+<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
+
+<meta name="description" content="Podcast recording studios channels" />
+<meta name="robots" content="index, follow" />
+<meta name="classification" content="business" />
+<meta name="pagename" content="Solid Gold Podcast Studios | Channels" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta property="og:title" content="Solid Gold Podcast Studios | Channels" />
+<meta property="og:description" content="Podcast recording studios channels" />
+<meta property="og:locale" content="en_ZA" />
+<meta property="og:url" content="https://solidgoldstudios.co.za/channels.php" />
+<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:type" content="website" />
+<title>Solid Gold Podcast Studios | Channels</title>
+<link rel="canonical" href="https://solidgoldstudios.co.za/channels.php" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
+
+<!--
+Prerender most likely next page
+-->
+<link rel="prerender" href="channel-template.php">
+
+<!--
+PARTIAL & SCRIPT > Inline load modernizer webp detection (defer causes images not to show in IE11)
+-->
+<script>
+	<?php echo file_get_contents("assets/partials/script-modernizr-webp.js"); ?>
+</script>
+
+<!--
+STYLES > Inline load critical CSS
+-->
+<style>
+	<?php echo file_get_contents("assets/critical.min.css"); ?>
+</style>
+
+<!--
+PARTIAL > Google Tag Manager body
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+
+<!--
+PARTIAL > Leader with menu
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
+
+<!--
+PARTIAL > IE10/IE11 notice
+-->
+<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+
+<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
+
+		<!--
+		HEADER > Channels
 		-->
-	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios | #BeHeard" />
-	<meta property="og:description" content="Podcast channels #BeHeard" />
-	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/channels.php" />
-	<meta property="og:image" content="http://www.solidgoldstudios.co.za/assets/images/logo.png" />
-	<meta property="og:type" content="website" />
-	<title>Solid Gold Podcast Channels | #BeHeard</title>
-	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
-	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
 
-	<!-- 
-	LINK > Critical CSS
-	-->
-	<link rel="stylesheet" href="assets/critical.min.css" />
+		<header class="pad-respond-xy-mob theme-light-grey-mob" id="header_channels" aria-labelledby="header_channels_h1_podcastchannels">
 
-	<!--
-	LINK > Async-load non-critical CSS
-	-->
-	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+			<div class="constrain pad-t-mob">
 
-	<!--
-	PARTIAL > Async-load non-critical CSS polyfill script
-	-->
-	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
+				<h1 id="header_channels_h1_podcastchannels">Podcast channels</h1>
 
-	<!--
-	PARTIAL > Cookie notice
-	-->
-	<?php echo file_get_contents("assets/partials/cookies.html"); ?>
+				<form>
+
+					<div class="flexdir-ltr-mob flexpos-lb-mob spread-mob pad-double-t-mob">
+
+						<div class="flexdir-ttb-mob">
+
+							<label for="header_channels_input_filter">Filter channels</label>
+
+							<input type="text" id="header_channels_input_filter">
+
+						</div>
+
+						<button class="primary" id="header_channels_button_showall"><span>Show All</span></button>
+
+					</div>
+
+				</form>
+
+			</div>
+
+		</header>
 
 	<!--
-	SCRIPT > jQuery CDN
+	SECTION > Active
 	-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<!--
-	SCRIPT > Combined and deferred
-	-->
-	<script src="assets/scripts/combined.min.js" defer></script>
-
-</head>
-
-<body class="theme-grey">
-
-	<!--
-	PARTIAL > Google Tag Manager body
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
-
-	<!--
-	PARTIAL > Browse Happy compatibility notice
-	-->
-	<?php echo file_get_contents("assets/partials/browse-happy.html"); ?>
-
-	<!--
-	PARTIAL > Global page leadin with logo and menu
-	-->
-	<?php echo file_get_contents("assets/partials/page-leadin.html"); ?>
-
-	<!--
-	Masthead
-	-->
-	<header class="pattern-masthead flow-ttb-mob pad-respond-xy-mob theme-dark-grey border-b-mob">
+	<section class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="section_active" aria-labelledby="header_channels_h1_podcastchannels">
 
 		<!--
 		Container
 		-->
 
-		<div class="width-100 constrain">
+		<div class="grid-auto-respond-channel constrain pad-y-mob">
 
-			<div>
-				<div class="pad-respond-y-mob">
+			<!--
+			SCRIPT
+			-->
 
-					<h1 class="text-l-mob">Podcast channels</span></h1>
-
-				</div>
-				<div class="pad-respond-b-mob pad-t-mob">
-
-					<label for="filter">
-						<span>Filter Podcast Channels</span>
-						<input type="text" id="filter">
-					</label>
-
-				</div>
-
-			</div>
+			<?php
+				@$dir = "assets/channels/active/"; // Channels directory
+				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/active/";
+				@$sort = 0; // 0 for ascending order and 1 for descending order
+				@$channels = scandir($dir, $sort);
+				for (@$i=0; $i < count($channels); $i++) {
+					if (!is_dir($channels[$i])) {
+						// Begin curl
+						@$url = $dir_url . $channels[$i];
+						@$ch = curl_init($url);
+						curl_setopt($ch, CURLOPT_URL, $url);
+						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+						curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+						curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+						curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
+						@$cn = curl_exec($ch);
+						@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+						// Check response
+						if ($status == 200) {
+							@$content = $cn;
+							// Channel name
+							@$break_title_c = explode("</title>", $content);
+							@$break_title_o = explode("<title>", $break_title_c[0]);
+							// Channel host (e.g. host name)
+							@$break_host_c = explode("</host>", $content);
+							@$break_host_o = explode("<host>", $break_host_c[0]);
+							// Cover image name
+							@$break_cover_file_name_c = explode("</coverFileName>", $content);
+							@$break_cover_file_name_o = explode("<coverFileName>", $break_cover_file_name_c[0]);
+							// Keywords for jQuery filter script
+							@$break_filter_keywords_c = explode("</filterKeywords>", $content);
+							@$break_filter_keywords_o = explode("<filterKeywords>", $break_filter_keywords_c[0]);
+							// Get data
+							if (count($break_title_o) > 1) {
+								// Define variables
+								@$title = $break_title_o[1];
+								@$host = $break_host_o[1];
+								@$cover_file_name = $break_cover_file_name_o[1];
+								@$filter_keywords = $break_filter_keywords_o[1];
+								// Styling for channel elements done in CSS instead of using utility classes
+								echo "
+									<a class='channel__container--active channel-item' data-channel-item='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
+										<figure>
+											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
+											<figcaption>" . $title . "</figcaption>
+											<p>" . $host . "</p>
+										</figure>
+									</a>
+								";
+							}
+						}
+					}
+				}
+			?>
 
 		</div>
 
-	</header>
+	</section>
 
-	<main>
+	<!--
+	SECTION > Coming soon
+	-->
+
+	<section class="pad-respond-x-mob pad-respond-y-mob theme-light-grey-mob border-t-mob" id="section_comingsoon" aria-labelledby="section_comingsoon_h2_podcastchannelscoming">
 
 		<!--
-		SECTION > Podcast channels
+		HEADER
 		-->
 
-		<section class="pattern-item-text pad-respond-xy-mob pad-respond-t-mob theme-grey border-b-mob">
+		<header class="width-100 constrain">
 
-			<!--
-			Container
-			-->
+			<div class="pad-y-mob">
 
-			<div class="constrain">
-
-				<!--
-				Channels
-				-->
-
-				<a href="booyah.php" class="pattern-channel-item" data-pattern-channel-item="boo-yah boo yah booyah carmen murray">
-					<img src="assets/images/cover-art/channels/boo-yah.jpg" alt="" />
-					<span>
-						<p>Boo-Yah!</p>
-						<p>Carmen Murray</p>
-					</span>
-				</a>
-
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the call estelle kapp">
-					<img src="assets/images/cover-art/channels/placeholder-thecall.jpg" alt="" />
-					<span>
-						<p>The Call</p>
-						<p>Estelle Kapp</p>
-					</span>
-				</a>
-
-				<a href="carmenmurray.php" class="pattern-channel-item" data-pattern-channel-item="carmen murray show">
-					<img src="assets/images/cover-art/channels/carmen-murray-show.jpg" alt="" />
-					<span>
-						<p>The Carmen Murray Show</p>
-						<p>Carmen Murray</p>
-					</span>
-				</a>
-
-				<a href="eduthink.php" class="pattern-channel-item" data-pattern-channel-item="eduthink edu think education incorporated gavin kennedy">
-					<img src="assets/images/cover-art/channels/eduthink.jpg" alt="" />
-					<span>
-						<p>EduThink</p>
-						<p>Gavin Kennedy</p>
-					</span>
-				</a>
-
-				<a href="eduinc.php" class="pattern-channel-item" data-pattern-channel-item="education incorporated edu inc eduinc boutique school education">
-					<img src="assets/images/cover-art/channels/eduinc-creative-arts.jpg" alt="" />
-					<span>
-						<p>Edu Inc Creative Arts and Language</p>
-						<p>Edu Inc Boutique School</p>
-					</span>
-				</a>
-
-				<a href="emotioninmotion.php" class="pattern-channel-item" data-pattern-channel-item="emotion in motion charlotte d blignaut">
-					<img src="assets/images/cover-art/channels/emotioninmotion-cover-s02-0000.jpg" alt="" />
-					<span>
-						<p>Emotion in Motion</p>
-						<p>Charlotte D Blignaut</p>
-					</span>
-				</a>				
-
-				<a href="extralessons.php" class="pattern-channel-item" data-pattern-channel-item="Kip McGrath extra lessons tutor math afrikaans">
-					<img src="assets/images/cover-art/channels/extralessons-cover-s01-0000.jpg" alt="" />
-					<span>
-						<p>Extra Lessons</p>
-						<p>Kip Lessons</p>
-					</span>
-				</a>
-
-				<!-- Private Channel -->
-				<a class="pattern-channel-item private-channel" data-pattern-channel-item="future proof your child extra lessons paul janet albrecht">
-					<img src="assets/images/cover-art/channels/fpyc.jpg" alt="" />
-					<span>
-						<p>Future Proof Your Child</p>
-						<p>Paul Albrecht</p>
-					</span>
-				</a>
-
-				<a href="garageband.php" class="pattern-channel-item" data-pattern-channel-item="garage band adam alexander">
-					<img src="assets/images/cover-art/channels/garageband.jpg" alt="" />
-					<span>
-						<p>Garage Band</p>
-						<p>Adam Alexander</p>
-					</span>
-				</a>
-
-				<a href="grounded.php" class="pattern-channel-item" data-pattern-channel-item="grounded melanie walker">
-					<img src="assets/images/cover-art/channels/grounded.jpg" alt="" />
-					<span>
-						<p>Grounded</p>
-						<p>Melanie Walker</p>
-					</span>
-				</a>
-
-				<a href="guntalk.php" class="pattern-channel-item" data-pattern-channel-item="gun talk by gosa">
-					<img src="assets/images/cover-art/channels/gosa-cover-s01-0000.jpg" alt="" />
-					<span>
-						<p>Gun Talk</p>
-						<p>Gun Owners South Africa</p>
-					</span>
-				</a>				
-
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="i get it now what vuuma collaborations">
-					<img src="assets/images/cover-art/channels/placeholder-i-get-it-now-what.jpg" alt="" />
-					<span>
-						<p>I Get It! Now What?</p>
-						<p>Vuuma Collaborations</p>
-					</span>
-				</a>
-
-
-				<a href="kipmcgrath.php" class="pattern-channel-item" data-pattern-channel-item="Kip McGrath extra lessons tutor math afrikaans">
-					<img src="assets/images/cover-art/channels/kipmcgrath-cover-s01-0000.jpg" alt="" />
-					<span>
-						<p>Kip McGrath</p>
-						<p>Extra Lessons FAQ</p>
-					</span>
-				</a>
-
-				<a href="liftasyourise.php" class="pattern-channel-item" data-pattern-channel-item="lift as you rise red bull music tall racks records">
-					<img src="assets/images/cover-art/channels/liftasyourise.jpg" alt="" />
-					<span>
-						<p>Lift As You Rise</p>
-						<p>Red Bull Music and Tall Racks Records</p>
-					</span>
-				</a>
-
-
-				<a href="famous.php" class="pattern-channel-item" data-pattern-channel-item="light lights camera cameras action kim kimberleigh stark famous">
-					<img src="assets/images/cover-art/channels/famous-cover-0000.jpg" alt="" />
-					<span>
-						<p>Lights, Cameras, Action!</p>
-						<p>Kimberleigh Stark</p>
-					</span>
-				</a>
-
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="vuuma collaborations mineshare simine gary lane harry sinko">
-					<img src="assets/images/cover-art/channels/mineshare-cover-s01-0000.jpg" alt="" />
-					<span>
-						<p>MineShare</p>
-						<p>Vuuma Collaborations</p>
-					</span>
-				</a>
-
-				<!-- Coming soon -->
-				<!--
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item=" network women in mining south africa wimsa">
-					<img src="assets/images/cover-art/channels/placeholder-wimsa.jpg" alt="" />
-					<span>
-						<p>Network</p>
-						<p>WiMSA | Women in Mining South Africa</p>
-					</span>
-				</a>
-				-->
-
-				<a href="wimsa.php" class="pattern-channel-item" data-pattern-channel-item="network wimsa women in mine mining south africa petro du pisani dupisani">
-					<img src="assets/images/cover-art/channels/wimsa.jpg" alt="" />
-					<span>
-						<p>Network</p>
-						<p>WiMSA Women in Mining South Africa</p>
-					</span>
-				</a>
-
-
-				<a href="onchange.php" class="pattern-channel-item" data-pattern-channel-item="on change onchange petro du pisani dupisani">
-					<img src="assets/images/cover-art/channels/on-change.jpg" alt="" />
-					<span>
-						<p>On Change</p>
-						<p>Petro Du Pisani</p>
-					</span>
-				</a>
-
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="the principal's principles dave david robinson">
-					<img src="assets/images/cover-art/channels/placeholder-principalsprinciples.jpg" alt="" />
-					<span>
-						<p>The Principal's Principles</p>
-						<p>David Robinson</p>
-					</span>
-				</a>				
-
-				<a href="solidgoldstudios.php" class="pattern-channel-item" data-pattern-channel-item="solid gold podcast studios demo sample">
-					<img src="assets/images/cover-art/channels/solid-gold-studios-cover-0000.jpg" alt="" />
-					<span>
-						<p>Solid Gold Studios</p>
-						<p>Demos and Samples</p>
-					</span>
-				</a>				
-
-				<a href="weekendparty.php" class="pattern-channel-item" data-pattern-channel-item="weekend party lance zeeman">
-					<img src="assets/images/cover-art/channels/weekend-party-entertainment-report.jpg" alt="" />
-					<span>
-						<p>Weekend Party</p>
-						<p>Lance Zeeman</p>
-					</span>
-				</a>
-
-				<!-- Coming soon -->
-				<a class="pattern-channel-item coming-soon" data-pattern-channel-item="what's the point elan ressel">
-					<img src="assets/images/cover-art/channels/placeholder-whatsthepoint.jpg" alt="" />
-					<span>
-						<p>What's the Point?</p>
-						<p>Elan Ressel</p>
-					</span>
-				</a>
+				<h2 id="section_comingsoon_h2_podcastchannelscoming">Podcast channels coming soon</span></h2>
 
 			</div>
 
-		</section>
+		</header>
 
-	</main>
+		<!--
+		Container
+		-->
+
+		<div class="grid-auto-respond-channel constrain pad-y-mob">
+
+			<!--
+			SCRIPT
+			-->
+
+			<?php
+				@$dir = "assets/channels/coming-soon/"; // Channels directory
+				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/coming-soon/";
+				@$sort = 0; // 0 for ascending order and 1 for descending order
+				@$channels = scandir($dir, $sort);
+				for (@$i=0; $i < count($channels); $i++) {
+					if (!is_dir($channels[$i])) {
+						// Begin curl
+						@$url = $dir_url . $channels[$i];
+						@$ch = curl_init($url);
+						curl_setopt($ch, CURLOPT_URL, $url);
+						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+						curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+						curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+						curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
+						@$cn = curl_exec($ch);
+						@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+						// Check response
+						if ($status == 200) {
+							@$content = $cn;
+							// Channel name
+							@$break_title_c = explode("</title>", $content);
+							@$break_title_o = explode("<title>", $break_title_c[0]);
+							// Channel host (e.g. host name)
+							@$break_host_c = explode("</host>", $content);
+							@$break_host_o = explode("<host>", $break_host_c[0]);
+							// Cover image name
+							@$break_cover_file_name_c = explode("</coverFileName>", $content);
+							@$break_cover_file_name_o = explode("<coverFileName>", $break_cover_file_name_c[0]);
+							// Keywords for jQuery filter script
+							@$break_filter_keywords_c = explode("</filterKeywords>", $content);
+							@$break_filter_keywords_o = explode("<filterKeywords>", $break_filter_keywords_c[0]);
+							// Get data
+							if (count($break_title_o) > 1) {
+								// Define variables
+								@$title = $break_title_o[1];
+								@$host = $break_host_o[1];
+								@$cover_file_name = $break_cover_file_name_o[1];
+								@$filter_keywords = $break_filter_keywords_o[1];
+								// Styling for channel elements done in CSS instead of using utility classes
+								echo "
+									<div class='channel__container--coming-soon channel-item' data-channel-item='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
+										<figure>
+											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
+											<figcaption>" . $title . "</figcaption>
+											<p>" . $host . "</p>
+										</figure>
+									</div>
+								";
+							}
+						}
+					}
+				}
+			?>
+
+		</div>
+
+	</section>
 
 	<!--
-	PARTIAL > Global page footer
+	SECTION > Private
 	-->
-	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
 
-	<!--
-	HTML > Preload elements
-	-->
-	<span class="preload-me"></span>
+	<section class="pad-respond-x-mob pad-respond-y-mob theme-light-grey-mob border-t-mob" id="section_private" aria-labelledby="section_private_h2_privatepodcastchannels">
 
-	<!--
-	SCRIPT > Filter
-	-->
-	<script>
-		$("#filter").keyup(function(){
-			var selectItem = $(this).val();
-			filter(selectItem);
-			});
-			function filter(e) {
-				var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
-				$('.pattern-channel-item').hide().filter(function () {
-						return regex.test($(this).data('pattern-channel-item'))
-			}).show();
-		}
-	</script>
+		<!--
+		HEADER
+		-->
 
-</body>
+		<header class="width-100 constrain">
+
+			<div class="pad-y-mob">
+
+				<h2 id="section_private_h2_privatepodcastchannels">Private podcast channels</span></h2>
+
+			</div>
+
+		</header>
+
+		<!--
+		Container
+		-->
+
+		<div class="grid-auto-respond-channel constrain pad-y-mob">
+
+			<!--
+			SCRIPT
+			-->
+
+			<?php
+				@$dir = "assets/channels/private/"; // Channels directory
+				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/private/";
+				@$sort = 0; // 0 for ascending order and 1 for descending order
+				@$channels = scandir($dir, $sort);
+				for (@$i=0; $i < count($channels); $i++) {
+					if (!is_dir($channels[$i])) {
+						// Begin curl
+						@$url = $dir_url . $channels[$i];
+						@$ch = curl_init($url);
+						curl_setopt($ch, CURLOPT_URL, $url);
+						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+						curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+						curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+						curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
+						@$cn = curl_exec($ch);
+						@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+						// Check response
+						if ($status == 200) {
+							@$content = $cn;
+							// Channel name
+							@$break_title_c = explode("</title>", $content);
+							@$break_title_o = explode("<title>", $break_title_c[0]);
+							// Channel host (e.g. host name)
+							@$break_host_c = explode("</host>", $content);
+							@$break_host_o = explode("<host>", $break_host_c[0]);
+							// Cover image name
+							@$break_cover_file_name_c = explode("</coverFileName>", $content);
+							@$break_cover_file_name_o = explode("<coverFileName>", $break_cover_file_name_c[0]);
+							// Keywords for jQuery filter script
+							@$break_filter_keywords_c = explode("</filterKeywords>", $content);
+							@$break_filter_keywords_o = explode("<filterKeywords>", $break_filter_keywords_c[0]);
+							// Get data
+							if (count($break_title_o) > 1) {
+								// Define variables
+								@$title = $break_title_o[1];
+								@$host = $break_host_o[1];
+								@$cover_file_name = $break_cover_file_name_o[1];
+								@$filter_keywords = $break_filter_keywords_o[1];
+								// Styling for channel elements done in CSS instead of using utility classes
+								echo "
+									<div class='channel__container--private channel-item' data-channel-item='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
+										<figure>
+											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
+											<figcaption>" . $title . "</figcaption>
+											<p>" . $host . "</p>
+										</figure>
+									</div>
+								";
+							}
+						}
+					}
+				}
+			?>
+
+		</div>
+
+	</section>
+
+</div>
+
+<!--
+PARTIAL > Page footer
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
+
+<!--
+SCRIPT > jQuery scripts
+-->
+<script src="assets/scripts/jquery/jquery.min.js"></script>
+<script src="assets/scripts/jquery/pushy.min.js" defer></script>
+
+<!--
+SCRIPT > jQuery filter for channel cards
+-->
+<script>
+	/* Filter items using keywords (keywords defined in "keyword"
+	pseudo-class in the individual channel HTML pages) */
+	$("#header_channels_input_filter").keyup(function(){
+		var selectItem = $(this).val().toLowerCase();
+		filter(selectItem);
+		});
+		function filter(e) {
+			var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
+			$('.channel-item').hide().filter(function () {
+					return regex.test($(this).data('channel-item'))
+		}).show();
+	}
+</script>
+
+<!--
+SCRIPT > jQuery clear filter input
+-->
+<script>
+	$(document).ready(function () {
+		/* Clear data from the filter input when returning
+		to the page (all items display on return) */
+		$('#header_channels_input_filter').val('');
+		/* Clear data from the filter input on button click */
+		$("#header_channels_button_showall").click(function(){
+			$('#header_channels_input_filter').val('');
+		});
+	});
+</script>
 
 </html>

@@ -1,7 +1,10 @@
-// Hide scrollbar
-:-webkit-scrollbar {
-	display: none;
-}
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Document and base elements
+// --------------------------------------------------------------------------------------------------------------
 
 select::-ms-expand {
 	display: none;
@@ -11,193 +14,204 @@ select::-ms-expand {
 	width: device-width;
 }
 
-// Box model
+// Set base font size and line height for document root
+:root {
+	font-size: $root-font-size-mobile;
+	line-height: $root-line-height;
+}
 
-html {
+// Set box model for all block level elements
+html,
+div,
+figure,
+span,
+p,
+ul,
+ol,
+em,
+input,
+textarea,
+.button,
+[type="button"] {
 	box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
-
-// Transparent user selection
-*::selection {
-	background-color: $blue;
-}
-
-// Opaque user selection
-input::selection,
-textarea::selection {
-	background-color: $blue;
-}
-
 html {
-	@include text-plain;
+	@extend %text-plain;
 	margin: 0;
 	width: 100%;
-	font-size: 16px; // Set the initial rem size
-	box-sizing: border-box; // Set box model
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	-ms-overflow-style: scrollbar;
-	// Remove user selection highlight
-	// -ms-user-select: none;
-	// user-select: none;
+	// -ms-user-select: none; // Remove user selection highlight
+	// user-select: none; // Remove user selection highlight
 }
 
-// Minimum viewport
+// Set allowbale user selection colour
+input::selection,
+textarea::selection,
+select::selection {
+	background-color: $green;
+	color: #fff;
+}
+
+// Set minimum viewport options
 html,
 body {
-	min-width: 320px;
+	// min-width: 320px;
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-// Smooth scolling on iOS and remove focus outline
+// Accessibility colour test (these are the bases, and are overridden in context using themes)
+
+body {
+	background-color: $dark-grey; // Causes tags to fail contrast test, counteract with "header" and "section" colour
+	color: #fff;
+}
+
+body > header,
+section {
+	background-color: #fff; // Counteracts "body" colour which causes accessibility failure
+	color: $dark-grey;
+}
+
+main,
+section {
+	background-color: #fff;
+}
+
 html,
 body,
 div {
-	-webkit-overflow-scrolling: touch;
-}
-
-body {
+	-webkit-overflow-scrolling: touch; // Set smooth scrolling for iOS and scrollbar
 	-ms-overflow-style: scrollbar;
 }
 
+// Reset counter for sections
+body {
+	counter-reset: section;
+}
+
+
 iframe,
 object {
+	border: 0;
 	width: 100%;
 }
 
-// Remove focus line
+// Remove focus line around highlighted elements
 a:focus,
 button::-moz-focus-inner {
 	outline: none;
 	border: 0;
 }
 
-/* Tables
----------------------------------------------------------------------------- */
+// Scrollbar
+// --------------------------------------------------------------------------------------------------------------
 
-table {
-	//border: solid 1px $border-color;
-	margin-top: calc(#{$space-mobile} * 2);
-	margin-bottom: calc(#{$space-mobile} * 2);
-	width: 100%;
-	line-height: 1.25rem;
-	table-layout: fixed;
-	border-collapse: collapse;
+// // Hide scrollbar
+// :-webkit-scrollbar {
+// 	display: none;
+// }
+
+/*
+body::-webkit-scrollbar {
+	width: 1em;
 }
-
-thead {
-	@include text-plain;
-	margin: 0;
+ 
+body::-webkit-scrollbar-track {
+	background-color: $light-grey;
+	-webkit-box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
 }
-
-tr {
-	border-radius: $radius;
-	border-bottom: solid 1px $border-color;
+ 
+body::-webkit-scrollbar-thumb {
+	//border: 3px solid $light-grey;
+	border-radius: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.15);
 }
+*/
 
-th,
-td {
-	position: relative;
-	vertical-align: middle;
-	padding: 0.6rem 0.5rem 0.5rem 0.8rem;
-	text-align: left;
-}
-
-th {
-	top: 1px;
-}
-
-/* Typography
----------------------------------------------------------------------------- */
+// Typography
+// --------------------------------------------------------------------------------------------------------------
 
 h1,
 h2,
-.h1,
-.h2 {
-	@include text-heading;
-	margin: 0;
-	width: 100%;
-	text-align: center;
-}
-
+.h2,
 h3,
-h4,
-h5,
 .h3,
-.h4,
-.h5 {
-	@include text-heading;
-	margin: 0;
+h4 {
+	background-color: transparent; // Needed for colour contrast accessibility
 	width: 100%;
-	text-align: center;
+	font-family: $font-heading;
+	font-weight: normal;
+	text-align: left;
 }
 
 h1 {
-	font-size: 1.6rem;
-	line-height: 1.9rem;
+	font-size: 1.8rem;
+	line-height: 125%;
+	// letter-spacing: 0.05rem;
 }
 
 h2,
 .h2 {
 	font-size: 1.4rem;
-	line-height: 1.8rem;
+	line-height: 125%;
+	// letter-spacing: 0.025rem;
 }
 
 h3,
 .h3 {
-	font-size: 1.2rem;
-	line-height: 1.5rem;
+	font-size: 1.3rem;
+	line-height: 125%;
+	// letter-spacing: 0.025rem;
 }
 
-h4,
-.h4 {
+h4 {
 	font-size: 1rem;
-	line-height: 1.3rem;
-}
-
-h5,
-.h5 {
-	font-size: 0.85rem;
-	line-height: 1.5rem;
+	line-height: 125%;
 }
 
 p,
 q,
 td,
 blockquote {
-	@include text-plain;
-	margin: 0;
-	width: 100%;
-	text-align: left;
+	@extend %text-plain;
 }
 
-p,
-td,
 blockquote {
-	text-align: center;
+	display: inline;
+	position: relative;
+	font-weight: bold;
+}
+
+mark {
+	border: solid 1px transparent;
+	border-radius: 3px;
+	background-color: $very-light-yellow;
+	padding: 0 2px 1px 2px;
 }
 
 strong {
-	font-family: $font-heading;
-	font-weight: normal;
+	font-weight: bold;
 }
 
-ol,
-ul {
-	@include list;
+small {
+	font-size: 0.85rem;
+	line-height: 120%;
 }
 
-p small {
-	font-size: 85%;
-	line-height: 85%;
+i,
+cite {
+	font-weight: bold;
+	font-style: normal;
+}
+
+abbr[title] {
+	border-bottom: none;
+	font-style: normal;
+	// text-decoration: none;
 }
 
 sup {
@@ -211,289 +225,408 @@ sup {
 	vertical-align: top;
 }
 
-audio {
-	width: 100%;
+img[alt] {
+	font-size: 0.85rem;
+	line-height: 1.1rem;
 }
 
-// Sibling elements spacing
+// Typographic pairs
+// --------------------------------------------------------------------------------------------------------------
 
-h1 ~ p,
-.h1 ~ p,
-h2 ~ p,
-.h2 ~ p,
-h3 ~ p,
-.h3 ~ p,
-h4 ~ p,
-.h4 ~ p,
-h5 ~ p,
-.h5 ~ p,
-p ~ p,
-p ~ div,
-p ~ figure {
-	margin-top: 1.25rem;
+// Heading immediately followed by another heading
+
+h1 + h2,
+h1 + .h2 {
+	padding-top: calc(#{$space-fixed} * 0.5);
 }
 
-h1 ~ h2,
-.h1 ~ .h2,
-h1 ~ h3,
-.h1 ~ .h3,
-h1 ~ h4,
-.h1 ~ .h4,
-h1 ~ h5,
-.h1 ~ .h5,
-h2 ~ h3,
-.h2 ~ .h3,
-h2 ~ h4,
-.h2 ~ .h4,
-h2 ~ h5,
-.h2 ~ .h5,
-h3 ~ h4,
-.h3 ~ .h4,
-h3 ~ h5,
-.h3 ~ .h5,
-h4 ~ h5,
-.h4 ~ .h5,
-p ~ small {
-	margin-top: 1rem;
+h2 + h3,
+h2 + .h3,
+.h2 + h3,
+.h2 + .h3 {
+	padding-top: calc(#{$space-fixed} * 1.25);
 }
 
-figcaption ~ audio {
-	margin-top: 1rem;
+h3 + h4,
+.h3 + h4 {
+	padding-top: calc(#{$space-fixed} * 1);
 }
 
-/* Links
----------------------------------------------------------------------------- */
+// Heading immediately followed by a paragraph
+
+h1 + p {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+h2 + p,
+.h2 + p {
+	padding-top: calc(#{$space-fixed} * 1.25);
+}
+
+h3 + p,
+.h3 + p {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+h4 + p {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+// Heading immediately followed by a list
+
+h1 + ul {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+h2 + ul,
+.h2 + ul {
+	padding-top: calc(#{$space-fixed} * 1.25);
+}
+
+h3 + ul,
+.h3 + ul {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+h4 + ul {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+// Heading immediately followed by an emphasis
+
+h1 + em {
+	margin-top: calc(#{$space-fixed} * 1.5);
+}
+
+h2 + em,
+.h2 + em {
+	margin-top: calc(#{$space-fixed} * 1.25);
+}
+
+h3 + em,
+.h3 + em {
+	margin-top: calc(#{$space-fixed} * 1);
+}
+
+h4 + em {
+	margin-top: calc(#{$space-fixed} * 1);
+}
+
+// Heading immediately followed by a "div"
+
+h1 + div {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+h2 + div,
+.h2 + div {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+h3 + div,
+.h3 + div {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+h4 + div {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+// Heading immediately followed by a "table"
+h2 + table,
+.h2 + table {
+	margin-top: calc(#{$space-fixed} * 1.5);
+}
+
+// Paragraph immediately followed by a heading
+
+p + h2,
+p + .h2 {
+	padding-top: calc(#{$space-fixed} * 2);
+}
+
+p + h3,
+p + .h3 {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+p + h4 {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+// Paragraph immediately followed by another paragraph
+
+p + p {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+// Paragraph immediately followed by a list item
+// This specifically targets the "li" child of the "ul' or "ol" for proper alignment
+
+p + ul,
+p + ol{
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+// Paragraph immediately followed by an emphasis
+
+p + em {
+	margin-top: calc(#{$space-fixed} * 1.5);
+}
+
+// Paragraph immediately followed by a "div"
+
+p + div {
+	padding-top: calc(#{$space-fixed} * 2);
+}
+
+// List immediately followed by a heading
+	
+ul + h2,
+ul + .h2,
+ul + h3,
+ul + .h3,
+ul + h4 {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+// List immediately followed by a paragraph
+	
+ul + p {
+	padding-top: calc(#{$space-fixed} * 1);
+}
+
+// Emphasis immediately followed by a paragraph
+
+em + p {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+// Emphasis immediately followed by a list
+
+em + ul,
+em + ol {
+	padding-top: calc(#{$space-fixed} * 1.5);
+}
+
+// Emphasis immediately followed by a "div"
+
+em + div {
+	margin-top: calc(#{$space-fixed} * 1);
+}
+
+
+// Links
+// --------------------------------------------------------------------------------------------------------------
 
 a {
-	color: $link-color;
-	text-decoration: none;
 	background-color: transparent;
+	color: inherit;
+	text-decoration: none;
 	-webkit-text-decoration-skip: objects;
 }
 
-p a {
-	font-family: $font-heading;
+p > a {
+	font-weight: bold;
 }
 
-a:active {
-	color: $link-active-color;
-}
+// Callouts
+// --------------------------------------------------------------------------------------------------------------
 
-/*
-// Automatically add icon after _blank link
-a[target="_blank"]:after {
-	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-	margin: 0 3px 0 5px;
-}
-*/
-
-/* Callouts
----------------------------------------------------------------------------- */
-
+// "em" is semantically more correct for callouts than "blockquote"
 em {
 	display: block;
 	clear: left;
-	margin: 2rem 0 2rem 0;
-	padding: 1rem;
-	font-family: $font-alt;
-	font-weight: normal;
+	// margin: calc(#{$space-fixed} * 0.5) 0 calc(#{$space-fixed} * 1.5) 0;
+	padding-top: calc(#{$space-fixed} * 0.5);
+	padding-right: $space-fixed;
+	padding-bottom: calc(#{$space-fixed} * 0.65);
+	padding-left: $space-fixed;
+	font-family: $font-plain;
+	font-weight: bold;
 	font-style: normal;
-	letter-spacing: -0.0025rem;
-	line-height: 1.5rem;
+	letter-spacing: -0.005rem;
 	text-align: left;
+	line-height: 140%;
 }
 
-/* Other elements
----------------------------------------------------------------------------- */
+// Misc
+// --------------------------------------------------------------------------------------------------------------
 
 img {
 	vertical-align: middle;
 	border-style: none;
 }
 
+code {
+	padding: 0.1rem 0.25rem 0.15rem 0.25rem;
+	font-size: 95%;
+}
+
 hr {
 	outline: none;
-	background-color: $border-color;
+	background-color: $border-color-light;
 	border: 0;
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 100%;
 	height: 1px;
+	color: $dark-grey; // For accessibility
 }
 
-// Image element alt text
+// Set alternative text attribute style for images
 [alt] {
-	@include text-plain;
+	color: inherit;
+	font-family: $font-plain;
+	font-size: 1rem;
+	letter-spacing: -0.015rem;
 	text-align: left;
+	line-height: 1.35rem;
 }
 
-/* Buttons
----------------------------------------------------------------------------- */
+// Buttons
+// --------------------------------------------------------------------------------------------------------------
 
-// Vertically align pseudo button text for all browsers
-.button > span {
-	display: block;
+// Make transition effects smooth
+button,
+a.button,
+a[type="button"] {
+	transition: all 0.15s ease-in-out;
+	-ms-user-select: none; // Remove user selection highlight
+	user-select: none; // Remove user selection highlight
+}
+
+// Adjust vertical alignment for text inside buttons
+button > span {
+	line-height: 105%; // Nudge text down to match a.button and a[type="button"] classes
+}
+
+// Do not declare flex display for the true button element (because of Safari)
+a.button,
+a[type="button"] {
+	display: flex;
 }
 
 button,
-.button {
+a.button,
+a[type="button"] {
 	align-items: center;
 	justify-content: center;
 	outline: none;
-	border: solid 2px $dark-grey;
+	border: none;
 	border-radius: $button-radius;
-	background-color: $dark-grey; // Default colour before themed
+	background-color: transparent;
 	padding-right: 1rem;
 	padding-left: 1rem;
-	min-width: 170px;
-	height: 45px;
+	height: $button-height;
+	min-width: 160px;
 	white-space: nowrap;
-	color: #fff;
+	color: $dark-grey;
 	font-family: $font-button;
-	font-weight: normal;
-	font-size: 1rem; // Font size must be an integer to ensure consistent vertical alignment across browsers
-	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-transform: capitalize;
 	text-decoration: none;
 	text-align: center;
-	letter-spacing: 0.02rem;
-	line-height: 1rem;
+	letter-spacing: 0.005rem;
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 }
 
-// Do not declare flex display for true button element (Safari)
-.button {
-	display: flex;
+button:active,
+a.button:active,
+a[type="button"]:active {
+	box-shadow: none;
 }
 
-button:focus,
-.button:focus {
-	color: inherit;
-}
+// Header, section, figure, footer
+// --------------------------------------------------------------------------------------------------------------
 
-// Inline images
-button img,
-.button img {
-	margin-right: 0.3rem;
-	padding-bottom: 0.2rem;
-	width: 1.35rem;
-	max-height: 1.75rem;
+// Set card patterns to full width by default
+div,
+figure {
+	width: 100%;
 }
-
-/* Section, header, figure, footer
----------------------------------------------------------------------------- */
 
 header,
 section,
 figure,
 footer {
-	width: 100%;
 	overflow: hidden;
 }
 
-// Default image size
-div picture img,
-figure picture img {
+figcaption,
+.caption {
+	font-family: $font-heading;
+	// font-size: 0.9rem;
+	line-height: 1.2rem;
+}
+
+// Set default foreground image size
+picture img {
 	width: 80px;
 	height: 80px;
 }
 
-figcaption {
-	font-weight: bold;
-}
-
-img.medium {
-	width: 100px;
-	height: 100px;
-}
-
-img.large {
-	width: 120px;
-	height: 120px;
-}
-
-header .header h3,
-header .header .h3,
-figure .header h3,
-figure .header .h3,
-footer .header h3,
-footer .header .h3 {
-	//position: relative;
-	top: 1px;
-	width: 100%;
-	line-height: 1.5rem;
-	overflow: hidden;
-}
-
-/* Smallest viewport
----------------------------------------------------------------------------- */
-
-@media screen and (max-width: 360px) {
-
-	/* Tables
-	---------------------------------------------------------------------------- */
-
-	th,
-	td {
-		font-size: 0.85rem;
-	}
-
-}
-
-/* Tablet viewport
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-tablet) {
 
-	/* Tables
-	---------------------------------------------------------------------------- */
-
-	table {
-		margin-top: calc(#{$space-tablet} * 1);
-		margin-bottom: calc(#{$space-tablet} * 1);
+	// Set base font size and line height for document
+	:root {
+		font-size: $root-font-size-tablet;
 	}
 
-	/* Typography
-	---------------------------------------------------------------------------- */
+	// Typography
+	// --------------------------------------------------------------------------------------------------------------
 
-	h1,
-	.h1 {
+	h1 {
 		font-size: 2rem;
-		line-height: 2.5rem;
 	}
 
 	h2,
 	.h2 {
-		font-size: 1.8rem;
-		line-height: 2.3rem;
+		font-size: 1.6rem;
 	}
 
 }
 
-/* Desktop viewport
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-desktop) {
 
-	/* Links
-	------------------------------------------------------------------------ */
-
-	// Declare hover effect
-	a:hover {
-		color: $link-hover-color;
+	// Set base font size and line height for document
+	:root {
+		font-size: $root-font-size-desktop;
 	}
 
-	// Make hover effect smooth
-	a {
+}
+
+// ==============================================================================================================
+// Hover media query
+// ==============================================================================================================
+
+@media (hover: hover) {
+
+	// Typography
+	// --------------------------------------------------------------------------------------------------------------
+
+	h3 > a,
+	.h3 > a {
 		transition: $transition;
 	}
 
-	/* Tables
-	------------------------------------------------------------------------ */
+	// Buttons
+	// --------------------------------------------------------------------------------------------------------------
 
-	table {
-		margin-top: $space-desktop;
-		margin-bottom: $space-desktop;
+	button:hover,
+	a.button:hover,
+	a[type="button"]:hover {
+		box-shadow: none;
 	}
 
 }

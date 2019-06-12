@@ -1,755 +1,1129 @@
-.text-white {
-	color: #fff;
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// Isolated text colours
+// --------------------------------------------------------------------------------------------------------------
+
+.text-red-mob {
+	color: $red;
 }
 
-.theme-white, td.theme-white {
+.text-blue-mob {
+	color: $blue;
+}
+
+.text-green-mob {
+	color: $green;
+}
+
+.text-yellow-mob {
+	color: $yellow;
+}
+
+// Base themes (for sections, containers and table cells)
+// --------------------------------------------------------------------------------------------------------------
+
+p > a,
+small > a,
+li > a,
+em > a {
+	border-bottom: dashed 1px $green;
+	border-radius: 1px;
+	// font-weight: bold;
+	transition: $transition;
+	-webkit-text-decoration-skip: objects;
+}
+
+// Active links
+h3 > a:active,
+.h3 > a:active,
+h4 > a:active,
+p > a:active,
+small > a:active,
+li > a:active,
+em > a:active {
+	color: $green;
+}
+
+// White
+.theme-white-mob,
+td.theme-white-mob {
 	background-color: #fff;
 	color: $dark-grey;
 }
 
-.theme-grey, td.theme-grey {
-	background-color: $grey;
+// White links
+.theme-white-mob p > a,
+.theme-white-mob small > a,
+.theme-white-mob li > a,
+em.theme-white-mob > a {
+	border-bottom: dashed 1px $green;
+	border-radius: 1px;
+	// background-color: #fff;
+	color: $dark-grey;
+	// font-weight: bold;
+	transition: $transition;
+	-webkit-text-decoration-skip: objects;
+}
+
+// White links active
+.theme-white-mob p > a:active,
+.theme-white-mob small > a:active,
+.theme-white-mob li > a:active,
+.theme-white-mob em > a:active,
+.theme-white-mob .em > a:active {
+	color: $green;
+}
+
+// Light grey
+.theme-light-grey-mob, td.theme-light-grey-mob {
+	background-color: $light-grey;
 	color: $dark-grey;
 }
 
-// Dark grey
+// Light grey links
+.theme-light-grey-mob p > a,
+.theme-light-grey-mob small > a,
+.theme-light-grey-mob li > a,
+em.theme-light-grey-mob a {
+	border-bottom: dashed 1px $green;
+	border-radius: 1px;
+	background-color: $light-grey;
+	//padding: 2px 3px 2px 3px;
+	color: $dark-grey;
+	// font-weight: bold;
+	transition: $transition;
+	-webkit-text-decoration-skip: objects;
+}
 
-.theme-dark-grey, td.theme-dark-grey {
+// Light grey links active
+.theme-light-grey-mob p > a:active,
+.theme-light-grey-mob small > a:active,
+.theme-light-grey-mob li > a:active,
+em.theme-light-grey-mob > a:active {
+	color: $green;
+}
+
+// Dark grey and yellow
+.theme-dark-grey_yellow-mob, td.theme-dark-grey_yellow-mob {
 	background-color: $dark-grey;
-	color: $grey;
+	color: $yellow;
 }
 
-// Dark grey footer
-
-footer.theme-dark-grey {
-	background-image: linear-gradient(135deg, #283442 25%, #26303D 25%, #26303D 50%, #283442 50%, #283442 75%, #26303D 75%, #26303D 100%);
-	background-size: 1rem 1rem;
+// Dark grey
+.theme-dark-grey-mob, td.theme-dark-grey-mob {
+	background-color: $dark-grey;
+	color: $light-grey;
 }
 
-footer.theme-dark-grey h4,
-footer.theme-dark-grey div {
-	border-color: rgba(249, 249, 249, 0.35);
-	line-height: 2.3rem;
+// Dark grey links
+.theme-dark-grey-mob p > a,
+.theme-dark-grey-mob small > a,
+.theme-dark-grey-mob li > a,
+em.theme-dark-grey-mob > a {
+	border-bottom: dashed 1px $green;
+	border-radius: 1px;
+	background-color: $dark-grey;
+	//padding: 2px 3px 2px 3px;
+	color: $light-grey;
+	// font-weight: bold;
+	transition: $transition;
+	-webkit-text-decoration-skip: objects;
 }
 
-footer.theme-dark-grey p,
-footer.theme-dark-grey a,
-footer.theme-dark-grey li {
-	color: rgba(249, 249, 249, 0.6);
-	font-size: 0.95rem;
-	//line-height: 1.25rem;
-}
-
-footer.theme-dark-grey li a:active {
-	color: rgba(249, 249, 249, 1);
-}
-
-footer.theme-dark-grey .h4 {
-	color: rgba(249, 249, 249, 0.6);
-}
-
-// End dark grey
-
-.theme-red, td.theme-red {
+// Red
+.theme-red-mob, td.theme-red-mob {
 	background-color: $red;
-	color: $grey;
+	color: $light-grey;
 }
 
-.theme-blue, td.theme-blue {
-	background-color: $blue;
-	color: $grey;
-}
-.theme-green, td.theme-green {
+// Green
+.theme-green-mob, td.theme-green-mob {
 	background-color: $green;
-	color: $grey;
+	color: $light-grey;
 }
 
-.theme-yellow, td.theme-yellow {
+// Blue
+.theme-blue-mob, td.theme-blue-mob {
+	background-color: $blue;
+	color: $light-grey;
+}
+
+// Yellow
+.theme-yellow-mob, td.theme-yellow-mob {
 	background-color: $yellow;
 	color: $dark-grey;
 }
 
-/* Button themes
----------------------------------------------------------------------------- */
+// Buttons
+// --------------------------------------------------------------------------------------------------------------
 
-// Underline from centre
+// Button underline animation
 
-.underline {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  overflow: hidden;
+button span,
+a.button span,
+a[type="button"] span {
+	position: relative;
 }
 
-.underline:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: 0;
-  background: #fff;
-  height: 2px;
-  opacity: 0.6;
-  transition-property: left, right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
+%button-animation {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 50%;
+	opacity: 0.9;
+	transform-origin: left;
+	transform: translate(-50%, 0) scaleX(0);
+	transition: transform 0.25s ease-in-out;
 }
 
-.underline:hover:before,
-.underline:focus:before,
-.underline:active:before {
-  left: 0;
-  right: 0;
+a.button span:before,
+a[type="button"] span:before {
+	@extend %button-animation;
+	bottom: -2px;
 }
 
-// Dark transparent
+// Button underline animation primary button
 
-button.theme-dark-grey-transparent,
-a[type="button"].theme-dark-grey-transparent,
-a.button.theme-dark-grey-transparent {
-	border: solid 2px $dark-grey;
-	background-color: transparent;
-	color: $dark-grey;
+button.primary:hover span:before,
+a.button.primary:hover span:before,
+a[type="button"].primary:hover span:before {
+	background-color: #fff;
+	transform: translate(-50%, 0) scaleX(1);
 }
 
-// Red
-
-button.theme-red,
-a[type="button"].theme-red,
-a.button.theme-red {
-	border: solid 2px transparent;
-	background-color: $red;
-	color: #fff;
+button.primary span:before {
+	@extend %button-animation;
+	bottom: -3px;
 }
 
-button.theme-red:active,
-a[type="button"].theme-red:active,
-a.button.theme-red:active {
-	border: solid 2px $red;
-	background-color: $darker-red;
-}
-
-// Red transparent
-
-button.theme-red-transparent,
-a[type="button"].theme-red-transparent,
-a.button.theme-red-transparent {
-	border: solid 2px $red;
-	background-color: transparent;
-	color: $red;
-}
-
-button.theme-red-transparent:active,
-a[type="button"].theme-red-transparent:active,
-a.button.theme-red-transparent:active {
-	border: solid 2px $darker-red;
-	color: $darker-red;
-}
-
-// Blue
-
-button.theme-blue,
-a[type="button"].theme-blue,
-a.button.theme-blue {
-	border: solid 2px transparent;
-	background-color: $blue;
-	color: #fff;
-}
-
-button.theme-blue:active,
-a[type="button"].theme-blue:active,
-a.button.theme-blue:active {
-	border: solid 2px $blue;
-	background-color: $darker-blue;
-}
-
-// Blue transparent
-
-button.theme-blue-transparent,
-a[type="button"].theme-blue-transparent,
-a.button.theme-blue-transparent {
-	border: solid 2px $blue;
-	background-color: transparent;
-	color: $blue;
-}
-
-button.theme-blue-transparent:active,
-a[type="button"].theme-blue-transparent:active,
-a.button.theme-blue-transparent:active {
-	border: solid 2px $darker-blue;
-	color: $darker-blue;
-}
-
-// Green
-
-button.theme-green,
-a[type="button"].theme-green,
-a.button.theme-green {
-	border: solid 2px transparent;
+// Primary button
+button.primary,
+a[type="button"].primary,
+a.button.primary {
+	border: solid 1px rgba(0, 0, 0, 0.1);
 	background-color: $green;
 	color: #fff;
+	box-shadow: $shadow;
 }
 
-button.theme-green:active,
-a[type="button"].theme-green:active,
-a.button.theme-green:active {
-	border: solid 2px $green;
-	background-color: $darker-green;
+// Primary button active
+button.primary:active,
+a[type="button"].primary:active,
+a.button.primary:active {
+	background-color: $light-green;
+	box-shadow: none;
 }
 
-// Green transparent
+// Button underline animation secondary button
 
-button.theme-green-transparent,
-a[type="button"].theme-green-transparent,
-a.button.theme-green-transparent {
-	border: solid 2px $green;
+button.secondary:hover span:before,
+a.button.secondary:hover span:before,
+a[type="button"].secondary:hover span:before {
+	background-color: $green;
+	transform: translate(-50%, 0) scaleX(1);
+}
+
+button.secondary span:before {
+	@extend %button-animation;
+	bottom: -3px;
+}
+
+// Secondary button
+button.secondary,
+a[type="button"].secondary,
+a.button.secondary {
+	border: solid 1px $green;
 	background-color: transparent;
 	color: $green;
+	box-shadow: $shadow;
 }
 
-button.theme-green-transparent:active,
-a[type="button"].theme-green-transparent:active,
-a.button.theme-green-transparent:active {
-	border: solid 2px $darker-green;
-	color: $darker-green;
+// Secondary button active
+button.secondary:active,
+a[type="button"].secondary:active,
+a.button.secondary:active {
+	box-shadow: none;
 }
 
-// Yellow
+// Accents
+// --------------------------------------------------------------------------------------------------------------
 
-button.theme-yellow,
-a[type="button"].theme-yellow,
-a.button.theme-yellow {
-	border: solid 2px transparent;
-	background-color: $yellow;
-	color: $dark-grey;
+// Dark grey
+.accent-dark-grey-mob {
+	border-bottom: solid $accent-border-width $dark-grey;
 }
-
-button.theme-yellow:active,
-a[type="button"].theme-yellow:active,
-a.button.theme-yellow:active {
-	border: solid 2px $yellow;
-	background-color: $darker-yellow;
-}
-
-// Yellow transparent
-
-button.theme-yellow-transparent,
-a[type="button"].theme-yellow-transparent,
-a.button.theme-yellow-transparent {
-	border: solid 2px $yellow;
-	background-color: transparent;
-	color: $yellow;
-}
-
-button.theme-yellow-transparent:active,
-a[type="button"].theme-yellow-transparent:active,
-a.button.theme-yellow-transparent:active {
-	border: solid 2px $darker-yellow;
-	color: $darker-yellow;
-}
-
-/* Fonts
----------------------------------------------------------------------------- */
-
-.font-white {
-	color: #fff;
-}
-
-.font-red {
-	color: $red;
-}
-
-.font-green {
-	color: $green;
-}
-
-.font-blue {
-	color: $blue;
-}
-
-.font-yellow {
-	color: $yellow;
-}
-
-.font-grey {
-	color: $grey;
-}
-
-.font-dark-grey {
-	color: $dark-grey;
-}
-
-
-/* Accents
----------------------------------------------------------------------------- */
 
 // Red
-
-.accent-red {
-	border-bottom: solid 4px $red;
-}
-
-.accent-blue {
-	border-bottom: solid 4px $blue;
-}
-
-.accent-green {
-	border-bottom: solid 4px $green;
-}
-
-.accent-yellow {
-	border-bottom: solid 4px $yellow;
-}
-
-.accent-dark-grey {
-	border-bottom: solid 4px $dark-grey;
-}
-
-/* Background image accents
----------------------------------------------------------------------------- */
-
-// Red
-
-.flow-ttb-mob > .accent-red.image-background {
-	border-top: 0;
-	border-right: 0;
-	border-bottom: solid 4px $red;
-	border-left: 0;
-}
-
-.flow-ltr-mob > .accent-red.image-background {
-	border-top: 0;
-	border-right: solid 4px $red;
-	border-bottom: 0;
-	border-left: 0;
-}
-
-.flow-rtl-mob > .accent-red.image-background {
-	border-top: 0;
-	border-right: 0;
-	border-bottom: 0;
-	border-left: solid 4px $red;
+.accent-red-mob {
+	border-bottom: solid $accent-border-width $red;
 }
 
 // Blue
-
-.flow-ttb-mob > .accent-blue.image-background {
-	border-top: 0;
-	border-right: 0;
-	border-bottom: solid 4px $blue;
-	border-left: 0;
-}
-
-.flow-ltr-mob > .accent-blue.image-background {
-	border-top: 0;
-	border-right: solid 4px $blue;
-	border-bottom: 0;
-	border-left: 0;
-}
-
-.flow-rtl-mob > .accent-blue.image-background {
-	border-top: 0;
-	border-right: 0;
-	border-bottom: 0;
-	border-left: solid 4px $blue;
+.accent-blue-mob {
+	border-bottom: solid $accent-border-width $blue;
 }
 
 // Green
-
-.flow-ttb-mob > .accent-green.image-background {
-	border-top: 0;
-	border-right: 0;
-	border-bottom: solid 4px $green;
-	border-left: 0;
-}
-
-.flow-ltr-mob > .accent-green.image-background {
-	border-top: 0;
-	border-right: solid 4px $green;
-	border-bottom: 0;
-	border-left: 0;
-}
-
-.flow-rtl-mob > .accent-green.image-background {
-	border-top: 0;
-	border-right: 0;
-	border-bottom: 0;
-	border-left: solid 4px $green;
+.accent-green-mob {
+	border-bottom: solid $accent-border-width $green;
 }
 
 // Yellow
+.accent-yellow-mob {
+	border-bottom: solid $accent-border-width $yellow;
+}
 
-.flow-ttb-mob > .accent-yellow.image-background {
+// Emphasis accents (used for callouts, semantically more correct than using blockquote)
+// --------------------------------------------------------------------------------------------------------------
+
+// Dark grey
+em.accent-dark-grey-mob {
+	border: 0; // Remove all borders first
+	border-left: solid $accent-border-width $dark-grey;
+}
+
+// Red
+em.accent-red-mob {
+	border: 0; // Remove all borders first
+	border-left: solid $accent-border-width $red;
+}
+
+// Green
+em.accent-green-mob {
+	border: 0; // Remove all borders first
+	border-left: solid $accent-border-width $green;
+}
+
+// Blue
+em.accent-blue-mob {
+	border: 0; // Remove all borders first
+	border-left: solid $accent-border-width $blue;
+}
+
+// Yellow
+em.accent-yellow-mob {
+	border: 0; // Remove all borders first
+	border-left: solid $accent-border-width $yellow;
+}
+
+// Card background image accents (border moves position based on flow direction)
+// --------------------------------------------------------------------------------------------------------------
+// These styles will override other border styles, such as border-b-mob
+
+// Light grey
+
+.flexdir-ttb-mob > .accent-light-grey.card-background-image {
 	border-top: 0;
 	border-right: 0;
-	border-bottom: solid 4px $yellow;
+	border-bottom: solid $accent-border-width $light-grey;
 	border-left: 0;
 }
 
-.flow-ltr-mob > .accent-yellow.image-background {
+.flexdir-ltr-mob > .accent-light-grey.card-background-image {
 	border-top: 0;
-	border-right: solid 4px $yellow;
+	border-right: solid $accent-border-width $light-grey;
 	border-bottom: 0;
 	border-left: 0;
 }
 
-.flow-rtl-mob > .accent-yellow.image-background {
+.flexdir-rtl-mob > .accent-light-grey.card-background-image {
 	border-top: 0;
 	border-right: 0;
 	border-bottom: 0;
-	border-left: solid 4px $yellow;
+	border-left: solid $accent-border-width $light-grey;
 }
 
 // Dark grey
 
-.flow-ttb-mob > .accent-dark-grey.image-background {
+.flexdir-ttb-mob > .accent-dark-grey.card-background-image {
 	border-top: 0;
 	border-right: 0;
-	border-bottom: solid 4px $dark-grey;
+	border-bottom: solid $accent-border-width $dark-grey;
 	border-left: 0;
 }
 
-.flow-ltr-mob > .accent-dark-grey.image-background {
+.flexdir-ltr-mob > .accent-dark-grey.card-background-image {
 	border-top: 0;
-	border-right: solid 4px $dark-grey;
+	border-right: solid $accent-border-width $dark-grey;
 	border-bottom: 0;
 	border-left: 0;
 }
 
-.flow-rtl-mob > .accent-dark-grey.image-background {
+.flexdir-rtl-mob > .accent-dark-grey.card-background-image {
 	border-top: 0;
 	border-right: 0;
 	border-bottom: 0;
-	border-left: solid 4px $dark-grey;
+	border-left: solid $accent-border-width $dark-grey;
 }
 
-/* Tablet viewport
----------------------------------------------------------------------------- */
+// Red
+
+.flexdir-ttb-mob > .accent-red.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $red;
+	border-left: 0;
+}
+
+.flexdir-ltr-mob > .accent-red.card-background-image {
+	border-top: 0;
+	border-right: solid $accent-border-width $red;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flexdir-rtl-mob > .accent-red.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $red;
+}
+
+// Green
+
+.flexdir-ttb-mob > .accent-green.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $green;
+	border-left: 0;
+}
+
+.flexdir-ltr-mob > .accent-green.card-background-image {
+	border-top: 0;
+	border-right: solid $accent-border-width $green;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flexdir-rtl-mob > .accent-green.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $green;
+}
+
+// Blue
+
+.flexdir-ttb-mob > .accent-blue.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $blue;
+	border-left: 0;
+}
+
+.flexdir-ltr-mob > .accent-blue.card-background-image {
+	border-top: 0;
+	border-right: solid $accent-border-width $blue;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flexdir-rtl-mob > .accent-blue.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $blue;
+}
+
+// Yellow
+
+.flexdir-ttb-mob > .accent-yellow.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $yellow;
+	border-left: 0;
+}
+
+.flexdir-ltr-mob > .accent-yellow.card-background-image {
+	border-top: 0;
+	border-right: solid $accent-border-width $yellow;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flexdir-rtl-mob > .accent-yellow.card-background-image {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $yellow;
+}
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-tablet) {
 
-	/* Background image accents
-	---------------------------------------------------------------------------- */
+	// Base themes (for sections, containers and table cells)
+	// --------------------------------------------------------------------------------------------------------------
+
+	// White
+	.theme-white-tab, td.theme-white-tab {
+		background-color: #fff;
+		color: $dark-grey;
+	}
+
+	// White links
+	.theme-white-tab p > a,
+	.theme-white-tab small > a,
+	.theme-white-tab li > a,
+	em.theme-white-tab > a {
+		border-bottom: dashed 1px $green;
+		border-radius: 1px;
+		background-color: #fff;
+		//padding: 2px 3px 2px 3px;
+		color: $dark-grey;
+		// font-weight: bold;
+		transition: $transition;
+		-webkit-text-decoration-skip: objects;
+	}
+
+	// Light grey
+	.theme-light-grey-tab, td.theme-light-grey-tab {
+		background-color: $light-grey;
+		color: $dark-grey;
+	}
+
+	// Light grey links
+	.theme-light-grey-tab p > a,
+	.theme-light-grey-tab small > a,
+	.theme-light-grey-tab li > a,
+	em.theme-light-grey-tab > a {
+		border-bottom: dashed 1px $green;
+		border-radius: 1px;
+		background-color: $light-grey;
+		//padding: 2px 3px 2px 3px;
+		color: $dark-grey;
+		// font-weight: bold;
+		transition: $transition;
+		-webkit-text-decoration-skip: objects;
+	}
+
+	// Dark grey
+	.theme-dark-grey-tab, td.theme-dark-grey-tab {
+		background-color: $dark-grey;
+		color: $light-grey;
+	}
+
+	// Dark grey links
+	.theme-dark-grey-tab p > a,
+	.theme-dark-grey-tab li > a,
+	.theme-dark-grey-tab small > a,
+	em.theme-dark-grey-tab > a {
+		border-bottom: dashed 1px #fff;
+		border-radius: 1px;
+		background-color: $dark-grey;
+		//padding: 2px 3px 2px 3px;
+		color: $light-grey;
+		// font-weight: bold;
+		transition: $transition;
+		-webkit-text-decoration-skip: objects;
+	}
 
 	// Red
-
-	.flow-ttb-tab > .accent-red.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: solid 4px $red;
-		border-left: 0;
-	}
-
-	.flow-ltr-tab > .accent-red.image-background {
-		border-top: 0;
-		border-right: solid 4px $red;
-		border-bottom: 0;
-		border-left: 0;
-	}
-
-	.flow-rtl-tab > .accent-red.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: solid 4px $red;
-	}
-
-	// Blue
-
-	.flow-ttb-tab > .accent-blue.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: solid 4px $blue;
-		border-left: 0;
-	}
-
-	.flow-ltr-tab > .accent-blue.image-background {
-		border-top: 0;
-		border-right: solid 4px $blue;
-		border-bottom: 0;
-		border-left: 0;
-	}
-
-	.flow-rtl-tab > .accent-blue.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: solid 4px $blue;
+	.theme-red-tab, td.theme-red-tab {
+		background-color: $red;
+		color: $light-grey;
 	}
 
 	// Green
-
-	.flow-ttb-tab > .accent-green.image-background{
-		border-top: 0;
-		border-right: 0;
-		border-bottom: solid 4px $green;
-		border-left: 0;
+	.theme-green-tab, td.theme-green-tab {
+		background-color: $green;
+		color: $light-grey;
 	}
 
-	.flow-ltr-tab > .accent-green.image-background {
-		border-top: 0;
-		border-right: solid 4px $green;
-		border-bottom: 0;
-		border-left: 0;
+	// Blue
+	.theme-blue-tab, td.theme-blue-tab {
+		background-color: $blue;
+		color: $light-grey;
 	}
-
-	.flow-rtl-tab > .accent-green.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: solid 4px $green;
-	}
-
 
 	// Yellow
+	.theme-yellow-tab, td.theme-yellow-tab {
+		background-color: $yellow;
+		color: $dark-grey;
+	}
 
-	.flow-ttb-tab > .accent-yellow.image-background {
+	// Accents
+	// --------------------------------------------------------------------------------------------------------------
+
+	.accent-red-tab {
+		border-bottom: solid $accent-border-width $red;
+	}
+
+	.accent-green-tab {
+		border-bottom: solid $accent-border-width $green;
+	}
+
+	.accent-blue-tab {
+		border-bottom: solid $accent-border-width $blue;
+	}
+
+	.accent-yellow-tab {
+		border-bottom: solid $accent-border-width $yellow;
+	}
+
+	// Card background image accents
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Light grey
+
+	.flexdir-ttb-tab > .accent-light-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
-		border-bottom: solid 4px $yellow;
+		border-bottom: solid $accent-border-width $light-grey;
 		border-left: 0;
 	}
 
-	.flow-ltr-tab > .accent-yellow.image-background {
+	.flexdir-ltr-tab > .accent-light-grey.card-background-image {
 		border-top: 0;
-		border-right: solid 4px $yellow;
+		border-right: solid $accent-border-width $light-grey;
 		border-bottom: 0;
 		border-left: 0;
 	}
 
-	.flow-rtl-tab > .accent-yellow.image-background {
+	.flexdir-rtl-tab > .accent-light-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
 		border-bottom: 0;
-		border-left: solid 4px $yellow;
+		border-left: solid $accent-border-width $light-grey;
 	}
 
 	// Dark grey
 
-	.flow-ttb-tab > .accent-dark-grey.image-background {
+	.flexdir-ttb-tab > .accent-dark-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
-		border-bottom: solid 4px $dark-grey;
+		border-bottom: solid $accent-border-width $dark-grey;
 		border-left: 0;
 	}
 
-	.flow-ltr-tab > .accent-dark-grey.image-background {
+	.flexdir-ltr-tab > .accent-dark-grey.card-background-image {
 		border-top: 0;
-		border-right: solid 4px $dark-grey;
+		border-right: solid $accent-border-width $dark-grey;
 		border-bottom: 0;
 		border-left: 0;
 	}
 
-	.flow-rtl-tab > .accent-dark-grey.image-background {
+	.flexdir-rtl-tab > .accent-dark-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
 		border-bottom: 0;
-		border-left: solid 4px $dark-grey;
+		border-left: solid $accent-border-width $dark-grey;
+	}
+
+	// Red
+
+	.flexdir-ttb-tab > .accent-red.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $red;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-tab > .accent-red.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $red;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-tab > .accent-red.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $red;
+	}
+
+	// Green
+
+	.flexdir-ttb-tab > .accent-green.background-image{
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $green;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-tab > .accent-green.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $green;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-tab > .accent-green.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $green;
+	}
+
+	// Blue
+
+	.flexdir-ttb-tab > .accent-blue.background-image{
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $blue;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-tab > .accent-blue.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $blue;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-tab > .accent-blue.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $blue;
+	}
+
+	// Yellow
+
+	.flexdir-ttb-tab > .accent-yellow.background-image{
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $yellow;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-tab > .accent-yellow.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $yellow;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-tab > .accent-yellow.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $yellow;
+	}
+
+	// `em` accents (used for callouts, semantically more correct than using blockquote)
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Dark grey
+	em.accent-dark-grey-mob,
+	em.accent-dark-grey-tab {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $dark-grey;
+	}
+
+	// Red
+	em.accent-red-mob,
+	em.accent-red-tab {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $red;
+	}
+
+	// Green
+	em.accent-green-mob,
+	em.accent-green-tab {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $green;
+	}
+
+	// Blue
+	em.accent-blue-mob,
+	em.accent-blue-tab {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $blue;
+	}
+
+	// Yellow
+	em.accent-yellow-mob,
+	em.accent-yellow-tab {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $yellow;
 	}
 
 }
 
-/* Desktop viewport
----------------------------------------------------------------------------- */
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
 
 @media screen and (min-width: $viewport-desktop) {
 
-	// Dark grey footer
+	// Base themes (for sections, containers and table cells)
+	// --------------------------------------------------------------------------------------------------------------
 
-	footer.theme-dark-grey li a:hover {
-		color: rgba(249, 249, 249, 1);
+	// Links hover
+	h2 > a:hover,
+	h3 > a:hover,
+	.h3 > a:hover,
+	h4 > a:hover,
+	p > a:hover,
+	small > a:hover,
+	li > a:hover,
+	em > a:hover {
+		color: $green;
 	}
 
-	// Make effects smooth
-	button,
-	a[type="button"],
-	a.button {
-		transition: all 0.15s ease-in-out;
+	// White
+	.theme-white-des, td.theme-white-des {
+		background-color: #fff;
+		color: $dark-grey;
+	}
+
+	// White links
+	.theme-white-des p > a,
+	.theme-white-des li > a,
+	.theme-white-des small > a,
+	em.theme-white-des > a {
+		border-bottom: dashed 1px $green;
+		border-radius: 1px;
+		background-color: #fff;
+		//padding: 2px 3px 2px 3px;
+		color: $dark-grey;
+		// font-weight: bold;
+		transition: $transition;
+		-webkit-text-decoration-skip: objects;
+	}
+
+	// White links hover
+	.theme-white-mob p > a:hover,
+	.theme-white-tab p > a:hover,
+	.theme-white-des p > a:hover,
+	.theme-white-mob small > a:hover,
+	.theme-white-tab small > a:hover,
+	.theme-white-des small > a:hover,
+	.theme-white-mob li > a:hover,
+	.theme-white-tab li > a:hover,
+	.theme-white-des li > a:hover,
+	em.theme-white-mob > a:hover,
+	em.theme-white-tab > a:hover,
+	em.theme-white-des > a:hover {
+		color: $green;
+	}
+
+	// Light grey
+	.theme-light-grey-des, td.theme-light-grey-des {
+		background-color: $light-grey;
+		color: $dark-grey;
+	}
+
+	// Light grey links
+	.theme-light-grey-des p > a,
+	.theme-light-grey-des li > a,
+	.theme-light-grey-des small > a,
+	em.theme-light-grey-des > a {
+		border-bottom: dashed 1px $green;
+		border-radius: 1px;
+		background-color: $light-grey;
+		//padding: 2px 3px 2px 3px;
+		color: $dark-grey;
+		// font-weight: bold;
+		transition: $transition;
+		-webkit-text-decoration-skip: objects;
+	}
+
+	// Light grey links hover
+	.theme-light-grey-mob p > a:hover,
+	.theme-light-grey-tab p > a:hover,
+	.theme-light-grey-des p > a:hover,
+	.theme-light-grey-mob small > a:hover,
+	.theme-light-grey-tab small > a:hover,
+	.theme-light-grey-des small > a:hover,
+	.theme-light-grey-mob li > a:hover,
+	.theme-light-grey-tab li > a:hover,
+	.theme-light-grey-des li > a:hover,
+	em.theme-light-grey-mob > a:hover,
+	em.theme-light-grey-tab > a:hover,
+	em.theme-light-grey-des > a:hover {
+		color: $green;
+	}
+
+	// Dark grey
+	.theme-dark-grey-des, td.theme-dark-grey-des {
+		background-color: $dark-grey;
+		color: $light-grey;
+	}
+
+	// Dark grey links
+	.theme-dark-grey-des p > a,
+	.theme-dark-grey-des li > a,
+	.theme-dark-grey-des small > a,
+	em.theme-dark-grey-des > a {
+		border-bottom: dashed 1px #fff;
+		border-radius: 1px;
+		background-color: $dark-grey;
+		//padding: 2px 3px 2px 3px;
+		color: $light-grey;
+		// font-weight: bold;
+		transition: $transition;
+		-webkit-text-decoration-skip: objects;
+	}
+
+	// Dark grey links hover
+	.theme-dark-grey-mob p > a:hover,
+	.theme-dark-grey-tab p > a:hover,
+	.theme-dark-grey-des p > a:hover,
+	.theme-dark-grey-mob small > a:hover,
+	.theme-dark-grey-tab small > a:hover,
+	.theme-dark-grey-des small > a:hover,
+	.theme-dark-grey-mob li > a:hover,
+	.theme-dark-grey-tab li > a:hover,
+	.theme-dark-grey-des li > a:hover,
+	em.theme-dark-grey-mob > a:hover,
+	em.theme-dark-grey-tab > a:hover,
+	em.theme-dark-grey-des > a:hover {
+		color: $green;
 	}
 
 	// Red
-	button.theme-red:hover,
-	a[type="button"].theme-red:hover,
-	a.button.theme-red:hover {
-		border: solid 2px $red;
-		background-color: $darker-red;
-	}
-
-	// Red transparent
-	button.theme-red-transparent:hover,
-	a[type="button"].theme-red-transparent:hover,
-	a.button.theme-red-transparent:hover {
-		border: solid 2px $darker-red;
-		color: $darker-red;
-	}
-
-	// Blue
-	button.theme-blue:hover,
-	a[type="button"].theme-blue:hover,
-	a.button.theme-blue:hover {
-		border: solid 2px $blue;
-		background-color: $darker-blue;
-	}
-
-	// Blue transparent
-	button.theme-blue-transparent:hover,
-	a[type="button"].theme-blue-transparent:hover,
-	a.button.theme-blue-transparent:hover {
-		border: solid 2px $darker-blue;
-		color: $darker-blue;
+	.theme-red-des, td.theme-red-des {
+		background-color: $red;
+		color: $light-grey;
 	}
 
 	// Green
-	button.theme-green:hover,
-	a[type="button"].theme-green:hover,
-	a.button.theme-green:hover {
-		border: solid 2px $green;
-		background-color: $darker-green;
-	}
-
-	// Green transparent
-	button.theme-green-transparent:hover,
-	a[type="button"].theme-green-transparent:hover,
-	a.button.theme-green-transparent:hover {
-		border: solid 2px $darker-green;
-		color: $darker-green;
-	}
-
-	// Yellow
-	button.theme-yellow:hover,
-	a[type="button"].theme-yellow:hover,
-	a.button.theme-yellow:hover {
-		border: solid 2px $yellow;
-		background-color: $darker-yellow;
-	}
-
-	// Yellow transparent
-	button.theme-yellow-transparent:hover,
-	a[type="button"].theme-yellow-transparent:hover,
-	a.button.theme-yellow-transparent:hover {
-		border: solid 2px $darker-yellow;
-		color: $darker-yellow;
-	}
-
-	/* Background image accents
-	---------------------------------------------------------------------------- */
-
-	// Red
-
-	.flow-ttb-des > .accent-red.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: solid 4px $red;
-		border-left: 0;
-	}
-
-	.flow-ltr-des > .accent-red.image-background {
-		border-top: 0;
-		border-right: solid 4px $red;
-		border-bottom: 0;
-		border-left: 0;
-	}
-
-	.flow-rtl-des > .accent-red.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: solid 4px $red;
+	.theme-green-des, td.theme-green-des {
+		background-color: $green;
+		color: $light-grey;
 	}
 
 	// Blue
-
-	.flow-ttb-des > .accent-blue.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: solid 4px $blue;
-		border-left: 0;
-	}
-
-	.flow-ltr-des > .accent-blue.image-background {
-		border-top: 0;
-		border-right: solid 4px $blue;
-		border-bottom: 0;
-		border-left: 0;
-	}
-
-	.flow-rtl-des > .accent-blue.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: solid 4px $blue;
-	}
-
-	// Green
-
-	.flow-ttb-des > .accent-green.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: solid 4px $green;
-		border-left: 0;
-	}
-
-	.flow-ltr-des > .accent-green.image-background {
-		border-top: 0;
-		border-right: solid 4px $green;
-		border-bottom: 0;
-		border-left: 0;
-	}
-
-	.flow-rtl-des > .accent-green.image-background {
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: solid 4px $green;
+	.theme-blue-des, td.theme-blue-des {
+		background-color: $blue;
+		color: $light-grey;
 	}
 
 	// Yellow
+	.theme-yellow-des, td.theme-yellow-des {
+		background-color: $yellow;
+		color: $dark-grey;
+	}
 
-	.flow-ttb-des > .accent-yellow.image-background {
+	// Buttons
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Primary hover
+	button.primary:hover,
+	a[type="button"].primary:hover,
+	a.button.primary:hover {
+		background-color: $light-green;
+		box-shadow: none;
+	}
+
+	// Secondary hover
+	button.secondary:hover,
+	a[type="button"].secondary:hover,
+	a.button.secondary:hover {
+		// background-color: $light-green;
+		box-shadow: none;
+	}
+
+	// Accents
+	// --------------------------------------------------------------------------------------------------------------
+
+	.accent-red-des {
+		border-bottom: solid $accent-border-width $red;
+	}
+
+	.accent-green-des {
+		border-bottom: solid $accent-border-width $green;
+	}
+
+	.accent-blue-des {
+		border-bottom: solid $accent-border-width $blue;
+	}
+
+	.accent-yellow-des {
+		border-bottom: solid $accent-border-width $yellow;
+	}
+
+	// Background image accents
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Light grey
+
+	.flexdir-ttb-des > .accent-light-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
-		border-bottom: solid 4px $yellow;
+		border-bottom: solid $accent-border-width $light-grey;
 		border-left: 0;
 	}
 
-	.flow-ltr-des > .accent-yellow.image-background {
+	.flexdir-ltr-des > .accent-light-grey.card-background-image {
 		border-top: 0;
-		border-right: solid 4px $yellow;
+		border-right: solid $accent-border-width $light-grey;
 		border-bottom: 0;
 		border-left: 0;
 	}
 
-	.flow-rtl-des > .accent-yellow.image-background {
+	.flexdir-rtl-des > .accent-light-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
 		border-bottom: 0;
-		border-left: solid 4px $yellow;
+		border-left: solid $accent-border-width $light-grey;
 	}
 
 	// Dark grey
 
-	.flow-ttb-des > .accent-dark-grey.image-background {
+	.flexdir-ttb-des > .accent-dark-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
-		border-bottom: solid 4px $dark-grey;
+		border-bottom: solid $accent-border-width $dark-grey;
 		border-left: 0;
 	}
 
-	.flow-ltr-des > .accent-dark-grey.image-background {
+	.flexdir-ltr-des > .accent-dark-grey.card-background-image {
 		border-top: 0;
-		border-right: solid 4px $dark-grey;
+		border-right: solid $accent-border-width $dark-grey;
 		border-bottom: 0;
 		border-left: 0;
 	}
 
-	.flow-rtl-des > .accent-dark-grey.image-background {
+	.flexdir-rtl-des > .accent-dark-grey.card-background-image {
 		border-top: 0;
 		border-right: 0;
 		border-bottom: 0;
-		border-left: solid 4px $dark-grey;
+		border-left: solid $accent-border-width $dark-grey;
+	}
+
+	// Red
+
+	.flexdir-ttb-des > .accent-red.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $red;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-des > .accent-red.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $red;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-des > .accent-red.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $red;
+	}
+
+	// Green
+
+	.flexdir-ttb-des > .accent-green.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $green;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-des > .accent-green.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $green;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-des > .accent-green.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $green;
+	}
+
+	// Blue
+
+	.flexdir-ttb-des > .accent-blue.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $blue;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-des > .accent-blue.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $blue;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-des > .accent-blue.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $blue;
+	}
+
+	// Yellow
+
+	.flexdir-ttb-des > .accent-yellow.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $yellow;
+		border-left: 0;
+	}
+
+	.flexdir-ltr-des > .accent-yellow.card-background-image {
+		border-top: 0;
+		border-right: solid $accent-border-width $yellow;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flexdir-rtl-des > .accent-yellow.card-background-image {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $yellow;
+	}
+
+	// `em` accents (used for callouts, semantically more correct than using blockquote)
+	// --------------------------------------------------------------------------------------------------------------
+
+	// Dark grey
+	em.accent-dark-grey-mob,
+	em.accent-dark-grey-tab,
+	em.accent-dark-grey-des {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $dark-grey;
+	}
+
+	// Red
+	em.accent-red-mob,
+	em.accent-red-tab,
+	em.accent-red-des {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $red;
+	}
+
+	// Green
+	em.accent-green-mob,
+	em.accent-green-tab,
+	em.accent-green-des {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $green;
+	}
+
+	// Blue
+	em.accent-blue-mob,
+	em.accent-blue-tab,
+	em.accent-blue-des {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $blue;
+	}
+
+	// Yellow
+	em.accent-yellow-mob,
+	em.accent-yellow-tab,
+	em.accent-yellow-des {
+		border: 0; // Remove all borders first
+		border-left: solid $accent-border-width $yellow;
 	}
 
 }

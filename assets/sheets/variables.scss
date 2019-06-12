@@ -1,48 +1,75 @@
-/* Viewports
----------------------------------------------------------------------------- */
+// Root
+// --------------------------------------------------------------------------------------------------------------
 
-$viewport-tablet: 720px;
-$viewport-desktop: 1024px;
+$root-font-size-mobile: 16px;
+$root-font-size-tablet: 16px;
+$root-font-size-desktop: 16px;
+$root-line-height: 1.4;
 
-/* Colours
----------------------------------------------------------------------------- */
+// Viewports
+// --------------------------------------------------------------------------------------------------------------
+
+$viewport-mobile: 320px;
+$viewport-tablet: 768px;
+$viewport-desktop: 1025px;
+//$viewport-desktop: 1281px; // MacBook Pro 13"
+
+// Colours
+// --------------------------------------------------------------------------------------------------------------
 
 $orange: #ff8200;
 $dark-orange: #ca6b18;
-$red: #e06c75; // rgba(224, 108, 117, 1);
-$darker-red: #cc616a; // rgba(204, 97, 106, 1);
-$light-blue: rgba(86, 182, 194, 0.1);
-$blue: #56b6c2; // rgba(86, 182, 194, 1);
-$darker-blue: #50a6b1; // rgba(80, 166, 177, 1);
-$yellow: #f2d88a; // rgba(242, 216, 138, 1);
-$darker-yellow: #dbc47d; // rgba(219, 196, 125, 1);
-$light-green: rgba(143, 196, 138, 0.1);
-$green: #8fc48a; // rgba(143, 196, 138, 1);
-$darker-green: #83b27d; // rgba(131, 178, 125, 1);
-$light-grey: #f4f4f4;
-$grey: #f9f9f9; // rgba(248, 249, 249, 1);
-$darker-grey: #f3f3f3; // rgba(243, 243, 243, 1);
-$dark-grey: #283442; // rgba(28, 34, 42, 1);
-$border-color: #ddd; // rgba(221, 221, 221, 1);
+
+$light-grey: rgba(248, 248, 248, 1); // #fffff0
+$dark-grey: rgba(55, 45, 65, 1); //#372d41
+
+$light-red: rgba(255, 82, 76, 1); // #ff524c
+$red: rgba(180, 0, 0, 1); // #b40000
+
+$very-light-green: rgba(188, 245, 231, 1); // #a0f0dc
+$light-green: rgba(0, 189, 170, 1); // #00bdaa
+$green: rgba(0, 167, 155, 1); // #00a79b
+
+$very-light-blue: rgba(200, 230, 255, 1); // #c8e6ff
+$light-blue: rgba(18, 145, 209, 1); // #
+$blue: rgba(0, 104, 166, 1); // #0068a6
+
+$very-light-yellow: rgba(255, 245, 200, 1); // #fff5c8
+$light-yellow: rgba(255, 215, 135, 1); // #ffd787
+$yellow: rgba(255, 200, 95, 1); // #ffc85f
+
+// Border colours
+// --------------------------------------------------------------------------------------------------------------
+
+$border-color-light: rgba(221, 221, 221, 1); // #ddd
+$border-color-dark: rgba(67, 88, 111, 1); // #43586f
+
+// Link colours
+// --------------------------------------------------------------------------------------------------------------
+
 $link-color: $orange;
 $link-hover-color: $dark-orange;
 $link-active-color: $orange;
 
-/* Fonts
----------------------------------------------------------------------------- */
+// Accents
+// --------------------------------------------------------------------------------------------------------------
 
-$font-plain: "gotham", sans-serif;
-$font-heading: "gotham-bold", sans-serif;
-$font-alt: "gotham", sans-serif;
-$font-menu: "gotham", sans-serif;
-$font-form-element: "gotham", sans-serif;
-$font-button: "gotham", sans-serif;
+$accent-border-width: 4px;
+
+// Fonts and text
+// --------------------------------------------------------------------------------------------------------------
+
+$font-plain: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial, sans-serif;
+$font-heading: "Bitter-Bold", sans-serif;
+$font-alt: "Bitter-Bold", sans-serif;
+$font-menu: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial, sans-serif;
+$font-form-element: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial, sans-serif;
+$font-button: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, Arial, sans-serif;
 $font-monospace: monospace;
 
-/* Spacing and sizing
----------------------------------------------------------------------------- */
+// Spacing and sizing
+// --------------------------------------------------------------------------------------------------------------
 
-$page-leadin-height: 3.4rem;
 $space-fixed: 1rem;
 $space-mobile: 1rem;
 $space-tablet: 1.5rem;
@@ -51,21 +78,32 @@ $spread-space-fixed: 1rem;
 $spread-space-mobile: 1rem;
 $spread-space-tablet: 1.5rem;
 $spread-space-desktop: 2rem;
-$height-form-element: 2.8rem;
-$max-width: 1100px;
-$radius: 5px;
-$button-radius: 5px;
-//$pattern-leadin-links-radius: calc(#{$page-leadin-height} * 0.5);
-$pattern-leadin-links-radius: 5px;
+$height-form-element: 48px;
+$max-width: 1000px;
+$radius: 7px;
+$button-height: 48px;
+$button-radius: 7px;
 
-/* Lists
----------------------------------------------------------------------------- */
+// Page leader
+// --------------------------------------------------------------------------------------------------------------
 
-$list-icon-width: 30px;
-$list-icon-height: 30px;
+$page-leader-height-mobile: calc(60px + 1rem);
+$page-leader-height-desktop: calc(60px + 1rem);
 
-/* Misc
----------------------------------------------------------------------------- */
+// Page nav with Pushy
+// --------------------------------------------------------------------------------------------------------------
+
+$pushy-width: 100vw;
+$pushy-height: 100vh; // Use vh or Edge mobile and Opera mobile will leave a gap
+
+// Icons
+// --------------------------------------------------------------------------------------------------------------
+
+$encimage-icon-width: 24px;
+$encimage-icon-height: 24px;
+
+// Effects
+// --------------------------------------------------------------------------------------------------------------
 
 $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 $scale-up: scale(1.075);

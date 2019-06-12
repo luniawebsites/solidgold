@@ -1,0 +1,146 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+// 
+
+.bgpos-lt-mob {
+	background-position: left top;
+}
+
+.bgpos-lc-mob {
+	background-position: left center;
+}
+
+.bgpos-lb-mob {
+	background-position: left bottom;
+}
+
+//
+
+.bgpos-ct-mob {
+	background-position: center top;
+}
+
+.bgpos-cc-mob {
+	background-position: center center;
+}
+
+.bgpos-cb-mob {
+	background-position: center bottom;
+}
+
+//
+
+.bgpos-rt-mob {
+	background-position: right top;
+}
+
+.bgpos-rc-mob {
+	background-position: right center;
+}
+
+.bgpos-rb-mob {
+	background-position: right bottom;
+}
+
+// ==============================================================================================================
+// Tablet viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// 
+
+	.bgpos-lt-tab {
+		background-position: left top;
+	}
+
+	.bgpos-lc-tab {
+		background-position: left center;
+	}
+
+	.bgpos-lb-tab {
+		background-position: left bottom;
+	}
+
+	//
+
+	.bgpos-ct-tab {
+		background-position: center top;
+	}
+
+	.bgpos-cc-tab {
+		background-position: center center;
+	}
+
+	.bgpos-cb-tab {
+		background-position: center bottom;
+	}
+
+	//
+
+	.bgpos-rt-tab {
+		background-position: right top;
+	}
+
+	.bgpos-rc-tab {
+		background-position: right center;
+	}
+
+	.bgpos-rb-tab {
+		background-position: right bottom;
+	}
+
+}
+
+// ==============================================================================================================
+// Desktop viewport
+// ==============================================================================================================
+
+@media screen and (min-width: $viewport-desktop) {
+
+	// 
+
+	.bgpos-lt-des {
+		background-position: left top;
+	}
+
+	.bgpos-lc-des {
+		background-position: left center;
+	}
+
+	.bgpos-lb-des {
+		background-position: left bottom;
+	}
+
+	//
+
+	.bgpos-ct-des {
+		background-position: center top;
+	}
+
+	.bgpos-cc-des {
+		background-position: center center;
+	}
+
+	.bgpos-cb-des {
+		background-position: center bottom;
+	}
+
+	//
+
+	.bgpos-rt-des {
+		background-position: right top;
+	}
+
+	.bgpos-rc-des {
+		background-position: right center;
+	}
+
+	.bgpos-rb-des {
+		background-position: right bottom;
+	}
+
+}

@@ -1,234 +1,198 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<!--
-	PARTIAL > Google Tag Manager script
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="contact, podcast, studio, #BeHeard" />
-	<meta name="description" content="Contact podcast recording studio #BeHeard" />
-	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Contact Solid Gold Podcast Studios | #BeHeard">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="MobileOptimized" content="320">
-	<!--
-	PARTIAL > Base URL
-		-->
-	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Contact Solid Gold Podcast Studios | #BeHeard" />
-	<meta property="og:description" content="Contact podcast recording studio #BeHeard" />
-	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/contact.php" />
-	<meta property="og:image" content="http://www.solidgoldstudios.co.za/assets/images/logo.png" />
-	<meta property="og:type" content="website" />
-	<link rel="canonical" href="https://solidgoldstudios.co.za/contact.php" />
-	<title>Contact Solid Gold Podcast Studios | #BeHeard</title>
-	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
-	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
-	<!-- 
-	LINK > Critical CSS
-	-->
-	<link rel="stylesheet" href="assets/critical.min.css" />
+<!--
+PARTIAL > Base URL
+-->
+<?php echo file_get_contents("assets/partials/base-url.html"); ?>
 
-	<!--
-	LINK > Async-load non-critical CSS
-	-->
-	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+<!--
+PARTIAL > Google Tag Manager script
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 
-	<!--
-	PARTIAL > Async-load non-critical CSS polyfill script
-	-->
-	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
+<!-- 
+LINK & PARTIAL > Defer load non-critical CSS
+-->
+<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
 
-	<!--
-	PARTIAL > Cookie notice
-	-->
-	<?php echo file_get_contents("assets/partials/cookies.html"); ?>
+<meta name="description" content="Contact podcast recording studios" />
+<meta name="robots" content="index, follow" />
+<meta name="classification" content="business" />
+<meta name="pagename" content="Solid Gold Podcast Studios | Contact" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta property="og:title" content="Solid Gold Podcast Studios | Contact" />
+<meta property="og:description" content="Podcast recording studios contact" />
+<meta property="og:locale" content="en_ZA" />
+<meta property="og:url" content="https://solidgoldstudios.co.za/contact.php" />
+<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:type" content="website" />
+<title>Contact Solid Gold Podcast Studios</title>
+<link rel="canonical" href="https://solidgoldstudios.co.za/contact.php" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
-	<!--
-	SCRIPT > jQuery CDN
-	-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--
+Prerender most likely next page
+-->
+<link rel="prerender" href="contact-success.php" rel="nofollow">
 
-	<!--
-	SCRIPT > Combined and deferred
-	-->
-	<script src="assets/scripts/combined.min.js" defer></script>
+<!--
+STYLES > Inline load critical CSS
+-->
+<style>
+	<?php echo file_get_contents("assets/critical.min.css"); ?>
+</style>
 
-</head>
+<!--
+PARTIAL > Google Tag Manager body
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
 
-<body class="theme-grey">
+<!--
+PARTIAL > Leader with menu
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
 
-	<!--
-	PARTIAL > Google Tag Manager body
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+<!--
+PARTIAL > IE10/IE11 notice
+-->
+<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+
+<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	PARTIAL > Browse Happy compatibility notice
+	SECTION > Contact
 	-->
-	<?php echo file_get_contents("assets/partials/browse-happy.html"); ?>
 
-	<!--
-	PARTIAL > Global page leadin with logo and menu
-	-->
-	<?php echo file_get_contents("assets/partials/page-leadin.html"); ?>
-
-	<!--
-	Masthead
-	-->
-	<header class="pattern-channel-masthead flow-ttb-mob flow-ltr-tab pad-respond-xy-mob theme-dark-grey border-b-mob">
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_contact" aria-labelledby="section_contact_h1_helloimgavin">
 
 		<!--
 		Container
 		-->
 
-		<div class="flow-ttb-mob width-100 constrain">
+		<div class="flexdir-btt-mob flexdir-rtl-tab flexpos-lc-tab constrain spread-respond pad-y-mob">
 
 			<!--
-			Content
+			Copy
 			-->
 
-			<div class="flow-ttb-mob flow-ltr-tab pad-respond-y-mob align-fs-mob align-c-tab">
+			<div>
 
-				<!--
-				Image
-				-->
-				<picture>
-					<source srcset="assets/images/photos/gavin-kennedy-profile.webp" type="image/webp">
-					<img class="large margin-r-mob round-mob border-mob" src="assets/images/photos/gavin-kennedy-profile.jpg" alt="gavin kennedy profile photo">
-				</picture>
+				<h1 id="section_contact_h1_helloimgavin">Hello, I'm Gavin Kennedy</h1>
 
-				<!--
-				Text
-				-->
-				<div class="flow-ttb-mob align-fs-mob justify-fs-tab">
-					<h1 class="text-l-mob">Hello, I'm <span class="no-break">Gavin Kennedy</span></h1>
-					<p class="text-l-mob">As founder and CEO of <strong>Solid Gold Podcast Studios</strong>, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener">email</a> me directly if you have any questions about podcasting.</p>
-					<p class="text-l-mob">Are you ready to <strong>#BeHeard</strong>?</p>
+				<p>As founder and CEO of Solid Gold Podcast Studios, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener" title="Start WhatsApp chat" id="section_contact_a_whatsapp" aria-labelledby="section_contact_a_whatsapp section_contact_h1_helloimgavin">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener" title="Email me directly" id="section_contact_a_emailmedirectly" aria-labelledby="section_contact_a_emailmedirectly section_contact_h1_helloimgavin">email me directly</a> if you have any questions about podcasting.</p>
 
-				</div>
+				<p>Are you ready to <strong>#BeHeard</strong>?</p>
 
 			</div>
 
-		</div>
-
-	</header>
-
-	<main>
-
-		<!--
-		SECTION > Contact
-		-->
-
-		<section class="flow-ttb-mob width-100 pad-respond-xy-mob theme-white border-b-mob">
-
 			<!--
-			Container
+			Image
 			-->
 
-			<div class="width-100 constrain pad-respond-y-mob">
-
-				<!--
-				Form
-				-->
-
-				<form accept-charset="UTF-8" action="https://usebasin.com/f/ea7e33ad9af1" method="POST">
-
-					<!--
-					Visible inputs
-					-->
-
-					<div class="flow-ttb-mob spread">
-
-							<div class="flow-ttb-mob flow-ltr-tab spread">
-
-								<div>
-
-									<label for="name">
-
-											<span>Name</span>
-											<input type="text" name="name" id="name" tabindex="1" required />
-
-									</label>
-
-								</div>
-								<div>
-
-									<label for="email">
-
-											<span>Email</span>
-											<input type="email" name="email" id="email" tabindex="2" required />
-
-									</label>
-
-								</div>
-
-							</div>
-							<div>
-
-								<label for="name">
-
-									<span>Message</span>
-									<textarea name="message" id="message" rows="4" tabindex="3" required></textarea>
-
-								</label>
-
-							</div>
-							<div class="flow-ttb-mob align-c-mob pad-respond-t-mob">
-
-								<button class="theme-blue" type="submit" id="section_contactform_button_submit">Send Message</button>
-
-							</div>
-
-					</div>
-
-				</form>
-
-			</div>
-
-		</section>
-
-	</main>
-
-	<!--
-	Map
-	-->
-
-	<section class="theme-grey border-b-mob" id="map">
-
-		<!--
-		Container
-		-->
-
-		<div class="flow-ttb-mob width-100" style="height:300px">
-
-			<!--
-			Google map
-			-->
-
-			<object data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.496482561411!2d28.0051696147705!3d-26.082707183492023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957485f339318d%3A0x7b624606e9099d33!2s5+Rhodes+St%2C+Kensington+B%2C+Randburg%2C+2194%2C+South+Africa!5e0!3m2!1sen!2sus!4v1540764353767" width="100%" height="100%" frameborder="0" frameborder="0" style="border:0px"></object>
+			<picture class="fg-image-profile">
+				<source srcset="assets/images/photos/mobile/gavin-kennedy-profile.webp" media="(max-width: 719px)" type="image/webp">
+				<source srcset="assets/images/photos/mobile/gavin-kennedy-profile.jpg" media="(max-width: 719px)" type="image/jpeg">
+				<source srcset="assets/images/photos/tablet/gavin-kennedy-profile.webp" media="(min-width: 720px)" type="image/webp">
+				<source srcset="assets/images/photos/tablet/gavin-kennedy-profile.jpg" media="(min-width: 720px)" type="image/jpeg">
+				<img srcset="assets/images/photos/tablet/gavin-kennedy-profile.jpg" alt="Gavin Kennedy profile photo">
+			</picture>
 
 		</div>
 
 	</section>
 
-
 	<!--
-	PARTIAL > Global page footer
+	SECTION > Contact
 	-->
-	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
 
-	<!--
-	Preload elements
-	-->
-	<span class="preload-me"></span>
+	<section class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob border-b-mob">
 
-</body>
+		<!--
+		Container
+		-->
+
+		<div class="constrain pad-respond-b-mob">
+
+			<!--
+			FORM
+			-->
+
+			<form accept-charset="UTF-8" action="https://usebasin.com/f/ea7e33ad9af1" method="POST">
+
+				<div class="flexdir-ttb-mob spread-mob">
+
+						<div class="flexdir-ttb-mob flexdir-ltr-tab width-100-mob spread-mob">
+
+							<div class="width-100-mob">
+
+								<div class="text-l-mob theme-light-grey-mob">
+
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" required />
+
+								</div>
+
+							</div>
+
+							<div class="width-100-mob">
+
+								<div class="text-l-mob theme-light-grey-mob">
+
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" required />
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="width-100-mob">
+
+							<div class="text-l-mob">
+
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4" required></textarea>
+
+							</div>
+
+						</div>
+
+						<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-respond-t-mob">
+
+							<button class="primary" id="section_contact_button_send" type="submit" title="Send message to Lunia" aria-labelledby="section_contact_button_send"><span>Send</span></button>
+							
+							<span class="text-note">Your information is kept confidential and you are not added to any mailing lists</span>
+
+						</div>
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</section>
+
+</div>
+
+<!--
+PARTIAL > Page footer
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
+
+<!--
+SCRIPT > jQuery scripts
+-->
+<script src="assets/scripts/jquery/jquery.min.js"></script>
+<script src="assets/scripts/jquery/pushy.min.js" defer></script>
 
 </html>

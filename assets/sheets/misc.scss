@@ -1,0 +1,224 @@
+// ==============================================================================================================
+// Generic viewport
+// (default declarations that can be overridden by specific media queries)
+// ==============================================================================================================
+
+.text-heading-small {
+	border-bottom: solid 1px $border-color-light;
+	padding: $space-fixed 0;
+	width: 100%;
+	font-family: $font-heading;
+	font-size: 1.1rem;
+	line-height: 125%;
+	font-weight: normal;
+	text-align: left;
+}
+
+.text-heading-small:first-of-type {
+	padding-top: 0;
+}
+
+.text-heading-small:last-of-type {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+.text-heading-small a {
+	transition: $transition;
+}
+
+/* Pricing comparison on "pricing" page
+---------------------------------------------------------------------------- */
+
+.pricing-comparison {
+	// background-color: #fff;
+}
+
+.pricing-comparison__list {
+	margin-left: -1.4rem;
+}
+
+.pricing-comparison li {
+	border-bottom: dashed 1px $border-color-light;
+	padding: 0.75rem 1rem;
+	list-style-type: none;
+}
+
+.pricing-comparison li:last-of-type {
+	border-bottom: 0;
+}
+
+// Nested list
+
+.pricing-comparison li ul {
+	margin-left: -1.3rem;
+	list-style-type: none;
+}
+
+.pricing-comparison li ul li {
+	border-bottom: 0;
+	padding: 0.1rem 0 0 0;
+}
+
+.pricing-comparison__heading {
+	font-family: $font-heading;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.pricing-comparison__subheading {
+	text-align: center;
+}
+
+.pricing-comparison__heading:after,
+.pricing-comparison__subheading:after {
+	content: "\a";
+	white-space: pre-wrap;
+}
+
+/* Podcast cards on "channels" page
+---------------------------------------------------------------------------- */
+
+.channel__container--active,
+.channel__container--coming-soon,
+.channel__container--private {
+	border-radius: $radius;
+	background-color: #fff;
+	padding: calc(#{$space-fixed} * 0.5);
+	transition: $transition;
+}
+
+.channel__container--active figcaption,
+.channel__container--coming-soon figcaption,
+.channel__container--private figcaption {
+	padding: 0.5rem 0 0.2rem 0;
+	font-size: 0.9rem;
+	line-height: 1.1rem;
+}
+
+.channel__container--active p,
+.channel__container--coming-soon p,
+.channel__container--private p {
+	font-size: 0.85rem;
+	line-height: 1.1rem;
+}
+
+.channel__container--active img,
+.channel__container--coming-soon img,
+.channel__container--private img {
+	width: 100%;
+	height: 100%;
+	transition: $transition;
+}
+
+/* Individual podcast description on "channels-template" page
+---------------------------------------------------------------------------- */
+
+.channel-template__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.channel-template__container img {
+	// border: solid 1px $border-color-light;
+	border-radius: $radius;
+	background-color: #fff;
+	margin: 0 $space-mobile calc(#{$space-mobile} * 0.5) 0;
+	padding: calc(#{$space-mobile} * 0.25);
+	width: 100px;
+	height: 100px;
+	box-shadow: $shadow;
+}
+
+.channel-template__copy {
+	display: flex;
+	flex-direction: column;
+}
+
+.channel-template__copy h1 {
+	margin: 0.5rem 0 0 0;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Individual podcast description on "channels-template" page
+	---------------------------------------------------------------------------- */
+
+	.channel-template__container {
+		flex-direction: row;
+	}
+
+	.channel-template__container img {
+		margin: 0 $space-tablet 0 0;
+		padding: calc(#{$space-tablet} * 0.25);
+		width: 125px;
+		height: 125px;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* Individual podcast description on "channels-template" page
+	---------------------------------------------------------------------------- */
+
+	.channel-template__container img {
+		margin: 0 $space-desktop 0 0;
+		padding: calc(#{$space-desktop} * 0.25);
+		width: 200px;
+		height: 200px;
+	}
+
+}
+
+// ==============================================================================================================
+// Hover
+// ==============================================================================================================
+
+@media (hover: hover) {
+
+	.text-heading-small a:hover {
+		color: $green;
+	}
+
+	/* Podcast cards on "channels" page
+	---------------------------------------------------------------------------- */
+
+	.channel__container--active:hover {
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+		transform: scale(1.05);
+	}
+
+	.channel__container--coming-soon:hover,
+	.channel__container--private:hover {
+		opacity: 0.6;
+	}
+
+	/* Channel template
+	---------------------------------------------------------------------------- */
+
+	/* Misc
+	---------------------------------------------------------------------------- */
+
+	// Only display <mark> background colour on hover inside <figure>
+
+	.mark-hover {
+		border: 0;
+		border-radius: 3px;
+		background-color: transparent;
+		padding: 0;
+		transition: $transition;
+	}
+
+	figure:hover .mark-hover {
+		background-color: $very-light-yellow;
+		padding: 0;
+	}
+
+}

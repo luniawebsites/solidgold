@@ -1,375 +1,270 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<!--
-	PARTIAL > Google Tag Manager script
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
-	<meta name="keywords" content="pricing, price, cost, fee, podcast, studio, #BeHeard" />
-	<meta name="description" content="Contact podcast recording studio #BeHeard" />
-	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Solid Gold Podcast Studios Pricing | #BeHeard">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="MobileOptimized" content="320">
-	<!--
-	PARTIAL > Base URL
-		-->
-	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-	<meta property="og:title" content="Solid Gold Podcast Studios Pricing | #BeHeard" />
-	<meta property="og:description" content="Contact podcast recording studio #BeHeard" />
-	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://solidgoldstudios.co.za/pricing.php" />
-	<meta property="og:image" content="http://www.solidgoldstudios.co.za/assets/images/logo.png" />
-	<meta property="og:type" content="website" />
-	<link rel="canonical" href="https://solidgoldstudios.co.za/pricing.php" />
-	<title>Solid Gold Podcast Studios Pricing | #BeHeard</title>
-	<link rel="icon" href="favicon.png" sizes="32x32 64x64 128x128" type="image/png">
-	<link rel="dns-prefetch" href="https://solidgoldstudios.co.za/">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
-	<!-- 
-	LINK > Critical CSS
-	-->
-	<link rel="stylesheet" href="assets/critical.min.css" />
+<!--
+PARTIAL > Base URL
+-->
+<?php echo file_get_contents("assets/partials/base-url.html"); ?>
 
-	<!--
-	LINK > Async-load non-critical CSS
-	-->
-	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+<!--
+PARTIAL > Google Tag Manager script
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 
-	<!--
-	PARTIAL > Async-load non-critical CSS polyfill script
-	-->
-	<?php echo file_get_contents("assets/partials/loadcss.html"); ?>
+<!-- 
+LINK & PARTIAL > Defer load non-critical CSS
+-->
+<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
 
-	<!--
-	PARTIAL > Cookie notice
-	-->
-	<?php echo file_get_contents("assets/partials/cookies.html"); ?>
+<meta name="description" content="Podcast recording studios pricing" />
+<meta name="robots" content="index, follow" />
+<meta name="classification" content="business" />
+<meta name="pagename" content="Solid Gold Podcast Studios | Pricing" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta property="og:title" content="Solid Gold Podcast Studios | Pricing" />
+<meta property="og:description" content="Podcast recording studios pricing" />
+<meta property="og:locale" content="en_ZA" />
+<meta property="og:url" content="https://solidgoldstudios.co.za/pricing.php" />
+<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:type" content="website" />
+<title>Solid Gold Podcast Studios | Pricing</title>
+<link rel="canonical" href="https://solidgoldstudios.co.za/pricing.php" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
-	<!--
-	SCRIPT > jQuery CDN
-	-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--
+Prerender most likely next page
+-->
+<link rel="prerender" href="contact.php">
 
-	<!--
-	SCRIPT > Combined and deferred
-	-->
-	<script src="assets/scripts/combined.min.js" defer></script>
+<!--
+STYLES > Inline load critical CSS
+-->
+<style>
+	<?php echo file_get_contents("assets/critical.min.css"); ?>
+</style>
 
-</head>
+<!--
+PARTIAL > Google Tag Manager body
+-->
+<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
 
-<body class="theme-grey">
+<!--
+PARTIAL > Leader with menu
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
 
-	<!--
-	PARTIAL > Google Tag Manager body
-	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+<!--
+PARTIAL > IE10/IE11 notice
+-->
+<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+
+<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	PARTIAL > Browse Happy compatibility notice
+	HEADER > Pricing
 	-->
-	<?php echo file_get_contents("assets/partials/browse-happy.html"); ?>
 
-	<!--
-	PARTIAL > Global page leadin with logo and menu
-	-->
-	<?php echo file_get_contents("assets/partials/page-leadin.html"); ?>
-
-	<!--
-	Masthead
-	-->
-	<header class="pattern-channel-masthead flow-ttb-mob flow-ltr-tab pad-respond-xy-mob theme-dark-grey border-b-mob">
+	<header class="pad-respond-xy-mob theme-light-grey-mob" id="header_pricing" aria-labelledby="header_pricing_h1_pricing">
 
 		<!--
 		Container
 		-->
 
-		<div class="flow-ttb-mob width-100 constrain">
+		<div class="constrain pad-t-mob">
 
-			<!--
-			Text
-			-->
-
-			<div class="flow-ttb-mob pad-respond-y-mob align-fs-mob">
-
-				<h1 class="text-l-mob">Pricing</h1>
-				<p class="text-l-mob">All our plans include publishing to Google Podcasts, Apple Podcasts, Spotify, Stitcher and Castbox (along with several others like Himalaya and Player FM) to help you reach the widest possible audience. You also get a web page on our site with your "bio" and links to the various platforms. Oh yes, we regularly <a href="https://twitter.com/solidgoldpods" id="" aria-labelledby="">Tweet (#BeHeard)</a> and post to <a href="https://facebook.com/solidgoldpodcaststudios/" id="" aria-labelledby="">social platforms</a> so our audience learns about you and your story.</p>
-				<p class="text-l-mob"><a href="contact.php" id="" aria-labelledby="">Contact us</a> for a personalised pricing plan that works for you.</p>
-
-			</div>
+			<h1 id="header_pricing_h1_pricing">Pricing</h1>
 
 		</div>
 
 	</header>
 
-	<main>
+	<!--
+	SECTION > Episode packages
+	-->
+
+	<section class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="section_episodepackages" aria-labelledby="section_episodepackages_h2_episodepackages">
 
 		<!--
-		What does it cost
+		Container
 		-->
 
-		<section class="pad-respond-xy-mob theme-white">
+		<div class="constrain pad-b-mob">
 
-			<div class="constrain pad-respond-t-mob">
+			<div>
 
-				<h2 class="text-underline text-l-mob">What does it cost to produce and publish a podcast?</h1>
-				<p class="text-l-mob">The extent of the investment in your podcast will vary based on several factors, including <strong>frequency</strong> and <strong>complexity</strong>. Is it a once-off series of FAQ episodes? Is it a weekly commentary? Do you have 1 guest or 3? Those kinds of things. When we meet to discuss your objectives and how we'll work together to achieve them, we'll agree on a price that will be in line with the 3 models described below. In all instances, there are <strong>production and publishing</strong> costs and on-going <strong>hosting</strong> costs. Not only are podcast files much larger than you're used to with a regular website, they also need to be served fast and reliably to many simultaneous users.</p>
-				<p class="text-l-mob">Our hosting charges start at <strong>R79 per month</strong> and only increase based on number of monthly episodes hosted (such as intense frequency channels) and when very large data volumes are required (for example when your target audience for a channel is greater than 2 million). These measures ensure that adequate data delivey and throughput are maintained. Below is a calculator that will give you some insight into the estimated costs for <span class="no-break">3 tiers</span> of production.</p>
+				<h2 id="section_episodepackages_h2_episodepackages">Episode packages</h2>
+
+				<p>Pay for 10 episodes upfront and we'll add a <strong>10% discount</strong> on the prices below. <strong>Prices exclude VAT</strong>.</p>
+
+				<div class="flexdir-ttb-mob flexdir-ltr-tab spread-mob pad-double-t-mob pad-b-mob">
+
+					<!--
+					Figure
+					-->
+
+					<figure class="( pricing-comparison ) flexdir-ttb-mob radius-mob theme-white-mob">
+
+						<header class="pad-xy-mob theme-green-mob">
+
+							<h3>Hobby</h3>
+
+							<p>R1,000 / episode</p>
+
+						</header>
+
+						<ul class="( pricing-comparison__list )">
+							<li><span class="pricing-comparison__heading">Studio 1</span>2 people</li>
+							<li><span class="pricing-comparison__heading">30 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">1</span>Skype guest *</li>
+							<li><span class="pricing-comparison__heading">1</span>Bed music track</li>
+							<li><span class="pricing-comparison__heading">Basic</span>Audio cleanup</li>
+							<li><span class="pricing-comparison__heading">Including</span>
+								<ul>
+									<li>Introduction and closing segments</li>
+									<li>Introduction music</li>
+									<li>Website hosting & episode notes</li>
+									<li>Website channel page</li>
+									<li>Publishing to podcast platforms</li>
+									<li>Channel cover artwork</li>
+								</ul>
+							</li>
+						</ul>
+
+					</figure>
+
+					<!--
+					Figure
+					-->
+
+					<figure class="( pricing-comparison ) flexdir-ttb-mob radius-mob theme-white-mob">
+
+						<header class="pad-xy-mob theme-blue-mob">
+
+							<h3>Business</h3>
+
+							<p>R2,500 / episode</p>
+
+						</header>
+
+						<ul class="( pricing-comparison__list )">
+							<li><span class="pricing-comparison__heading">Studio 1</span>3 people</li>
+							<li><span class="pricing-comparison__heading">60 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">1</span>Skype guest *</li>
+							<li><span class="pricing-comparison__heading">2</span>Bed music tracks</li>
+							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
+							<li><span class="pricing-comparison__heading">Including</span>
+								<ul>
+									<li>Introduction and closing segments</li>
+									<li>Introduction music</li>
+									<li>Website hosting & episode notes</li>
+									<li>Website channel page</li>
+									<li>Publishing to podcast platforms</li>
+									<li>Channel cover artwork</li>
+									<li>Social media artwork</li>
+									<li>Professional voice artist</li>
+									<li>Sound effects</li>
+									<li>Guest phone-ins</li>
+									<li>Embedded player on your website</li>
+								</ul>
+							</li>
+						</ul>
+
+					</figure>
+
+					<!--
+					Figure
+					-->
+
+					<figure class="( pricing-comparison ) flexdir-ttb-mob radius-mob theme-white-mob">
+
+						<header class="pad-xy-mob theme-dark-grey-mob">
+
+							<h3>Professional</h3>
+
+							<p>R4,500 / episode</p>
+
+						</header>
+
+						<ul class="( pricing-comparison__list )">
+							<li><span class="pricing-comparison__heading">Studio 2</span>6 people</li>
+							<li><span class="pricing-comparison__heading">90 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">3</span>Skype guests *</li>
+							<li><span class="pricing-comparison__heading">4</span>Bed music tracks</li>
+							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
+							<li><span class="pricing-comparison__heading">Including</span>
+								<ul>
+									<li>Introduction and closing segments</li>
+									<li>Introduction music</li>
+									<li>Website hosting & episode notes</li>
+									<li>Website channel page</li>
+									<li>Publishing to podcast platforms</li>
+									<li>Channel cover artwork</li>
+									<li>Social media artwork</li>
+									<li>Episode cover artwork</li>
+									<li>Professional voice artist</li>
+									<li>Sound effects</li>
+									<li>Guest phone-ins</li>
+									<li>Embedded player on your website</li>
+								</ul>
+							</li>
+						</ul>
+
+					</figure>
+
+				</div>
+
+				<p class="pad-l-mob">* Skype guests replace studio guests</p>
 
 			</div>
 
 		</section>
 
 		<!--
-		What does it cost
+		SECTION > Customising a package
 		-->
 
-		<section class="pad-respond-x-mob theme-white border-b-mob">
-
-			<div class="flow-ttb-mob theme-white">
-
-				<div class="pad-respond-t-mob">
-
-					<label class="switch">
-						<input type="checkbox" name="control" id="control" autocomplete="off" />
-						<span class="slider"></span>
-					</label>
-
-				</div>
-
-				<div class="pad-respond-y-mob">
-
-					<p class="text-c-mob">All prices exclude VAT.</p>
-
-				</div>
-
-			</div>
+		<section class="pad-respond-xy-mob theme-white-mob" id="section_customisingapackage" aria-labelledby="section_customisingapackage_h2_customisingapackage">
 
 			<!--
-			Container (per episode)
+			Container
 			-->
 
-			<div class="width-100 constrain">
+			<div class="constrain pad-y-mob">
 
-				<div class="flow-ttb-mob flow-ltr-tab pad-y-mob spread-respond align-s-mob" id="display-one">
+				<h2 id="section_customisingapackage_h2_customisingapackage">Customising a package</h2>
 
-					<!--
-					Figure
-					-->
+				<p>Your podcast production budget will depend on several factors. Are you creating a once-off series of FAQ episodes? Is it a weekly commentary? Do you have one guest or three? Those kinds of things. When we meet to discuss your objectives and how we'll work together to achieve them, we'll agree on a price that will be in line with our three packages. In all cases, there are production and publishing costs and on-going hosting costs. Not only are podcast files much larger than you're used to with a regular website, they also need to be served fast and reliably to many simultaneous users.</p>
 
-					<figure class="flow-ttb-mob radius-mob border-mob shadow-mob">
-							<div class="flex-grow">
-								<div class="pad-xy-mob theme-green border-b-mob h3">Hobby</div>
-								<p class="pad-xy-mob h4 font-green">From R1,000 <span class="no-break">per episode</span></p>
-								<ul class="pad-b-mob list-zebra-light-green text-c-mob">
-									<li class="tooltip" title="This includes the host and guests"><span>Studio 1 (2 people)</span></li>
-									<li>30 minutes studio time</li>
-									<li class="tooltip" title="Website hosting with custom episode notes page"><span>Website hosting + episode notes</span></li>
-									<li class="tooltip" title="Skype guests replace studio guests"><span>1 Skype guest</span></li>
-									<li>Introduction and closing segments</li>
-									<li>Introduction music</li>
-									<li>1 bed music track</li>
-									<li class="tooltip" title="This includes minor edits"><span>Basic audio cleanup</span></li>
-									<li class="tooltip" title="This includes 1 design revision"><span>Channel cover artwork</span></li>
-								</ul>
-							</div>
-					</figure>
+				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
 
-					<!--
-					Figure
-					-->
-
-					<figure class="flow-ttb-mob radius-mob border-mob shadow-mob">
-							<div class="flex-grow">
-								<div class="pad-xy-mob theme-blue border-b-mob h3">Business</div>
-								<p class="pad-xy-mob h4 font-blue">From R2,500 <span class="no-break">per episode</span></p>
-								<ul class="pad-b-mob list-zebra-light-blue text-c-mob">
-									<li class="tooltip" title="This includes the host and guests"><span><strong>Studio 1 (3 people)</strong></span></li>
-									<li><strong>60 minutes studio time</strong></li>
-									<li class="tooltip" title="Website hosting with custom episode notes page"><span>Website hosting + episode notes</span></li>
-									<li class="tooltip" title="Skype guests replace studio guests"><span>1 Skype guest</span></li>
-									<li>Introduction and closing segments</li>
-									<li>Introduction music</li>
-									<li><strong>2 bed music tracks</strong></li>
-									<li class="tooltip" title="This includes content edits"><span><strong>Full audio cleanup</strong></span></li>
-									<li class="tooltip" title="This includes 2 design revisions"><span>Channel cover artwork</span></li>
-									<li><strong>Guest phone-ins</strong></li>
-									<li><strong>Sound effects</strong></li>
-									<li><strong>Professional voice artist</strong></li>
-									<li class="tooltip" title="We provide you with the code to embed your podcasts on your own website"><span><strong>Embedded web player</strong></span></li>
-									<li><strong>Social media artwork</strong></li>
-								</ul>
-							</div>
-					</figure>
-
-					<!--
-					Figure
-					-->
-
-					<figure class="flow-ttb-mob radius-mob border-mob shadow-mob">
-							<div class="flex-grow">
-								<div class="pad-xy-mob theme-dark-grey border-b-mob h3">Professional</div>
-								<p class="pad-xy-mob h4">From R4,500 <span class="no-break">per episode</span></p>
-								<ul class="pad-b-mob list-zebra text-c-mob">
-									<li class="tooltip" title="This includes the host and guests"><span><strong>Studio 2 (6 people)</strong></span></li>
-									<li><strong>90 minutes studio time</strong></li>
-									<li class="tooltip" title="Website hosting with custom episode notes page"><span>Website hosting + episode notes</span></li>
-									<li class="tooltip" title="Skype guests replace studio guests"><span><strong>3 Skype guests</strong></span></li>
-									<li>Introduction and closing segments</li>
-									<li>Introduction music</li>
-									<li><strong>4 bed music tracks</strong></li>
-									<li class="tooltip" title="This includes content edits"><span>Full audio cleanup</span></li>
-									<li class="tooltip" title="This includes 3 design revisions"><span>Channel cover artwork</span></li>
-									<li>Guest phone-ins</li>
-									<li>Sound effects</li>
-									<li>Professional voice artist</li>
-									<li class="tooltip" title="We provide you with the code to embed your podcasts on your own website"><span>Embedded web player</span></li>
-									<li>Social media artwork</li>
-									<li><strong>Episode cover artwork</strong></li>
-								</ul>
-							</div>
-					</figure>
-
-				</div>
-
-				<!--
-				Container (per season)
-				-->
-
-				<div class="flow-ttb-mob flow-ltr-tab pad-y-mob spread-respond align-s-mob" id="display-two" style="display:none">
-
-					<!--
-					Figure
-					-->
-
-					<figure class="flow-ttb-mob radius-mob border-mob shadow-mob">
-						<div class="flex-grow">
-							<div class="pad-xy-mob theme-green border-b-mob h3">Hobby</div>
-							<p class="pad-xy-mob h4 font-green">From R9,000 <span class="no-break">for 10 episodes</span></p>
-							<ul class="pad-b-mob list-zebra-light-green text-c-mob">
-								<li class="tooltip" title="This includes the host and guests"><span>Studio 1 (2 people)</span></li>
-								<li>30 minutes studio time</li>
-								<li class="tooltip" title="Website hosting with custom episode notes page"><span>Website hosting + episode notes</span></li>
-								<li class="tooltip" title="Skype guests replace studio guests"><span>1 Skype guest</span></li>
-								<li>Introduction and closing segments</li>
-								<li>Introduction music</li>
-								<li>1 bed music track</li>
-								<li class="tooltip" title="This includes minor edits"><span>Basic audio cleanup</span></li>
-								<li class="tooltip" title="This includes 1 design revision"><span>Channel cover artwork</span></li>
-							</ul>
-						</div>
-					</figure>
-
-					<!--
-					Figure
-					-->
-
-					<figure class="flow-ttb-mob radius-mob border-mob shadow-mob">
-						<div class="flex-grow">
-							<div class="pad-xy-mob theme-blue border-b-mob h3">Business</div>
-							<p class="pad-xy-mob h4 font-blue">From R20,000 <span class="no-break">for 10 episodes</span></p>
-							<ul class="pad-b-mob list-zebra-light-blue text-c-mob">
-								<li class="tooltip" title="This includes the host and guests"><span><strong>Studio 1 (3 people)</strong></span></li>
-								<li><strong>60 minutes studio time</strong></li>
-								<li class="tooltip" title="Website hosting with custom episode notes page"><span>Website hosting + episode notes</span></li>
-								<li class="tooltip" title="Skype guests replace studio guests"><span>1 Skype guest</span></li>
-								<li>Introduction and closing segments</li>
-								<li>Introduction music</li>
-								<li><strong>2 bed music tracks</strong></li>
-								<li class="tooltip" title="This includes content edits"><span><strong>Full audio cleanup</strong></span></li>
-								<li class="tooltip" title="This includes 2 design revisions"><span>Channel cover artwork</span></li>
-								<li><strong>Guest phone-ins</strong></li>
-								<li><strong>Sound effects</strong></li>
-								<li><strong>Professional voice artist</strong></li>
-								<li class="tooltip" title="We provide you with the code to embed your podcasts on your own website"><span><strong>Embedded web player</strong></span></li>
-								<li><strong>Social media artwork</strong></li>
-							</ul>
-						</div>
-					</figure>
-
-					<!--
-					Figure
-					-->
-
-					<figure class="flow-ttb-mob radius-mob border-mob shadow-mob">
-						<div class="flex-grow">
-							<div class="pad-xy-mob theme-dark-grey border-b-mob h3">Professional</div>
-							<p class="pad-xy-mob h4">From R36,000 <span class="no-break">for 10 episodes</span></p>
-							<ul class="pad-b-mob list-zebra text-c-mob">
-								<li class="tooltip" title="This includes the host and guests"><span><strong>Studio 2 (6 people)</strong></span></li>
-								<li><strong>90 minutes studio time</strong></li>
-								<li class="tooltip" title="Website hosting with custom episode notes page"><span>Website hosting + episode notes</span></li>
-								<li class="tooltip" title="Skype guests replace studio guests"><span><strong>3 Skype guests</strong></span></li>
-								<li>Introduction and closing segments</li>
-								<li>Introduction music</li>
-								<li><strong>4 bed music tracks</strong></li>
-								<li class="tooltip" title="This includes content edits"><span>Full audio cleanup</span></li>
-								<li class="tooltip" title="This includes 3 design revisions"><span>Channel cover artwork</span></li>
-								<li>Guest phone-ins</li>
-								<li>Sound effects</li>
-								<li>Professional voice artist</li>
-								<li class="tooltip" title="We provide you with the code to embed your podcasts on your own website"><span>Embedded web player</span></li>
-								<li>Social media artwork</li>
-								<li><strong>Episode cover artwork</strong></li>
-							</ul>
-						</div>
-					</figure>
+					<a class="button primary" href="contact.php" title="Contact us about customising a package" id="section_customisingapackage_a_contactus" aria-labelledby="section_customisingapackage_a_contactus section_customisingapackage_h2_customisingapackage"><span>Contact Us</span></a>
 
 				</div>
 
 			</div>
 
-		</section>
+		</div>
 
-	</main>
+	</section>
 
-	<!--
-	PARTIAL > Global page footer
-	-->
-	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
+</div>
 
-	<!--
-	Preload elements
-	-->
-	<span class="preload-me"></span>
+<!--
+PARTIAL > Page footer
+-->
+<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
 
-	<!--
-	jBox (tooltips)
-	-->
-
-	<script src="assets/scripts/jBox.min.js"></script>
-
-	<script>
-		new jBox('Tooltip', {
-		attach: '.tooltip'
-		});
-	</script>
-
-	<!--
-	Toggle Pricing Plans
-	-->
-
-	<script>
-		$(document).ready(function () {
-
-			$('#display-two').hide();
-			$('#control').change(function(){
-			if($('#control').is(":checked")) {
-					$('#display-two').fadeIn();
-					$('#display-one').hide();
-				} else {
-					$('#display-one').fadeIn();
-					$('#display-two').hide();
-				}
-			});
-
-		});
-	</script>
-
-</body>
+<!--
+SCRIPT > jQuery scripts
+-->
+<script src="assets/scripts/jquery/jquery.min.js"></script>
+<script src="assets/scripts/jquery/pushy.min.js" defer></script>
 
 </html>

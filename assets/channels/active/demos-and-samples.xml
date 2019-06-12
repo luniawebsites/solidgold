@@ -1,0 +1,39 @@
+<channelPageData>
+
+	<resources>
+		<title>Demos and Samples</title> <!-- e.g. Lift As You Rise -->
+		<host>Solid Gold Podcast Studios</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>another solid gold podcast podcast studios</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>demos-and-samples.jpg</coverFileName> <!-- File name with extension -->
+		<agreement>yes</agreement> <!-- yes or empty -->
+		<email>gavin@solidgoldstudios.co.za</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl>https://fanlink.to/sgsgreen</playlistUrl> <!-- Full URL -->
+		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<facebookUrl>https://www.facebook.com/solidgoldrecordingstudios/</facebookUrl> <!-- Full URL -->
+		<twitterUrl>https://twitter.com/solidgoldpods</twitterUrl> <!-- Full URL -->
+		<linkedinUrl>https://www.linkedin.com/company/solid-gold-podcast-studios/</linkedinUrl> <!-- Full URL -->
+		<instagramUrl>https://www.instagram.com/solidgoldpods/</instagramUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl>https://chtbl.com/track/podcaststudios.co.za/rss/solidgoldstudios.xml</rssUrl> <!-- Full URL -->
+		<extraUrl></extraUrl> <!-- Full URL -->
+		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>Welcome to the Solid Gold Podcast Studios Demo and Samples channel.</p>
+	</description>
+
+</channelPageData>
+
+<!--
+Cover images should be 400x400px.
+
+If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.
+
+Website address element must include http:// or https://.
+
+Do not add "mailto:"" in the email element — this is done automatically in the script where relevant.
+
+Everything within the description element above will display between title and host and the buttons.
+-->

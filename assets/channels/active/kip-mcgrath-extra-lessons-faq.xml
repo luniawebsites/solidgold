@@ -1,0 +1,43 @@
+<channelPageData>
+
+	<resources>
+		<title>Extra Lessons FAQ</title> <!-- e.g. Lift As You Rise -->
+		<host>Kip McGrath</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>kip mcgrath extra lessons faq frequently asked questions education</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>extra-lessons-faq.jpg</coverFileName> <!-- File name with extension -->
+		<agreement>yes</agreement> <!-- yes or empty -->
+		<email>kipmcgrath@solidgoldstudios.co.za</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl>https://castbox.fm/app/castbox/player/id2045311/id134844758?v=8.0.190531&autoplay=0" frameborder="0" width="100%" height="500</playlistUrl> <!-- Full URL -->
+		<websiteUrl>http://kiplessons.co.za/?utm_source=Kip%20McGrath%20Podcast</websiteUrl> <!-- Full URL -->
+		<facebookUrl></facebookUrl> <!-- Full URL -->
+		<twitterUrl>https://www.facebook.com/kiplessons/</twitterUrl> <!-- Full URL -->
+		<linkedinUrl></linkedinUrl> <!-- Full URL -->
+		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl>https://chtbl.com/track/podcaststudios.co.za/rss/kipmcgrath.xml</rssUrl> <!-- Full URL -->
+		<extraUrl></extraUrl> <!-- Full URL -->
+		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>Welcome to Kip McGrath Extra Lessons.</p>
+		<p>Have the words "extra lessons" popped up in your family recently?</p>
+		<p>If so, this podcast series is for you!</p>
+		<p>You'll hear extra lessons specialists answer parents' frequently asked question. They share their insights and advice, explain why extra lessons may be needed, how they work and also guide you on selecting the right tutor for your child. They also answer questions on Maths, Afrikaans, CAPS, IEB and many other topics that will help you to help your child be the best they can be.</p>
+		<p>If you're looking for your closest extra lessons centre, or if you're ready to book your child's <strong>free</strong> assessment, visit <a href="https://kiplessons.co.za/?utm_source=Solid%20Gold%20Podcast&utm_medium=SGS%20web%20page" target="_blank" rel="noopener" title="Kip Lessons" id="section_channeltemplate_a_kiplessons" aria-labelledby="section_channeltemplate_a_kiplessons">KipLessons.co.za</a></p>
+	</description>
+
+</channelPageData>
+
+<!--
+Cover images should be 400x400px.
+
+If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.
+
+Website address element must include http:// or https://.
+
+Do not add "mailto:"" in the email element — this is done automatically in the script where relevant.
+
+Everything within the description element above will display between title and host and the buttons.
+-->

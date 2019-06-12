@@ -1,16 +1,23 @@
-/* Import SASS sheets
----------------------------------------------------------------------------- */
+// Import SASS sheets
+// --------------------------------------------------------------------------------------------------------------
 
+// The order of sheets here is important, high specificty overrides previous sheets
+
+// Base
 @import "sheets/variables";
-@import "sheets/mixins";
-@import "sheets/base";
-@import "sheets/encoded-fonts";
-@import "sheets/scroll-animations";
-@import "sheets/jMenu";
-@import "sheets/animations";
-@import "sheets/lists";
-@import "sheets/forms";
-@import "sheets/jBox.scss";
-@import "sheets/preload";
-@import "sheets/helpers"; // Needs high specificty
-@import "sheets/custom"; // Needs high specificty
+@import "sheets/extends";
+// @import "sheets/lists";
+
+// Images
+@import "sheets/images-foreground";
+@import "sheets/images-background";
+@import "sheets/images-encoded";
+
+// Background positions
+@import "sheets/background-positions";
+
+// Design patterns
+@import "sheets/pattern-page-footer";
+
+// Effects
+@import "sheets/effects";

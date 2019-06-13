@@ -14,8 +14,8 @@
 		<twitterUrl></twitterUrl> <!-- Full URL -->
 		<linkedinUrl>https://www.linkedin.com/in/gavinkennedy/</linkedinUrl> <!-- Full URL -->
 		<instagramUrl></instagramUrl> <!-- Full URL -->
-		<tumblrUrl>http://eduthink.tumblr.com/</tumblrUrl> <!-- Full URL -->
-		<rssUrl>https://chtbl.com/track/podcaststudios.co.za/rss/eduthink.xml</rssUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl>https://podcaststudios.co.za/rss/eduthink.xml</rssUrl> <!-- Full URL -->
 		<extraUrl></extraUrl> <!-- Full URL -->
 		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
 	</resources>

@@ -145,9 +145,9 @@ PARTIAL > IE10/IE11 notice
 
 						<div class="pad-xy-mob">
 
-							<h3>Deep dive conversations</h3>
+							<h3>Radio archives</h3>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<p>At the end of their regular radio show on FM, your favourite DJ is likely to sign-off by reminding you to catch any parts of the show you missed on their website as a podcast.  Whilst the "true" podcasters of the world will be shuddering to hear this, it is a useful way to store and archive large volumes of audio content.</p>
 
 							<div class="flexdir-ttb-mob flexpos-lc-mob pad-double-t-mob">
 
@@ -172,9 +172,9 @@ PARTIAL > IE10/IE11 notice
 
 						<div class="pad-xy-mob">
 
-							<h3>Strategic communication</h3>
+							<h3>FAQs</h3>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<p>Getting potential clients to spend time on your website reading through loads and loads of content is getting harder and harder to do. Let alone asking them to download a PDF for later reading. The rise of “too long; didn’t read” (TL;DR) highlights this and is merely an interim solution. We’re finding that clients really love the ability to craft professionally produced podcast episodes of the most frequently asked questions that potential clients ask. The beauty of presenting these as a podcast channel is that the client is presented with a list of short informative episodes they can listen to in any order, without having to wade through pages and pages. Also, each episode has embedded “calls to action” in them so a client can go from search to listen to clicking on a link without even visiting your website. What we’re finding is that when  these new clients make contact, it’s with much more focused “2nd tier” questions.</p>
 
 							<div class="flexdir-ttb-mob flexpos-lc-mob pad-double-t-mob">
 

@@ -2,7 +2,7 @@
 
 	<resources>
 		<title>Network</title> <!-- e.g. Lift As You Rise -->
-		<host>Women in Mining South Africa</host> <!-- e.g. Red Bull Music -->
+		<host>Women in Mining South Africa (WiMSA)</host> <!-- e.g. Red Bull Music -->
 		<filterKeywords>network women mining south africa</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>network.jpg</coverFileName> <!-- File name with extension -->
 		<agreement>yes</agreement> <!-- yes or empty -->

@@ -237,15 +237,15 @@ PARTIAL > IE10/IE11 notice
 							<table>
 								<tr>
 									<td>First hour</td>
-									<td>R1,250</td> 
+									<td>R1,150</td> 
 								</tr>
 								<tr>
 									<td>Additional</td>
-									<td>R1,050</td> 
+									<td>R850</td> 
 								</tr>
 								<tr>
 									<td>Full day</td>
-									<td>R950</td> 
+									<td>R750</td> 
 								</tr>
 							</table>
 

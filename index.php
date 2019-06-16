@@ -202,6 +202,7 @@ HEADER > Hero
 
 				<?php
 					@$dir = "assets/posts/"; // Posts directory
+					// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/posts/";
 					@$dir_url = "https://solidgoldstudios.co.za/assets/posts/";
 					@$sort = 1; // 0 for ascending order and 1 for descending order
 					@$per_page = 1; // Number of posts to display per page
@@ -279,6 +280,7 @@ HEADER > Hero
 
 				<?php
 					@$dir = "assets/posts/"; // Posts directory
+					// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/posts/";
 					@$dir_url = "https://solidgoldstudios.co.za/assets/posts/";
 					@$sort = 1; // 0 for ascending order and 1 for descending order
 					@$per_page = 4; // Number of posts to display per page

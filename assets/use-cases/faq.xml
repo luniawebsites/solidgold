@@ -1,0 +1,20 @@
+<examplePageData>
+
+	<title>FAQ</title> <!-- e.g. "Radio archives" -->
+	<keywords>faq frequently asked questions</keywords> <!-- e.g. "faq frequently asked questions" -->
+	<intro>Getting potential clients to spend time on your website reading through loads and loads of content is getting harder and harder to do.</intro> <!-- One sentence opening teaser -->
+	<example>boo-yah</example> <!-- e.g. "boo-yah" -->
+
+	<body>
+		<p>Paragraph 1</p>
+	</body>
+
+</examplePageData>
+
+<!--
+Feature images should be 200x200px.
+
+The image will display automatically based on the XML file name.
+
+The example will link automatically to the channels based on the existing name you enter.
+-->

@@ -124,6 +124,7 @@ PARTIAL > IE10/IE11 notice
 
 			<?php
 				@$dir = "assets/channels/active/"; // Channels directory
+				// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/channels/active/";
 				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/active/";
 				@$sort = 0; // 0 for ascending order and 1 for descending order
 				@$channels = scandir($dir, $sort);
@@ -164,7 +165,7 @@ PARTIAL > IE10/IE11 notice
 								@$filter_keywords = $break_filter_keywords_o[1];
 								// Styling for channel elements done in CSS instead of using utility classes
 								echo "
-									<a class='channel__container--active channel-item' data-channel-item='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
+									<a class='channel__container--active channel-keywords' data-channel-keywords='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
 										<figure>
 											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
 											<figcaption>" . $title . "</figcaption>
@@ -214,6 +215,7 @@ PARTIAL > IE10/IE11 notice
 
 			<?php
 				@$dir = "assets/channels/coming-soon/"; // Channels directory
+				// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/channels/coming-soon/";
 				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/coming-soon/";
 				@$sort = 0; // 0 for ascending order and 1 for descending order
 				@$channels = scandir($dir, $sort);
@@ -254,7 +256,7 @@ PARTIAL > IE10/IE11 notice
 								@$filter_keywords = $break_filter_keywords_o[1];
 								// Styling for channel elements done in CSS instead of using utility classes
 								echo "
-									<div class='channel__container--coming-soon channel-item' data-channel-item='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
+									<div class='channel__container--coming-soon channel-keywords' data-channel-keywords='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
 										<figure>
 											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
 											<figcaption>" . $title . "</figcaption>
@@ -304,6 +306,7 @@ PARTIAL > IE10/IE11 notice
 
 			<?php
 				@$dir = "assets/channels/private/"; // Channels directory
+				// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/channels/private/";
 				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/private/";
 				@$sort = 0; // 0 for ascending order and 1 for descending order
 				@$channels = scandir($dir, $sort);
@@ -344,7 +347,7 @@ PARTIAL > IE10/IE11 notice
 								@$filter_keywords = $break_filter_keywords_o[1];
 								// Styling for channel elements done in CSS instead of using utility classes
 								echo "
-									<div class='channel__container--private channel-item' data-channel-item='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
+									<div class='channel__container--private channel-keywords' data-channel-keywords='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
 										<figure>
 											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
 											<figcaption>" . $title . "</figcaption>
@@ -379,16 +382,15 @@ SCRIPT > jQuery scripts
 SCRIPT > jQuery filter for channel cards
 -->
 <script>
-	/* Filter items using keywords (keywords defined in "keyword"
-	pseudo-class in the individual channel HTML pages) */
+	/* Filter items using keywords (keywords defined in "keyword" pseudo-class in the individual channel HTML pages) */
 	$("#header_channels_input_filter").keyup(function(){
 		var selectItem = $(this).val().toLowerCase();
 		filter(selectItem);
 		});
 		function filter(e) {
 			var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
-			$('.channel-item').hide().filter(function () {
-					return regex.test($(this).data('channel-item'))
+			$('.channel-keywords').hide().filter(function () {
+					return regex.test($(this).data('channel-keywords'))
 		}).show();
 	}
 </script>
@@ -398,8 +400,7 @@ SCRIPT > jQuery clear filter input
 -->
 <script>
 	$(document).ready(function () {
-		/* Clear data from the filter input when returning
-		to the page (all items display on return) */
+		/* Clear data from the filter input when returning to the page (all items display on return) */
 		$('#header_channels_input_filter').val('');
 		/* Clear data from the filter input on button click */
 		$("#header_channels_button_showall").click(function(){

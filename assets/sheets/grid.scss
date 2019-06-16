@@ -40,13 +40,6 @@
 		grid-gap: $space-fixed;
 	}
 
-	// Examples
-	.grid-auto-respond-example {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-		grid-gap: $space-fixed;
-	}
-
 	[class*="grid-auto-respond"] > * {
 		max-width: unset;
 	}
@@ -70,13 +63,6 @@
 		.grid-auto-respond-channel {
 			display: grid;
 			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-			grid-gap: $space-fixed;
-		}
-
-		// Examples
-		.grid-auto-respond-example {
-			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 			grid-gap: $space-fixed;
 		}
 

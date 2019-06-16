@@ -1460,55 +1460,91 @@
 	// Fixed-size spread
 	// --------------------------------------------------------------------------------------------------------------
 
-	// Top to bottom, bottomn to top
+	// Top to bottom, bottom to top
 
-	.spread.flexdir-ttb-des > *,
-	.spread.flexdir-btt-des > * {
+	.spread-mob.flexdir-ttb-des > *,
+	.spread-mob.flexdir-btt-tadesb > *,
+	.spread-tab.flexdir-ttb-des > *,
+	.spread-tab.flexdir-ttb-des > *,
+	.spread-des.flexdir-btt-des > *,
+	.spread-des.flexdir-btt-des > *,
+	.spread-des-only.flexdir-ttb-des > *,
+	.spread-des-only.flexdir-btt-des > * {
 		margin-top: calc(#{$spread-space-fixed} * 0.5);
 		margin-right: 0;
 		margin-bottom: calc(#{$spread-space-fixed} * 0.5);
 		margin-left: 0;
 	}
 
-	.spread.flexdir-ttb-des > *:first-child {
+	.spread-mob.flexdir-ttb-des > *:first-child,
+	.spread-tab.flexdir-ttb-des > *:first-child,
+	.spread-des.flexdir-ttb-des > *:first-child,
+	.spread-des-only.flexdir-ttb-des > *:first-child {
 		margin-top: 0;
 	}
 
-	.spread.flexdir-btt-des > *:first-child {
+	.spread-mob.flexdir-btt-des > *:first-child,
+	.spread-tab.flexdir-btt-des > *:first-child,
+	.spread-des.flexdir-btt-des > *:first-child,
+	.spread-des-only.flexdir-btt-des > *:first-child {
 		margin-bottom: 0;
 	}
 
-	.spread.flexdir-ttb-des > *:last-child {
+	.spread-mob.flexdir-ttb-des > *:last-child,
+	.spread-tab.flexdir-ttb-des > *:last-child,
+	.spread-des.flexdir-ttb-des > *:last-child,
+	.spread-des-only.flexdir-ttb-des > *:last-child {
 		margin-bottom: 0;
 	}
 
-	.spread.flexdir-btt-des > *:last-child {
+	.spread-mob.flexdir-btt-des > *:last-child,
+	.spread-tab.flexdir-btt-des > *:last-child,
+	.spread-des.flexdir-btt-des > *:last-child,
+	.spread-des-only.flexdir-btt-des > *:last-child {
 		margin-top: 0;
 	}
 
 	// Left to right, right to left
 
-	.spread.flexdir-ltr-des > *,
-	.spread.flexdir-rtl-des > * {
+	.spread-mob.flexdir-ltr-des > *,
+	.spread-mob.flexdir-rtl-des > *,
+	.spread-tab.flexdir-ltr-des > *,
+	.spread-tab.flexdir-rtl-des > *,
+	.spread-des.flexdir-ltr-des > *,
+	.spread-des.flexdir-rtl-des > *,
+	.spread-des-only.flexdir-ltr-des > *,
+	.spread-des-only.flexdir-rtl-des > * {
 		margin-top: 0;
 		margin-right: calc(#{$spread-space-fixed} * 0.5);
 		margin-bottom: 0;
 		margin-left: calc(#{$spread-space-fixed} * 0.5);
 	}
 
-	.spread.flexdir-ltr-des > *:first-child {
+	.spread-mob.flexdir-ltr-des > *:first-child,
+	.spread-tab.flexdir-ltr-des > *:first-child,
+	.spread-des.flexdir-ltr-des > *:first-child,
+	.spread-des-only.flexdir-ltr-des > *:first-child {
 		margin-left: 0;
 	}
 
-	.spread.flexdir-rtl-des > *:first-child {
+	.spread-mob.flexdir-rtl-des > *:first-child,
+	.spread-tab.flexdir-rtl-des > *:first-child,
+	.spread-des.flexdir-rtl-des > *:first-child,
+	.spread-des-only.flexdir-rtl-des > *:first-child {
 		margin-right: 0;
 	}
 
-	.spread.flexdir-ltr-des > *:last-child {
+	.spread-mob.flexdir-ltr-des > *:last-child,
+	.spread-tab.flexdir-ltr-des > *:last-child,
+	.spread-des.flexdir-ltr-des > *:last-child,
+	.spread-des-only.flexdir-ltr-des > *:last-child {
 		margin-right: 0;
 	}
 
-	.spread.flexdir-rtl-des > *:last-child {
+	.spread-mob.flexdir-rtl-des > *:last-child,
+	.spread-tab.flexdir-rtl-des > *:last-child,
+	.spread-des.flexdir-rtl-des > *:last-child,
+	.spread-des-only.flexdir-rtl-des > *:last-child {
 		margin-left: 0;
 	}
 

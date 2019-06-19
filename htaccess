@@ -1,6 +1,9 @@
 ## Redirects ##
 Redirect 302 http://www.solidgoldstudios.co.za/trade-marks.php https://solidgoldstudios.co.za
 
+## Redirect errors ##
+ErrorDocument 404 http://www.solidgoldstudios.co.za
+
 ## GZIP compression ##
 <ifModule mod_gzip.c>
 	mod_gzip_on Yes

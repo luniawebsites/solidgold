@@ -43,7 +43,7 @@ LINK & PARTIAL > Defer load non-critical CSS
 <!--
 Prerender most likely next page
 -->
-<link rel="prerender" href="pricing.php">
+<link rel="prerender" href="use-case-template.php">
 
 <!--
 PARTIAL & SCRIPT > Inline load modernizer webp detection (defer causes images not to show in IE11)
@@ -77,18 +77,18 @@ PARTIAL > IE10/IE11 notice
 <div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	HEADER > Use cases
+	SECTION > Use cases
 	-->
 
-	<header class="pad-respond-xy-mob theme-light-grey-mob" id="header_studios" aria-labelledby="header_studios_h1_podcaststudios">
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_usecases" aria-labelledby="section_usecases_h1_theremustbe">
 
 		<!--
 		Container
 		-->
 
-		<div class="constrain pad-t-mob">
+		<div class="constrain pad-t-mob pad-double-b-mob">
 
-			<h1 id="header_usecases_h1_channelexamples">There must be 50 ways to use a podcast</h1>
+			<h1 id="section_usecases_h1_theremustbe">There must be 50 ways to use a podcast</h1>
 
 			<p>Learn about many of the common, effective and unusual implementations of voice and audio programming being used by people, companies, non-profits, schools and practically anybody with a story to tell.</p>
 
@@ -98,13 +98,13 @@ PARTIAL > IE10/IE11 notice
 
 					<div class="flexdir-ttb-mob">
 
-						<label for="header_usecases_input_filter">Filter use cases</label>
+						<label for="section_usecases_input_filter">Filter use cases</label>
 
-						<input type="text" id="header_usecases_input_filter">
+						<input type="text" id="section_usecases_input_filter">
 
 					</div>
 
-					<button class="primary" id="header_usecases_button_showall"><span>Show All</span></button>
+					<button class="primary" id="section_usecases_button_showall"><span>Show All</span></button>
 
 				</div>
 
@@ -112,21 +112,11 @@ PARTIAL > IE10/IE11 notice
 
 		</div>
 
-	</header>
-
-	<!--
-	SECTION > Channel examples
-	-->
-
-	<section class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="section_???" aria-labelledby="???">
-
 		<!--
 		Container
 		-->
 
 		<div class="flexdir-ttb-mob constrain pad-b-mob">
-
-			<h2 id="???" hidden>Examples of how podcasts are actually being used</h2>
 
 			<div class="flexdir-ttb-mob spread-mob">
 
@@ -216,8 +206,8 @@ PARTIAL > IE10/IE11 notice
 													<h3>". $title . "</h3>
 													<p>" . $intro . "</p>
 													<div class='flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob'>
-														<a class='button secondary' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_h2_readusecase' aria-labelledby='section_usecases_h2_readusecase'><span>Read Use Case</span></a>
-														<a class='button secondary' href='channel-template.php?channel=" . $example . ".xml' title='See a live example of this use case' id='section_usecases_h2_seeliveexample' aria-labelledby='section_usecases_h2_seeliveexample'><span>See Live Example</span></a>
+														<a class='button secondary' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_readusecase' aria-labelledby='section_usecases_a_readusecase section_usecases_h1_theremustbe'><span>Read Use Case</span></a>
+														<a class='button secondary' href='channel-template.php?channel=" . $example . ".xml' title='See a live example of this use case' id='section_usecases_a_seeliveexample' aria-labelledby='section_usecases_a_seeliveexample section_usecases_h1_theremustbe'><span>See Live Example</span></a>
 													</div>
 
 												</div>
@@ -255,7 +245,7 @@ SCRIPT > jQuery filter for channel cards
 -->
 <script>
 	/* Filter items using keywords (keywords defined in "keyword" pseudo-class in the individual channel HTML pages) */
-	$("#header_usecases_input_filter").keyup(function(){
+	$("#section_usecases_input_filter").keyup(function(){
 		var selectItem = $(this).val().toLowerCase();
 		filter(selectItem);
 		});
@@ -273,10 +263,10 @@ SCRIPT > jQuery clear filter input
 <script>
 	$(document).ready(function () {
 		/* Clear data from the filter input when returning to the page (all items display on return) */
-		$('#header_usecases_input_filter').val('');
+		$('#section_usecases_input_filter').val('');
 		/* Clear data from the filter input on button click */
-		$("#header_usecases_button_showall").click(function(){
-			$('#header_usecases_input_filter').val('');
+		$("#section_usecases_button_showall").click(function(){
+			$('#section_usecases_input_filter').val('');
 		});
 	});
 </script>

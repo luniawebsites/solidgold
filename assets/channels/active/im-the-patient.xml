@@ -1,27 +1,28 @@
 <channelPageData>
 
 	<resources>
-		<title>Garage Band</title> <!-- e.g. Lift As You Rise -->
-		<host>Adam Alexander</host> <!-- e.g. Red Bull Music -->
-		<filterKeywords>garage band adam alexander</filterKeywords> <!-- e.g. lift rise red bull music -->
-		<coverFileName>garage-band.jpg</coverFileName> <!-- File name with extension -->
+		<title>I'm the Patient, Not the Shrink!</title> <!-- e.g. Lift As You Rise -->
+		<host>Cal Kennedy</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>cal kennedy patient shrink unipolar bipolar dyspraxis</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>imthepatient-cover-400.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
-		<email>adam@imagin8.co.za</email> <!-- e.g. info@lunia.co.za -->
+		<email>cal@talkingbipolar.co.za</email> <!-- e.g. info@lunia.co.za -->
 		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
-		<playlistUrl>https://tunein.com/topic/?topicid=126742708&utm_medium=referral&utm_content=t126742708&utm_source=geminiEmbedArt&st=0</playlistUrl> <!-- Full URL -->
+		<playlistUrl>https://podlink.to/patient</playlistUrl> <!-- Full URL -->
 		<websiteUrl></websiteUrl> <!-- Full URL -->
-		<facebookUrl>https://www.facebook.com/Garage-Band-2179974848913184</facebookUrl> <!-- Full URL -->
-		<twitterUrl>https://twitter.com/imaginator_sa</twitterUrl> <!-- Full URL -->
-		<linkedinUrl>https://www.linkedin.com/in/imagin8</linkedinUrl> <!-- Full URL -->
+		<facebookUrl>https://www.facebook.com/talkingbipolarsa/</facebookUrl> <!-- Full URL -->
+		<twitterUrl></twitterUrl> <!-- Full URL -->
+		<linkedinUrl>https://www.linkedin.com/in/cal-kennedy-47355215/</linkedinUrl> <!-- Full URL -->
 		<instagramUrl></instagramUrl> <!-- Full URL -->
 		<tumblrUrl></tumblrUrl> <!-- Full URL -->
-		<rssUrl>https://podcaststudios.co.za/rss/garageband.xml</rssUrl> <!-- Full URL -->
-		<extraUrl>https://www.amazon.com/Adam-Alexander/e/B00FGO6RYI</extraUrl> <!-- Full URL -->
-		<extraLabel>Buy on Amazon</extraLabel> <!-- e.g. Buy on Amazon -->
+		<rssUrl>https://podcaststudios.co.za/rss/imthepatient.xml</rssUrl> <!-- Full URL -->
+		<extraUrl>https://www.audible.com/pd/Im-the-Patient-Not-the-Shrink-Audiobook/0639960847?qid=1560843522&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&pf_rd_r=CHDJ8P14T29N7TMV5ADB</extraUrl> <!-- Full URL -->
+		<extraLabel>Buy on Audible</extraLabel> <!-- e.g. Buy on Amazon -->
 	</resources>
 
 	<description>
-		<p>Nothing to do with music. Everything to do with getting even.</p>
+		<p>A true story about living with bipolar, unipolar and dyspraxia.</p>
+		<p>Just how do you navigate life with a mental illness? What effect does it have on day-to-day activities and future plans? I’m the Patient Not the Shrink takes you on a journey through an ordinary life lived against extraordinary odds. You won’t find easy answers in this book, but you’ll be given a unique insight into the raw and devastating pain of a mental breakdown. Author Cal Kennedy opens a window to the daily struggle of living with polar disorders and dyspraxia. With humor and honesty, Cal explores his own experiences and offers up a rare perspective on the few highs and devastating lows of of these disorders.</p>
 	</description>
 
 </channelPageData>

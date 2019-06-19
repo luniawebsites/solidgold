@@ -59,13 +59,11 @@ PARTIAL > Leader with menu
 	SECTION > Use case
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_usecases" aria-labelledby="section_usecases_h1_title">
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_usecase" aria-labelledby="section_usecase_h1_title">
 
 		<!--
 		Container
 		-->
-
-		<h1 hidden>Use case</h1>
 
 		<div class="constrain pad-y-mob">
 
@@ -123,7 +121,7 @@ PARTIAL > Leader with menu
 									<p>". $intro . "</p>
 									". $body . "
 									<div class='flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob'>
-										<a class='button secondary' href='channel-template.php?channel=" . $example . ".xml' title='See a live example of this use case' id='section_usecases_h2_seeliveexample' aria-labelledby='section_usecases_h2_seeliveexample'><span>See Live Example</span></a>
+										<a class='button secondary' href='channel-template.php?channel=" . $example . ".xml' title='See a live example of this use case' id='section_usecase_a_seeliveexample' aria-labelledby='section_usecase_a_seeliveexample section_usecase_h1_title'><span>See Live Example</span></a>
 								</div>
 								";
 							}

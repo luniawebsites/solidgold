@@ -75,10 +75,10 @@ PARTIAL > IE10/IE11 notice
 <div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	HEADER > Studios
+	SECTION > Studios
 	-->
 
-	<header class="pad-respond-xy-mob theme-light-grey-mob" id="header_studios" aria-labelledby="header_studios_h1_podcaststudios">
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_studios" aria-labelledby="section_studios_h1_podcaststudios">
 
 		<!--
 		Container
@@ -86,19 +86,11 @@ PARTIAL > IE10/IE11 notice
 
 		<div class="constrain pad-t-mob">
 
-			<h1 id="header_studios_h1_podcaststudios">Podcast studios</h1>
+			<h1 id="section_studios_h1_podcaststudios">Podcast studios</h1>
 
 			<p>All our studios are professionally equipped for <strong>high-quality recording</strong>, and are <strong>air-conditioned and comfortably furnished</strong>.</p>
 
 		</div>
-
-	</header>
-
-	<!--
-	SECTION > Studio descriptions
-	-->
-
-	<section class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="section_studiodescriptions" aria-labelledby="section_studiodescriptions_h2studiodescriptions">
 
 		<!--
 		Container

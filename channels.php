@@ -74,43 +74,35 @@ PARTIAL > IE10/IE11 notice
 
 <div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
-		<!--
-		HEADER > Channels
-		-->
+	<!--
+	SECTION > Channels
+	-->
 
-		<header class="pad-respond-xy-mob theme-light-grey-mob" id="header_channels" aria-labelledby="header_channels_h1_podcastchannels">
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_channels" aria-labelledby="section_channels_h1_podcastchannels">
 
-			<div class="constrain pad-t-mob">
+		<div class="constrain pad-t-mob pad-respond-b-mob">
 
-				<h1 id="header_channels_h1_podcastchannels">Podcast channels</h1>
+			<h1 id="section_channels_h1_podcastchannels">Podcast channels</h1>
 
-				<form>
+			<form>
 
-					<div class="flexdir-ltr-mob flexpos-lb-mob spread-mob pad-double-t-mob">
+				<div class="flexdir-ltr-mob flexpos-lb-mob spread-mob pad-double-t-mob">
 
-						<div class="flexdir-ttb-mob">
+					<div class="flexdir-ttb-mob">
 
-							<label for="header_channels_input_filter">Filter channels</label>
+						<label for="section_channels_input_filter">Filter channels</label>
 
-							<input type="text" id="header_channels_input_filter">
-
-						</div>
-
-						<button class="primary" id="header_channels_button_showall"><span>Show All</span></button>
+						<input type="text" id="section_channels_input_filter">
 
 					</div>
 
-				</form>
+					<button class="primary" id="section_channels_button_showall"><span>Show All</span></button>
 
-			</div>
+				</div>
 
-		</header>
+			</form>
 
-	<!--
-	SECTION > Active
-	-->
-
-	<section class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="section_active" aria-labelledby="header_channels_h1_podcastchannels">
+		</div>
 
 		<!--
 		Container
@@ -383,7 +375,7 @@ SCRIPT > jQuery filter for channel cards
 -->
 <script>
 	/* Filter items using keywords (keywords defined in "keyword" pseudo-class in the individual channel HTML pages) */
-	$("#header_channels_input_filter").keyup(function(){
+	$("#section_channels_input_filter").keyup(function(){
 		var selectItem = $(this).val().toLowerCase();
 		filter(selectItem);
 		});
@@ -401,10 +393,10 @@ SCRIPT > jQuery clear filter input
 <script>
 	$(document).ready(function () {
 		/* Clear data from the filter input when returning to the page (all items display on return) */
-		$('#header_channels_input_filter').val('');
+		$('#section_channels_input_filter').val('');
 		/* Clear data from the filter input on button click */
-		$("#header_channels_button_showall").click(function(){
-			$('#header_channels_input_filter').val('');
+		$("#section_channels_button_showall").click(function(){
+			$('#section_channels_input_filter').val('');
 		});
 	});
 </script>

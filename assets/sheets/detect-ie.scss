@@ -14,7 +14,9 @@
 	.detect-ie {
 		display: block;
 		position: fixed;
+		background-color: $dark-grey;
 		bottom: 0;
+		color: #fff;
 		z-index: 100;
 		animation: fade-in 1s ease; // Animation helps show the user that the page has changed
 	}

@@ -1,0 +1,39 @@
+<channelPageData>
+
+	<resources>
+		<title>Garage Band</title> <!-- e.g. Lift As You Rise -->
+		<host>Adam Alexander</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>garage band adam alexander</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>garage-band.jpg</coverFileName> <!-- File name with extension -->
+		<agreement></agreement> <!-- yes or empty -->
+		<email>adam@imagin8.co.za</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl>https://tunein.com/topic/?topicid=126742708&utm_medium=referral&utm_content=t126742708&utm_source=geminiEmbedArt&st=0</playlistUrl> <!-- Full URL -->
+		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<facebookUrl>https://www.facebook.com/Garage-Band-2179974848913184</facebookUrl> <!-- Full URL -->
+		<twitterUrl>https://twitter.com/imaginator_sa</twitterUrl> <!-- Full URL -->
+		<linkedinUrl>https://www.linkedin.com/in/imagin8</linkedinUrl> <!-- Full URL -->
+		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl>https://podcaststudios.co.za/rss/garageband.xml</rssUrl> <!-- Full URL -->
+		<extraUrl>https://www.amazon.com/Adam-Alexander/e/B00FGO6RYI</extraUrl> <!-- Full URL -->
+		<extraLabel>Buy on Amazon</extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>Nothing to do with music. Everything to do with getting even.</p>
+	</description>
+
+</channelPageData>
+
+<!--
+Cover images should be 400x400px.
+
+If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.
+
+Website address element must include http:// or https://.
+
+Do not add "mailto:"" in the email element — this is done automatically in the script where relevant.
+
+Everything within the description element above will display between title and host and the buttons.
+-->

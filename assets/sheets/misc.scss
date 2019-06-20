@@ -41,19 +41,21 @@
 
 .use-case__xml-photo {
 	position: relative;
-	// border: solid 1px $border-color-light;
 	border-radius: $radius;
 	background-color: #fff;
-	margin: 0 0 $space-fixed 0;
+	margin: 0 0 $space-mobile 0;
 	padding: calc(#{$space-fixed} * 1);
 	width: 300px;
 }
 
-// .use-case__xml-photo:first-of-type {
-// 	float: left;
-// 	margin: 0 $space-fixed 0 0;
-// }
+.use-case__xml-photo:first-of-type {
+	margin-top: calc(#{$space-mobile * 2});
+}
 
+
+.use-case__xml-photo:last-of-type {
+	margin-bottom: 0;
+}
 
 .use-case__xml-photo img {
 	border: solid 1px $border-color-light;
@@ -178,6 +180,17 @@
 
 @media screen and (min-width: $viewport-tablet) {
 
+	/* Use cases XML files
+	---------------------------------------------------------------------------- */
+
+	.use-case__xml-photo {
+		margin-bottom: $space-tablet;
+	}
+
+	.use-case__xml-photo:first-of-type {
+		margin-top: 0;
+	}
+
 	/* Individual podcast description on "channels-template" page
 	---------------------------------------------------------------------------- */
 
@@ -198,6 +211,13 @@
 ---------------------------------------------------------------------------- */
 
 @media screen and (min-width: $viewport-desktop) {
+
+	/* Use cases XML files
+	---------------------------------------------------------------------------- */
+
+	.use-case__xml-photo {
+		margin-bottom: $space-desktop;
+	}
 
 	/* Individual podcast description on "channels-template" page
 	---------------------------------------------------------------------------- */

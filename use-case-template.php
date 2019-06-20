@@ -178,12 +178,12 @@ PARTIAL > Leader with menu
 								echo "
 									<div aria-hidden='true'><span class='text-heading-badge--light'>Use Case</span></div>
 									<div class='flexdir-ttb-mob flexdir-ltr-tab'>
-										<div class='pad-double-r-tab'>
+										<div class='pad-respond-r-tab'>
 											<h1 id='section_usecase_h1_title'>". $title . "</h1>
 											<p>". $intro . "</p>
 											". $body . "
 										</div>
-										<div class='( use-case__xml ) width-auto-tab pad-double-t-mob pad-double-l-tab border-l-tab'>
+										<div class='( use-case__xml ) width-auto-tab pad-respond-l-tab border-l-tab'>
 											". $image_1 . "
 											". $image_2 . "
 											". $image_3 . "

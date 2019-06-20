@@ -3,6 +3,9 @@
 // (default declarations that can be overridden by specific media queries)
 // ==============================================================================================================
 
+/* Blog posts on home page
+---------------------------------------------------------------------------- */
+
 .text-heading-small {
 	border-bottom: solid 1px $border-color-light;
 	padding: $space-fixed 0;
@@ -25,6 +28,37 @@
 
 .text-heading-small a {
 	transition: $transition;
+}
+
+/* Use cases XML files
+---------------------------------------------------------------------------- */
+
+.use-case__xml figcaption {
+	padding: 0 0 $space-fixed 0;
+	// font-size: 0.9rem;
+	// line-height: 1.1rem;
+}
+
+.use-case__xml-photo {
+	position: relative;
+	// border: solid 1px $border-color-light;
+	border-radius: $radius;
+	background-color: #fff;
+	margin: 0 0 $space-fixed 0;
+	padding: calc(#{$space-fixed} * 1);
+	width: 300px;
+}
+
+// .use-case__xml-photo:first-of-type {
+// 	float: left;
+// 	margin: 0 $space-fixed 0 0;
+// }
+
+
+.use-case__xml-photo img {
+	border: solid 1px $border-color-light;
+	border-radius: 2px;
+	width: 266px;
 }
 
 /* Pricing comparison on "pricing" page

@@ -76,7 +76,7 @@ PARTIAL > IE10/IE11 notice
 HEADER > Hero
 -->
 
-<header class="pad-respond-xy-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
+<header class="pad-respond-xy-mob theme-white-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
 
 	<!--
 	Container

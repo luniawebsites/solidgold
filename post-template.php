@@ -65,7 +65,7 @@ PARTIAL > Leader with menu
 		Container
 		-->
 
-		<h1 hidden>Blog post</h1>
+		<h1 hidden>Blog post</h1> <!-- For accessiblity audit only, Google does not recognise PHP script's H1 -->
 
 		<div class="constrain pad-y-mob">
 
@@ -114,6 +114,7 @@ PARTIAL > Leader with menu
 
 								// Write HTML content
 								echo "
+									<div aria-hidden='true'><span class='text-heading-badge--light'>Blog Post</span></div>
 									<h1 id='section_post_h1_title'>". $title . "</h1>
 									<p>". $intro . "</p>
 									". $body . "

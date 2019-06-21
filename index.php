@@ -349,7 +349,7 @@ HEADER > Hero
 	SECTION > What are podcasts?
 	-->
 
-	<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
+	<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white-mob" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
 
 		<!--
 		Container

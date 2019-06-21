@@ -30,13 +30,12 @@ LINK & PARTIAL > Defer load non-critical CSS
 <meta property="og:title" content="Solid Gold Podcast Studios | Examples" />
 <meta property="og:description" content="Podcast recording examples" />
 <meta property="og:locale" content="en_ZA" />
-<!-- <meta property="og:url" content="https://solidgoldstudios.co.za/studios.php" /> -->
-<meta property="og:url" content="https://lunia.co.za/sgsnew/examples.php" />
+<meta property="og:url" content="https://solidgoldstudios.co.za/use-cases.php" />
 <meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
 <title>Solid Gold Podcast Studios | Examples</title>
 <!-- <link rel="canonical" href="https://solidgoldstudios.co.za/examples.php" /> -->
-<link rel="canonical" href="https://lunia.co.za/sgsnew/examples.php" />
+<link rel="canonical" href="https://solidgoldstudios.co.za/use-cases.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 

@@ -880,6 +880,6 @@ SCRIPT > jQuery scripts
 <!--
 SCRIPT > Preload links on hover
 -->
-<script src="assets/scripts/jquery/instant-page.min.js" defer></script>
+<script src="assets/scripts/instant-page.min.js" defer></script>
 
 </html>

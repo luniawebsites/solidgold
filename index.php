@@ -876,6 +876,10 @@ SCRIPT > jQuery scripts
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
 <script src="assets/scripts/jquery/scroll.min.js" defer></script>
+
+<!--
+SCRIPT > Preload links on hover
+-->
 <script src="assets/scripts/jquery/instant-page.min.js" defer></script>
 
 </html>

@@ -3,12 +3,9 @@
 // (default declarations that can be overridden by specific media queries)
 // ==============================================================================================================
 
-// ul {
-// 	font-family: $font-plain;
-// 	font-size: 1rem;
-// 	letter-spacing: -0.015rem;
-// 	text-align: left;
-// }
+ul {
+	list-style-position: inside;
+}
 
 // ==============================================================================================================
 // Tablet viewport

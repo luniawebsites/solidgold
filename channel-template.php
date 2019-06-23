@@ -331,6 +331,7 @@ PARTIAL > IE10/IE11 notice
 						if (count($break_title_o) > 1) {
 							// Styling for channel elements done in CSS instead of using utility classes
 							echo "
+								<link type='application/rss+xml' rel='alternate' title='" . $title . " with " . $host . "' href='" . $rss_url . "'/>
 								<div class='channel-template__container'>
 									<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
 									<div class='channel-template__copy'>

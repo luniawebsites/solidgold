@@ -65,11 +65,13 @@ PARTIAL > Leader with menu
 		Container
 		-->
 
+		<h1 hidden>Use case</h1> <!-- For accessiblity audit only, Google does not recognise PHP script's H1 -->
+
 		<div class="constrain pad-y-mob">
 
 			<article>
 
-			<?php
+				<?php
 					@$dir = "assets/use-cases/"; // Use cases directory
 					// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/use-cases/";
 					@$dir_url = "https://solidgoldstudios.co.za/assets/use-cases/";
@@ -95,17 +97,29 @@ PARTIAL > Leader with menu
 							@$break_title_c = explode("</title>", $content);
 							@$break_title_o = explode("<title>", $break_title_c[0]);
 
+							// File name
+							@$break_file_name_c = explode("</fileName>", $content);
+							@$break_file_name_o = explode("<fileName>", $break_file_name_c[0]);
+
 							// Intro data
 							@$break_intro_c = explode("</intro>", $content);
 							@$break_intro_o = explode("<intro>", $break_intro_c[0]);
 
+							// Image figure caption 1 data
+							@$break_image_1_caption_c = explode("</image1Caption>", $content);
+							@$break_image_1_caption_o = explode("<image1Caption>", $break_image_1_caption_c[0]);
+
+							// Image figure caption 2 data
+							@$break_image_2_caption_c = explode("</image2Caption>", $content);
+							@$break_image_2_caption_o = explode("<image2Caption>", $break_image_2_caption_c[0]);
+
+							// Image figure caption 3 data
+							@$break_image_3_caption_c = explode("</image3Caption>", $content);
+							@$break_image_3_caption_o = explode("<image3Caption>", $break_image_3_caption_c[0]);
+
 							// Body data
 							@$break_body_c = explode("</body>", $content);
 							@$break_body_o = explode("<body>", $break_body_c[0]);
-
-							// Example data
-							@$break_example_c = explode("</example>", $content);
-							@$break_example_o = explode("<example>", $break_example_c[0]);
 
 							if (count($break_title_o) > 1) {
 
@@ -114,15 +128,68 @@ PARTIAL > Leader with menu
 								@$intro = $break_intro_o[1];
 								@$body = $break_body_o[1];
 								@$example = $break_example_o[1];
+								@$file_name = $break_file_name_o[1];
+								@$image_1_caption = $break_image_1_caption_o[1];
+								@$image_2_caption = $break_image_2_caption_o[1];
+								@$image_3_caption = $break_image_3_caption_o[1];
+
+								// Conditional statements
+
+								// If image 1 caption data are present, then display image 1 figure element
+								if ($image_1_caption == "") {
+									$image_1 = "";
+								}
+								else {
+									$image_1 = "
+										<figure class='( use-case__xml-photo )'>
+											<figcaption>" . $image_1_caption . "</figcaption>
+											<img src='assets/images/use-cases/" . $file_name . "-1.jpg' title='" . $title . " image one' alt='" . $title . " image one'>
+										</figure>
+									";
+								}
+
+								// If image 2 caption data are present, then display image 2 figure element
+								if ($image_2_caption == "") {
+									$image_2 = "";
+								}
+								else {
+									$image_2 = "
+										<figure class='( use-case__xml-photo )'>
+											<figcaption>" . $image_2_caption . "</figcaption>
+											<img src='assets/images/use-cases/" . $file_name . "-2.jpg' title='" . $title . " image two' alt='" . $title . " image two'>
+										</figure>
+									";
+								}
+
+								// If image 3 caption data are present, then display image 3 figure element
+								if ($image_3_caption == "") {
+									$image_3 = "";
+								}
+								else {
+									$image_3 = "
+										<figure class='( use-case__xml-photo )'>
+											<figcaption>" . $image_3_caption . "</figcaption>
+											<img src='assets/images/use-cases/" . $file_name . "-3.jpg' title='" . $title . " image three' alt='" . $title . " image three'>
+										</figure>
+									";
+								}
 
 								// Write HTML content
 								echo "
-									<h1 id='section_usecase_h1_title'>". $title . "</h1>
-									<p>". $intro . "</p>
-									". $body . "
-									<div class='flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob'>
-										<a class='button secondary' href='channel-template.php?channel=" . $example . ".xml' title='See a live example of this use case' id='section_usecase_a_seeliveexample' aria-labelledby='section_usecase_a_seeliveexample section_usecase_h1_title'><span>See Live Example</span></a>
-								</div>
+									<div aria-hidden='true'><span class='text-heading-badge--light'>Use Case</span></div>
+									<div class='flexdir-ttb-mob flexdir-ltr-tab'>
+										<div class='pad-respond-r-tab'>
+											<h1 id='section_usecase_h1_title'>". $title . "</h1>
+											<p>". $intro . "</p>
+											". $body . "
+										</div>
+										<div class='( use-case__xml ) width-auto-tab pad-respond-l-tab border-l-tab'>
+											". $image_1 . "
+											". $image_2 . "
+											". $image_3 . "
+										</div>
+									</div>
+
 								";
 							}
 						}

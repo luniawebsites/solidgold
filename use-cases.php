@@ -30,13 +30,12 @@ LINK & PARTIAL > Defer load non-critical CSS
 <meta property="og:title" content="Solid Gold Podcast Studios | Examples" />
 <meta property="og:description" content="Podcast recording examples" />
 <meta property="og:locale" content="en_ZA" />
-<!-- <meta property="og:url" content="https://solidgoldstudios.co.za/studios.php" /> -->
-<meta property="og:url" content="https://lunia.co.za/sgsnew/examples.php" />
+<meta property="og:url" content="https://solidgoldstudios.co.za/use-cases.php" />
 <meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
 <title>Solid Gold Podcast Studios | Examples</title>
 <!-- <link rel="canonical" href="https://solidgoldstudios.co.za/examples.php" /> -->
-<link rel="canonical" href="https://lunia.co.za/sgsnew/examples.php" />
+<link rel="canonical" href="https://solidgoldstudios.co.za/use-cases.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
@@ -90,7 +89,7 @@ PARTIAL > IE10/IE11 notice
 
 			<h1 id="section_usecases_h1_theremustbe">There must be 50 ways to use a podcast</h1>
 
-			<p>Learn about many of the common, effective and unusual implementations of voice and audio programming being used by people, companies, non-profits, schools and practically anybody with a story to tell.</p>
+			<p>Below we share with you some of the many useful, interesting and creative ways podcasts are used to share stories. Podcasting’s biggest value-add, after the ability to be listened to any time, everywhere, is that it doesn't compete for time with other activities. Podcasts are listened to <strong>while</strong> doing something else, and <strong>not instead</strong> of doing something else—usually while commuting, exercising or even cooking dinner. This makes podcasting uniquely capable of communicating both simple and complex ideas in both short and long forms.</p>
 
 			<form>
 
@@ -194,7 +193,7 @@ PARTIAL > IE10/IE11 notice
 
 										// Write HTML content
 										echo "
-											<figure class='( example-keywords ) flexdir-ttb-mob flexdir-ltr-des pad-xy-mob radius-mob theme-white-mob' data-example-keywords='" . $keywords . "'>
+											<figure class='( use-case-keywords ) flexdir-ttb-mob flexdir-ltr-des pad-xy-mob radius-mob theme-white-mob' data-use-case-keywords='" . $keywords . "'>
 
 												<div class='width-auto-mob'>
 													<picture class='fg-image-use-case-mob'>
@@ -207,7 +206,6 @@ PARTIAL > IE10/IE11 notice
 													<p>" . $intro . "</p>
 													<div class='flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob'>
 														<a class='button secondary' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_readusecase' aria-labelledby='section_usecases_a_readusecase section_usecases_h1_theremustbe'><span>Read Use Case</span></a>
-														<a class='button secondary' href='channel-template.php?channel=" . $example . ".xml' title='See a live example of this use case' id='section_usecases_a_seeliveexample' aria-labelledby='section_usecases_a_seeliveexample section_usecases_h1_theremustbe'><span>See Live Example</span></a>
 													</div>
 
 												</div>
@@ -241,6 +239,11 @@ SCRIPT > jQuery scripts
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
 
 <!--
+SCRIPT > Preload links on hover
+-->
+<script src="assets/scripts/js/instant-page.min.js" defer></script>
+
+<!--
 SCRIPT > jQuery filter for channel cards
 -->
 <script>
@@ -251,8 +254,8 @@ SCRIPT > jQuery filter for channel cards
 		});
 		function filter(e) {
 			var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
-			$('.example-keywords').hide().filter(function () {
-					return regex.test($(this).data('example-keywords'))
+			$('.use-case-keywords').hide().filter(function () {
+					return regex.test($(this).data('use-case-keywords'))
 		}).show();
 	}
 </script>

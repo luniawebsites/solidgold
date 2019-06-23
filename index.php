@@ -76,7 +76,7 @@ PARTIAL > IE10/IE11 notice
 HEADER > Hero
 -->
 
-<header class="pad-respond-xy-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
+<header class="pad-respond-xy-mob theme-white-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
 
 	<!--
 	Container
@@ -349,7 +349,7 @@ HEADER > Hero
 	SECTION > What are podcasts?
 	-->
 
-	<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
+	<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white-mob" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
 
 		<!--
 		Container
@@ -876,5 +876,10 @@ SCRIPT > jQuery scripts
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
 <script src="assets/scripts/jquery/scroll.min.js" defer></script>
+
+<!--
+SCRIPT > Preload links on hover
+-->
+<script src="assets/scripts/js/instant-page.min.js" defer></script>
 
 </html>

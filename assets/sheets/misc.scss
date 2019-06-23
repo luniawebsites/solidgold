@@ -3,6 +3,9 @@
 // (default declarations that can be overridden by specific media queries)
 // ==============================================================================================================
 
+/* Blog posts on home page
+---------------------------------------------------------------------------- */
+
 .text-heading-small {
 	border-bottom: solid 1px $border-color-light;
 	padding: $space-fixed 0;
@@ -25,6 +28,38 @@
 
 .text-heading-small a {
 	transition: $transition;
+}
+
+/* Use cases XML files
+---------------------------------------------------------------------------- */
+
+.use-case__xml figcaption {
+	padding: 0 0 $space-fixed 0;
+	// font-size: 0.9rem;
+	// line-height: 1.1rem;
+}
+
+.use-case__xml-photo {
+	position: relative;
+	border-radius: $radius;
+	background-color: #fff;
+	margin: 0 0 $space-mobile 0;
+	padding: calc(#{$space-fixed} * 1);
+	width: 300px;
+}
+
+.use-case__xml-photo:first-of-type {
+	margin-top: calc(#{$space-mobile * 2});
+}
+
+
+.use-case__xml-photo:last-of-type {
+	margin-bottom: 0;
+}
+
+.use-case__xml-photo img {
+	border: solid 1px $border-color-light;
+	width: 266px;
 }
 
 /* Pricing comparison on "pricing" page
@@ -144,6 +179,17 @@
 
 @media screen and (min-width: $viewport-tablet) {
 
+	/* Use cases XML files
+	---------------------------------------------------------------------------- */
+
+	.use-case__xml-photo {
+		margin-bottom: $space-tablet;
+	}
+
+	.use-case__xml-photo:first-of-type {
+		margin-top: 0;
+	}
+
 	/* Individual podcast description on "channels-template" page
 	---------------------------------------------------------------------------- */
 
@@ -164,6 +210,13 @@
 ---------------------------------------------------------------------------- */
 
 @media screen and (min-width: $viewport-desktop) {
+
+	/* Use cases XML files
+	---------------------------------------------------------------------------- */
+
+	.use-case__xml-photo {
+		margin-bottom: $space-desktop;
+	}
 
 	/* Individual podcast description on "channels-template" page
 	---------------------------------------------------------------------------- */

@@ -70,16 +70,16 @@ body {
 	color: #fff;
 }
 
-body > header,
-section {
-	background-color: #fff; // Counteracts "body" colour which causes accessibility failure
-	color: $dark-grey;
-}
+// body > header,
+// section {
+// 	background-color: #fff; // Counteracts "body" colour which causes accessibility failure
+// 	color: $dark-grey;
+// }
 
-main,
-section {
-	background-color: #fff;
-}
+// main,
+// section {
+// 	background-color: #fff;
+// }
 
 html,
 body,

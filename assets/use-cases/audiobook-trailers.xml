@@ -1,0 +1,37 @@
+<examplePageData>
+
+	<title>Audiobooks and Book Trailers</title> <!-- e.g. "Radio archives" -->
+	<fileName>audiobook-trailers</fileName> <!-- e.g. "faq" -->
+	<keywords>book author read audiobook audible trial trailer teaser preview</keywords> <!-- e.g. "radio archives" -->
+	<intro>Congratulations! You've written your book, published it on Amazon, and are now ready to produce and release your Audiobook version.</intro> <!-- One sentence opening teaser -->
+	<image1Caption>Adam Alexander's book (3 chapters)</image1Caption> <!-- e.g. "Example of FAQs" -->
+	<image2Caption>I'm the Patient, Not the Shrink! (foreword only)</image2Caption> <!-- e.g. "Another example of FAQs" -->
+	<image3Caption></image3Caption> <!-- e.g. "Yet another example of FAQs" -->
+
+	<body>
+
+		<p>The hard work is behind you, now it's time to leverage the content and use additional distribution channels. One of the fastest growing methods books are shared and sold is as an Audiobook.</p>
+
+		<p>This option has traditionally been prohibitively expensive, making it it unavailable to most self-published authors - until now!</p>
+
+		<p>Here at Solid Gold Studios, we have built dedicated studios (available at very affordable weekly rates) that are perfect for authors to <strong>self-read</strong> (<a href="https://podlink.to/garageband">listen to the Adam Alexander example</a>) and record their books. You can also hire your own <strong>professional voice</strong> (<a href="http://podlink.to/patient">listen to malcolm Gooding read</a>)to do the reading if you prefer. We'll also help teach you to edit the recordings and get them published on Audible, or alternatively, one of our team of qualified editors can do some (or all) of the editing for you.</p>
+
+		<p>Our recommendation is that 1 to 3 chapters (or the foreword) are made available as a podcast so that you can use that in all your marketing. It is by far the easiest way for people to "try before they buy"</p>
+
+		<p>Here are 2 examples of books that are marketed this way.</p>
+
+		<p>See if you can spot how the <strong>"buy now"</strong> call to action is built in.</p>
+
+	</body>
+
+</examplePageData>
+
+<!--
+Images:
+	* Use the XML file name for the image file names (e.g. faq.jpg for feature, faq-1.jpg for section).
+	* Feature images should be 200x200px.
+	* Section images should be 600px wide by any height.
+	* JPG compression should be around 95%.
+
+Avoid using the <br> element - <p> elements space automatically
+-->

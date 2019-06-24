@@ -5,17 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
 <!--
-PARTIAL > Base URL
+PARTIAL: Base URL
 -->
 <?php echo file_get_contents("assets/partials/base-url.html"); ?>
 
 <!--
-PARTIAL > Google Tag Manager script
+PARTIAL: Google Tag Manager script
 -->
 <?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
 
 <!-- 
-LINK & PARTIAL > Defer load non-critical CSS
+LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
@@ -41,68 +41,80 @@ LINK & PARTIAL > Defer load non-critical CSS
 <!--
 Prerender most likely next page
 -->
-<link rel="prerender" href="channels.php">
+<link rel="prerender" href="use-cases.php">
 
 <!--
-SCRIPT > Inline load modernizer webp detection (defer causes images not to show in IE11)
+SCRIPT: Inline load modernizer webp detection (defer causes images not to show in IE11)
 -->
 <script>
 	<?php echo file_get_contents("assets/scripts/modernizr-webp.js"); ?>
 </script>
 
 <!--
-PARTIAL > Google Tag Manager body
+PARTIAL: Google Tag Manager body
 -->
 <?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
 
 <!--
-STYLES > Inline load critical CSS
+STYLES: Inline load critical CSS
 -->
 <style>
 	<?php echo file_get_contents("assets/critical.min.css"); ?>
 </style>
 
 <!--
-PARTIAL > Leader with menu
+PARTIAL: Leader with menu
 -->
 <?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
 
 <!--
-PARTIAL > IE10/IE11 notice
+PARTIAL: IE10/IE11 notice
 -->
 <?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
 
 <!--
-HEADER > Hero
+HEADER: Hero
 -->
 
 <header class="pad-respond-xy-mob theme-white-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
 
 	<!--
-	Container
+	LAYOUT CONTAINER
 	-->
 
 	<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain spread-respond pad-y-mob">
 
 		<!--
-		Image
+		IMAGE
 		-->
 
 		<div class="width-40-tab width-50-des margin-b-mob-only encimage-sketch-group-on-phones"></div>
 
 		<!--
-		Copy
+		LAYOUT CONTAINER
 		-->
 
 		<div class="width-60-tab width-50-des">
+
+			<!--
+			CONTENT
+			-->
 
 			<h1 class="margin-t-mob-only" id="header_hero_h1_beingheardis">Being heard is one of our greatest human needs. #BeHeard</h1>
 
 			<p>We are the podcast professionals and will help you plan, produce and publish your podcasts so you can share your story with the world.</p>
 
-			<p class="pad-t-mob">We are the first South African network on Castbox.</p>
+			<p>We are the first South African network on Castbox.</p>
+
+			<!--
+			LAYOUT CONTAINER
+			-->
 
 			<div class="flexdir-ltr-mob spread-mob pad-t-mob">
+
+				<!--
+				IMAGES
+				-->
 
 				<a class="encimage-brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="IAB logo" id="header_hero_a_iab" aria-label="IAB logo"></a>
 
@@ -110,7 +122,15 @@ HEADER > Hero
 
 			</div>
 
+			<!--
+			LAYOUT CONTAINER
+			-->
+
 			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
+
+				<!--
+				BUTTONS
+				-->
 
 				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_beingheardis"><span>How Podcasts Are Used</span></a>
 
@@ -124,39 +144,51 @@ HEADER > Hero
 
 </header>
 
-<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
+<div role="main"> <!-- This is used instead of the more semantically-correct <main> to ensure CSS auro-grid works -->
 
 	<!--
-	SECTION > Tell the world your story
+	ARTICLE: Tell the world your story
 	-->
 
-	<section class="pad-respond-xy-mob theme-dark-grey-mob" id="section_telltheworld" aria-labelledby="section_telltheworld_h2_telltheworld">
+	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="section_telltheworld" aria-labelledby="section_telltheworld_h2_telltheworld">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
 
 			<!--
-			Header
+			LAYOUT CONTAINER
 			-->
 
-			<header class="flexdir-ttb-mob pad-b-mob">
+			<div class="flexdir-ttb-mob pad-b-mob">
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 class="text-c-mob" id="section_telltheworld_h2_telltheworld">Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
 
 				<p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="section_telltheworld_a_onchange" aria-labelledby="section_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
 
-			</header>
+			</div>
 
 			<!--
-			Origin Story
+			FIGURE: Corrie Petzer's Origin Story
 			-->
 
 			<figure>
 
+				<!--
+				LAYOUT CONTAINER
+				-->
+
 				<div class="flexdir-ttb-mob flexpos-ct-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<h3 class="text-c-mob">Corrie Petzer's Origin Story</h3>
 
@@ -172,32 +204,40 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > Blog posts
+	ARTICLE: Blog posts
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_blogposts" aria-labelledby="section_blogposts_h2_blogposts">
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_blogposts" aria-labelledby="section_blogposts_h2_blogposts">
+
+		<!--
+		HIDDEN HEADING (needed for HTML validation audit)
+		-->
 
 		<h2 id="section_blogposts_h2_blogposts" hidden>Blog posts</h2>
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain pad-respond-y-mob">
 
 			<!--
-			Inner container for flexbox
+			LAYOUT CONTAINER
 			-->
 
 			<div class="pad-respond-r-tab border-r-tab">
 
+				<!--
+				ARIA HIDDEN LABEL
+				-->
+
 				<div aria-hidden="true"><span class="text-heading-badge--light">Blog Posts</span></div>
 
 				<!--
-				SCRIPT > Display content from post
+				SCRIPT: Display content from featured post
 				-->
 
 				<?php
@@ -273,10 +313,14 @@ HEADER > Hero
 			</div>
 
 			<!--
-			SCRIPT > Link to titles of posts from posts folder
+			LAYOUT CONTAINER: Other blog posts
 			-->
 
 			<div class="flexdir-ttb-mob flexpos-lt-mob width-60-tab pad-respond-x-mob-only pad-double-t-mob-only pad-respond-l-tab">
+
+				<!--
+				SCRIPT: Link to titles of other posts
+				-->
 
 				<?php
 					@$dir = "assets/posts/"; // Posts directory
@@ -343,37 +387,49 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > What are podcasts?
+	ARTICLE: What are podcasts?
 	-->
 
-	<section class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white-mob" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
+	<article class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white-mob" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lb-mob flexpos-cb-tab constrain pad-respond-t-mob">
 
 			<!--
-			Image
+			FIGURE
 			-->
 
 			<figure class="flexdir-ltr-tab flexpos-cb-tab width-80-tab width-70-des pad-t-mob">
+
+				<!--
+				IMAGE
+				-->
 
 				<div class="image-castbox-screenshot-on-iphonex bgpos-lb-mob bgpos-cb-tab"></div>
 
 			</figure>
 
 			<!--
-			Copy
+			LAYOUT CONTAINER
 			-->
 
 			<div class="margin-b-mob pad-respond-b-mob">
 
+				<!--
+				ARIA HIDDEN LABEL
+				-->
+
 				<div aria-hidden="true"><span class="text-heading-badge--light">What Are Podcasts?</span></div>
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 id="section_whatarepodcasts_h2_podcastsanythingeverywhere">Podcasts: <span class="no-break">Anything! Everywhere!</span></h2>
 
@@ -387,37 +443,49 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > Why podcast?
+	ARTICLE: Why podcast?
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_whypodcast" aria-labelledby="section_whypodcast_h2_youhavea">
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_whypodcast" aria-labelledby="section_whypodcast_h2_youhavea">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lb-tab constrain spread-respond pad-y-mob">
 
 			<!--
-			Image
+			FIGURE
 			-->
 
 			<figure class="flexdir-ttb-mob flexdir-ttb-tab theme-dark-grey">
+
+				<!--
+				IMAGE
+				-->
 
 				<div class="margin-b-mob-only encimage-sketch-woman-on-couch"></div>
 
 			</figure>
 
 			<!--
-			Copy
+			LAYOUT CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob theme-light-grey-mob">
 
+				<!--
+				ARIA HIDDEN LABEL
+				-->
+
 				<div aria-hidden="true"><span class="text-heading-badge--light">Why Podcast?</span></div>
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 id="section_whypodcast_h2_youhavea">You have a captive audience.</h2>
 
@@ -428,22 +496,26 @@ HEADER > Hero
 		</div>
 
 		<!--
-		Container
+		LAYOUT CONTAINER: Genuine engagement/always available
 		-->
 
 		<div class="flexdir-ttb-mob constrain pad-y-mob">
 
 			<!--
-			Sub-container for flexbox
+			LAYOUT CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
 
 				<!--
-				Genuine engagement
+				FIGURE: Genuine engagement
 				-->
 
 				<figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="encimage-sketch-woman-phone-love" title="Woman holding cell phone with hearts"></div>
 
@@ -454,10 +526,14 @@ HEADER > Hero
 				</figure>
 
 				<!--
-				Always available
+				FIGURE: Always available
 				-->
 
 				<figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="encimage-sketch-swinging-on-tree" title="Woman looking at device while swinging on tree"></div>
 
@@ -471,25 +547,29 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > Statistics
+	ARTICLE: Statistics
 	-->
 
-	<section class="pad-respond-xy-mob theme-white-mob" id="section_statistics" aria-labelledby="section_statistics_h2_podcastingisbig">
+	<article class="pad-respond-xy-mob theme-white-mob" id="section_statistics" aria-labelledby="section_statistics_h2_podcastingisbig">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-btt-mob flexdir-rtl-tab flexpos-cc-tab constrain spread-respond pad-respond-y-mob">
 
 			<!--
-			Image
+			FIGURE
 			-->
 
 			<figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab">
+
+				<!--
+				CONTENT
+				-->
 
 				<figcaption class="pad-double-b-mob">US population that listens to podcasts each month</figcaption>
 
@@ -498,12 +578,20 @@ HEADER > Hero
 			</figure>
 
 			<!--
-			Copy
+			LAYOUT CONTAINER
 			-->
 
 			<div class="pad-b-mob-only">
 
+				<!--
+				ARIA HIDDEN LABEL
+				-->
+
 				<div aria-hidden="true"><span class="text-heading-badge--light">Statistics</span></div>
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 id="section_statistics_h2_podcastingisbig">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
 
@@ -515,27 +603,35 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > Your listeners are everywhere
+	ARTICLE: Your listeners are everywhere
 	-->
 
-	<section class="pad-respond-xy-mob theme-white-mob border-t-mob" id="section_yourlistenersare" aria-labelledby="section_yourlistenersare_h2_yourlistenersare">
+	<article class="pad-respond-xy-mob theme-white-mob border-t-mob" id="section_yourlistenersare" aria-labelledby="section_yourlistenersare_h2_yourlistenersare">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-y-mob">
 
+			<!--
+			LAYOUT CONTAINER
+			-->
+
 			<div class="width-60-des">
 
 				<!--
-				Table
+				FIGURE
 				-->
 
 				<figure class="flexdir-ttb-mob flexpos-rc-mob pad-xy-mob theme-light-grey-mob border-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<p class="pad-b-mob caption">US podcast listeners by location</p>
 
@@ -573,10 +669,14 @@ HEADER > Hero
 			</div>
 
 			<!--
-			Copy
+			LAYOUT CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob pad-b-mob-only">
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 id="section_yourlistenersare_h2_yourlistenersare">Your listeners are everywhere.</h2>
 
@@ -588,27 +688,35 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > Services
+	ARTICLE: Services
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_services" aria-labelledby="section_services_h2_weofferan">
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_services" aria-labelledby="section_services_h2_weofferan">
 
 		<!--
-		Container
+		HEADER
 		-->
 
-		<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain pad-respond-y-mob">
+		<header class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain pad-respond-y-mob">
 
 			<!--
-			Copy
+			LAYOUT CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob theme-light-grey-mob">
 
+				<!--
+				ARIA HIDDEN LABEL
+				-->
+
 				<div aria-hidden="true"><span class="text-heading-badge--light">Services</span></div>
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 id="section_services_h2_weofferan">We offer an end-to-end podcast service.</h2>
 
@@ -616,25 +724,29 @@ HEADER > Hero
 
 			</div>
 
-		</div>
+		</header>
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob constrain pad-y-mob">
 
 			<!--
-			Sub-container for grid
+			LAYOUT CONTAINER
 			-->
 
 			<div class="grid-auto-respond-16">
 
 				<!--
-				Personality design
+				SECTION: Personality design
 				-->
 
-				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="icon-hand-paintbrush" title="Hand holding paintbrush"></div>
 
@@ -642,13 +754,17 @@ HEADER > Hero
 
 					<p>We help you explore how your show will look, sound and feel. What does the introduction sound like? Is it loud and brash, or soft and intellectual? Is your cover art bright red or subdued blue?</p>
 
-				</figure>
+				</section>
 
 				<!--
-				Studio recording
+				SECTION: Studio recording
 				-->
 
-				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="icon-guests" title="Three excited people"></div>
 
@@ -656,13 +772,17 @@ HEADER > Hero
 
 					<p>This is the fun bit, where you're now in one of our professional recording studios, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
 
-				</figure>
+				</section>
 
 				<!--
-				Editing
+				SECTION: Editing
 				-->
 
-				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="icon-scissors" title="Pair of scissors"></div>
 
@@ -670,13 +790,17 @@ HEADER > Hero
 
 					<p>One of our experienced editors dives in and makes everything sound better. Unwanted "ums and ahs" are removed, misspoken sentences are taken out, the content is cleaned up and bed music is laid down.</p>
 
-				</figure>
+				</section>
 
 				<!--
-				Editing
+				SECTION: Editing
 				-->
 
-				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="icon-website-stars" title="Web browser page with stars"></div>
 
@@ -684,13 +808,17 @@ HEADER > Hero
 
 					<p>We host all your podcasts and provide you with a dedicated web page for sharing show notes, additional information about each episode, pictures, links to guests and other resources.</p>
 
-				</figure>
+				</section>
 
 				<!--
-				Publishing
+				SECTION: Publishing
 				-->
 
-				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="icon-publishing" title="Web browser page with play button"></div>
 
@@ -698,13 +826,17 @@ HEADER > Hero
 
 					<p>We take care of getting your show to the widest possible audience using the largest, most trusted networks and aggregators, including Apple Podcasts, Spotify, Google Play, Stitcher, Castbox and TuneIn.</p>
 
-				</figure>
+				</section>
 
 				<!--
-				Promotion
+				SECTION: Promotion
 				-->
 
-				<figure class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+
+					<!--
+					CONTENT
+					-->
 
 					<div class="icon-rocket" title="Rocket lifting off"></div>
 
@@ -712,41 +844,55 @@ HEADER > Hero
 
 					<p>We promote your episodes on our website blog and social media platforms. If you choose our <a href="pricing.php" id="section_services_a_businesspackage" aria-label="section_services_a_businesspackage">business package</a> (or higher), you can embed the episode on your own website.</p>
 
-				</figure>
+				</section>
 
 			</div>
 
-	</section>
+		</div>
+
+	</article>
 
 	<!--
-	SECTION > Guest training
+	ARTICLE: Guest training
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_guesttraining" aria-labelledby="section_guesttraining_h2_guidelinesonhow">
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_guesttraining" aria-labelledby="section_guesttraining_h2_guidelinesonhow">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-b-mob">
 
 			<!--
-			Image
+			FIGURE
 			-->
 
 			<figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab theme-dark-grey">
+
+				<!--
+				CONTENT
+				-->
 
 				<div class="margin-y-mob encimage-sketch-podcast-training" title="Guest sitting at table with microphone"></div>
 
 			</figure>
 
 			<!--
-			Copy
+			LAYOUT CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob theme-light-grey-mob">
 
+				<!--
+				ARIA HIDDEN LABEL
+				-->
+
 				<div aria-hidden="true"><span class="text-heading-badge--light">Guest Training</span></div>
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 id="section_guesttraining_h2_guidelinesonhow">Guidelines on how to be an effective podcast guest.</h2>
 
@@ -761,24 +907,32 @@ HEADER > Hero
 		</div>
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob constrain pad-y-mob">
 
 			<!--
-			Sub-container for flexbox
+			LAYOUT CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
 
 				<!--
-				Intro to our Podcast Guest 101 series
+				FIGURE: Intro to our Podcast Guest 101 series
 				-->
 
 				<figure class="pad-respond-xy-mob radius-mob theme-white-mob">
 
+					<!--
+					LAYOUT CONTAINER
+					-->
+
 					<div class="flexdir-ttb-mob flexpos-ct-mob">
+
+						<!--
+						CONTENT
+						-->
 
 						<h3 class="text-c-mob">Introduction</h3>
 
@@ -793,12 +947,20 @@ HEADER > Hero
 				</figure>
 
 				<!--
-				Episode 1: Getting Settled
+				FIGURE: Episode 1: Getting Settled
 				-->
 
 				<figure class="pad-respond-xy-mob radius-mob theme-white-mob">
 
+					<!--
+					LAYOUT CONTAINER
+					-->
+
 					<div class="flexdir-ttb-mob flexpos-ct-mob">
+
+						<!--
+						CONTENT
+						-->
 
 						<h3 class="text-c-mob">Episode 1: Getting Settled</h3>
 
@@ -814,7 +976,15 @@ HEADER > Hero
 
 			</div>
 
+			<!--
+			LAYOUT CONTAINER
+			-->
+
 			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
+
+				<!--
+				BUTTONS
+				-->
 
 				<a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
 
@@ -824,27 +994,43 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 	<!--
-	SECTION > Not yet convinced, but still interested?
+	ARTICLE: Not yet convinced, but still interested?
 	-->
 
-	<section class="pad-respond-xy-mob theme-dark-grey-mob" id="section_notyetconvinced" aria-labelledby="section_notyetconvinced_h2_notyetconvinced">
+	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="section_notyetconvinced" aria-labelledby="section_notyetconvinced_h2_notyetconvinced">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
 
+			<!--
+			LAYOUT CONTAINER
+			-->
+
 			<div class="flexdir-ttb-mob">
+
+				<!--
+				CONTENT
+				-->
 
 				<h2 class="text-c-mob" id="section_notyetconvinced_h2_notyetconvinced">Not yet convinced, but still interested?</h2>
 
 				<p class="text-c-mob">Download a podcast player for your phone from the App Store or on Google Play. Start exploring and trying episodes you might like. Once you've listened to a few and experienced this phenomenon for yourself, <a href="contact.php" id="section_notyetconvinced_a_getintouch" aria-labelledby="section_notyetconvinced_a_getintouch">get in touch with us</a> and we can discuss how we can help you tell your story and <i>#BeHeard</i>.</p>
 
+				<!--
+				LAYOUT CONTAINER
+				-->
+
 				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob">
+
+						<!--
+						CONTENT
+						-->
 
 						<a class="badge-app-store" href="https://www.apple.com/ios/app-store/" target="_blank" rel="noopener" title="App Store" id="section_notyetconvinced_a_appstore" aria-label="App Store"></a>
 
@@ -856,29 +1042,29 @@ HEADER > Hero
 
 		</div>
 
-	</section>
+	</article>
 
 </div>
 
 <!--
-PARTIAL > Page footer
+PARTIAL: Page footer
 -->
 <?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
 
 <!--
-PARTIAL > Schema
+PARTIAL: Schema
 -->
 <?php echo file_get_contents("assets/partials/schema.html"); ?>
 
 <!--
-SCRIPT > jQuery scripts
+SCRIPT: jQuery scripts
 -->
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
 <script src="assets/scripts/jquery/scroll.min.js" defer></script>
 
 <!--
-SCRIPT > Preload links on hover
+SCRIPT: Preload links on hover
 -->
 <script src="assets/scripts/js/instant-page.min.js" defer></script>
 

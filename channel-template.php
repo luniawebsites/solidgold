@@ -71,7 +71,7 @@ PARTIAL > IE10/IE11 notice
 	SECTION > Channel template
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_channeltemplate">
+	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_channel">
 
 		<!--
 		Container

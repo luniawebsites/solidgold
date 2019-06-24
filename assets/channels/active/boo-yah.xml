@@ -27,15 +27,3 @@
 	</description>
 
 </channelPageData>
-
-<!--
-Cover images should be 400x400px.
-
-If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.
-
-Website address element must include http:// or https://.
-
-Do not add "mailto:"" in the email element — this is done automatically in the script where relevant.
-
-Everything within the description element above will display between title and host and the buttons.
--->

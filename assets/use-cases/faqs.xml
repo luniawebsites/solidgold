@@ -1,7 +1,7 @@
 <examplePageData>
 
 	<title>FAQs</title> <!-- e.g. "Radio archives" -->
-	<fileName>faq</fileName> <!-- e.g. "faq" -->
+	<fileName>faqs</fileName> <!-- e.g. "faq" -->
 	<keywords>faq frequently asked questions</keywords> <!-- e.g. "radio archives" -->
 	<intro>Getting potential clients to spend time on your website reading through loads and loads of content is getting harder and harder to do.</intro> <!-- One sentence opening teaser -->
 	<image1Caption>Real-world example</image1Caption> <!-- e.g. "Example of FAQs" -->
@@ -14,7 +14,7 @@
 
 		<p>Now, FAQ podcasts are the perfect solution to these challenges as they enable you to deliver personally-crafted, strategically-planned and well-produced short-form content to perfectly address the most common questions you receive. And then, within the podcast notes, provide a specific call-to-action link which results in the first point of contact being a tier 2 or follow-up query.</p>
 
-		<p>Two excellent examples of how our clients are using FAQ podcast channels to deal with this are Kip McGrath's <a href="channel-template.php?channel=kip-mcgrath-extra-lessons-faq.xml">Extra Lessons</a> and GOSA's <a href="channel-template.php?channel=gun-talk.xml">Gun Talk</a>. Both of these organisations receive literally hundreds of calls and emails asking the same questions every day. Since we produced their FAQ podcast channels, and added the podcast link to all email signatures, websites and social media, there has been a dramatic shift from tier 1 questions (totally uninformed) to tier 2 queries (follow-up and buying signal).</p>
+		<p>Two excellent examples of how our clients are using FAQ podcast channels to deal with this are Kip McGrath's <a href="channel-template.php?channel=kip-mcgrath-extra-lessons-faq.xml" title="Kip McGrath's Extra Lessons" id="section_usecase_xml_kipmcgrathsextralessons" aria-labelledby="section_usecase_xml_kipmcgrathsextralessons">Extra Lessons</a> and GOSA's <a href="channel-template.php?channel=gun-talk.xml" title="Gun Talk" id="section_usecase_xml_guntalk" aria-labelledby="section_usecase_xml_guntalk">Gun Talk</a>. Both of these organisations receive literally hundreds of calls and emails asking the same questions every day. Since we produced their FAQ podcast channels, and added the podcast link to all email signatures, websites and social media, there has been a dramatic shift from tier 1 questions (totally uninformed) to tier 2 queries (follow-up and buying signal).</p>
 
 		<p>When tier 1 questions are still received by phone, email or on social media, a member of their team responds by sharing a direct link to a specific episode that answers that question, and invites them to listen to that and any other episodes that may catch their eye.</p>
 
@@ -23,13 +23,3 @@
 	</body>
 
 </examplePageData>
-
-<!--
-Images:
-	* Use the XML file name for the image file names (e.g. faq.jpg for feature, faq-1.jpg for section).
-	* Feature images should be 200x200px.
-	* Section images should be 600px wide by any height.
-	* JPG compression should be around 95%.
-
-Avoid using the <br> element - <p> elements space automatically
--->

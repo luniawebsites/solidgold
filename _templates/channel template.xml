@@ -27,6 +27,15 @@
 </channelPageData>
 
 <!--
+Links:
+	* "title" should be human-readable and reflect the name of the link, such as "Garage Band"
+	* "id" should be "section_channel_xml_xxxx" where xxxx is the name of the XML file without the dashes and limited to the first 3 words of the name only (e.g. "section_channel_xml_imthepatient")
+	* "aria-labelledby" should be the same as "id"
+Internal links template element:
+	<a href="" title="" id="" aria-labelledby=""></a>
+External links template element:
+	<a href="" target="_blank" rel="noopener" title="" id="" aria-labelledby=""></a>
+
 Cover images should be 400x400px.
 
 If there is no data for one of the resources elements, either leave it empty or delete it and it won't display.

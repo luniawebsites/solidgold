@@ -25,13 +25,3 @@
 	</body>
 
 </examplePageData>
-
-<!--
-Images:
-	* Use the XML file name for the image file names (e.g. faq.jpg for feature, faq-1.jpg for section).
-	* Feature images should be 200x200px.
-	* Section images should be 600px wide by any height.
-	* JPG compression should be around 95%.
-
-Avoid using the <br> element - <p> elements space automatically
--->

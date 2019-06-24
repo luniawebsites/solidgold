@@ -14,5 +14,14 @@
 </postPageData>
 
 <!--
+Links:
+	* "title" should be human-readable and reflect the name of the link, such as "Garage Band"
+	* "id" should be "section_post_xml_xxxx" where xxxx is the name of the XML file without the dashes and limited to the first 3 words of the name only (e.g. "section_post_xml_howarepodcasts")
+	* "aria-labelledby" should be the same as "id"
+Internal links template element:
+	<a href="" title="" id="" aria-labelledby=""></a>
+External links template element:
+	<a href="" target="_blank" rel="noopener" title="" id="" aria-labelledby=""></a>
+
 Everything above will display.
 -->

@@ -1,20 +1,27 @@
 <examplePageData>
 
-	<title>Radio archives</title> <!-- e.g. "Radio archives" -->
-	<keywords>radio archives</keywords> <!-- e.g. "faq frequently asked questions" -->
-	<intro>At the end of their regular radio show on FM, your favourite DJ is likely to sign-off by reminding you to catch any parts of the show you missed on their website as a podcast.</intro> <!-- e.g. "Your favourite DJ is likely to sign-off by reminding you to catch any parts of the show." -->
-	<example>boo-yah</example> <!-- e.g. "boo-yah" -->
+	<title>Radio Archives</title> <!-- e.g. "Radio archives" -->
+	<fileName>radio-archives</fileName> <!-- e.g. "faq" -->
+	<keywords>radio show dj fm</keywords> <!-- e.g. "radio archives" -->
+	<intro>Sometimes a podcast is simply an archive of a radio show.</intro> <!-- One sentence opening teaser -->
+	<image1Caption></image1Caption> <!-- e.g. "Example of FAQs" -->
+	<image2Caption></image2Caption> <!-- e.g. "Another example of FAQs" -->
+	<image3Caption></image3Caption> <!-- e.g. "Yet another example of FAQs" -->
 
 	<body>
-		<p>Paragraph 1</p>
+
+		<p>At the end of their regular radio show on FM, your favourite DJ is likely to sign-off by reminding you to catch any parts of the show you missed on their website as a podcast.  Whilst the “true” podcasters of the world will be shuddering to hear this, it is a useful, and effective, method of storing and archiving large volumes of audio content.</p>
+
 	</body>
 
 </examplePageData>
 
 <!--
-Feature images should be 200x200px.
+Images:
+	* Use the XML file name for the image file names (e.g. faq.jpg for feature, faq-1.jpg for section).
+	* Feature images should be 200x200px.
+	* Section images should be 600px wide by any height.
+	* JPG compression should be around 95%.
 
-The image will display automatically based on the XML file name.
-
-The example will link automatically to the channels based on the existing name you enter.
+Avoid using the <br> element - <p> elements space automatically
 -->

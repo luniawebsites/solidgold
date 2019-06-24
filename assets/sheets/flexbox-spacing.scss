@@ -156,6 +156,41 @@
 	padding-left: $space-mobile;
 }
 
+// Half-size fixed margins
+// --------------------------------------------------------------------------------------------------------------
+
+.margin-half-x-mob,
+.margin-half-x-mob-only {
+	margin-right: calc(#{$space-fixed} * 0.5);
+	margin-left: calc(#{$space-fixed} * 0.5);
+}
+
+.margin-half-y-mob,
+.margin-half-y-mob-only {
+	margin-top: calc(#{$space-fixed} * 0.5);
+	margin-bottom: calc(#{$space-fixed} * 0.5);
+}
+
+.margin-half-t-mob,
+.margin-half-t-mob-only {
+	margin-top: calc(#{$space-fixed} * 0.5);
+}
+
+.margin-half-b-mob,
+.margin-double-b-mob-only {
+	margin-half: calc(#{$space-fixed} * 0.5);
+}
+
+.margin-half-r-mob,
+.margin-half-r-mob-only {
+	margin-right: calc(#{$space-fixed} * 0.5);
+}
+
+.margin-half-l-mob,
+.margin-half-l-mob-only {
+	margin-left: calc(#{$space-fixed} * 0.5);
+}
+
 // Fixed-size margins
 // --------------------------------------------------------------------------------------------------------------
 
@@ -189,6 +224,41 @@
 .margin-l-mob,
 .margin-l-mob-only {
 	margin-left: $space-fixed;
+}
+
+// Double-size fixed margins
+// --------------------------------------------------------------------------------------------------------------
+
+.margin-double-x-mob,
+.margin-double-x-mob-only {
+	margin-right: calc(#{$space-fixed} * 2);
+	margin-left: calc(#{$space-fixed} * 2);
+}
+
+.margin-double-y-mob,
+.margin-double-y-mob-only {
+	margin-top: calc(#{$space-fixed} * 2);
+	margin-bottom: calc(#{$space-fixed} * 2);
+}
+
+.margin-double-t-mob,
+.margin-double-t-mob-only {
+	margin-top: calc(#{$space-fixed} * 2);
+}
+
+.margin-double-b-mob,
+.margin-double-b-mob-only {
+	margin-bottom: calc(#{$space-fixed} * 2);
+}
+
+.margin-double-r-mob,
+.margin-double-r-mob-only {
+	margin-right: calc(#{$space-fixed} * 2);
+}
+
+.margin-double-l-mob,
+.margin-double-l-mob-only {
+	margin-left: calc(#{$space-fixed} * 2);
 }
 
 // Responsive margins
@@ -441,128 +511,88 @@
 	// Initialise ringfenced fixed-size padding from mobile viewport
 	// --------------------------------------------------------------------------------------------------------------
 
-	.pad-x-mob-only {
+	.pad-half-x-mob-only,
+	.pad-x-mob-only,
+	.pad-double-x-mob-only, {
 		padding-right: initial;
 		padding-left: initial;
 	}
 
-	.pad-y-mob-only {
+	.pad-half-y-mob-only,
+	.pad-y-mob-only,
+	.pad-double-y-mob-only, {
 		padding-top: initial;
 		padding-bottom: initial;
 	}
 
-	.pad-xy-mob-only {
+	.pad-half-xy-mob-only,
+	.pad-xy-mob-only,
+	.pad-double-xy-mob-only, {
 		padding: initial;
 	}
 
-	.pad-t-mob-only {
+	.pad-half-t-mob-only,
+	.pad-t-mob-only,
+	.pad-double-t-mob-only, {
 		padding-top: initial;
 	}
 
-	.pad-r-mob-only {
+	.pad-half-r-mob-only,
+	.pad-r-mob-only,
+	.pad-double-r-mob-only, {
 		padding-right: initial;
 	}
 
-	.pad-b-mob-only {
+	.pad-half-b-mob-only,
+	.pad-b-mob-only,
+	.pad-double-b-mob-only, {
 		padding-bottom: initial;
 	}
 
-	.pad-l-mob-only {
-		padding-left: initial;
-	}
-
-	// Initialise ringfenced half-size fixed padding from mobile viewport
-	// --------------------------------------------------------------------------------------------------------------
-
-	.pad-half-x-mob-only {
-		padding-right: initial;
-		padding-left: initial;
-	}
-
-	.pad-half-y-mob-only {
-		padding-top: initial;
-		padding-bottom: initial;
-	}
-
-	.pad-half-xy-mob-only {
-		padding: initial;
-	}
-
-	.pad-half-t-mob-only {
-		padding-top: initial;
-	}
-
-	.pad-half-r-mob-only {
-		padding-right: initial;
-	}
-
-	.pad-half-b-mob-only {
-		padding-bottom: initial;
-	}
-
-	.pad-half-l-mob-only {
-		padding-left: initial;
-	}
-
-	// Initialise ringfenced double-size fixed padding from mobile viewport
-	// --------------------------------------------------------------------------------------------------------------
-
-	.pad-double-x-mob-only {
-		padding-right: initial;
-		padding-left: initial;
-	}
-
-	.pad-double-y-mob-only {
-		padding-top: initial;
-		padding-bottom: initial;
-	}
-
-	.pad-double-xy-mob-only {
-		padding: initial;
-	}
-
-	.pad-double-t-mob-only {
-		padding-top: initial;
-	}
-
-	.pad-double-r-mob-only {
-		padding-right: initial;
-	}
-
-	.pad-double-b-mob-only {
-		padding-bottom: initial;
-	}
-
-	.pad-double-l-mob-only {
+	.pad-half-l-mob-only,
+	.pad-l-mob-only,
+	.pad-double-l-mob-only, {
 		padding-left: initial;
 	}
 
 	// Initialise ringfenced fixed-size margins from mobile viewport
 	// --------------------------------------------------------------------------------------------------------------
 
-	.margin-x-mob-only {
+	.margin-half-x-mob-only,
+	.margin-x-mob-only,
+	.margin-double-x-mob-only {
 		margin-right: initial;
 		margin-left: initial;
 	}
 	
-	.margin-y-mob-only {
+	.margin-half-y-mob-only,
+	.margin-y-mob-only,
+	.margin-double-y-mob-only {
 		margin-top: initial;
 		margin-bottom: initial;
 	}
 	
-	.margin-t-mob-only {
+	.margin-half-t-mob-only,
+	.margin-t-mob-only,
+	.margin-double-t-mob-only {
 		margin-top: initial;
 	}
 	
-	.margin-b-mob-only {
+	.margin-half-b-mob-only,
+	.margin-b-mob-only,
+	.margin-double-b-mob-only {
 		margin-bottom: initial;
 	}
 	
-	.margin-r-mob-only {
+	.margin-half-r-mob-only,
+	.margin-r-mob-only,
+	.margin-double-r-mob-only {
 		margin-right: initial;
 	}
 	
-	.margin-l-mob-only {
+	.margin-half-l-mob-only,
+	.margin-l-mob-only,
+	.margin-double-l-mob-only {
 		margin-left: initial;
 	}
 
@@ -897,6 +927,41 @@
 		margin-left: $space-fixed;
 	}
 
+	// Double-size fixed margins
+	// --------------------------------------------------------------------------------------------------------------
+
+	.margin-double-x-tab,
+	.margin-double-x-tab-only {
+		margin-right: calc(#{$space-fixed} * 2);
+		margin-left: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-y-tab,
+	.margin-double-y-tab-only {
+		margin-top: calc(#{$space-fixed} * 2);
+		margin-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-t-tab,
+	.margin-double-t-tab-only {
+		margin-top: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-b-tab,
+	.margin-double-b-tab-only {
+		margin-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-r-tab,
+	.margin-double-r-tab-only {
+		margin-right: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-l-tab,
+	.margin-double-l-tab-only {
+		margin-left: calc(#{$space-fixed} * 2);
+	}
+
 	// Responsive margins
 	// --------------------------------------------------------------------------------------------------------------
 
@@ -1098,98 +1163,46 @@
 	// Initialise ringfenced fixed-size padding from tablet viewport
 	// --------------------------------------------------------------------------------------------------------------
 
-	.pad-x-tab-only {
-		padding-right: initial;
-		padding-left: initial;
-	}
-
-	.pad-y-tab-only {
-		padding-top: initial;
-		padding-bottom: initial;
-	}
-
-	.pad-xy-tab-only {
-		padding: initial;
-	}
-
-	.pad-t-tab-only {
-		padding-top: initial;
-	}
-
-	.pad-r-tab-only {
-		padding-right: initial;
-	}
-
-	.pad-b-tab-only {
-		padding-bottom: initial;
-	}
-
-	.pad-l-tab-only {
-		padding-left: initial;
-	}
-
-	// Initialise ringfenced half-size fixed padding from tablet viewport
-	// --------------------------------------------------------------------------------------------------------------
-
-	.pad-half-x-tab-only {
-		padding-right: initial;
-		padding-left: initial;
-	}
-
-	.pad-half-y-tab-only {
-		padding-top: initial;
-		padding-bottom: initial;
-	}
-
-	.pad-half-xy-tab-only {
-		padding: initial;
-	}
-
-	.pad-half-t-tab-only {
-		padding-top: initial;
-	}
-
-	.pad-half-r-tab-only {
-		padding-right: initial;
-	}
-
-	.pad-half-b-tab-only {
-		padding-bottom: initial;
-	}
-
-	.pad-half-l-tab-only {
-		padding-left: initial;
-	}
-
-	// Initialise ringfenced double-size fixed padding from tablet viewport
-	// --------------------------------------------------------------------------------------------------------------
-
+	.pad-half-x-tab-only,
+	.pad-x-tab-only,
 	.pad-double-x-tab-only {
 		padding-right: initial;
 		padding-left: initial;
 	}
 
+	.pad-half-y-tab-only,
+	.pad-y-tab-only,
 	.pad-double-y-tab-only {
 		padding-top: initial;
 		padding-bottom: initial;
 	}
 
+	.pad-half-xy-tab-only,
+	.pad-xy-tab-only,
 	.pad-double-xy-tab-only {
 		padding: initial;
 	}
 
+	.pad-half-t-tab-only,
+	.pad-t-tab-only,
 	.pad-double-t-tab-only {
 		padding-top: initial;
 	}
 
+	.pad-half-r-tab-only,
+	.pad-r-tab-only,
 	.pad-double-r-tab-only {
 		padding-right: initial;
 	}
 
+	.pad-half-b-tab-only,
+	.pad-b-tab-only,
 	.pad-double-b-tab-only {
 		padding-bottom: initial;
 	}
 
+	.pad-half-l-tab-only,
+	.pad-l-tab-only,
 	.pad-double-l-tab-only {
 		padding-left: initial;
 	}
@@ -1197,33 +1210,47 @@
 	// Initialise ringfenced fixed-size margins from tablet viewport
 	// --------------------------------------------------------------------------------------------------------------
 
-	.margin-x-tab-only {
+	.margin-half-x-tab-only,
+	.margin-x-tab-only,
+	.margin-double-x-tab-only {
 		margin-right: initial;
 		margin-left: initial;
 	}
 
-	.margin-y-tab-only {
+	.margin-half-y-tab-only,
+	.margin-y-tab-only,
+	.margin-double-y-tab-only {
 		margin-top: initial;
 		margin-bottom: initial;
 	}
 
-	.margin-xy-tab-only {
+	.margin-half-xy-tab-only,
+	.margin-xy-tab-only,
+	.margin-double-xy-tab-only {
 		margin: initial;
 	}
 
-	.margin-t-tab-only {
+	.margin-half-t-tab-only,
+	.margin-t-tab-only,
+	.margin-double-t-tab-only {
 		margin-top: initial;
 	}
 
-	.margin-b-tab-only {
+	.margin-half-b-tab-only,
+	.margin-b-tab-only,
+	.margin-double-b-tab-only {
 		margin-bottom: initial;
 	}
 
-	.margin-r-tab-only {
+	.margin-half-r-tab-only,
+	.margin-r-tab-only,
+	.margin-double-r-tab-only {
 		margin-right: initial;
 	}
 
-	.margin-l-tab-only {
+	.margin-half-l-tab-only,
+	.margin-l-tab-only,
+	.margin-double-l-tab-only {
 		margin-left: initial;
 	}
 
@@ -1406,6 +1433,41 @@
 
 	.margin-l-des {
 		margin-left: $space-fixed;
+	}
+
+	// Double-size fixed margins
+	// --------------------------------------------------------------------------------------------------------------
+
+	.margin-double-x-des,
+	.margin-double-x-des-only {
+		margin-right: calc(#{$space-fixed} * 2);
+		margin-left: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-y-des,
+	.margin-double-y-des-only {
+		margin-top: calc(#{$space-fixed} * 2);
+		margin-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-t-des,
+	.margin-double-t-des-only {
+		margin-top: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-b-des,
+	.margin-double-b-des-only {
+		margin-bottom: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-r-des,
+	.margin-double-r-des-only {
+		margin-right: calc(#{$space-fixed} * 2);
+	}
+
+	.margin-double-l-des,
+	.margin-double-l-des-only {
+		margin-left: calc(#{$space-fixed} * 2);
 	}
 
 	// Responsive margins

@@ -143,7 +143,7 @@ PARTIAL > Leader with menu
 									$image_1 = "
 										<figure class='( use-case__xml-photo )'>
 											<figcaption>" . $image_1_caption . "</figcaption>
-											<img src='assets/images/use-cases/" . $file_name . "-1.jpg' title='" . $title . " image one' alt='" . $title . " image one'>
+											<img src='assets/images/use-cases/" . $file_name . "-1.jpg' title='" . $title . " image one' alt='" . $title . " image one' data-action='zoom'>
 										</figure>
 									";
 								}
@@ -156,7 +156,7 @@ PARTIAL > Leader with menu
 									$image_2 = "
 										<figure class='( use-case__xml-photo )'>
 											<figcaption>" . $image_2_caption . "</figcaption>
-											<img src='assets/images/use-cases/" . $file_name . "-2.jpg' title='" . $title . " image two' alt='" . $title . " image two'>
+											<img src='assets/images/use-cases/" . $file_name . "-2.jpg' title='" . $title . " image two' alt='" . $title . " image two' data-action='zoom'>
 										</figure>
 									";
 								}
@@ -169,7 +169,7 @@ PARTIAL > Leader with menu
 									$image_3 = "
 										<figure class='( use-case__xml-photo )'>
 											<figcaption>" . $image_3_caption . "</figcaption>
-											<img src='assets/images/use-cases/" . $file_name . "-3.jpg' title='" . $title . " image three' alt='" . $title . " image three'>
+											<img src='assets/images/use-cases/" . $file_name . "-3.jpg' title='" . $title . " image three' alt='" . $title . " image three' data-action='zoom'>
 										</figure>
 									";
 								}
@@ -214,5 +214,11 @@ SCRIPT > jQuery scripts
 -->
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
+
+<!--
+SCRIPT > jQuery scripts: zoom images
+-->
+<script src="assets/scripts/jquery/zoom.min.js" defer></script>
+<script src="assets/scripts/jquery/transition.min.js" defer></script>
 
 </html>

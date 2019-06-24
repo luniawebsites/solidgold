@@ -1,0 +1,37 @@
+<examplePageData>
+
+	<title>Talent Showcase</title> <!-- e.g. "Radio archives" -->
+	<fileName>talent-showcase</fileName> <!-- e.g. "faq" -->
+	<keywords>talent voice actor artist showcase demo</keywords> <!-- e.g. "radio archives" -->
+	<intro>You've got all those amazing demo clips and videos - now let's show you how to share them effectively.</intro> <!-- One sentence opening teaser -->
+	<image1Caption>Andy Klee | Entertainer</image1Caption> <!-- e.g. "Example of FAQs" -->
+	<image2Caption>Showcase all your talents</image2Caption> <!-- e.g. "Another example of FAQs" -->
+	<image3Caption>Click to your booking page</image3Caption> <!-- e.g. "Yet another example of FAQs" -->
+
+	<body>
+
+		<p>It's a lot of hard work being an actor, master of ceremonies (MC), entertainer, performer, or voice artist.</p>
+
+		<p>And it sometimes feels even harder getting potential clients to see and hear your work so they can book you for their next productions or events. Yes, we all know about the online talent databases where your profile and samples are hidden amongst hundreds of others. Now imagine a <strong>new way</strong> of showcasing your talents that puts <strong>you</strong> in control.</p>
+
+		<p>A <strong>personal podcast channel</strong> that is divided into multiple series, each dedicated to a different aspect of your talents, and showcasing your best work with written descriptions to better explain and describe your offering.</p>
+
+		<p>Instead of directing potential clients to someone else's website, you use your Podlink (here's what Andy's looks like <a href="https://podlink.to/vox-andyklee">https://podlink.to/vox-andyklee</a> where <strong>you are the main attraction</strong> - the focus of attention.</p>
+
+		<p>You can add this link to your email signature, pin it to the top of your Facebook page, share it on all your social feeds, and make it easy for potential clients to not only see and hear your work, but to share it with others.</p>
+
+		<p>See this amazing talent showcase platform in action <a href="https://podlink.to/vox-andyklee">by clicking here</a>.</p>
+
+	</body>
+
+</examplePageData>
+
+<!--
+Images:
+	* Use the XML file name for the image file names (e.g. faq.jpg for feature, faq-1.jpg for section).
+	* Feature images should be 200x200px.
+	* Section images should be 600px wide by any height.
+	* JPG compression should be around 95%.
+
+Avoid using the <br> element - <p> elements space automatically
+-->

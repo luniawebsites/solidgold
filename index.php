@@ -88,13 +88,13 @@ HEADER > Hero
 		Image
 		-->
 
-		<div class="width-50-tab margin-b-mob-only encimage-sketch-group-on-phones"></div>
+		<div class="width-40-tab width-50-des margin-b-mob-only encimage-sketch-group-on-phones"></div>
 
 		<!--
 		Copy
 		-->
 
-		<div class="width-50-tab">
+		<div class="width-60-tab width-50-des">
 
 			<h1 class="margin-t-mob-only" id="header_hero_h1_beingheardis">Being heard is one of our greatest human needs. #BeHeard</h1>
 
@@ -112,7 +112,7 @@ HEADER > Hero
 
 			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
 
-				<a class="button primary" href="#section_whatarepodcasts" title="Learn more about podcasts and why they are so popular" id="header_hero_a_aboutpodcasts" aria-labelledby="header_hero_a_aboutpodcasts header_hero_h1_beingheardis" data-smoothscroll="yes"><span>About Podcasts</span></a>
+				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_beingheardis"><span>How Podcasts Are Used</span></a>
 
 				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_beingheardis"><span>Podcast Channels</span></a>
 

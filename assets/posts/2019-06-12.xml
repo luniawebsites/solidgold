@@ -1,12 +1,16 @@
 <postPageData>
 
 	<title>How are podcasts actually being used?</title>
-	<intro>Many things you may already be encountering in your day-to-day life, that people are calling podcasts, might not actually be "real" podcasts.</intro>
+	<intro>Many things you may already be encountering in your day-to-day life, that people are calling podcasts, might not actually be <i>real</i> podcasts.</intro>
 
 	<body>
+
 		<p>This is happening a lot more lately as podcasting finds its place in the world. This identity crisis is not unusual for a teenage technology—and a teenager it is as it's only been around since 2004 (when it was originally known as audio blogging). According to a Google search analysis, interest in podcasts has <strong>doubled</strong> over the past year or so.</p>
 
-		<p>What you are most likely to be encountering as a "podcast" is your favourite radio DJ telling you to listen to their previous shows on their website. The true podcasters of the world will be shuddering to hear this as these radio stations and DJs are simply using podcast platforms to manage their archives.</p>
+		<p>What you are most likely to be encountering as a <i>podcast</i> is your favourite radio DJ telling you to listen to their previous shows on their website. The true podcasters of the world will be shuddering to hear this as these radio stations and DJs are simply using podcast platforms to manage their archives.</p>
+
+		<p>Learn more about how podcasts are <a href="use-cases.php" title="Actually being used" id="section_post_xml_actuallybeingused" aria-labelledby="section_post_xml_actuallybeingused">actually being used</a>.</p>
+
 	</body>
 
 </postPageData>

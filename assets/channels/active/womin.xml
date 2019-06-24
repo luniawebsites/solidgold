@@ -5,7 +5,7 @@
 		<host>Elizabeth Viljoen</host> <!-- e.g. Red Bull Music -->
 		<filterKeywords>womin women woman elizabeth viljoen liz namibia celebrate</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>womin.jpg</coverFileName> <!-- File name with extension -->
-		<agreement></agreement> <!-- yes or empty -->
+		<agreement>yes</agreement> <!-- yes or empty -->
 		<email>esviljoen@gmail.com</email> <!-- e.g. info@lunia.co.za -->
 		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
 		<playlistUrl>https://podlink.to/womin</playlistUrl> <!-- Full URL -->
@@ -13,7 +13,7 @@
 		<facebookUrl>https://www.facebook.com/esviljoen</facebookUrl> <!-- Full URL -->
 		<twitterUrl></twitterUrl> <!-- Full URL -->
 		<linkedinUrl>https://www.linkedin.com/in/elizabeth-v-77a148146/</linkedinUrl> <!-- Full URL -->
-		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<instagramUrl>https://www.instagram.com/esviljoen/</instagramUrl> <!-- Full URL -->
 		<tumblrUrl></tumblrUrl> <!-- Full URL -->
 		<rssUrl>https://podcaststudios.co.za/rss/womin.xml</rssUrl> <!-- Full URL -->
 		<extraUrl></extraUrl> <!-- Full URL -->
@@ -21,7 +21,7 @@
 	</resources>
 
 	<description>
-		<p>Celebrating the women making an impact and difference in Namibia.</p>
+		<p>Celebrating women of influence making an impact and difference in Namibia.</p>
 	</description>
 
 </channelPageData>

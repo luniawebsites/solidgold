@@ -1,0 +1,20 @@
+<examplePageData>
+
+	<title>Radio archives</title> <!-- e.g. "Radio archives" -->
+	<keywords>radio archives</keywords> <!-- e.g. "faq frequently asked questions" -->
+	<intro>At the end of their regular radio show on FM, your favourite DJ is likely to sign-off by reminding you to catch any parts of the show you missed on their website as a podcast.</intro> <!-- e.g. "Your favourite DJ is likely to sign-off by reminding you to catch any parts of the show." -->
+	<example>boo-yah</example> <!-- e.g. "boo-yah" -->
+
+	<body>
+		<p>Paragraph 1</p>
+	</body>
+
+</examplePageData>
+
+<!--
+Feature images should be 200x200px.
+
+The image will display automatically based on the XML file name.
+
+The example will link automatically to the channels based on the existing name you enter.
+-->

@@ -4,9 +4,9 @@
 	<fileName>faq</fileName> <!-- e.g. "faq" -->
 	<keywords>faq frequently asked questions</keywords> <!-- e.g. "radio archives" -->
 	<intro>Getting potential clients to spend time on your website reading through loads and loads of content is getting harder and harder to do.</intro> <!-- One sentence opening teaser -->
-	<image1Caption>FAQs seen in the wild</image1Caption> <!-- e.g. "Example of FAQs" -->
-	<image2Caption>More FAQs seen in the wild</image2Caption> <!-- e.g. "Another example of FAQs" -->
-	<image3Caption>Shew, even more FAQs seen in the wild</image3Caption> <!-- e.g. "Yet another example of FAQs" -->
+	<image1Caption>Real-world example</image1Caption> <!-- e.g. "Example of FAQs" -->
+	<image2Caption>...and another</image2Caption> <!-- e.g. "Another example of FAQs" -->
+	<image3Caption>Simpler and more effective communication.</image3Caption> <!-- e.g. "Yet another example of FAQs" -->
 
 	<body>
 

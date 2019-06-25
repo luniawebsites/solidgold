@@ -30,6 +30,13 @@
 	transition: $transition;
 }
 
+/* Use cases
+---------------------------------------------------------------------------- */
+
+.use-case {
+	transition: $transition;
+}
+
 /* Use cases XML files
 ---------------------------------------------------------------------------- */
 
@@ -286,6 +293,14 @@ img.zoom-img {
 
 	.text-heading-small a:hover {
 		color: $green;
+	}
+
+	/* Use cases
+	---------------------------------------------------------------------------- */
+
+	.use-case:hover {
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+		transform: scale(1.05);
 	}
 
 	/* Podcast cards on "channels" page

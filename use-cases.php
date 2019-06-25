@@ -117,7 +117,7 @@ PARTIAL > IE10/IE11 notice
 
 		<div class="flexdir-ttb-mob constrain pad-b-mob">
 
-			<div class="flexdir-ttb-mob spread-mob">
+			<div class="grid-auto-respond-16">
 
 				<!--
 				SCRIPT > Display content from use case
@@ -193,24 +193,13 @@ PARTIAL > IE10/IE11 notice
 
 										// Write HTML content
 										echo "
-											<figure class='( use-case-keywords ) flexdir-ttb-mob flexdir-ltr-des pad-xy-mob radius-mob theme-white-mob' data-use-case-keywords='" . $keywords . "'>
-
-												<div class='width-auto-mob'>
-													<picture class='fg-image-use-case-mob'>
-														<img class='round-mob border-mob' src='assets/images/use-cases/" . $image_file_name .".jpg' title='" . $title . "' alt='" . $title . "' />
-													</picture>
-												</div>
-
-												<div class='pad-y-mob pad-xy-tab'>
-													<h3>". $title . "</h3>
-													<p>" . $intro . "</p>
-													<div class='flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob'>
-														<a class='button secondary' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_readusecase' aria-labelledby='section_usecases_a_readusecase section_usecases_h1_theremustbe'><span>Read Use Case</span></a>
-													</div>
-
-												</div>
-						
-											</figure>
+											<a class='( use-case use-case-keywords ) flexdir-ttb-mob pad-xy-mob radius-mob theme-white-mob' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_" . $image_file_name . "' aria-labelledby='" . $image_file_name . " section_usecases_h1_theremustbe' data-use-case-keywords='" . $keywords . "'>
+												<picture class='pad-b-mob fg-image-use-case-mob'>
+													<img class='radius-mob border-mob' src='assets/images/use-cases/" . $image_file_name .".jpg' title='" . $title . "' alt='" . $title . "' />
+												</picture>
+												<h3>". $title . "</h3>
+												<p>" . $intro . "</p>
+											</a>
 										";
 
 										}

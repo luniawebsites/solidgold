@@ -1,4 +1,6 @@
 ## Redirects ##
+Redirect 302 /radioedits https://podcaststudios.co.za/audio/grounded/radioedits
+Redirect 302 /editor/jodyjulius https://drive.google.com/open?id=1AFxh72PuXD6ArrMf4wTwJhnqT0dKq30v
 Redirect 302 http://www.solidgoldstudios.co.za/trade-marks.php https://solidgoldstudios.co.za
 
 ## Redirect errors ##

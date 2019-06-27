@@ -21,20 +21,19 @@ LINK & PARTIAL > Defer load non-critical CSS
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
 <?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
 
-<meta name="description" content="Podcast recording examples" />
+<meta name="description" content="Podcast recording use cases" />
 <meta name="robots" content="index, follow" />
 <meta name="classification" content="business" />
-<meta name="pagename" content="Solid Gold Podcast Studios | Examples" />
+<meta name="pagename" content="Solid Gold Podcast Studios | Use Cases" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="MobileOptimized" content="320" />
-<meta property="og:title" content="Solid Gold Podcast Studios | Examples" />
-<meta property="og:description" content="Podcast recording examples" />
+<meta property="og:title" content="Solid Gold Podcast Studios | Use Cases" />
+<meta property="og:description" content="Podcast recording use cases" />
 <meta property="og:locale" content="en_ZA" />
 <meta property="og:url" content="https://solidgoldstudios.co.za/use-cases.php" />
 <meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
-<title>Solid Gold Podcast Studios | Examples</title>
-<!-- <link rel="canonical" href="https://solidgoldstudios.co.za/examples.php" /> -->
+<title>Solid Gold Podcast Studios | Use Cases</title>
 <link rel="canonical" href="https://solidgoldstudios.co.za/use-cases.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">

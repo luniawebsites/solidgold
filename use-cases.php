@@ -21,20 +21,19 @@ LINK & PARTIAL > Defer load non-critical CSS
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
 <?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
 
-<meta name="description" content="Podcast recording examples" />
+<meta name="description" content="Podcast recording use cases" />
 <meta name="robots" content="index, follow" />
 <meta name="classification" content="business" />
-<meta name="pagename" content="Solid Gold Podcast Studios | Examples" />
+<meta name="pagename" content="Solid Gold Podcast Studios | Use Cases" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="MobileOptimized" content="320" />
-<meta property="og:title" content="Solid Gold Podcast Studios | Examples" />
-<meta property="og:description" content="Podcast recording examples" />
+<meta property="og:title" content="Solid Gold Podcast Studios | Use Cases" />
+<meta property="og:description" content="Podcast recording use cases" />
 <meta property="og:locale" content="en_ZA" />
 <meta property="og:url" content="https://solidgoldstudios.co.za/use-cases.php" />
 <meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
-<title>Solid Gold Podcast Studios | Examples</title>
-<!-- <link rel="canonical" href="https://solidgoldstudios.co.za/examples.php" /> -->
+<title>Solid Gold Podcast Studios | Use Cases</title>
 <link rel="canonical" href="https://solidgoldstudios.co.za/use-cases.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
@@ -117,7 +116,7 @@ PARTIAL > IE10/IE11 notice
 
 		<div class="flexdir-ttb-mob constrain pad-b-mob">
 
-			<div class="flexdir-ttb-mob spread-mob">
+			<div class="grid-auto-respond-16">
 
 				<!--
 				SCRIPT > Display content from use case
@@ -193,24 +192,13 @@ PARTIAL > IE10/IE11 notice
 
 										// Write HTML content
 										echo "
-											<figure class='( use-case-keywords ) flexdir-ttb-mob flexdir-ltr-des pad-xy-mob radius-mob theme-white-mob' data-use-case-keywords='" . $keywords . "'>
-
-												<div class='width-auto-mob'>
-													<picture class='fg-image-use-case-mob'>
-														<img class='round-mob border-mob' src='assets/images/use-cases/" . $image_file_name .".jpg' title='" . $title . "' alt='" . $title . "' />
-													</picture>
-												</div>
-
-												<div class='pad-y-mob pad-xy-tab'>
-													<h3>". $title . "</h3>
-													<p>" . $intro . "</p>
-													<div class='flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob'>
-														<a class='button secondary' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_readusecase' aria-labelledby='section_usecases_a_readusecase section_usecases_h1_theremustbe'><span>Read Use Case</span></a>
-													</div>
-
-												</div>
-						
-											</figure>
+											<a class='( use-case use-case-keywords ) flexdir-ttb-mob pad-xy-mob radius-mob theme-white-mob' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_" . $image_file_name . "' aria-labelledby='" . $image_file_name . " section_usecases_h1_theremustbe' data-use-case-keywords='" . $keywords . "'>
+												<picture class='pad-b-mob fg-image-use-case-mob'>
+													<img class='radius-mob border-mob' src='assets/images/use-cases/" . $image_file_name .".jpg' title='" . $title . "' alt='" . $title . "' />
+												</picture>
+												<h3>". $title . "</h3>
+												<p>" . $intro . "</p>
+											</a>
 										";
 
 										}

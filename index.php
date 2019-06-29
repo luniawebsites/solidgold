@@ -7,19 +7,19 @@
 <!--
 PARTIAL: Base URL
 -->
-<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+<?php include("assets/partials/base-url.html"); ?>
 
 <!--
 PARTIAL: Google Tag Manager script
 -->
-<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
+<?php include("assets/partials/google-tag-manager-script.html"); ?>
 
 <!-- 
 LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
+<?php include("assets/partials/loadCSS.html"); ?>
 
 <meta name="description" content="Podcast recording studios #BeHeard" />
 <meta name="robots" content="index, follow" />
@@ -47,30 +47,30 @@ Prerender most likely next page
 SCRIPT: Inline load modernizer webp detection (defer causes images not to show in IE11)
 -->
 <script>
-	<?php echo file_get_contents("assets/scripts/modernizr-webp.js"); ?>
+	<?php include("assets/scripts/modernizr-webp.js"); ?>
 </script>
 
 <!--
 PARTIAL: Google Tag Manager body
 -->
-<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+<?php include("assets/partials/google-tag-manager-body.html"); ?>
 
 <!--
 STYLES: Inline load critical CSS
 -->
 <style>
-	<?php echo file_get_contents("assets/critical.min.css"); ?>
+	<?php include("assets/critical.min.css"); ?>
 </style>
 
 <!--
 PARTIAL: Leader with menu
 -->
-<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
+<?php include("assets/partials/pattern-page-leader.html"); ?>
 
 <!--
 PARTIAL: IE10/IE11 notice
 -->
-<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+<?php include("assets/partials/detect-ie.html"); ?>
 
 <!--
 HEADER: Hero
@@ -1049,19 +1049,18 @@ HEADER: Hero
 <!--
 PARTIAL: Page footer
 -->
-<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
+<?php include("assets/partials/pattern-page-footer.html"); ?>
 
 <!--
 PARTIAL: Schema
 -->
-<?php echo file_get_contents("assets/partials/schema.html"); ?>
+<?php include("assets/partials/schema.html"); ?>
 
 <!--
 SCRIPT: jQuery scripts
 -->
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
-<script src="assets/scripts/jquery/scroll.min.js" defer></script>
 
 <!--
 SCRIPT: Preload links on hover

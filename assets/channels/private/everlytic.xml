@@ -3,7 +3,7 @@
 	<resources>
 		<title>Connect</title> <!-- e.g. Lift As You Rise -->
 		<host>Everlytic</host> <!-- e.g. Red Bull Music -->
-		<filterKeywords>everlytic sam hutchinson email sms communication</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<filterKeywords>connect everlytic sam hutchinson email sms communication</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>everlytic.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
 		<email></email> <!-- e.g. info@lunia.co.za -->

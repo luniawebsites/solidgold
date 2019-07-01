@@ -5,17 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
 <!--
-PARTIAL > Base URL
+PARTIAL: Base URL
 -->
 <?php include("assets/partials/base-url.html"); ?>
 
 <!--
-PARTIAL > Google Tag Manager script
+PARTIAL: Google Tag Manager script
 -->
 <?php include("assets/partials/google-tag-manager-script.html"); ?>
 
 <!-- 
-LINK & PARTIAL > Defer load non-critical CSS
+LINK & PARTIAL: Defer load non-critical CSS
 -->
 <link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
@@ -44,75 +44,95 @@ Prerender most likely next page
 <link rel="prerender" href="use-case-template.php">
 
 <!--
-PARTIAL > Google Tag Manager body
+PARTIAL: Google Tag Manager body
 -->
 <?php include("assets/partials/google-tag-manager-body.html"); ?>
 
 <!--
-STYLES > Inline load critical CSS
+STYLES: Inline load critical CSS
 -->
 <style>
 	<?php include("assets/critical.min.css"); ?>
 </style>
 
 <!--
-PARTIAL > Leader with menu
+PARTIAL: Leader with menu
 -->
 <?php include("assets/partials/pattern-page-leader.html"); ?>
 
 <!--
-PARTIAL > IE10/IE11 notice
+PARTIAL: IE10/IE11 notice
 -->
 <?php include("assets/partials/detect-ie.html"); ?>
+
+<!--
+HEADER
+-->
+
+<header class="pad-respond-x-mob pad-respond-t-mob theme-light-grey-mob" id="header_usecases" aria-labelledby="header_usecases_h1_theremustbe">
+
+	<!--
+	LAYOUT CONTAINER
+	-->
+
+	<div class="constrain pad-t-mob pad-double-b-mob">
+
+		<h1 id="header_usecases_h1_theremustbe">There must be 50 ways to use a podcast</h1>
+
+		<p>Below we share with you some of the many useful, interesting and creative ways podcasts are used to share stories. Podcasting’s biggest value-add, after the ability to be listened to any time, everywhere, is that it doesn't compete for time with other activities. Podcasts are listened to <strong>while</strong> doing something else, and <strong>not instead</strong> of doing something else—usually while commuting, exercising or even cooking dinner. This makes podcasting uniquely capable of communicating both simple and complex ideas in both short and long forms.</p>
+
+		<!--
+		FORM
+		-->
+
+		<form>
+
+			<div class="flexdir-ltr-mob flexpos-lb-mob spread-mob pad-double-t-mob">
+
+				<div class="flexdir-ttb-mob">
+
+					<label for="header_usecases_input_filter">Filter use cases</label>
+
+					<input type="text" id="header_usecases_input_filter">
+
+				</div>
+
+				<button class="primary" id="header_usecases_button_showall"><span>Show All</span></button>
+
+			</div>
+
+		</form>
+
+	</div>
+
+</header>
+
+<!--
+MAIN
+-->
 
 <div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	SECTION > Use cases
+	ARTICLE
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_usecases" aria-labelledby="section_usecases_h1_theremustbe">
+	<article class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
-		<div class="constrain pad-t-mob pad-double-b-mob">
+		<div class="constrain pad-respond-b-mob">
 
-			<h1 id="section_usecases_h1_theremustbe">There must be 50 ways to use a podcast</h1>
-
-			<p>Below we share with you some of the many useful, interesting and creative ways podcasts are used to share stories. Podcasting’s biggest value-add, after the ability to be listened to any time, everywhere, is that it doesn't compete for time with other activities. Podcasts are listened to <strong>while</strong> doing something else, and <strong>not instead</strong> of doing something else—usually while commuting, exercising or even cooking dinner. This makes podcasting uniquely capable of communicating both simple and complex ideas in both short and long forms.</p>
-
-			<form>
-
-				<div class="flexdir-ltr-mob flexpos-lb-mob spread-mob pad-double-t-mob">
-
-					<div class="flexdir-ttb-mob">
-
-						<label for="section_usecases_input_filter">Filter use cases</label>
-
-						<input type="text" id="section_usecases_input_filter">
-
-					</div>
-
-					<button class="primary" id="section_usecases_button_showall"><span>Show All</span></button>
-
-				</div>
-
-			</form>
-
-		</div>
-
-		<!--
-		Container
-		-->
-
-		<div class="flexdir-ttb-mob constrain pad-b-mob">
+			<!--
+			LAYOUT CONTAINER
+			-->
 
 			<div class="grid-auto-respond-16">
 
 				<!--
-				SCRIPT > Display content from use case
+				SCRIPT
 				-->
 
 				<?php
@@ -185,7 +205,7 @@ PARTIAL > IE10/IE11 notice
 
 										// Write HTML content
 										echo "
-											<a class='( use-case use-case-keywords ) flexdir-ttb-mob pad-xy-mob radius-mob theme-white-mob' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='section_usecases_a_" . $image_file_name . "' aria-labelledby='" . $image_file_name . " section_usecases_h1_theremustbe' data-use-case-keywords='" . $keywords . "'>
+											<a class='( use-case use-case-keywords ) flexdir-ttb-mob pad-xy-mob radius-mob theme-white-mob' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='article_usecases_a_" . $image_file_name . "' aria-labelledby='" . $image_file_name . " header_usecases_h1_theremustbe' data-use-case-keywords='" . $keywords . "'>
 												<picture class='pad-b-mob fg-image-use-case-mob'>
 													<img class='radius-mob border-mob' src='assets/images/use-cases/" . $image_file_name .".jpg' title='" . $title . "' alt='" . $title . "' />
 												</picture>
@@ -204,32 +224,34 @@ PARTIAL > IE10/IE11 notice
 
 			</div>
 
-		</section>
+		</div>
+
+	</article>
 
 </div>
 
 <!--
-PARTIAL > Page footer
+PARTIAL: Page footer
 -->
 <?php include("assets/partials/pattern-page-footer.html"); ?>
 
 <!--
-SCRIPT > jQuery scripts
+SCRIPT: jQuery scripts
 -->
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
 
 <!--
-SCRIPT > Preload links on hover
+SCRIPT: Preload links on hover
 -->
 <script src="assets/scripts/js/instant-page.min.js" defer></script>
 
 <!--
-SCRIPT > jQuery filter for channel cards
+SCRIPT: jQuery filter for channel cards
 -->
 <script>
 	/* Filter items using keywords (keywords defined in "keyword" pseudo-class in the individual channel HTML pages) */
-	$("#section_usecases_input_filter").keyup(function(){
+	$("#header_usecases_input_filter").keyup(function(){
 		var selectItem = $(this).val().toLowerCase();
 		filter(selectItem);
 		});
@@ -242,15 +264,15 @@ SCRIPT > jQuery filter for channel cards
 </script>
 
 <!--
-SCRIPT > jQuery clear filter input
+SCRIPT: jQuery clear filter input
 -->
 <script>
 	$(document).ready(function () {
 		/* Clear data from the filter input when returning to the page (all items display on return) */
-		$('#section_usecases_input_filter').val('');
+		$('#header_usecases_input_filter').val('');
 		/* Clear data from the filter input on button click */
-		$("#section_usecases_button_showall").click(function(){
-			$('#section_usecases_input_filter').val('');
+		$("#header_usecases_button_showall").click(function(){
+			$('#header_usecases_input_filter').val('');
 		});
 	});
 </script>

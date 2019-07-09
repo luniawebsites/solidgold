@@ -276,7 +276,7 @@ MAIN
 
 						<h3 class="pad-t-mob">Studio 4</h3>
 
-						<p>Designed to be very versatile for a vast range of conversations to be recorded, this is more like a television studio than our other studios. Recording configurations include armchair conversations, a boardbook desk layout, a lounge or couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for specific recordings. There's also an infinity curve and a green screen for chroma key shoots.</p>
+						<p>Designed to be very versatile for a vast range of conversations to be recorded, this is more like a television studio than our other studios. Recording configurations include armchair conversations, a boardroom desk layout, a lounge or couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for specific recordings. There's also an infinity curve and a green screen for chroma key shoots.</p>
 
 					</div>
 

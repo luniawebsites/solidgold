@@ -5,21 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
 <!--
-PARTIAL > Base URL
+PARTIAL: Base URL
 -->
-<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+<?php include("assets/partials/base-url.html"); ?>
 
 <!--
-PARTIAL > Google Tag Manager script
+PARTIAL: Google Tag Manager script
 -->
-<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
+<?php include("assets/partials/google-tag-manager-script.html"); ?>
 
 <!-- 
-LINK & PARTIAL > Defer load non-critical CSS
+LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
+<?php include("assets/partials/loadCSS.html"); ?>
 
 <meta name="description" content="Podcast recording studios channel" />
 <meta name="robots" content="index, follow" />
@@ -37,50 +37,54 @@ LINK & PARTIAL > Defer load non-critical CSS
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
 <!--
-PARTIAL & SCRIPT > Inline load modernizer webp detection (defer causes images not to show in IE11)
+PARTIAL/SCRIPT: Inline load modernizer webp detection (defer causes images not to show in IE11)
 -->
 <script>
-	<?php echo file_get_contents("assets/partials/script-modernizr-webp.js"); ?>
+	<?php include("assets/partials/script-modernizr-webp.js"); ?>
 </script>
 
 <!--
-PARTIAL > Google Tag Manager body
+PARTIAL: Google Tag Manager body
 -->
-<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+<?php include("assets/partials/google-tag-manager-body.html"); ?>
 
 <!--
-STYLES > Inline load critical CSS
+STYLES: Inline load critical CSS
 -->
 <style>
-	<?php echo file_get_contents("assets/critical.min.css"); ?>
+	<?php include("assets/critical.min.css"); ?>
 </style>
 
 <!--
-PARTIAL > Leader with menu
+PARTIAL: Leader with menu
 -->
-<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
+<?php include("assets/partials/pattern-page-leader.html"); ?>
 
 <!--
-PARTIAL > IE10/IE11 notice
+PARTIAL: IE10/IE11 notice
 -->
-<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+<?php include("assets/partials/detect-ie.html"); ?>
+
+<!--
+MAIN
+-->
 
 <div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	SECTION > Channel template
+	ARTICLE: Channel template
 	-->
 
-	<section class="pad-respond-xy-mob theme-light-grey-mob" id="section_channel">
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_channel">
 
 		<!--
-		Container
+		LAYOUT CONTAINER
 		-->
 
 		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-t-mob">
 
 			<!--
-			Channel
+			SCRIPT
 			-->
 
 			<?php
@@ -197,7 +201,7 @@ PARTIAL > IE10/IE11 notice
 						// If agreement data are present, then set button to display
 						if ($agreement == "yes") {
 							$button_agreement = "
-								<a class='button secondary' href='https://form.myjotform.com/80842486098569' target='_blank' rel='noopener' title='" . $title . " channel playlist' id='section_channel_a_agreement' aria-label='" . $title . " channel playlist'><span>Media Usage Agreement</span></a>
+								<a class='button secondary' href='https://form.myjotform.com/80842486098569' target='_blank' rel='noopener' title='" . $title . " channel playlist' id='article_channel_a_agreement' aria-label='" . $title . " channel playlist'><span>Media Usage Agreement</span></a>
 							";
 						}
 						else {
@@ -208,7 +212,7 @@ PARTIAL > IE10/IE11 notice
 						if ($agreement == "yes") {
 							$text_agreement = "
 								<div class='flexdir-ltr-mob flexwrap pad-double-t-mob'>
-									<p>Before appearing as a guest, please complete the <a href='https://form.myjotform.com/80842486098569' target='_blank' rel='noopener' title='Media usage agreement' id='section_channel_p_mediausageagreement' aria-label='Media usage agreement'><span>Media Usage Agreement</span></a>. This enables us to publish the podcast and frees you to use it for your own promotional purposes.</p>
+									<p>Before appearing as a guest, please complete the <a href='https://form.myjotform.com/80842486098569' target='_blank' rel='noopener' title='Media usage agreement' id='article_channel_p_mediausageagreement' aria-label='Media usage agreement'><span>Media Usage Agreement</span></a>. This enables us to publish the podcast and frees you to use it for your own promotional purposes.</p>
 								</div>
 							";
 						}
@@ -222,7 +226,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							$button_playlist = "
-								<a class='button primary' href='" . $playlist_url . "' target='_blank' rel='noopener' title='" . $title . " channel playlist' id='section_channel_a_playlist' aria-label='" . $title . " channel playlist'><span>Listen</span></a>
+								<a class='button primary' href='" . $playlist_url . "' target='_blank' rel='noopener' title='" . $title . " channel playlist' id='article_channel_a_playlist' aria-label='" . $title . " channel playlist'><span>Listen</span></a>
 							";
 						}
 
@@ -232,7 +236,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$button_extra = "
-								<a class='button secondary' href='" . $extra_url . "' target='_blank' rel='noopener' title='" . $extra_label . "' id='section_channel_a_extrabutton' aria-label='" . $extra_label . "'><span>" . $extra_label . "</span></a>
+								<a class='button secondary' href='" . $extra_url . "' target='_blank' rel='noopener' title='" . $extra_label . "' id='article_channel_a_extrabutton' aria-label='" . $extra_label . "'><span>" . $extra_label . "</span></a>
 							";
 						}
 
@@ -242,7 +246,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_website = "
-								<a class='encimage-icon-website effect-grow-hover' href='" . $website_url . "' target='_blank' rel='noopener' title='Visit " . $host . " website' id='section_channel_a_website' aria-label='Visit " . $title . " website'></a>
+								<a class='encimage-icon-website effect-grow-hover' href='" . $website_url . "' target='_blank' rel='noopener' title='Visit " . $host . " website' id='article_channel_a_website' aria-label='Visit " . $title . " website'></a>
 							";
 						}
 
@@ -252,7 +256,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_email = "
-								<a class='encimage-icon-email effect-grow-hover' href='mailto:" . $email . "' target='_blank' rel='noopener' title='Send " . $host . " an email' id='section_channel_a_email' aria-label='Send " . $host . " an email'></a>
+								<a class='encimage-icon-email effect-grow-hover' href='mailto:" . $email . "' target='_blank' rel='noopener' title='Send " . $host . " an email' id='article_channel_a_email' aria-label='Send " . $host . " an email'></a>
 							";
 						}
 
@@ -262,7 +266,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_whatsapp = "
-								<a class='encimage-icon-whatsapp effect-grow-hover' href='https://api.whatsapp.com/send?phone=" . $whatsapp . "&text=Hi%20there' target='_blank' rel='noopener' title='Send " . $host . " a WhatsApp message' id='section_channel_a_whatsapp' aria-label='Send " . $host . " a WhatsApp message'></a>
+								<a class='encimage-icon-whatsapp effect-grow-hover' href='https://api.whatsapp.com/send?phone=" . $whatsapp . "&text=Hi%20there' target='_blank' rel='noopener' title='Send " . $host . " a WhatsApp message' id='article_channel_a_whatsapp' aria-label='Send " . $host . " a WhatsApp message'></a>
 							";
 						}
 
@@ -272,7 +276,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_facebook = "
-								<a class='encimage-icon-facebook effect-grow-hover' href='" . $facebook_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Facebook page' id='section_channel_a_facebook' aria-label='Visit " . $host . " Facebook page'></a>
+								<a class='encimage-icon-facebook effect-grow-hover' href='" . $facebook_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Facebook page' id='article_channel_a_facebook' aria-label='Visit " . $host . " Facebook page'></a>
 							";
 						}
 
@@ -282,7 +286,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_twitter = "
-								<a class='encimage-icon-twitter effect-grow-hover' href='" . $twitter_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Twitter page' id='section_channel_a_twitter' aria-label='Visit " . $host . " Twitter page'></a>
+								<a class='encimage-icon-twitter effect-grow-hover' href='" . $twitter_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Twitter page' id='article_channel_a_twitter' aria-label='Visit " . $host . " Twitter page'></a>
 							";
 						}
 
@@ -292,7 +296,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_linkedin = "
-								<a class='encimage-icon-linkedin effect-grow-hover' href='" . $linkedin_url . "' target='_blank' rel='noopener' title='Visit " . $host . " LinkedIn page' id='section_channel_a_linkedin' aria-label='Visit " . $host . " LinkedIn page'></a>
+								<a class='encimage-icon-linkedin effect-grow-hover' href='" . $linkedin_url . "' target='_blank' rel='noopener' title='Visit " . $host . " LinkedIn page' id='article_channel_a_linkedin' aria-label='Visit " . $host . " LinkedIn page'></a>
 							";
 						}
 
@@ -302,7 +306,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_instagram = "
-								<a class='encimage-icon-instagram effect-grow-hover' href='" . $instagram_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Instagram page' id='section_channel_a_instagram' aria-label='Visit " . $host . " Instagram page'></a>
+								<a class='encimage-icon-instagram effect-grow-hover' href='" . $instagram_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Instagram page' id='article_channel_a_instagram' aria-label='Visit " . $host . " Instagram page'></a>
 							";
 						}
 
@@ -312,7 +316,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_tumblr = "
-								<a class='encimage-icon-tumblr effect-grow-hover' href='" . $tumblr_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Tumblr page' id='section_channel_a_tumblr' aria-label='Visit " . $host . " Tumblr page'></a>
+								<a class='encimage-icon-tumblr effect-grow-hover' href='" . $tumblr_url . "' target='_blank' rel='noopener' title='Visit " . $host . " Tumblr page' id='article_channel_a_tumblr' aria-label='Visit " . $host . " Tumblr page'></a>
 							";
 						}
 
@@ -322,7 +326,7 @@ PARTIAL > IE10/IE11 notice
 						}
 						else {
 							@$icon_rss = "
-								<a class='encimage-icon-rss effect-grow-hover' href='" . $rss_url . "' target='_blank' rel='noopener' title='Open " . $host . " channel raw RSS feed' id='section_channel_a_rss' aria-label='Open " . $host . " channel raw RSS feed'></a>
+								<a class='encimage-icon-rss effect-grow-hover' href='" . $rss_url . "' target='_blank' rel='noopener' title='Open " . $host . " channel raw RSS feed' id='article_channel_a_rss' aria-label='Open " . $host . " channel raw RSS feed'></a>
 							";
 						}
 
@@ -365,17 +369,17 @@ PARTIAL > IE10/IE11 notice
 
 		</div>
 
-	</section>
+	</article>
 
 </div>
 
 <!--
-PARTIAL > Page footer
+PARTIAL: Page footer
 -->
-<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
+<?php include("assets/partials/pattern-page-footer.html"); ?>
 
 <!--
-SCRIPT > jQuery scripts
+SCRIPT: jQuery scripts
 -->
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>

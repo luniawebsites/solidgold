@@ -7,19 +7,19 @@
 <!--
 PARTIAL: Base URL
 -->
-<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+<?php include("assets/partials/base-url.html"); ?>
 
 <!--
 PARTIAL: Google Tag Manager script
 -->
-<?php echo file_get_contents("assets/partials/google-tag-manager-script.html"); ?>
+<?php include("assets/partials/google-tag-manager-script.html"); ?>
 
 <!-- 
 LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
+<?php include("assets/partials/loadCSS.html"); ?>
 
 <meta name="description" content="Podcast recording studios #BeHeard" />
 <meta name="robots" content="index, follow" />
@@ -47,30 +47,30 @@ Prerender most likely next page
 SCRIPT: Inline load modernizer webp detection (defer causes images not to show in IE11)
 -->
 <script>
-	<?php echo file_get_contents("assets/scripts/modernizr-webp.js"); ?>
+	<?php include("assets/scripts/modernizr-webp.js"); ?>
 </script>
 
 <!--
 PARTIAL: Google Tag Manager body
 -->
-<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+<?php include("assets/partials/google-tag-manager-body.html"); ?>
 
 <!--
 STYLES: Inline load critical CSS
 -->
 <style>
-	<?php echo file_get_contents("assets/critical.min.css"); ?>
+	<?php include("assets/critical.min.css"); ?>
 </style>
 
 <!--
 PARTIAL: Leader with menu
 -->
-<?php echo file_get_contents("assets/partials/pattern-page-leader.html"); ?>
+<?php include("assets/partials/pattern-page-leader.html"); ?>
 
 <!--
 PARTIAL: IE10/IE11 notice
 -->
-<?php echo file_get_contents("assets/partials/detect-ie.html"); ?>
+<?php include("assets/partials/detect-ie.html"); ?>
 
 <!--
 HEADER: Hero
@@ -123,14 +123,10 @@ HEADER: Hero
 			</div>
 
 			<!--
-			LAYOUT CONTAINER
+			BUTTON CONTAINER
 			-->
 
 			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
-
-				<!--
-				BUTTONS
-				-->
 
 				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_beingheardis"><span>How Podcasts Are Used</span></a>
 
@@ -144,13 +140,17 @@ HEADER: Hero
 
 </header>
 
+<!--
+MAIN
+-->
+
 <div role="main"> <!-- This is used instead of the more semantically-correct <main> to ensure CSS auro-grid works -->
 
 	<!--
 	ARTICLE: Tell the world your story
 	-->
 
-	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="section_telltheworld" aria-labelledby="section_telltheworld_h2_telltheworld">
+	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="article_telltheworld" aria-labelledby="article_telltheworld_h2_telltheworld">
 
 		<!--
 		LAYOUT CONTAINER
@@ -168,9 +168,9 @@ HEADER: Hero
 				CONTENT
 				-->
 
-				<h2 class="text-c-mob" id="section_telltheworld_h2_telltheworld">Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
+				<h2 class="text-c-mob" id="article_telltheworld_h2_telltheworld">Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
 
-				<p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="section_telltheworld_a_onchange" aria-labelledby="section_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
+				<p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="article_telltheworld_a_onchange" aria-labelledby="article_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
 
 			</div>
 
@@ -983,7 +983,7 @@ HEADER: Hero
 			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
 
 				<!--
-				BUTTONS
+				BUTTON CONTAINER
 				-->
 
 				<a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
@@ -1049,19 +1049,18 @@ HEADER: Hero
 <!--
 PARTIAL: Page footer
 -->
-<?php echo file_get_contents("assets/partials/pattern-page-footer.html"); ?>
+<?php include("assets/partials/pattern-page-footer.html"); ?>
 
 <!--
 PARTIAL: Schema
 -->
-<?php echo file_get_contents("assets/partials/schema.html"); ?>
+<?php include("assets/partials/schema.html"); ?>
 
 <!--
 SCRIPT: jQuery scripts
 -->
 <script src="assets/scripts/jquery/jquery.min.js"></script>
 <script src="assets/scripts/jquery/pushy.min.js" defer></script>
-<script src="assets/scripts/jquery/scroll.min.js" defer></script>
 
 <!--
 SCRIPT: Preload links on hover

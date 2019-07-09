@@ -1,10 +1,10 @@
 <channelPageData>
 
 	<resources>
-		<title>Connect | Everlytic</title> <!-- e.g. Lift As You Rise -->
-		<host>Sam Hutchinson CEO</host> <!-- e.g. Red Bull Music -->
-		<filterKeywords>connect everlytic sam hutchinson email sms communication</filterKeywords> <!-- e.g. lift rise red bull music -->
-		<coverFileName>everlytic.jpg</coverFileName> <!-- File name with extension -->
+		<title>EOH</title> <!-- e.g. Lift As You Rise -->
+		<host>Stephen Van Coller Group CEO</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>eoh stephen van coller it</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>eoh.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
 		<email></email> <!-- e.g. info@lunia.co.za -->
 		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->

@@ -3,7 +3,7 @@
 	<resources>
 		<title>WOMiN | Women in Namibia</title> <!-- e.g. Lift As You Rise -->
 		<host>Elizabeth Viljoen</host> <!-- e.g. Red Bull Music -->
-		<filterKeywords>womin women woman elizabeth viljoen liz namibia celebrate</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<filterKeywords>womin women woman elizabeth viljoen liz namibia cerebrate</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>womin.jpg</coverFileName> <!-- File name with extension -->
 		<agreement>yes</agreement> <!-- yes or empty -->
 		<email>esviljoen@gmail.com</email> <!-- e.g. info@lunia.co.za -->
@@ -21,8 +21,8 @@
 	</resources>
 
 	<description>
-		<p>CELEBRATE and Elizabeth Viljoen present "Women in Namibia"</p>
-		<p>CELEBRATE means to think deeply.</p>
+		<p>Cerebrate and Elizabeth Viljoen present "Women in Namibia"</p>
+		<p>Cerebrate : to think deeply.</p>
 		<p>Join in the conversation about women of influence making an impact, and difference, in Namibia.</p>
 	</description>
 

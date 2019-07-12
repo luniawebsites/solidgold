@@ -1,0 +1,27 @@
+<channelPageData>
+
+	<resources>
+		<title>Future Proof Your Child</title> <!-- e.g. Lift As You Rise -->
+		<host>Paul Albrecht</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>future proof your child paul janette albrecht</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>future-proof-your-child.jpg</coverFileName> <!-- File name with extension -->
+		<agreement></agreement> <!-- yes or empty -->
+		<email>paul@futureproofyourchild.net</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp>27826111973</whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl></playlistUrl> <!-- Full URL -->
+		<websiteUrl>http://futureproofyourchild.co.za</websiteUrl> <!-- Full URL -->
+		<facebookUrl></facebookUrl> <!-- Full URL -->
+		<twitterUrl></twitterUrl> <!-- Full URL -->
+		<linkedinUrl></linkedinUrl> <!-- Full URL -->
+		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl></rssUrl> <!-- Full URL -->
+		<extraUrl></extraUrl> <!-- Full URL -->
+		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>Everyone needs to adapt to the ever-changing world. And a new way of education.</p>
+	</description>
+
+</channelPageData>

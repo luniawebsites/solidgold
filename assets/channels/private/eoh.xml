@@ -1,0 +1,28 @@
+<channelPageData>
+
+	<resources>
+		<title>EOH</title> <!-- e.g. Lift As You Rise -->
+		<host>Stephen Van Coller Group CEO</host> <!-- e.g. Red Bull Music -->
+		<filterKeywords>eoh stephen van coller it</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<coverFileName>eoh.jpg</coverFileName> <!-- File name with extension -->
+		<agreement></agreement> <!-- yes or empty -->
+		<email>michael@aprio.co.za</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<playlistUrl></playlistUrl> <!-- Full URL -->
+		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<facebookUrl></facebookUrl> <!-- Full URL -->
+		<twitterUrl></twitterUrl> <!-- Full URL -->
+		<linkedinUrl></linkedinUrl> <!-- Full URL -->
+		<instagramUrl></instagramUrl> <!-- Full URL -->
+		<tumblrUrl></tumblrUrl> <!-- Full URL -->
+		<rssUrl></rssUrl> <!-- Full URL -->
+		<extraUrl></extraUrl> <!-- Full URL -->
+		<extraLabel></extraLabel> <!-- e.g. Buy on Amazon -->
+	</resources>
+
+	<description>
+		<p>Our EOH Purpose</p>
+		<p>To provide the technology, knowledge, skills, and organisational ability critical to the development and growth of the markets we serve. To be an ethical, relevant force for good and to play a positive role in our society, beyond normal business practice.</p>
+	</description>
+
+</channelPageData>

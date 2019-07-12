@@ -25,6 +25,13 @@
 // Base themes (for sections, containers and table cells)
 // --------------------------------------------------------------------------------------------------------------
 
+h2 > a,
+h3 > a,
+h4 > a {
+	transition: $transition;
+	-webkit-text-decoration-skip: objects;
+}
+
 p > a,
 small > a,
 li > a,

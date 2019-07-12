@@ -210,178 +210,158 @@ MAIN
 	ARTICLE: Blog posts
 	-->
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_blogposts" aria-labelledby="section_blogposts_h2_blogposts">
-
-		<!--
-		HIDDEN HEADING (needed for HTML validation audit)
-		-->
-
-		<h2 id="section_blogposts_h2_blogposts" hidden>Blog posts</h2>
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_blogposts" aria-labelledby="section_featuredblogpost_h2_title">
 
 		<!--
 		LAYOUT CONTAINER
 		-->
 
-		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain pad-respond-y-mob">
+		<div class="flexdir-ttb-mob constrain pad-respond-y-mob">
+
+			<!--
+			ARIA HIDDEN LABEL
+			-->
+
+			<div aria-hidden="true"><span class="text-heading-badge--light">Blog Posts</span></div>
 
 			<!--
 			LAYOUT CONTAINER
 			-->
 
-			<div class="pad-respond-r-tab border-r-tab">
+			<div class="flexdir-ttb-mob flexdir-ltr-tab constrain spread-double-mob">
 
 				<!--
-				ARIA HIDDEN LABEL
+				SECTION CONTAINER
 				-->
 
-				<div aria-hidden="true"><span class="text-heading-badge--light">Blog Posts</span></div>
+				<section class="flexdir-ttb-mob width-60-tab constrain pad-respond-r-mob border-r-tab" id="section_featuredblogpost_h2_title">
+
+					<!--
+					SCRIPT: Display featured blog post
+					-->
+
+					<?php
+
+						// Create a custom function
+						// ----------------------------------------------------------------------
+
+						function featuredBlogPost() {
+
+							// Get all json files from this folder
+							$folder = glob('assets/data/blog-posts/json/*.json');
+
+							// Get the last json file from the folder
+							$file = array_slice($folder, 1);
+								foreach ($folder as $file) {
+							};
+
+							// Get the contents of the json file
+							$contents = file_get_contents($file);
+
+							// Decode the contents of the json file
+							$data = json_decode($contents);
+
+							// Construct the file name
+							$file_name = basename($file, '.json');
+
+							// Construct the link to the php template and add the file name as a referrer
+							$file_url = 'blog-post.php?title='.$file_name.'';
+
+							// Combine and display all the html for this function
+							echo '
+								<h2 id="section_featuredblogpost_h2_title" aria-labelledby="section_featuredblogpost_h2_title"><a href="'.$file_url.'" title="'.$data->title.'" aria-labelledby="section_featuredblogpost_h2_title">'.$data->title.'</h2>
+								<p class="pad-t-mob">'.$data->introText.'</p>
+								<div class="flexdir-ttb-mob flexpos-lc-mob pad-double-t-mob">
+									<a class="button primary" href="'.$file_url.'" title="Read post" id="section_featuredblogpost_a_readmore" aria-labelledby="section_featuredblogpost_a_readmore section_featuredblogpost_h2_title"><span>Read Post</span></a>
+								</div>
+							';
+
+						};
+
+						// Display the function's final html
+						// ----------------------------------------------------------------------
+
+						echo '
+							'.featuredBlogPost().'
+						';
+
+					?>
+
+				</section>
 
 				<!--
-				SCRIPT: Display content from featured post
+				SECTION CONTAINER
 				-->
 
-				<?php
-					@$dir = "assets/posts/"; // Posts directory
-					// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/posts/";
-					@$dir_url = "https://solidgoldstudios.co.za/assets/posts/";
-					@$sort = 1; // 0 for ascending order and 1 for descending order
-					@$per_page = 1; // Number of posts to display per page
-					@$posts = scandir($dir, $sort);
-					@$total_pages = ceil((count($posts) - 2) / $per_page);
-					if (!isset($_GET['page']) || $_GET['page'] < 1 || $_GET['page'] > $total_pages) {
-						@$page = 1;
-					}
-					else {
-						@$page = $_GET['page'];
-					}
-					@$page_start = ($page - 1) * $per_page;
-					@$page_limit = ($page) * $per_page;
-					// Load posts
-					for (@$i=$page_start; $i < $page_limit; $i++) {
-						if (array_key_exists($i, $posts)) {
-						if (!is_dir($posts[$i])) {
-							if (file_exists($dir . $posts[$i])) {
-								// Begin curl
-								@$url = $dir_url . $posts[$i];
-								@$ch = curl_init($url);
-								curl_setopt($ch, CURLOPT_URL, $url);
-								curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-								curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-								curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-								curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
-								@$cn = curl_exec($ch);
-								@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-								// Check response
-								if ($status == 200) {
+				<section class="flexdir-ttb-mob flexpos-lc-mob width-40-tab" id="section_previousblogposts_h2_title">
 
-									// Get data from between opening and closing pseudo XML elements
-									@$content = $cn;
+					<!--
+					HIDDEN HEADING (needed for semantic validation)
+					-->
+	
+					<h2 id="section_previousblogposts_h2_title" hidden>Previous Blog Posts</h2>
 
-									// Title data
-									@$break_title_c = explode("</title>", $content);
-									@$break_title_o = explode("<title>", $break_title_c[0]);
+					<!--
+					SCRIPT: Display content from previous blog posts
+					-->
 
-									// Intro data
-									@$break_intro_c = explode("</intro>", $content);
-									@$break_intro_o = explode("<intro>", $break_intro_c[0]);
+					<?php
 
-									// Conditional statement
+						// Create a custom function
+						// ----------------------------------------------------------------------
 
-									if (count($break_title_o) > 1) {
+						function previousBlogPosts() {
 
-										// Define variables
-										@$title = $break_title_o[1];
-										@$intro = $break_intro_o[1];
+							// Designate the folder that contains the json files
+							$folder = 'assets/data/blog-posts/json/';
 
-										// Write HTML content
-										echo "
-											<h2>". $title . "</h2>
-											<p>" . $intro . "</p>
-											<div class='flexdir-ttb-mob flexpos-lc-mob pad-double-t-mob'>
-												<a class='button primary' href='post-template.php?post=" . $posts[$i] . "' title='Read post' id='section_blogposts_h2_readmore' aria-labelledby='section_blogposts_h2_readmore'><span>Read Post</span></a>
-											</div>
-										";
-										}
-									}
-								}
-							}
-						}
-					}
-				?>
+							// Get all json files from the designated folder
+							foreach (glob(''.$folder.'*.json') as $file) {
+								$files[] = $file;
+							};
 
-			</div>
+							// Sort the array of json files in descending order so we get the latest file first
+							rsort($files);
 
-			<!--
-			LAYOUT CONTAINER: Other blog posts
-			-->
+							$filter = array_slice($files, 1, 3);
 
-			<div class="flexdir-ttb-mob flexpos-lt-mob width-60-tab pad-respond-x-mob-only pad-double-t-mob-only pad-respond-l-tab">
+							// Create a separate instance of each json file's string
+							// ----------------------------------------------------------------------
 
-				<!--
-				SCRIPT: Link to titles of other posts
-				-->
+							foreach ($filter as $file) {
 
-				<?php
-					@$dir = "assets/posts/"; // Posts directory
-					// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/posts/";
-					@$dir_url = "https://solidgoldstudios.co.za/assets/posts/";
-					@$sort = 1; // 0 for ascending order and 1 for descending order
-					@$per_page = 4; // Number of posts to display per page
-					@$posts = scandir($dir, $sort);
-					@$total_pages = ceil((count($posts) - 2) / $per_page);
-					if (!isset($_GET['page']) || $_GET['page'] < 1 || $_GET['page'] > $total_pages) {
-						@$page = 1;
-					}
-					else {
-						@$page = $_GET['page'];
-					}
-					@$page_start = ($page - 1) * $per_page;
-					@$page_limit = ($page) * $per_page;
-					// Load posts
-					for (@$i=$page_start; $i < $page_limit; $i++) {
-						if (array_key_exists($i, $posts)) {
-						if (!is_dir($posts[$i])) {
-							if (file_exists($dir . $posts[$i])) {
-								// Begin curl
-								@$url = $dir_url . $posts[$i];
-								@$ch = curl_init($url);
-								curl_setopt($ch, CURLOPT_URL, $url);
-								curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-								curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-								curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-								curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
-								@$cn = curl_exec($ch);
-								@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-								// Check response
-								if ($status == 200) {
+								// Get the contents of the json file, decode the string, then get the file name
+								$json_data = file_get_contents($file);
+								$data = json_decode($json_data);
+								$file_name = basename($file, '.json');
 
-									// Get data from between opening and closing pseudo XML elements
-									@$content = $cn;
+								// Construct the link to the php template and add the file name as a referrer
+								$file_url = 'blog-post.php?title='.$file_name.'';
 
-									// Title data
-									@$break_title_c = explode("</title>", $content);
-									@$break_title_o = explode("<title>", $break_title_c[0]);
+								// Combine and display all the html for this function
+								echo '
+									<a class="previous-blog-post-heading" href="'.$file_url.'" id="section_previousblogposts_a_title" aria-labelledby="section_previousblogposts_a_title section_previousblogposts_h2_title">
+										'.$data->title.'
+									</a>
+								';
 
-									// Conditional statement
+							};
 
-									if (count($break_title_o) > 1) {
+							// Break the reference with the last element
+							unset($file);
 
-										// Define variables
-										@$title = $break_title_o[1];
+						};
 
-										// Write HTML content
-										echo "
-											<div class='text-heading-small'><a href='post-template.php?post=" . $posts[$i] . "'>". $title . "</a></div>
-										";
-										}
-									}
-								}
-							}
-						}
-					}
-				?>
+						// Display the function's final html
+						// ----------------------------------------------------------------------
+
+						echo '
+							'.previousBlogPosts().'
+						';
+
+					?>
+
+				</section>
 
 			</div>
 

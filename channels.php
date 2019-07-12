@@ -112,10 +112,10 @@ MAIN
 <div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 	<!--
-	ARTICLE: Private
+	ARTICLE: Channels
 	-->
 
-	<article class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="article_private" aria-labelledby="article_private_h2_privatepodcastchannels">
+	<article class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="article_channels" aria-labelledby="article_channels_h2_podcastchannels">
 
 		<!--
 		HEADER
@@ -123,9 +123,13 @@ MAIN
 
 		<header class="width-100 constrain">
 
-			<div class="pad-y-mob">
+			<div class="pad-t-mob">
 
-				<h2 id="article_private_h2_privatepodcastchannels">Private podcast channels</span></h2>
+				<!--
+				HIDDEN HEADING (needed for semantic validation)
+				-->
+
+				<h2 id="article_channels_h2_podcastchannels" hidden>Podcast channels</span></h2>
 
 			</div>
 
@@ -135,249 +139,75 @@ MAIN
 		LAYOUT CONTAINER
 		-->
 
-		<div class="grid-auto-respond-channel constrain pad-y-mob">
+		<div class="grid-auto-respond-channel constrain pad-b-mob">
 
 			<!--
 			SCRIPT
 			-->
 
 			<?php
-				@$dir = "assets/channels/private/"; // Channels directory
-				// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/channels/private/";
-				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/private/";
-				@$sort = 0; // 0 for ascending order and 1 for descending order
-				@$channels = scandir($dir, $sort);
-				for (@$i=0; $i < count($channels); $i++) {
-					if (!is_dir($channels[$i])) {
-						// Begin curl
-						@$url = $dir_url . $channels[$i];
-						@$ch = curl_init($url);
-						curl_setopt($ch, CURLOPT_URL, $url);
-						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-						curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-						curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-						curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
-						@$cn = curl_exec($ch);
-						@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-						// Check response
-						if ($status == 200) {
-							@$content = $cn;
-							// Channel name
-							@$break_title_c = explode("</title>", $content);
-							@$break_title_o = explode("<title>", $break_title_c[0]);
-							// Channel host (e.g. host name)
-							@$break_host_c = explode("</host>", $content);
-							@$break_host_o = explode("<host>", $break_host_c[0]);
-							// Cover image name
-							@$break_cover_file_name_c = explode("</coverFileName>", $content);
-							@$break_cover_file_name_o = explode("<coverFileName>", $break_cover_file_name_c[0]);
-							// Keywords for jQuery filter script
-							@$break_filter_keywords_c = explode("</filterKeywords>", $content);
-							@$break_filter_keywords_o = explode("<filterKeywords>", $break_filter_keywords_c[0]);
-							// Get data
-							if (count($break_title_o) > 1) {
-								// Define variables
-								@$title = $break_title_o[1];
-								@$host = $break_host_o[1];
-								@$cover_file_name = $break_cover_file_name_o[1];
-								@$filter_keywords = $break_filter_keywords_o[1];
-								// Styling for channel elements done in CSS instead of using utility classes
-								echo "
-									<div class='channel__container--private channel-keywords' data-channel-keywords='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
-										<figure>
-											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
-											<figcaption>" . $title . "</figcaption>
-											<p>" . $host . "</p>
-										</figure>
-									</div>
-								";
-							}
-						}
-					}
-				}
-			?>
 
-		</div>
+				// Use glob to get all json files from the designated folder
+				// ----------------------------------------------------------------------------------------------------
 
-	</article>
+				// Designate the folder that contains the json files
+				$json_folder = 'assets/data/channels/json/';
 
-	<!--
-	ARTICLE: Public
-	-->
+				// create file array
+				$files = array();
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob border-t-mob" id="article_public" aria-labelledby="article_public_h2_publicpodcastchannels">
+				// get all json files in the designated folder
+				foreach (glob(''.$json_folder.'*.json') as $file) {
+					$files[] = $file;
+				};
 
-		<!--
-		HEADER
-		-->
+				// Create a separate instance of each json file's string
+				// ----------------------------------------------------------------------------------------------------
 
-		<header class="width-100 constrain">
+				foreach ($files as $file) {
 
-			<div class="pad-y-mob">
+					// get the contents of the json file, decode the string, then get the file name
+					$json_data = file_get_contents($file);
+					$data = json_decode($json_data);
+					$file_name = basename($file, '.json');
 
-				<h2 id="article_public_h2_publicpodcastchannels">Public podcast channels</span></h2>
+					// Construct status classes
+					// ----------------------------------------------------------------------------------------------------
 
-			</div>
+					// search the json file for this keyword, then assign status icon class and status link
+					if(strpos($data->status, 'private') == 'private') {
+						$status_icon = 'channel__status--private';
+						$status_link = 'href="channel.php?title='.$file_name.'"';
+					};
 
-		</header>
+					// search the json file for this keyword, then assign status icon class and status link
+					if(strpos($data->status, 'public') == 'public') {
+						$status_icon = 'channel__status--public';
+						$status_link = 'href="channel.php?title='.$file_name.'"';
+					};
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+					// search the json file for this keyword, then assign status icon class and status link
+					if(strpos($data->status, 'comingSoon') == 'comingSoon') {
+						$status_icon = 'channel__status--coming-soon';
+						$status_link = 'href="channel.php?title='.$file_name.'"';
+					};
 
-		<div class="grid-auto-respond-channel constrain pad-y-mob">
+					// Display final html
+					// ----------------------------------------------------------------------------------------------------
 
-			<!--
-			SCRIPT
-			-->
+					echo '
+						<a class="( channel__container keywords '.$status_container.' )" '.$status_link.' aria-label="'.$data->title.'" data-keywords="'.$data->filterKeywords.'">
+							<div class="( '.$status_icon.' )"></div>
+							<figure>
+								<img src="assets/images/covers/'.$data->coverFileName.'" alt="'.$data->title.' podcast channel artwork" />
+								<figcaption>'.$data->title.'</figcaption>
+								<p>'.$data->host.'</p>
+							</figure>
+						</a>
+					';
 
-			<?php
-				@$dir = "assets/channels/active/"; // Channels directory
-				// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/channels/active/";
-				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/active/";
-				@$sort = 0; // 0 for ascending order and 1 for descending order
-				@$channels = scandir($dir, $sort);
-				for (@$i=0; $i < count($channels); $i++) {
-					if (!is_dir($channels[$i])) {
-						// Begin curl
-						@$url = $dir_url . $channels[$i];
-						@$ch = curl_init($url);
-						curl_setopt($ch, CURLOPT_URL, $url);
-						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-						curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-						curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-						curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
-						@$cn = curl_exec($ch);
-						@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-						// Check response
-						if ($status == 200) {
-							@$content = $cn;
-							// Channel name
-							@$break_title_c = explode("</title>", $content);
-							@$break_title_o = explode("<title>", $break_title_c[0]);
-							// Channel host (e.g. host name)
-							@$break_host_c = explode("</host>", $content);
-							@$break_host_o = explode("<host>", $break_host_c[0]);
-							// Cover image name
-							@$break_cover_file_name_c = explode("</coverFileName>", $content);
-							@$break_cover_file_name_o = explode("<coverFileName>", $break_cover_file_name_c[0]);
-							// Keywords for jQuery filter script
-							@$break_filter_keywords_c = explode("</filterKeywords>", $content);
-							@$break_filter_keywords_o = explode("<filterKeywords>", $break_filter_keywords_c[0]);
-							// Get data
-							if (count($break_title_o) > 1) {
-								// Define variables
-								@$title = $break_title_o[1];
-								@$host = $break_host_o[1];
-								@$cover_file_name = $break_cover_file_name_o[1];
-								@$filter_keywords = $break_filter_keywords_o[1];
-								// Styling for channel elements done in CSS instead of using utility classes
-								echo "
-									<a class='channel__container--active channel-keywords' data-channel-keywords='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
-										<figure>
-											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
-											<figcaption>" . $title . "</figcaption>
-											<p>" . $host . "</p>
-										</figure>
-									</a>
-								";
-							}
-						}
-					}
-				}
-			?>
+				};
 
-		</div>
-
-	</article>
-
-	<!--
-	ARTICLE: Coming soon
-	-->
-
-	<article class="pad-respond-x-mob pad-respond-y-mob theme-light-grey-mob border-t-mob" id="article_comingsoon" aria-labelledby="article_comingsoon_h2_podcastchannelscoming">
-
-		<!--
-		HEADER
-		-->
-
-		<header class="width-100 constrain">
-
-			<div class="pad-y-mob">
-
-				<h2 id="article_comingsoon_h2_podcastchannelscoming">Podcast channels coming soon</span></h2>
-
-			</div>
-
-		</header>
-
-		<!--
-		LAYOUT CONTAINER
-		-->
-
-		<div class="grid-auto-respond-channel constrain pad-y-mob">
-
-			<!--
-			SCRIPT
-			-->
-
-			<?php
-				@$dir = "assets/channels/coming-soon/"; // Channels directory
-				// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/channels/coming-soon/";
-				@$dir_url = "https://solidgoldstudios.co.za/assets/channels/coming-soon/";
-				@$sort = 0; // 0 for ascending order and 1 for descending order
-				@$channels = scandir($dir, $sort);
-				for (@$i=0; $i < count($channels); $i++) {
-					if (!is_dir($channels[$i])) {
-						// Begin curl
-						@$url = $dir_url . $channels[$i];
-						@$ch = curl_init($url);
-						curl_setopt($ch, CURLOPT_URL, $url);
-						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-						curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-						curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-						curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
-						@$cn = curl_exec($ch);
-						@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-						// Check response
-						if ($status == 200) {
-							@$content = $cn;
-							// Channel name
-							@$break_title_c = explode("</title>", $content);
-							@$break_title_o = explode("<title>", $break_title_c[0]);
-							// Channel host (e.g. host name)
-							@$break_host_c = explode("</host>", $content);
-							@$break_host_o = explode("<host>", $break_host_c[0]);
-							// Cover image name
-							@$break_cover_file_name_c = explode("</coverFileName>", $content);
-							@$break_cover_file_name_o = explode("<coverFileName>", $break_cover_file_name_c[0]);
-							// Keywords for jQuery filter script
-							@$break_filter_keywords_c = explode("</filterKeywords>", $content);
-							@$break_filter_keywords_o = explode("<filterKeywords>", $break_filter_keywords_c[0]);
-							// Get data
-							if (count($break_title_o) > 1) {
-								// Define variables
-								@$title = $break_title_o[1];
-								@$host = $break_host_o[1];
-								@$cover_file_name = $break_cover_file_name_o[1];
-								@$filter_keywords = $break_filter_keywords_o[1];
-								// Styling for channel elements done in CSS instead of using utility classes
-								echo "
-									<div class='channel__container--coming-soon channel-keywords' data-channel-keywords='" . $filter_keywords . "' href='channel-template.php?channel=" . $channels[$i] . "' aria-label='" . $title . "'>
-										<figure>
-											<img src='assets/images/covers/" . $cover_file_name . "' alt='" . $title . " podcast channel artwork' />
-											<figcaption>" . $title . "</figcaption>
-											<p>" . $host . "</p>
-										</figure>
-									</div>
-								";
-							}
-						}
-					}
-				}
 			?>
 
 		</div>
@@ -406,15 +236,15 @@ SCRIPT: Preload links on hover
 SCRIPT: jQuery filter for channel cards
 -->
 <script>
-	/* Filter items using keywords (keywords defined in "keyword" pseudo-class in the individual channel HTML pages) */
-	$("#section_channels_input_filter").keyup(function(){
+	/* Filter items using keywords (keywords defined in "keyword" in the individual JSON files) */
+	$("#header_channels_input_filter").keyup(function(){
 		var selectItem = $(this).val().toLowerCase();
 		filter(selectItem);
 		});
 		function filter(e) {
 			var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
-			$('.channel-keywords').hide().filter(function () {
-					return regex.test($(this).data('channel-keywords'))
+			$('.keywords').hide().filter(function () {
+					return regex.test($(this).data('keywords'))
 		}).show();
 	}
 </script>
@@ -425,10 +255,10 @@ SCRIPT: jQuery clear filter input
 <script>
 	$(document).ready(function () {
 		/* Clear data from the filter input when returning to the page (all items display on return) */
-		$('#section_channels_input_filter').val('');
+		$('#header_channels_input_filter').val('');
 		/* Clear data from the filter input on button click */
-		$("#section_channels_button_showall").click(function(){
-			$('#section_channels_input_filter').val('');
+		$("#header_channels_button_showall").click(function(){
+			$('#header_channels_input_filter').val('');
 		});
 	});
 </script>

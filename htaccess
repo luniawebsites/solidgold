@@ -4,7 +4,8 @@ Redirect 302 /editor/jodyjulius https://drive.google.com/open?id=1AFxh72PuXD6Arr
 Redirect 302 http://www.solidgoldstudios.co.za/trade-marks.php https://solidgoldstudios.co.za
 
 ## Redirect errors ##
-ErrorDocument 404 http://www.solidgoldstudios.co.za
+ErrorDocument 403 http://www.solidgoldstudios.co.za/errors/403.php
+ErrorDocument 404 http://www.solidgoldstudios.co.za/errors/404.php
 
 ## GZIP compression ##
 <ifModule mod_gzip.c>

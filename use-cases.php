@@ -136,90 +136,55 @@ MAIN
 				-->
 
 				<?php
-					@$dir = "assets/use-cases/"; // Use case directory
-					// @$dir_url = "http://localhost:8888/solidgoldstudios/assets/use-cases/";
-					@$dir_url = "https://solidgoldstudios.co.za/assets/use-cases/";
-					@$sort = 0; // 0 for ascending order and 1 for descending order
-					@$per_page = 50; // Number of use cases to display per page
-					@$use_cases = scandir($dir, $sort);
-					@$total_pages = ceil((count($use_cases) - 2) / $per_page);
-					if (!isset($_GET['page']) || $_GET['page'] < 1 || $_GET['page'] > $total_pages) {
-						@$page = 1;
-					}
-					else {
-						@$page = $_GET['page'];
-					}
-					@$page_start = ($page - 1) * $per_page;
-					@$page_limit = ($page) * $per_page;
-					// Load use cases
-					for (@$i=$page_start; $i < $page_limit; $i++) {
-						if (array_key_exists($i, $use_cases)) {
-						if (!is_dir($use_cases[$i])) {
-							if (file_exists($dir . $use_cases[$i])) {
-								// Begin curl
-								@$url = $dir_url . $use_cases[$i];
-								@$ch = curl_init($url);
-								curl_setopt($ch, CURLOPT_URL, $url);
-								curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-								curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-								curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-								curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko)' 'Chrome/41.0.2227.1 Safari/537.36");
-								@$cn = curl_exec($ch);
-								@$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-								// Check response
-								if ($status == 200) {
 
-									// Get data from between opening and closing pseudo XML elements
-									@$content = $cn;
+					// Use glob to get all JSON files from the designated folder
+					// ----------------------------------------------------------------------------------------------------
 
-									// Title data
-									@$break_title_c = explode("</title>", $content);
-									@$break_title_o = explode("<title>", $break_title_c[0]);
+					// Designate the folder that contains the json files
+					$json_folder = 'assets/data/use-cases/json/';
 
-									// Keywords data
-									@$break_keywords_c = explode("</keywords>", $content);
-									@$break_keywords_o = explode("<keywords>", $break_keywords_c[0]);
+					// Create file array
+					$files = array();
 
-									// Intro data
-									@$break_intro_c = explode("</intro>", $content);
-									@$break_intro_o = explode("<intro>", $break_intro_c[0]);
+					// Get all json files in the designated folder
+					foreach (glob(''.$json_folder.'*.json') as $file) {
+						$files[] = $file;
+					};
 
-									// Example data
-									@$break_example_c = explode("</example>", $content);
-									@$break_example_o = explode("<example>", $break_example_c[0]);
+					// Create a separate instance of each JSON file's string
+					// ----------------------------------------------------------------------------------------------------
 
-									// Get file name
-									// Get XML file name to use as image name
-									$image_file_name = pathinfo( parse_url( $url, PHP_URL_PATH ), PATHINFO_FILENAME );
+					foreach ($files as $file) {
 
-									// Conditional statement
+						// Get the contents of the json file, decode the string, then get the file name
+						$json_data = file_get_contents($file);
+						$data = json_decode($json_data);
+						$file_name = basename($file, '.json');
 
-									if (count($break_title_o) > 1) {
+						// Construct links to be used in the final HTML
+						// ----------------------------------------------------------------------------------------------------
 
-										// Define variables
-										@$title = $break_title_o[1];
-										@$keywords = $break_keywords_o[1];
-										@$intro = $break_intro_o[1];
-										@$example = $break_example_o[1];
+						// Construct the link to the template and add the json file name
+						$file_url = 'use-case.php?title='.$file_name.'';
 
-										// Write HTML content
-										echo "
-											<a class='( use-case use-case-keywords ) flexdir-ttb-mob pad-xy-mob radius-mob theme-white-mob' href='use-case-template.php?use-case=" . $use_cases[$i] . "' title='Read use case' id='article_usecases_a_" . $image_file_name . "' aria-labelledby='" . $image_file_name . " header_usecases_h1_theremustbe' data-use-case-keywords='" . $keywords . "'>
-												<picture class='pad-b-mob fg-image-use-case-mob'>
-													<img class='radius-mob border-mob' src='assets/images/use-cases/" . $image_file_name .".jpg' title='" . $title . "' alt='" . $title . "' />
-												</picture>
-												<h3>". $title . "</h3>
-												<p>" . $intro . "</p>
-											</a>
-										";
+						// Construct the link to the main image
+						$main_image_url = 'assets/images/use-cases/'.$file_name.'.jpg';
 
-										}
-									}
-								}
-							}
-						}
-					}
+						// Display final html
+						// ----------------------------------------------------------------------------------------------------
+
+						echo '
+							<a class="( use-case keywords ) flexdir-ttb-mob pad-xy-mob radius-mob theme-white-mob" href="'.$file_url.'" title="Read '.$data->title.' use case" aria-label="'.$data->title.'" data-keywords="'.$data->filterKeywords.'">
+								<picture class="pad-b-mob fg-image-use-case-mob">
+									<img class="radius-mob border-mob" src="'.$main_image_url.'" title="'.$data->title.'" alt="'.$data->title.'" />
+								</picture>
+								<h3>'.$data->title.'</h3>
+								<p>'.$data->introText.'</p>
+							</a>
+						';
+
+					};
+
 				?>
 
 			</div>
@@ -250,30 +215,24 @@ SCRIPT: Preload links on hover
 SCRIPT: jQuery filter for channel cards
 -->
 <script>
-	/* Filter items using keywords (keywords defined in "keyword" pseudo-class in the individual channel HTML pages) */
+
+	// Filter items using keywords
 	$("#header_usecases_input_filter").keyup(function(){
 		var selectItem = $(this).val().toLowerCase();
 		filter(selectItem);
 		});
 		function filter(e) {
 			var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
-			$('.use-case-keywords').hide().filter(function () {
-					return regex.test($(this).data('use-case-keywords'))
+			$('.keywords').hide().filter(function () {
+					return regex.test($(this).data('keywords'))
 		}).show();
 	}
-</script>
-
-<!--
-SCRIPT: jQuery clear filter input
--->
-<script>
-	$(document).ready(function () {
-		/* Clear data from the filter input when returning to the page (all items display on return) */
-		$('#header_usecases_input_filter').val('');
-		/* Clear data from the filter input on button click */
-		$("#header_usecases_button_showall").click(function(){
-			$('#header_usecases_input_filter').val('');
-		});
+	// Disable return key (return refreshes page)
+	$("#header_usecases_input_filter").keypress(function(e) {
+		// Enter key
+		if (e.which == 13) {
+			return false;
+		}
 	});
 </script>
 

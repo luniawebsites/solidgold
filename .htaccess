@@ -1,3 +1,7 @@
+RewriteEngine On
+ErrorDocument 403 https://lunia.co.za/sgs/errors/403.php
+ErrorDocument 404 https://lunia.co.za/sgs/errors/404.php
+
 ## Redirect requests for a non-existant directory to a .php file of the same name ##
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME}.php -f

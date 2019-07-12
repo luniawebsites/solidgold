@@ -5,11 +5,11 @@
 		<host>Elan Ressel</host> <!-- e.g. Red Bull Music -->
 		<filterKeywords>whats point</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>whats-the-point.jpg</coverFileName> <!-- File name with extension -->
-		<agreement></agreement> <!-- yes or empty -->
-		<email></email> <!-- e.g. info@lunia.co.za -->
-		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<agreement>yes</agreement> <!-- yes or empty -->
+		<email>elan@orient8.co</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp>27824562233</whatsapp> <!-- e.g. 27735880835 -->
 		<playlistUrl></playlistUrl> <!-- Full URL -->
-		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<websiteUrl>https://orient8.co</websiteUrl> <!-- Full URL -->
 		<facebookUrl></facebookUrl> <!-- Full URL -->
 		<twitterUrl></twitterUrl> <!-- Full URL -->
 		<linkedinUrl></linkedinUrl> <!-- Full URL -->
@@ -21,7 +21,7 @@
 	</resources>
 
 	<description>
-		<p></p>
+		<p>The 'guru' of reward and loyalty programmes will be sharing his secrets with you on how to maximise the benefit you derive when you spend your hard-earned money.</p>
 	</description>
 
 </channelPageData>

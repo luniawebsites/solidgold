@@ -3,13 +3,13 @@
 	<resources>
 		<title>Connect | Everlytic</title> <!-- e.g. Lift As You Rise -->
 		<host>Sam Hutchinson CEO</host> <!-- e.g. Red Bull Music -->
-		<filterKeywords>connect everlytic sam hutchinson email sms communication</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<filterKeywords>connect everlytic karyn strybos sam hutchinson email sms communication</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>everlytic.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
-		<email></email> <!-- e.g. info@lunia.co.za -->
-		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<email>karyn@everlytic.com</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp>27793400886</whatsapp> <!-- e.g. 27735880835 -->
 		<playlistUrl></playlistUrl> <!-- Full URL -->
-		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<websiteUrl>https://www.everlytic.co.za/</websiteUrl> <!-- Full URL -->
 		<facebookUrl></facebookUrl> <!-- Full URL -->
 		<twitterUrl></twitterUrl> <!-- Full URL -->
 		<linkedinUrl></linkedinUrl> <!-- Full URL -->
@@ -21,7 +21,8 @@
 	</resources>
 
 	<description>
-		<p></p>
+		<p>The Smart Messaging Software for</p>
+		<p>Everlytic is a digital messaging platform that helps your business communicate personally, reliably, and automatically over email and SMS. At scale.</p>
 	</description>
 
 </channelPageData>

@@ -6,7 +6,7 @@
 		<filterKeywords>eoh stephen van coller it</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>eoh.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
-		<email></email> <!-- e.g. info@lunia.co.za -->
+		<email>michael@aprio.co.za</email> <!-- e.g. info@lunia.co.za -->
 		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
 		<playlistUrl></playlistUrl> <!-- Full URL -->
 		<websiteUrl></websiteUrl> <!-- Full URL -->
@@ -21,7 +21,8 @@
 	</resources>
 
 	<description>
-		<p></p>
+		<p>Our EOH Purpose</p>
+		<p>To provide the technology, knowledge, skills, and organisational ability critical to the development and growth of the markets we serve. To be an ethical, relevant force for good and to play a positive role in our society, beyond normal business practice.</p>
 	</description>
 
 </channelPageData>

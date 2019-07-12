@@ -3,13 +3,13 @@
 	<resources>
 		<title>Future Proof Your Child</title> <!-- e.g. Lift As You Rise -->
 		<host>Paul Albrecht</host> <!-- e.g. Red Bull Music -->
-		<filterKeywords>future proof your child paul albrecht</filterKeywords> <!-- e.g. lift rise red bull music -->
+		<filterKeywords>future proof your child paul janette albrecht</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>future-proof-your-child.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
-		<email></email> <!-- e.g. info@lunia.co.za -->
-		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
+		<email>paul@futureproofyourchild.net</email> <!-- e.g. info@lunia.co.za -->
+		<whatsapp>27826111973</whatsapp> <!-- e.g. 27735880835 -->
 		<playlistUrl></playlistUrl> <!-- Full URL -->
-		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<websiteUrl>http://futureproofyourchild.co.za</websiteUrl> <!-- Full URL -->
 		<facebookUrl></facebookUrl> <!-- Full URL -->
 		<twitterUrl></twitterUrl> <!-- Full URL -->
 		<linkedinUrl></linkedinUrl> <!-- Full URL -->
@@ -21,7 +21,7 @@
 	</resources>
 
 	<description>
-		<p></p>
+		<p>Everyone needs to adapt to the ever-changing world. And a new way of education.</p>
 	</description>
 
 </channelPageData>

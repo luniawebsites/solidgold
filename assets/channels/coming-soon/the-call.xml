@@ -6,10 +6,10 @@
 		<filterKeywords>call estelle kapp</filterKeywords> <!-- e.g. lift rise red bull music -->
 		<coverFileName>the-call.jpg</coverFileName> <!-- File name with extension -->
 		<agreement></agreement> <!-- yes or empty -->
-		<email></email> <!-- e.g. info@lunia.co.za -->
+		<email>estelle@estellekapp.com</email> <!-- e.g. info@lunia.co.za -->
 		<whatsapp></whatsapp> <!-- e.g. 27735880835 -->
 		<playlistUrl></playlistUrl> <!-- Full URL -->
-		<websiteUrl></websiteUrl> <!-- Full URL -->
+		<websiteUrl>http://estellekapp.com</websiteUrl> <!-- Full URL -->
 		<facebookUrl></facebookUrl> <!-- Full URL -->
 		<twitterUrl></twitterUrl> <!-- Full URL -->
 		<linkedinUrl></linkedinUrl> <!-- Full URL -->
@@ -21,7 +21,7 @@
 	</resources>
 
 	<description>
-		<p></p>
+		<p>Estelle will help you grow through healing.</p>
 	</description>
 
 </channelPageData>

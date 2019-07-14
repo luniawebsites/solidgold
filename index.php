@@ -100,11 +100,12 @@ HEADER: Hero
 			CONTENT
 			-->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_beingheardis">Being heard is one of our greatest human needs. #BeHeard</h1>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_do_you_want">Do you want your story to be heard and understood?</h1>
 
-			<p>We are the podcast professionals and will help you plan, produce and publish your podcasts so you can share your story with the world.</p>
+			<p>We are the podcast professionals and will help you plan, produce and publish your podcasts so you can share your story with the world and <strong>#BeHeard.</strong></p>
 
 			<p>We are the first South African network on Castbox.</p>
+			<p>We are represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_iab" aria-labelledby="section_iab">IAB</a> Digital Audio committee.</p>
 
 			<!--
 			LAYOUT CONTAINER
@@ -168,7 +169,7 @@ MAIN
 				CONTENT
 				-->
 
-				<h2 class="text-c-mob" id="article_telltheworld_h2_telltheworld">Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
+				<h2 class="text-c-mob" id="article_telltheworld_h2_telltheworld">#BeHeard: Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
 
 				<p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="article_telltheworld_a_onchange" aria-labelledby="article_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
 

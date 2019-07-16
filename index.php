@@ -76,7 +76,7 @@ PARTIAL: IE10/IE11 notice
 HEADER: Hero
 -->
 
-<header class="pad-respond-xy-mob theme-white-mob" id="header_hero" aria-labelledby="header_hero_h1_beingheardis">
+<header class="pad-respond-xy-mob theme-white-mob" id="header_hero" aria-labelledby="header_hero_h1_doyouwant">
 
 	<!--
 	LAYOUT CONTAINER
@@ -100,7 +100,7 @@ HEADER: Hero
 			CONTENT
 			-->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_do_you_want">Do you want your story to be heard and understood?</h1>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">Do you want your story to be heard and understood?</h1>
 
 			<p>We are the podcast professionals and will help you plan, produce and publish your podcasts so you can share your story with the world and <strong>#BeHeard.</strong></p>
 
@@ -129,9 +129,9 @@ HEADER: Hero
 
 			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
 
-				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_beingheardis"><span>How Podcasts Are Used</span></a>
+				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_doyouwant"><span>How Podcasts Are Used</span></a>
 
-				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_beingheardis"><span>Podcast Channels</span></a>
+				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_doyouwant"><span>Podcast Channels</span></a>
 
 			</div>
 

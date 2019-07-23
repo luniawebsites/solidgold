@@ -159,7 +159,7 @@ MAIN
 
 							<div class="text-l-mob">
 
-								<label for="message">Message</label>
+								<label for="message">Ask us anything about podcasts...</label>
 								<textarea name="message" id="message" rows="4" required></textarea>
 
 							</div>
@@ -174,7 +174,7 @@ MAIN
 
 							<button class="primary" id="article_contact_button_send" type="submit" title="Send message to Lunia" aria-labelledby="article_contact_button_send"><span>Send</span></button>
 							
-							<span class="text-note">Your information is kept confidential and you are not added to any mailing lists</span>
+							<span class="text-note">Your information is kept confidential and you are not added to any other mailing lists</span>
 
 						</div>
 

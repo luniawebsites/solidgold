@@ -1,190 +1,219 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
+	// Construct a link to the relevant json file referenced in the address bar
+	// ----------------------------------------------------------------------------------------------------
 
-<!--
-PARTIAL: Base URL
--->
-<?php include("assets/partials/base-url.html"); ?>
+	// Get the file name from the url so we know which json file to insert into the template
+	$file_name = end(explode('=', $_SERVER['REQUEST_URI']));
 
-<!--
-PARTIAL: Google Tag Manager script
--->
-<?php include("assets/partials/google-tag-manager-script.html"); ?>
+	// add the file name to the folder path so we can get the json file
+	$file = 'assets/data/use-cases/json/'.$file_name.'.json';
 
-<!-- 
-LINK/PARTIAL: Defer load non-critical CSS
--->
-<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-<?php include("assets/partials/loadCSS.html"); ?>
+	// Check if the json file exists, otherwise redirect and exit script
+	// ----------------------------------------------------------------------------------------------------
 
-<meta name="description" content="Podcast recording studios use case" />
-<meta name="robots" content="index, follow" />
-<meta name="classification" content="business" />
-<meta name="pagename" content="Solid Gold Podcast Studios | Use Case" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="MobileOptimized" content="320" />
-<meta property="og:title" content="Solid Gold Podcast Studios | Use Case" />
-<meta property="og:description" content="Podcast recording studios use case" />
-<meta property="og:locale" content="en_ZA" />
-<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
-<meta property="og:type" content="website" />
-<title>Solid Gold Podcast Studios | Use Case</title>
-<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
+	if (!file_exists($file)) {
+		// Redirect to 404 error page
+		echo '
+		<!DOCTYPE html>
+		<html lang="en">
+		<meta charset="utf-8">
+		<script>
+			window.location = "https://solidgoldstudios.co.za/errors/404.php"
+		</script>
+		</html>
+		';
+		exit();
+	};
 
-<!--
-STYLES: Inline load critical CSS
--->
-<style>
-	<?php include("assets/critical.min.css"); ?>
-</style>
+	// Get the contents of the json file and decode the string into readable text
+	$json_data = file_get_contents($file);
+	$data = json_decode($json_data);
 
-<!--
-PARTIAL: Google Tag Manager body
--->
-<?php include("assets/partials/google-tag-manager-body.html"); ?>
+	// Get the json file name
+	// ----------------------------------------------------------------------------------------------------
 
-<!--
-PARTIAL: Leader with menu
--->
-<?php include("assets/partials/pattern-page-leader.html"); ?>
+	// Get the json file name and construct the full url
+	$file_name = basename($file, '.json');
 
-<!--
-MAIN
--->
+	// Construct html components to be used in the final html output
+	// ----------------------------------------------------------------------------------------------------
 
-<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
+	// If image 1 caption data are *not* present, then nullify image 1 variable
+	if ($data->asideImage1Caption == '') {
+		$aside_image1 = null;
 
-	<!--
-	ARTICLE: Use case
-	-->
+	}
+	else {
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_usecase" aria-labelledby="section_usecase_h1_title">
+		// If image 1 caption data *are* present, then construct the link to the image
+		$aside_image1_url = 'assets/images/use-cases/'.$file_name.'-1.jpg';
+
+		// If image 1 caption data *are* present, then construct the figure element
+		$aside_image1 = '
+			<figure class="( use-case__xml-photo )">
+				<figcaption>'.$data->asideImage1Caption.'</figcaption>
+				<img src="'.$aside_image1_url.'" title="'.$data->asideImage1Caption.'" title="'.$data->asideImage1Caption.'" data-action="zoom">
+			</figure>
+		';
+
+	};
+
+	// If image 2 caption data are *not* present, then nullify image 2 variable
+	if ($data->asideImage2Caption == '') {
+		$aside_image2 = null;
+
+	}
+	else {
+
+		// If image 2 caption data *are* present, then construct the link to the image
+		$aside_image2_url = 'assets/images/use-cases/'.$file_name.'-2.jpg';
+
+		// If image 1 caption data *are* present, then construct the figure element
+		$aside_image2 = '
+			<figure class="( use-case__xml-photo )">
+				<figcaption>'.$data->asideImage2Caption.'</figcaption>
+				<img src="'.$aside_image2_url.'" title="'.$data->asideImage2Caption.'" title="'.$data->asideImage2Caption.'" data-action="zoom">
+			</figure>
+		';
+
+	};
+
+	// If image 3 caption data are *not* present, then nullify image 3 variable
+	if ($data->asideImage3Caption == '') {
+		$aside_image3 = null;
+
+	}
+	else {
+
+		// If image 3 caption data *are* present, then construct the link to the image
+		$aside_image3_url = 'assets/images/use-cases/'.$file_name.'-3.jpg';
+
+		// If image 1 caption data *are* present, then construct the figure element
+		$aside_image3 = '
+			<figure class="( use-case__xml-photo )">
+				<figcaption>'.$data->asideImage3Caption.'</figcaption>
+				<img src="'.$aside_image3_url.'" title="'.$data->asideImage3Caption.'" title="'.$data->asideImage3Caption.'" data-action="zoom">
+			</figure>
+		';
+
+	};
+
+	// Display the final html
+	// ----------------------------------------------------------------------------------------------------
+
+	echo '
+
+		<!DOCTYPE html>
+		<html lang="en">
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
+		<link type="application/rss+xml" rel="alternate" title="'.$data->title.' with '.$data->host.'" href="'.$data->rssUrl.'"/>
 
 		<!--
-		LAYOUT CONTAINER
+		PARTIAL: Base URL
 		-->
 
-		<h1 hidden>Use case</h1> <!-- For accessiblity audit only, Google does not recognise PHP script's H1 -->
+	';
+
+	// Include base url
+	include("assets/partials/base-url.html");
+
+	echo '
+		
+		<!--
+		PARTIAL: Google Tag Manager script
+		-->
+
+	';
+
+	// Include Google tag manager script
+	include("assets/partials/google-tag-manager-script.html");
+
+	echo '
+		
+		<!-- 
+		LINK/PARTIAL: Defer load non-critical CSS
+		-->
+		<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" />
+		<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+
+	';
+
+	// Include Filament Group's loadCSS script to defer non-critial css
+	include("assets/partials/loadCSS.html");
+
+	echo '
+		
+		<meta name="description" content="'.$data->title.' podcast use case from Solid Gold Podcast Studios" />
+		<meta name="robots" content="index, follow" />
+		<meta name="classification" content="business" />
+		<meta name="pagename" content="Solid Gold Podcast Studios | '.$data->title.'" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<meta property="og:title" content="Solid Gold Podcast Studios | '.$data->title.'" />
+		<meta property="og:description" content="'.$data->title.' podcast use case from Solid Gold Podcast Studios" />
+		<meta property="og:locale" content="en_ZA" />
+		<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+		<meta property="og:type" content="website" />
+		<title>Solid Gold Podcast Studios | '.$data->title.'</title>
+		<link rel="canonical" href="https://solidgoldstudios.co.za/use-case.php?title='.$file_name.'" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+		<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
+		
+	';
+
+	// Include Google tag manager body
+	include("assets/partials/google-tag-manager-body.html");
+
+	echo '
+		
+		<!--
+		STYLES: Inline load critical CSS
+		-->
+		<style>
+
+	';
+
+	// Inline load critical CSS
+	include("assets/critical.min.css");
+
+	echo '
+
+		</style>
+
+	';
+
+	// Include page leader with menu
+	include("assets/partials/pattern-page-leader.html");
+
+	echo '
 
 		<!--
-		LAYOUT CONTAINER
+		MAIN
 		-->
-
-		<div class="constrain pad-y-mob">
-
+		
+		<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
+		
 			<!--
-			SCRIPT
+			ARTICLE: Use case
 			-->
+		
+			<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_usecase" aria-labelledby="section_usecase_h1_title">
+		
+				<!--
+				LAYOUT CONTAINER
+				-->
+		
+				<h1 hidden>Use case</h1> <!-- For accessiblity audit only -->
+		
+				<!--
+				LAYOUT CONTAINER
+				-->
+		
+				<div class="constrain pad-y-mob">
 
-			<?php
-
-				/* This script gets the url file_name name (the part after "=" in the browser address bar), fetches the json file based on the file name (if it exists, otherwise it redirects to a 404 error page), decodes the json string, constructs some html links and components, inserts the data into the html template below, then displays it in html */
-
-				// Construct a link to the relevant json file
-				// ----------------------------------------------------------------------------------------------------
-
-				// Get the file name from the url so we know which json file to insert into the template
-				$file_name = end(explode('=', $_SERVER['REQUEST_URI']));
-
-				// add the file name to the folder path so we can get the json file
-				$file = 'assets/data/use-cases/json/'.$file_name.'.json';
-
-				// Check if the json file exists, otherwise redirect to the 404 error page
-				// ----------------------------------------------------------------------------------------------------
-
-				if (file_exists($file)) {
-					// Get the contents of the json file and decode the string into readable text
-					$json_data = file_get_contents($file);
-					$data = json_decode($json_data);
-				}
-				else {
-					// Redirect to 404 error page
-					echo '
-						<script>
-							window.location = "https://solidgoldstudios.co.za/errors/404.php
-						</script>
-					';
-					exit();
-				};
-
-				// Get the json file name
-				// ----------------------------------------------------------------------------------------------------
-
-				// Get the json file name and construct the full url
-				$file_name = basename($file, '.json');
-
-				// Construct HTML components to be used in the final HTML
-				// ----------------------------------------------------------------------------------------------------
-
-				// If image 1 caption data are *not* present, then nullify image 1 variable
-				if ($data->asideImage1Caption == '') {
-					$aside_image1 = null;
-
-				}
-				else {
-
-					// If image 1 caption data *are* present, then construct the link to the image
-					$aside_image1_url = 'assets/images/use-cases/'.$file_name.'-1.jpg';
-
-					// If image 1 caption data *are* present, then construct the figure element
-					$aside_image1 = '
-						<figure class="( use-case__xml-photo )">
-							<figcaption>'.$data->asideImage1Caption.'</figcaption>
-							<img src="'.$aside_image1_url.'" title="'.$data->asideImage1Caption.'" title="'.$data->asideImage1Caption.'" data-action="zoom">
-						</figure>
-					';
-
-				};
-
-				// If image 2 caption data are *not* present, then nullify image 2 variable
-				if ($data->asideImage2Caption == '') {
-					$aside_image2 = null;
-
-				}
-				else {
-
-					// If image 2 caption data *are* present, then construct the link to the image
-					$aside_image2_url = 'assets/images/use-cases/'.$file_name.'-2.jpg';
-
-					// If image 1 caption data *are* present, then construct the figure element
-					$aside_image2 = '
-						<figure class="( use-case__xml-photo )">
-							<figcaption>'.$data->asideImage2Caption.'</figcaption>
-							<img src="'.$aside_image2_url.'" title="'.$data->asideImage2Caption.'" title="'.$data->asideImage2Caption.'" data-action="zoom">
-						</figure>
-					';
-
-				};
-
-				// If image 3 caption data are *not* present, then nullify image 3 variable
-				if ($data->asideImage3Caption == '') {
-					$aside_image3 = null;
-
-				}
-				else {
-
-					// If image 3 caption data *are* present, then construct the link to the image
-					$aside_image3_url = 'assets/images/use-cases/'.$file_name.'-3.jpg';
-
-					// If image 1 caption data *are* present, then construct the figure element
-					$aside_image3 = '
-						<figure class="( use-case__xml-photo )">
-							<figcaption>'.$data->asideImage3Caption.'</figcaption>
-							<img src="'.$aside_image3_url.'" title="'.$data->asideImage3Caption.'" title="'.$data->asideImage3Caption.'" data-action="zoom">
-						</figure>
-					';
-
-				};
-
-				// Display the final html
-				// ----------------------------------------------------------------------------------------------------
-
-				echo '
 					<div aria-hidden="true"><span class="text-heading-badge--light">Use Case</span></div>
 					<div class="flexdir-ttb-mob flexdir-ltr-tab">
 						<div class="pad-respond-r-tab">
@@ -198,31 +227,36 @@ MAIN
 							'.$aside_image3.'
 						</div>
 					</div>
-				';
 
-			?>
+				</div>
 
+			</article>
+			
 		</div>
+		
+		<!--
+		PARTIAL: Page footer
+		-->
 
-	</article>
+	';
 
-</div>
+		// Include page footer
+		include("assets/partials/pattern-page-footer.html");
 
-<!--
-PARTIAL: Page footer
--->
-<?php include("assets/partials/pattern-page-footer.html"); ?>
+	echo '
+		
+		<!--
+		SCRIPT: jQuery scripts
+		-->
+		<script src="assets/scripts/jquery/jquery.min.js"></script>
+		<script src="assets/scripts/jquery/pushy.min.js" defer></script>
+		
+		<!--
+		SCRIPT: jQuery scripts: zoom images
+		-->
+		<script src="assets/scripts/jquery/zoom.min.js" defer></script>
+		<script src="assets/scripts/jquery/transition.min.js" defer></script>
+		
+	</html>
 
-<!--
-SCRIPT: jQuery scripts
--->
-<script src="assets/scripts/jquery/jquery.min.js"></script>
-<script src="assets/scripts/jquery/pushy.min.js" defer></script>
-
-<!--
-SCRIPT: jQuery scripts: zoom images
--->
-<script src="assets/scripts/jquery/zoom.min.js" defer></script>
-<script src="assets/scripts/jquery/transition.min.js" defer></script>
-
-</html>
+';

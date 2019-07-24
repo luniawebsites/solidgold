@@ -232,7 +232,7 @@
 		<meta property="og:image" content="https://solidgoldstudios.co.za/'.$cover_url.'" />
 		<meta property="og:type" content="website" />
 		<title>Solid Gold Podcast Studios | '.$data->title.'</title>
-		<link rel="canonical" href="https://solidgoldstudios.co.za/channels.php?title='.$file_name.'" />
+		<link rel="canonical" href="https://solidgoldstudios.co.za/channel.php?title='.$file_name.'" />
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 		<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 		

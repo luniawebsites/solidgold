@@ -1,150 +1,185 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
+	// Construct a link to the relevant json file referenced in the address bar
+	// ----------------------------------------------------------------------------------------------------
 
-<!--
-PARTIAL: Base URL
--->
-<?php include("assets/partials/base-url.html"); ?>
+	// Get the file name from the url so we know which json file to use
+	$file_name = end(explode('=', $_SERVER['REQUEST_URI']));
 
-<!--
-PARTIAL: Google Tag Manager script
--->
-<?php include("assets/partials/google-tag-manager-script.html"); ?>
+	// Add the file name to the folder path so we can get the json file
+	$file = 'assets/data/blog-posts/json/'.$file_name.'.json';
 
-<!-- 
-LINK/PARTIAL: Defer load non-critical CSS
--->
-<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-<?php include("assets/partials/loadCSS.html"); ?>
+	// Check if the json file exists, otherwise redirect and exit script
+	// ----------------------------------------------------------------------------------------------------
 
-<meta name="description" content="Podcast recording studios blog post" />
-<meta name="robots" content="index, follow" />
-<meta name="classification" content="business" />
-<meta name="pagename" content="Solid Gold Podcast Studios | Post" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="MobileOptimized" content="320" />
-<meta property="og:title" content="Solid Gold Podcast Studios | Post" />
-<meta property="og:description" content="Podcast recording studios blog post" />
-<meta property="og:locale" content="en_ZA" />
-<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
-<meta property="og:type" content="website" />
-<title>Solid Gold Podcast Studios | Post</title>
-<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
+	if (!file_exists($file)) {
+		// Redirect to 404 error page
+		echo '
+		<!DOCTYPE html>
+		<html lang="en">
+		<meta charset="utf-8">
+		<script>
+			window.location = "https://solidgoldstudios.co.za/errors/404.php"
+		</script>
+		</html>
+		';
+		exit();
+	};
 
-<!--
-STYLES: Inline load critical CSS
--->
-<style>
-	<?php include("assets/critical.min.css"); ?>
-</style>
+	// Get the contents of the json file and decode the string into readable text
+	$json_data = file_get_contents($file);
+	$data = json_decode($json_data);
 
-<!--
-PARTIAL: Google Tag Manager body
--->
-<?php include("assets/partials/google-tag-manager-body.html"); ?>
+	// Construct html components to be used in the final html output
+	// ----------------------------------------------------------------------------------------------------
 
-<!--
-PARTIAL: Leader with menu
--->
-<?php include("assets/partials/pattern-page-leader.html"); ?>
+	echo '
 
-<!--
-MAIN
--->
-
-<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
-
-	<!--
-	ARTICLE: Post
-	-->
-
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_blogpost" aria-labelledby="section_blogpost_h1_title">
+		<!DOCTYPE html>
+		<html lang="en">
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
 		<!--
-		LAYOUT CONTAINER
+		PARTIAL: Base URL
 		-->
 
-		<div class="constrain pad-y-mob">
+	';
 
+	// Include base url
+	include("assets/partials/base-url.html");
+
+	echo '
+		
+		<!--
+		PARTIAL: Google Tag Manager script
+		-->
+
+	';
+
+	// Include Google tag manager script
+	include("assets/partials/google-tag-manager-script.html");
+
+	echo '
+		
+		<!-- 
+		LINK/PARTIAL: Defer load non-critical CSS
+		-->
+		<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" />
+		<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+
+	';
+
+	// Include Filament Group's loadCSS script to defer non-critial css
+	include("assets/partials/loadCSS.html");
+
+	echo '
+		
+		<meta name="description" content="'.$data->title.' blog post from Solid Gold Podcast Studios" />
+		<meta name="robots" content="index, follow" />
+		<meta name="classification" content="business" />
+		<meta name="pagename" content="Solid Gold Podcast Studios | '.$data->title.'" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<meta property="og:title" content="Solid Gold Podcast Studios | '.$data->title.'" />
+		<meta property="og:description" content="'.$data->title.' blog post from Solid Gold Podcast Studios" />
+		<meta property="og:locale" content="en_ZA" />
+		<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+		<meta property="og:type" content="website" />
+		<meta property="article:published_time" content="'.$data->publishDate.'" />
+		<meta property="article:author" content="Solid Gold Podcast Studios" />
+		<title>Solid Gold Podcast Studios | '.$data->title.'</title>
+		<link rel="canonical" href="https://solidgoldstudios.co.za/blog-post.php?title='.$file_name.'" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+		<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
+		
+	';
+
+	// Include Google tag manager body
+	include("assets/partials/google-tag-manager-body.html");
+
+	echo '
+		
+		<!--
+		STYLES: Inline load critical CSS
+		-->
+		<style>
+
+	';
+
+	// Inline load critical CSS
+	include("assets/critical.min.css");
+
+	echo '
+
+		</style>
+
+	';
+
+	// Include page leader with menu
+	include("assets/partials/pattern-page-leader.html");
+
+	echo '
+
+		<!--
+		MAIN
+		-->
+		
+		<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
+		
 			<!--
-			SCRIPT
+			ARTICLE: Post
 			-->
+		
+			<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_blogpost" aria-labelledby="section_blogpost_h1_title">
+		
+				<!--
+				LAYOUT CONTAINER
+				-->
+		
+				<div class="constrain pad-y-mob">
 
-			<?php
-
-				/* This script gets the url file_name name (the part after "=" in the browser address bar), fetches the json file based on the file name (if it exists, otherwise it redirects to a 404 error page), decodes the json string, constructs some html links and components, inserts the data into the html template below, then displays it in html */
-
-				// Construct a link to the relevant JSON file
-				// ----------------------------------------------------------------------------------------------------
-
-				// get the file name from the url so we know which json file to insert into the template
-				$file_name = end(explode('=', $_SERVER['REQUEST_URI']));
-
-				// add the file name to the folder path so we can get the json file
-				$file = 'assets/data/blog-posts/json/'.$file_name.'.json';
-
-				// Check if the JSON file exists, otherwise redirect to the 404 error page
-				// ----------------------------------------------------------------------------------------------------
-
-				if (file_exists($file)) {
-					// get the contents of the json file and decode the string into readable text
-					$json_data = file_get_contents($file);
-					$data = json_decode($json_data);
-				}
-				else {
-					// redirect to 404 error page
-					echo '
-						<script>
-							window.location = "https://solidgoldstudios.co.za/errors/404.php
-						</script>
-					';
-					exit();
-				};
-
-				// Display the final HTML
-				// ----------------------------------------------------------------------------------------------------
-
-				echo '
 					<section>
 						<div aria-hidden="true"><span class="text-heading-badge--light">Published <time datetime="'.$data->publishDate.'">'.$data->publishDate.'</time></span></div>
 						<h1 id="section_blogpost_h1_title" aria-labelledby="section_blogpost_h1_title">'.$data->title.'</h1>
 						<p>'.$data->introText.'</p>
 						'.$data->bodyHtml.'
 					</section>
-				';
 
-			?>
 
-			<!--
-			BUTTON CONTAINER
-			-->
-
-			<div class="pad-double-t-mob">
-
-				<button class="secondary" title="Go back to home page" onclick='history.back(-1)'> <span>< Home</span></button>
-
-			</div>
-
+					<!--
+					BUTTON CONTAINER
+					-->
+		
+					<div class="pad-double-t-mob">
+		
+						<button class="secondary" title="Go back to home page" onclick=\'history.back(-1)\'> <span>< Home</span></button>
+		
+					</div>
+		
+				</div>
+		
+			</article>
+		
 		</div>
+		
+		<!--
+		PARTIAL: Page footer
+		-->
 
-	</article>
+		';
 
-</div>
+		include("assets/partials/pattern-page-footer.html");
 
-<!--
-PARTIAL: Page footer
--->
-<?php include("assets/partials/pattern-page-footer.html"); ?>
+		echo '
+		
+		<!--
+		SCRIPT: jQuery scripts
+		-->
+		<script src="assets/scripts/jquery/jquery.min.js"></script>
+		<script src="assets/scripts/jquery/pushy.min.js" defer></script>
+		
+		</html>
 
-<!--
-SCRIPT: jQuery scripts
--->
-<script src="assets/scripts/jquery/jquery.min.js"></script>
-<script src="assets/scripts/jquery/pushy.min.js" defer></script>
-
-</html>
+	';

@@ -10,7 +10,7 @@
 	Name: https://www.filamentgroup.com/ (loadCSS)
 	Name: https://modernizr.com/ (compatibility testing)
 	Name: https://jakearchibald.github.io/svgomg/
-	Name: https://github.com/christophery/pushy/ (Pushy off-canvas menu)
+	Name: https://chrisyee.ca/ (Pushy off-canvas menu)
 	Name: https://instant.page/ (link preloader)
 	Name: https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
 

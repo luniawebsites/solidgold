@@ -66,15 +66,7 @@
 		<!-- 
 		LINK/PARTIAL: Defer load non-critical CSS
 		-->
-		<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" />
-		<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-
-	';
-
-	// Include Filament Group's loadCSS script to defer non-critial css
-	include("assets/partials/loadCSS.html");
-
-	echo '
+		<link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media=\'all\'">
 		
 		<meta name="description" content="'.$data->title.' blog post from Solid Gold Podcast Studios" />
 		<meta name="robots" content="index, follow" />

@@ -17,9 +17,7 @@ PARTIAL: Google Tag Manager script
 <!-- 
 LINK & PARTIAL: Defer load non-critical CSS
 -->
-<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-<?php include("assets/partials/loadCSS.html"); ?>
+<link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media='all'">
 
 <meta name="description" content="Podcast recording use cases" />
 <meta name="robots" content="index, follow" />

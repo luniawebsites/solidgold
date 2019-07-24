@@ -249,7 +249,7 @@ h2 + .h3,
 
 h3 + h4,
 .h3 + h4 {
-	padding-top: calc(#{$space-fixed} * 1);
+	padding-top: calc(#{$space-fixed} * 0.75);
 }
 
 // Heading immediately followed by a paragraph
@@ -376,9 +376,9 @@ p + em {
 
 // Paragraph immediately followed by a "div"
 
-p + div {
-	padding-top: calc(#{$space-fixed} * 2);
-}
+// p + div {
+// 	padding-top: calc(#{$space-fixed} * 2);
+// }
 
 // List immediately followed by a heading
 	

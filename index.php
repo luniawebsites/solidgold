@@ -1007,7 +1007,7 @@ MAIN
 				LAYOUT CONTAINER
 				-->
 
-				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob">
+				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
 
 						<!--
 						CONTENT

@@ -1,42 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-	<loc>https://solidgoldstudios.co.za/</loc>
-	<lastmod>2019-06-12</lastmod>
-	<priority>1.0</priority>
+  <loc>https://solidgoldstudios.co.za/</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://solidgoldstudios.co.za/index.php</loc>
-	<lastmod>2019-06-12</lastmod>
-	<priority>0.9</priority>
-	</url>
-<url>
-	<loc>https://solidgoldstudios.co.za/use-cases.php</loc>
-	<lastmod>2019-07-05</lastmod>
-	<priority>0.9</priority>
-	</url>
-<url>
-<url>
-	<loc>https://solidgoldstudios.co.za/channels.php</loc>
-	<lastmod>2019-07-12</lastmod>
-	<priority>0.9</priority>
-	</url>
-<url>
-<url>
-	<loc>https://solidgoldstudios.co.za/studios.php</loc>
-	<lastmod>2019-06-12</lastmod>
-	<priority>0.9</priority>
-	</url>
-<url>
-	<loc>https://solidgoldstudios.co.za/pricing.php</loc>
-	<lastmod>2019-06-12</lastmod>
-	<priority>0.9</priority>
-	</url>
-<url>
-	<loc>https://solidgoldstudios.co.za/contact.php</loc>
-	<lastmod>2019-06-12</lastmod>
-	<priority>0.8</priority>
+  <loc>https://solidgoldstudios.co.za/index.php</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channels.php</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-cases.php</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/studios.php</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/pricing.php</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/contact.php</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/blog-post.php?title=2019-06-12</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/blog-post.php?title=2019-06-05</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=boo-yah</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=connect-everlytic</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=demos-and-samples</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=education-incorporated</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=eduthink</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=emotion-in-motion</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=eoh</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=future-proof-your-child</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=garage-band</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=grounded</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=gun-talk</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=i-get-it-now-what</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=im-the-patient-not-the-shrink</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=kip-mcgrath-extra-lessons-faq</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=lift-as-you-rise</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=lights-cameras-action</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=mineshare</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=network</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=on-change</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=podcast-guest-101</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=qc-the-podcast</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=the-call</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=the-carmen-murray-show</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=the-principles-principals</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=understanding-extra-lessons</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=weekend-party-entertainment-report</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=whats-the-point</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/channel.php?title=womin</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-case.php?title=audiobooks-and-book-trailers</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-case.php?title=deep-dive-conversations</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-case.php?title=faqs</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-case.php?title=group-communication</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-case.php?title=radio-archives</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://solidgoldstudios.co.za/use-case.php?title=talent-showcase</loc>
+  <lastmod>2019-07-24T09:27:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>

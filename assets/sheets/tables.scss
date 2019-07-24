@@ -25,7 +25,7 @@ tr:last-of-type {
 th,
 td {
 	position: relative;
-	vertical-align: top;
+	vertical-align: middle;
 	padding: 0.5rem 0 0.5rem 0;
 	font-size: 0.95rem;
 	text-align: left;
@@ -35,8 +35,14 @@ th:not(:th) {
 	top: 1px;
 }
 
+// Order of pseudo-selectors here is important to ensure single cells align left
+
 td:last-of-type {
 	text-align: right;
+}
+
+td:first-of-type {
+	text-align: left;
 }
 
 

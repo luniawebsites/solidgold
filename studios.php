@@ -76,17 +76,35 @@ PARTIAL: IE10/IE11 notice
 HEADER
 -->
 
-<header class="pad-respond-xy-mob theme-light-grey-mob" id="header_studios" aria-labelledby="header_studios_h1_podcaststudios">
+<header class="pad-respond-xy-mob theme-white-mob" id="header_studios" aria-labelledby="header_studios_h1_awiderange">
 
 	<!--
 	LAYOUT CONTAINER
 	-->
 
-	<div class="constrain pad-t-mob">
+	<div class="constrain pad-y-mob">
 
-		<h1 id="header_studios_h1_podcaststudios">Podcast studios</h1>
+		<h1 id="header_studios_h1_awiderange">A wide range of podcast studio options</h1>
 
 		<p>All our studios are professionally equipped for <strong>high-quality recording</strong>, and are <strong>air-conditioned and comfortably furnished</strong>.</p>
+
+		<p>We understand and appreciate that to have open, honest and meaningful conversations, hosts and guests need to feel comfortable and at ease. We also understand that our clients' recording, production, editing and hosting needs vary in complexity and budget.</p>
+
+		<p>We've built a number of studios (with six more coming soon) to meet these varying requirements, and we're certain one of them is perfect for you! From a large, high-counter studio designed for group conversations to a DIY studio ideal for hobbyists, we have a space to match your recording needs.</p>
+
+		<em class="theme-light-grey-mob accent-green-mob">All studios can record Zoom, Skype, WhatsApp and phone conversations, as well as client sources such as playout from laptops or Echo.</em>
+
+		<p>Our open-plan office space is designed to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many clients like to work from our offices on recording days!</p>
+
+		<!--
+		BUTTON CONTAINER
+		-->
+
+		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
+
+			<a class="button primary" href="contact.php" title="Contact us about hiring our studios" id="article_awiderange_a_contactus" aria-labelledby="article_awiderange_a_contactus article_awiderange_h2_awiderange"><span>Contact Us</span></a>
+
+		</div>
 
 	</div>
 
@@ -102,7 +120,7 @@ MAIN
 	ARTICLE: Studios
 	-->
 
-	<article class="pad-respond-x-mob pad-respond-b-mob theme-light-grey-mob" id="article_studios" aria-labelledby="article_studios_h1_podcaststudios">
+	<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_studios" aria-labelledby="article_studios_h2_studiodescriptions">
 
 		<!--
 		LAYOUT CONTAINER
@@ -110,13 +128,13 @@ MAIN
 
 		<div class="constrain pad-b-mob">
 
-			<h2 id="section_studiodescriptions_h2studiodescriptions" hidden>Studio descriptions</h2>
+			<h2 id="article_studios_h2_studiodescriptions" hidden>Studio descriptions</h2>
 
 			<!--
 			LAYOUT CONTAINER
 			-->
 
-			<div class="grid-auto-respond-20 pad-b-mob">
+			<div class="grid-auto-respond-20">
 
 				<!--
 				FIGURE
@@ -131,13 +149,45 @@ MAIN
 
 					<div class="pad-xy-mob">
 
-						<figcaption>Large professional and corporate</figcaption>
+						<h3>Studio 1</h3>
 
-						<h3 class="pad-t-mob">Studio 1</h3>
+						<h4>Large professional and corporate</h4>
 
 						<p>Designed and furnished to facilitate conversation. A solid wood and leather inlay countertop at bar height, with raised leather seating, makes this an ideal setting for in-depth discussions and interviews. This studio easily accommodates larger groups for panel discussions, group interviews and announcements.</p>
 
-						<p class="pad-half-b-mob caption">Hourly Rates with Engineer</p>
+						<h4 class="pad-half-b-mob">Maximum 5 people</h4>
+
+						<table class="margin-b-mob">
+							<tr>
+								<td>1 x Engineer</td>
+								<td>
+									<span class="encimage-studioicon-engineer" title="Person without microphone during your recording"></span>
+								</td> 
+							</tr>
+							<tr>
+								<td>1 x Host</td>
+								<td>
+									<span class="encimage-studioicon-host" title="Person with microphone during your recording"></span>
+								</td> 
+							</tr>
+							<tr>
+								<td>3 x Guests</td>
+								<td>
+									<span class="encimage-studioicon-guest" title="Person with microphone during your recording"></span>
+								</td> 
+							</tr>
+						</table>
+
+						<h4>Inputs</h4>
+
+						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
+							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
+							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
+							<span class="encimage-studioicon-bluetooth" title="Bluetooth input is available during your recording"></span>
+							<span class="encimage-studioicon-laptop" title="Laptop input is available during your recording"></span>
+						</div>
+
+						<h4 class="pad-half-b-mob">Hourly rates with Engineer</h4>
 
 						<table>
 							<tr>
@@ -171,13 +221,39 @@ MAIN
 
 					<div class="pad-xy-mob">
 
-						<figcaption>Dry-hire, DIY and hobbyist</figcaption>
+						<h3>Studio 2</h3>
 
-						<h3 class="pad-t-mob">Studio 2</h3>
+						<h4>Dry-hire, DIY and hobbyist</h4>
 
 						<p>Perfect for the DIY or hobbyist podcaster with basic skills who needs a high-quality, quiet place to record. Professionally equipped for three people, and available to hire by the hour (without the need for a sound engineer).</p>
 
-						<p class="pad-half-b-mob caption">Hourly DIY Rates (Dry Hire)</p>
+						<h4 class="pad-half-b-mob">Maximum 3 people</h4>
+
+						<table class="margin-b-mob">
+							<tr>
+								<td>1 x Host</td>
+								<td>
+									<span class="encimage-studioicon-host" title="Person with microphone during your recording"></span>
+								</td> 
+							</tr>
+							<tr>
+								<td>2 x Guests</td>
+								<td>
+									<span class="encimage-studioicon-guest" title="Person with microphone during your recording"></span>
+								</td> 
+							</tr>
+						</table>
+
+						<h4>Inputs</h4>
+
+						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
+							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
+							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
+							<span class="encimage-studioicon-bluetooth" title="Bluetooth input is available during your recording"></span>
+							<span class="encimage-studioicon-laptop" title="Laptop input is available during your recording"></span>
+						</div>
+
+						<h4 class="pad-half-b-mob">Hourly DIY rates (dry hire)</h4>
 
 						<table>
 							<tr>
@@ -198,7 +274,7 @@ MAIN
 							</tr>
 						</table>
 
-						<p class="pad-t-mob pad-half-b-mob caption">Hourly Rates with Engineer</p>
+						<h4 class="pad-t-mob pad-half-b-mob">Hourly rates with Engineer</h4>
 
 						<table>
 							<tr>
@@ -232,13 +308,44 @@ MAIN
 
 					<div class="pad-xy-mob">
 
-						<figcaption>Post-production</figcaption>
+						<h3>Studio 3</h3>
 
-						<h3 class="pad-t-mob">Studio 3</h3>
+						<h4>Post-production</h4>
 
 						<p>Oriented toward post-production, this studio is familiar to communication and media professionals with its separate soundproof booth and large couch area for directors, producers and clients.  Also used for recording and producing audiobooks, radio commercials and video soundtracks.</p>
 
-						<p class="pad-t-mob pad-half-b-mob caption">Hourly Rates with Engineer</p>
+						<h4 class="pad-half-b-mob">Maximum 10 people</h4>
+
+						<table class="margin-b-mob">
+							<tr>
+								<td>1 x Engineer</td>
+								<td>
+									<span class="encimage-studioicon-engineer" title="Person without microphone during your recording"></span>
+								</td> 
+							</tr>
+							<tr>
+								<td>6 x Producers/Clients</td>
+								<td>
+									<span class="encimage-studioicon-client" title="Person with microphone during your recording"></span>
+								</td> 
+							</tr>
+							<tr>
+								<td>3 x Voice Artists</td>
+								<td>
+									<span class="encimage-studioicon-guest" title="Person with microphone during your recording"></span>
+								</td> 
+							</tr>
+						</table>
+
+						<h4>Inputs</h4>
+
+						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
+							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
+							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
+							<span class="encimage-studioicon-bluetooth" title="Bluetooth input is available during your recording"></span>
+						</div>
+
+						<h4 class="pad-half-b-mob">Hourly rates with Engineer</h4>
 
 						<table>
 							<tr>
@@ -272,11 +379,25 @@ MAIN
 
 					<div class="pad-xy-mob">
 
-						<figcaption>Large TV-like</figcaption>
+						<h3>Studio 4</h3>
 
-						<h3 class="pad-t-mob">Studio 4</h3>
+						<h4>Large TV-like</h4>
 
 						<p>Designed to be very versatile for a vast range of conversations to be recorded, this is more like a television studio than our other studios. Recording configurations include armchair conversations, a boardroom desk layout, a lounge or couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for specific recordings. There's also an infinity curve and a green screen for chroma key shoots.</p>
+
+						<h4 class="pad-half-b-mob">Options</h4>
+
+						<table class="margin-b-mob">
+							<tr>
+								<td>Chroma key</td> 
+							</tr>
+							<tr>
+								<td>Infinity curve</td> 
+							</tr>
+							<tr>
+								<td>Set dressing</td> 
+							</tr>
+						</table>
 
 					</div>
 
@@ -295,9 +416,9 @@ MAIN
 
 					<div class="pad-xy-mob">
 
-						<figcaption>Coming soon!</figcaption>
+						<h3>Studios 5 to 10</h3>
 
-						<h3 class="pad-t-mob">Studios 5 to 10</h3>
+						<h4>Coming soon!</h4>
 
 						<p>We're experiencing strong and growing demand for niche studios designed for extended bookings and recordings—particularly author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and monthly hire in the very near future.</p>
 
@@ -308,48 +429,6 @@ MAIN
 			</div>
 
 		</article>
-
-		<!--
-		ARTICLE: A wide range
-		-->
-
-		<article class="pad-respond-xy-mob theme-white-mob" id="article_awiderange" aria-labelledby="article_awiderange_h2_awiderange">
-
-			<!--
-			LAYOUT CONTAINER
-			-->
-
-			<div class="constrain pad-y-mob">
-
-				<!--
-				CONTENT
-				-->
-
-				<h2 id="article_awiderange_h2_awiderange">A wide range of studio options</h2>
-
-				<p>We understand and appreciate that to have open, honest and meaningful conversations, hosts and guests need to feel comfortable and at ease. We also understand that our clients' recording, production, editing and hosting needs vary in complexity and budget.</p>
-
-				<p>We've built a number of studios (with six more coming soon) to meet these varying requirements, and we're certain one of them is perfect for you! From a large, high-counter studio designed for group conversations to a DIY studio ideal for hobbyists, we have a space to match your recording needs.</p>
-
-				<em class="theme-light-grey-mob accent-green-mob">All studios can record Zoom, Skype, WhatsApp and phone conversations, as well as client sources such as playout from laptops or Echo.</em>
-
-				<p>Our open-plan office space is designed to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many clients like to work from our offices on recording days!</p>
-
-				<!--
-				BUTTON CONTAINER
-				-->
-
-				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
-
-					<a class="button primary" href="contact.php" title="Contact us about hiring our studios" id="article_awiderange_a_contactus" aria-labelledby="article_awiderange_a_contactus article_awiderange_h2_awiderange"><span>Contact Us</span></a>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</article>
 
 </div>
 

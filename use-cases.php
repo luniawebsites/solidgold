@@ -75,9 +75,10 @@ HEADER
 
 	<div class="constrain pad-t-mob pad-double-b-mob">
 
-		<h1 id="header_usecases_h1_theremustbe">There must be 50 ways to use a podcast</h1>
+		<h1 id="header_usecases_h1_theremustbe">There must be 50 ways* to use a podcast</h1>
 
 		<p>Below we share with you some of the many useful, interesting and creative ways podcasts are used to share stories. Podcasting’s biggest value-add, after the ability to be listened to any time, everywhere, is that it doesn't compete for time with other activities. Podcasts are listened to <strong>while</strong> doing something else, and <strong>not instead</strong> of doing something else—usually while commuting, exercising or even cooking dinner. This makes podcasting uniquely capable of communicating both simple and complex ideas in both short and long forms.</p>
+		<p><strong>*</strong> There are far more applications (as you can see in this article on the <a href="https://en.m.wikipedia.org/wiki/Uses_of_podcasting" target="_blank" rel="noopener" id="section_there_must_be" aria-labelledby="section_there_must_be_wiki_uses">uses of podcasting</a>), but we liked the musical ring of 50.
 
 		<!--
 		FORM

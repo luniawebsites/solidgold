@@ -104,7 +104,7 @@ HEADER: Hero
 
 			<p>We'll guide you through every step of making a podcast so that your voice can <strong>#BeHeard.</strong></p>
 
-			<p>Solid Gold is represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_iab" aria-labelledby="section_iab">IAB</a> Digital Audio committee.</p>
+			<p>Solid Gold was born in 1993 and is currently represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_iab" aria-labelledby="section_iab">IAB</a> Digital Audio committee.</p>
 
 			<!--
 			LAYOUT CONTAINER

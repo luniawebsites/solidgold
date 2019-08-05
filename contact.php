@@ -91,7 +91,7 @@ MAIN
 
 				<p>As founder and CEO of Solid Gold Podcast Studios, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener" title="Start WhatsApp chat" id="article_contact_a_whatsapp" aria-labelledby="article_contact_a_whatsapp article_contact_h1_helloimgavin">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener" title="Email me directly" id="article_contact_a_emailmedirectly" aria-labelledby="article_contact_a_emailmedirectly article_contact_h1_helloimgavin">email me directly</a> if you have any questions about podcasting.</p>
 
-				<p>We've been invovled in video and audio production since the early 1990s and are hugely excited by the new opportunities that are available for podcast producers and production.</p>
+				<p>We've been involved in video and audio production since the early 1990s and are hugely excited by the new opportunities that are available for podcast producers and production.</p>
 				
 				<p>Are you ready to <strong>#BeHeard</strong>?</p>
 

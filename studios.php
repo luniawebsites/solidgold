@@ -153,25 +153,25 @@ MAIN
 
 						<p>Designed and furnished to facilitate conversation. A solid wood and leather inlay countertop at bar height, with raised leather seating, makes this an ideal setting for in-depth discussions and interviews. This studio easily accommodates larger groups for panel discussions, group interviews and announcements.</p>
 
-						<h4 class="pad-half-b-mob">Maximum 5 people</h4>
+						<h4 class="pad-half-b-mob">Maximum 8 people</h4>
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>1 x Engineer</td>
+								<td>Engineer</td>
 								<td>
-									<span class="encimage-studioicon-engineer" title="Person without microphone during your recording"></span>
+									<span class="encimage-studioicon-engineer" title="Engineer"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>1 x Host</td>
+								<td>Host</td>
 								<td>
-									<span class="encimage-studioicon-host" title="Person with microphone during your recording"></span>
+									<span class="encimage-studioicon-host" title="Host"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>3 x Guests</td>
+								<td>Guests</td>
 								<td>
-									<span class="encimage-studioicon-guest" title="Person with microphone during your recording"></span>
+									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
 								</td> 
 							</tr>
 						</table>
@@ -229,15 +229,15 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>1 x Host</td>
+								<td>Host</td>
 								<td>
-									<span class="encimage-studioicon-host" title="Person with microphone during your recording"></span>
+									<span class="encimage-studioicon-host" title="Host"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>2 x Guests</td>
+								<td>Guests</td>
 								<td>
-									<span class="encimage-studioicon-guest" title="Person with microphone during your recording"></span>
+									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
 								</td> 
 							</tr>
 						</table>
@@ -316,21 +316,21 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>1 x Engineer</td>
+								<td>Engineer</td>
 								<td>
-									<span class="encimage-studioicon-engineer" title="Person without microphone during your recording"></span>
+									<span class="encimage-studioicon-engineer" title="Engineer"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>6 x Producers/Clients</td>
+								<td>Producers/Clients</td>
 								<td>
-									<span class="encimage-studioicon-client" title="Person with microphone during your recording"></span>
+									<span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>3 x Voice Artists</td>
+								<td class="no-break">Voice Artists</td>
 								<td>
-									<span class="encimage-studioicon-guest" title="Person with microphone during your recording"></span>
+									<span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span>
 								</td> 
 							</tr>
 						</table>
@@ -340,7 +340,7 @@ MAIN
 						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
 							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
 							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
-							<span class="encimage-studioicon-bluetooth" title="Bluetooth input is available during your recording"></span>
+							<span class="encimage-studioicon-laptop" title="Bluetooth input is available during your recording"></span>
 						</div>
 
 						<h4 class="pad-half-b-mob">Hourly rates with Engineer</h4>

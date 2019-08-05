@@ -98,12 +98,13 @@ HEADER: Hero
 			CONTENT
 			-->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">Do you want your story to be heard and understood?</h1>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">Do you want to be heard and understood?</h1>
 
-			<p>We are the podcast professionals and will help you plan, produce and publish your podcasts so you can share your story with the world and <strong>#BeHeard.</strong></p>
+			<p>We believe <strong>you</strong> have a story to tell. Our role is to help you tell it.</p>
 
-			<p>We are the first South African network on Castbox.</p>
-			<p>We are represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_iab" aria-labelledby="section_iab">IAB</a> Digital Audio committee.</p>
+			<p>We'll guide you through every step of making a podcast so that your voice can <strong>#BeHeard.</strong></p>
+
+			<p>Solid Gold was born in 1993 and is currently represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_iab" aria-labelledby="section_iab">IAB</a> Digital Audio committee.</p>
 
 			<!--
 			LAYOUT CONTAINER

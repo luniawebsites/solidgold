@@ -157,19 +157,19 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>Engineer</td>
+								<td class="no-break">Engineer</td>
 								<td>
 									<span class="encimage-studioicon-engineer" title="Engineer"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>Host</td>
+								<td class="no-break">Host</td>
 								<td>
 									<span class="encimage-studioicon-host" title="Host"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>Guests</td>
+								<td class="no-break">Guests</td>
 								<td>
 									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
 								</td> 
@@ -189,15 +189,15 @@ MAIN
 
 						<table>
 							<tr>
-								<td>First hour</td>
+								<td class="no-break">First hour</td>
 								<td>R950</td> 
 							</tr>
 							<tr>
-								<td>Additional</td>
+								<td class="no-break">Additional</td>
 								<td>R750</td> 
 							</tr>
 							<tr>
-								<td>Full day</td>
+								<td class="no-break">Full day</td>
 								<td>R650</td> 
 							</tr>
 						</table>
@@ -229,13 +229,13 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>Host</td>
+								<td class="no-break">Host</td>
 								<td>
 									<span class="encimage-studioicon-host" title="Host"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>Guests</td>
+								<td class="no-break">Guests</td>
 								<td>
 									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
 								</td> 
@@ -255,19 +255,19 @@ MAIN
 
 						<table>
 							<tr>
-								<td>First hour</td>
+								<td class="no-break">First hour</td>
 								<td>R250</td> 
 							</tr>
 							<tr>
-								<td>Additional</td>
+								<td class="no-break">Additional</td>
 								<td>R150</td> 
 							</tr>
 							<tr>
-								<td>Full day</td>
+								<td class="no-break">Full day</td>
 								<td>R125</td> 
 							</tr>
 							<tr>
-								<td>Full week (5 days)</td>
+								<td class="no-break">Full week (5 days)</td>
 								<td>R99</td> 
 							</tr>
 						</table>
@@ -276,15 +276,15 @@ MAIN
 
 						<table>
 							<tr>
-								<td>First hour</td>
+								<td class="no-break">First hour</td>
 								<td>R550</td> 
 							</tr>
 							<tr>
-								<td>Additional</td>
+								<td class="no-break">Additional</td>
 								<td>R350</td> 
 							</tr>
 							<tr>
-								<td>Full day</td>
+								<td class="no-break">Full day</td>
 								<td>R325</td> 
 							</tr>
 						</table>
@@ -316,13 +316,13 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>Engineer</td>
+								<td class="no-break">Engineer</td>
 								<td>
 									<span class="encimage-studioicon-engineer" title="Engineer"></span>
 								</td> 
 							</tr>
 							<tr>
-								<td>Producers/Clients</td>
+								<td class="no-break">Producers/Clients</td>
 								<td>
 									<span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span>
 								</td> 
@@ -347,15 +347,15 @@ MAIN
 
 						<table>
 							<tr>
-								<td>First hour</td>
+								<td class="no-break">First hour</td>
 								<td>R1,150</td> 
 							</tr>
 							<tr>
-								<td>Additional</td>
+								<td class="no-break">Additional</td>
 								<td>R850</td> 
 							</tr>
 							<tr>
-								<td>Full day</td>
+								<td class="no-break">Full day</td>
 								<td>R750</td> 
 							</tr>
 						</table>

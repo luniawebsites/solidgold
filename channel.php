@@ -9,23 +9,6 @@
 	// Add the file name to the folder path so we can get the json file
 	$file = 'assets/data/channels/json/'.$file_name.'.json';
 
-	// Check if the json file exists, otherwise redirect and exit script
-	// ----------------------------------------------------------------------------------------------------
-
-	if (!file_exists($file)) {
-		// Redirect to 404 error page
-		echo '
-		<!DOCTYPE html>
-		<html lang="en">
-		<meta charset="utf-8">
-		<script>
-			window.location = "https://solidgoldstudios.co.za/errors/404.php"
-		</script>
-		</html>
-		';
-		exit();
-	};
-
 	// Get the contents of the json file and decode the string into readable text
 	$json_data = file_get_contents($file);
 	$data = json_decode($json_data);

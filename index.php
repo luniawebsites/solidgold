@@ -118,7 +118,7 @@ HEADER: Hero
 
 				<a class="encimage-brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="IAB logo" id="header_hero_a_iab" aria-label="IAB logo"></a>
 
-				<a class="encimage-brand-castbox-first-network" href="https://castbox.fm/networks/Solid%20Gold%20Studios-486?country=za&utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="Castbox logo" id="header_hero_a_castbox" aria-label="Castbox logo"></a>
+				<a class="encimage-brand-castbox-first-network" href="https://castbox.fm/search?q=solid%20gold%20studios&country=us&skip=0&limit=50&order=relevance&research=1" target="_blank" rel="noopener" title="Castbox logo" id="header_hero_a_castbox" aria-label="Castbox logo"></a>
 
 			</div>
 

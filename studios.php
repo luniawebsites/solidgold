@@ -381,7 +381,11 @@ MAIN
 
 						<h4>Large TV-like</h4>
 
-						<p>Designed to be very versatile for a vast range of conversations to be recorded, this is more like a television studio than our other studios. Recording configurations include armchair conversations, a boardroom desk layout, a lounge or couch configuration, a library backdrop, a fireside chat, beanbags and many more options that help set the tone for specific recordings. There's also an infinity curve and a green screen for chroma key shoots.</p>
+						<p>We believe that the setting for a conversation often has a great influence on the content. For example, a conversation at a desk or in a studio will sound very different from one held between two people in armchairs with a coffee table and potplant alongside. Similarly, a round-table discussion works best, well, around a table. For this reason we created the magical 50m<sup>2</sup> set-dressed studio where you can set the scene for the conversation you want to have.</p>
+
+						<p>Whether it's couches, beanbags or a fireside chat with a library backdrop—hey, even a <i>Wayne's World Bedroom</i> is possible—you can let your imagination run wild.</p>
+
+						<p>This studio lends itself to simultaneous recording of your YouTube channel, with the added bonus of an infinity curve and green screen for chroma key shoots.</p>
 
 						<h4 class="pad-half-b-mob">Options</h4>
 
@@ -414,11 +418,11 @@ MAIN
 
 					<div class="pad-xy-mob">
 
-						<h3>Studios 5 to 10</h3>
+						<h3>Studio 5</h3>
 
-						<h4>Coming soon!</h4>
+						<h4>On location</h4>
 
-						<p>We're experiencing strong and growing demand for niche studios designed for extended bookings and recordings—particularly author-read audiobooks and training and educational content. We have earmarked space for these studios and will be making them available for daily, weekly and monthly hire in the very near future.</p>
+						<p>We come to your office or boardroom, or out in the field, with a <a href="https://www.zoom-na.com/products/field-video-recording/field-recording/h6-handy-recorder" target="_blank" rel="external noopener" id="article_studios_a_zoomh6" aria-labelledby="article_studios_a_zoomh6">Zoom H6</a> and professional microphones. We record your story for post-production and publishing back at the studios.</p>
 
 					</div>
 

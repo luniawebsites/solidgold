@@ -640,7 +640,7 @@ MAIN
 						</tr>
 
 						<tr>
-							<td>Walking around</td>
+							<td class="no-break">Walking around</td>
 							<td class="text-r-mob">3%</td>
 						</tr>
 

@@ -387,6 +387,22 @@ MAIN
 
 						<p>This studio lends itself to simultaneous recording of your YouTube channel, with the added bonus of an infinity curve and green screen for chroma key shoots.</p>
 
+
+						<h4 class="pad-half-b-mob">DIY rates (dry hire)</h4>
+
+						<table class="margin-b-mob">
+							<tr>
+								<td class="no-break">Half day</td>
+								<td>R2,000</td> 
+							</tr>
+							<tr>
+								<td class="no-break">Full day</td>
+								<td>R3,000</td> 
+							</tr>
+						</table>
+
+						<p>Sound reduced with basic lighting, some furniture (and unlimited coffee) included. Additional equipment, crew and set dressing POA.</p>
+
 						<h4 class="pad-half-b-mob">Options</h4>
 
 						<table class="margin-b-mob">

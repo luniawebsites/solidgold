@@ -193,7 +193,7 @@ MAIN
 								<td>R950</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Additional</td>
+								<td class="no-break">Additional hour(s)</td>
 								<td>R750</td> 
 							</tr>
 							<tr>
@@ -259,11 +259,11 @@ MAIN
 								<td>R250</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Additional</td>
+								<td class="no-break">Additional hour(s)</td>
 								<td>R150</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Full day</td>
+								<td class="no-break">Full day (10 hours)</td>
 								<td>R125</td> 
 							</tr>
 							<tr>
@@ -280,11 +280,11 @@ MAIN
 								<td>R550</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Additional</td>
+								<td class="no-break">Additional hours</td>
 								<td>R350</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Full day</td>
+								<td class="no-break">Full day (10 hours)</td>
 								<td>R325</td> 
 							</tr>
 						</table>
@@ -355,7 +355,7 @@ MAIN
 								<td>R850</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Full day</td>
+								<td class="no-break">Full day (10 hrs)</td>
 								<td>R750</td> 
 							</tr>
 						</table>
@@ -392,12 +392,17 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td class="no-break">Half day</td>
-								<td>R2,000</td> 
+								<td class="no-break">First hour</td>
+								<td>R750</td> 
+							</tr>
+
+							<tr>
+								<td class="no-break">Additional hour(s)</td>
+								<td>R350</td> 
 							</tr>
 							<tr>
-								<td class="no-break">Full day</td>
-								<td>R3,000</td> 
+								<td class="no-break">Full day (10 hours)</td>
+								<td>R325</td> 
 							</tr>
 						</table>
 
@@ -408,9 +413,6 @@ MAIN
 						<table class="margin-b-mob">
 							<tr>
 								<td>Chroma key</td> 
-							</tr>
-							<tr>
-								<td>Infinity curve</td> 
 							</tr>
 							<tr>
 								<td>Set dressing</td> 

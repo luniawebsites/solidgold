@@ -835,6 +835,48 @@ MAIN
 	</article>
 
 	<!--
+	ARTICLE: Join the Solid Gold Tribe
+	-->
+
+	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="article_jointhesolid" aria-labelledby="article_jointhesolid_h2_jointhesolid">
+
+		<!--
+		LAYOUT CONTAINER
+		-->
+
+		<div class="flexdir-btt-mob constrain spread-respond pad-respond-y-mob">
+
+			<!--
+			LAYOUT CONTAINER
+			-->
+
+			<div class="flexdir-ttb-mob text-c-mob">
+
+				<!--
+				CONTENT
+				-->
+
+				<h2 id="article_jointhesolid_h2_jointhesolid">Join the Solid Gold Tribe.</h2>
+
+				<p>We don't send a lot of mail. What we do send is focused and helpful.</p>
+
+				<!--
+				BUTTON CONTAINER
+				-->
+
+				<div class="flexdir-ttb-mob flexpos-cc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
+
+					<a class="button primary" href="https://landing.mailerlite.com/webforms/landing/t1l2j0" title="Join the Solid Gold Tribe" id="article_jointhesolid_a_joinourmailing" aria-labelledby="article_jointhesolid_a_signup article_jointhesolid_h2_jointhesolid"><span>Sign Up</span></a>
+			
+				</div>
+
+			</div>
+
+		</div>
+
+	</article>
+
+	<!--
 	ARTICLE: Guest training
 	-->
 

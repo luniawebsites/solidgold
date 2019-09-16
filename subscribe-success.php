@@ -23,7 +23,7 @@ LINK/PARTIAL: Defer load non-critical CSS
 <meta name="pagename" content="" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="MobileOptimized" content="320" />
-<title>Your Message Has Been Sent</title>
+<title>Welcome to the Solid Gold Tribe</title>
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 

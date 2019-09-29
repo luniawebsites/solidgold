@@ -102,7 +102,7 @@ HEADER: Hero
 
 			<p>We believe <strong>you</strong> have a story to tell. Our role is to help you tell it.</p>
 
-			<p>We'll guide you through every step of making a podcast so that your voice can <strong>#BeHeard.</strong></p>
+			<p>We'll guide you through every step of making a podcast so that your voice can <strong>#BeHeard.</strong> Are you<a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?"> wondering where to begin?</abbr></a></p>
 
 			<p>Solid Gold was born in 1993 and is currently represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee.</p>
 

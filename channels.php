@@ -77,6 +77,8 @@ HEADER
 
 		<h1 id="header_channels_h1_podcastchannels">Podcast channels</h1>
 
+		<p>"It doesn't matter how many people you reach, but that you reach the people who matter." - Gavin Kennedy</p>
+
 		<!--
 		FORM
 		-->

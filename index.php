@@ -19,19 +19,19 @@ LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media='all'">
 
-<meta name="description" content="Podcast recording studios #BeHeard" />
+<meta name="description" content="Podcast recording studio #BeHeard" />
 <meta name="robots" content="index, follow" />
 <meta name="classification" content="business" />
 <meta name="pagename" content="Solid Gold Podcast Studios" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="MobileOptimized" content="320" />
-<meta property="og:title" content="Solid Gold Podcast Studios | #BeHeard" />
-<meta property="og:description" content="Podcast recording studios #BeHeard" />
+<meta property="og:title" content="Solid Gold Podcast Studio | #BeHeard" />
+<meta property="og:description" content="Podcast recording studio #BeHeard" />
 <meta property="og:locale" content="en_ZA" />
 <meta property="og:url" content="https://solidgoldstudios.co.za/" />
 <meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
-<title>Solid Gold Podcast Studios | #BeHeard</title>
+<title>Solid Gold Podcast Studio | #BeHeard</title>
 <link rel="canonical" href="https://solidgoldstudios.co.za/index.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
@@ -702,7 +702,7 @@ MAIN
 
 				<h2 id="section_services_h2_weofferan">We offer an end-to-end podcast service.</h2>
 
-				<p>We are so much more than a podcast recording studio. Our full service offering guides you right from the start through the entire process. Whether you're an <strong>absolute beginner or a seasoned professional</strong>, we ensure everything gets done right—including concept, production, publishing and even hosting.</p>
+				<p>We are so much more than a podcast studio. Our full service offering guides you right from the start through the entire process. Whether you're an <strong>absolute beginner or a seasoned professional</strong>, we ensure everything gets done right—including concept, production, publishing and even hosting.</p>
 
 			</div>
 
@@ -752,7 +752,7 @@ MAIN
 
 					<h3 class="pad-t-mob">Studio recording</h3>
 
-					<p>This is the fun bit, where you're now in one of our professional recording studios, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
+					<p>This is the fun bit, where you're now in a professional podcast studio, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
 
 				</section>
 

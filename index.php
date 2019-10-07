@@ -98,7 +98,7 @@ HEADER: Hero
 			CONTENT
 			-->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">Do you want to be heard and understood?</h1>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">We'll help you to be heard and understood.</h1>
 
 			<p>We believe <strong>you</strong> have a story to tell. Our role is to help you tell it.</p>
 

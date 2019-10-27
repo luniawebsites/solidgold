@@ -1,0 +1,6 @@
+{
+	"title": "BERT is a Major Google Update for podcasts",
+	"publishDate": "2019-10-27",
+	"introText" : "Google updates its search algorithm to better understand natural language.",
+	"bodyHtml": "<p>Google announced what they called the most important update in five years. The BERT update impacts 10% of search queries and, according to Google, will affect complicated search queries that depend on context.</p><p> The BERT algorithm (Bidirectional Encoder Representations from Transformers) is a deep learning algorithm related to natural language processing. It helps a machine to understand what words in a sentence mean, but with all the nuances of context.</p><p>Google’s release said ‘These improvements are oriented around improving language understanding, particularly for more natural language/conversational queries, as BERT is able to help Search better understand the nuance and context of words in Searches and better match those queries with helpful results. Particularly for longer, more conversational queries, or searches where prepositions like “for” and “to” matter a lot to the meaning, Search will be able to understand the context of the words in your query. You can search in a way that feels natural for you.’</p><p>This is yet another step in Google’s on-going stated objective to make voice search and results easy, intuitive and effective.</p>"
+ }

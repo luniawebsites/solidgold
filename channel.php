@@ -72,7 +72,7 @@
 	}
 	else {
 		$icon_website = '
-			<a class="encimage-icon-website effect-grow-hover" href="'.$data->websiteUrl.'" target="_blank" rel="noopener" title="Visit '.$data->host.'\'s website" id="article_channel_a_website" aria-label="Visit '.$data->host.'\'s website"></a>
+			<a class="encimage-icon-website effect-grow-hover" href="'.$data->websiteUrl.'?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="Visit '.$data->host.'\'s website" id="article_channel_a_website" aria-label="Visit '.$data->host.'\'s website"></a>
 		';
 	};
 
@@ -82,7 +82,7 @@
 	}
 	else {
 		$icon_email = '
-			<a class="encimage-icon-email effect-grow-hover" href="mailto:'.$data->email.'" target="_blank" rel="noopener" title="Email '.$data->host.'" id="article_channel_a_email" aria-label="Email '.$data->host.'"></a>
+			<a class="encimage-icon-email effect-grow-hover" href="mailto:'.$data->email.'?subject='.$data->title.'%20Podcast%20Query" target="_blank" rel="noopener" title="Email '.$data->host.'" id="article_channel_a_email" aria-label="Email '.$data->host.'"></a>
 		';
 	};
 

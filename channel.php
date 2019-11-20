@@ -35,9 +35,14 @@
 	};
 
 	// If agreement data are present, then display the button
-	if ($data->agreement == 'yes') {
+	if ($data->agreement == 'yes' && (!empty($data->email))) {
 		$button_agreement = '
-			<a class="button secondary" href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_a_agreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>
+			<a class="button secondary" href="https://form.myjotform.com/80842486098569?hostEmail='.$data->email.'&whichShow='.$data->title.'" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_a_agreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>
+		';
+	}
+	elseif ($data->agreement == 'yes' && $data->email !== '') {
+		$button_agreement = '
+			<a class="button secondary" href="https://form.myjotform.com/80842486098569?whichShow='.$data->title.'" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_a_agreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>
 		';
 	}
 	else {

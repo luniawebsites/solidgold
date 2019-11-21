@@ -1,4 +1,4 @@
-{	
+{
 	"status": "public",
 	"title": "My Pocket Coach",
 	"host": "Image Excellence Group",
@@ -12,6 +12,7 @@
 	"playlistUrl": "https://podlink.to/mpc",
 	"websiteUrl": "http://mypocketcoachapp.com/",
 	"email": "info@iegroup.co.za",
+	"emailAgreement": "info@iegroup.co.za",
 	"facebookUrl": "https://www.facebook.com/mypocketcoachapp/",
 	"twitterUrl": "",
 	"linkedinUrl": "https://www.linkedin.com/in/ie-group-a63b1795/",

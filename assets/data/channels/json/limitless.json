@@ -1,4 +1,4 @@
-{	
+{
 	"status": "public",
 	"title": "Limitless Podcast",
 	"host": "Studio.13",
@@ -12,6 +12,7 @@
 	"playlistUrl": "https://podlink.to/limitless",
 	"websiteUrl": "https://studio13mkt.wixsite.com/website",
 	"email": "studio.13mkt@gmail.com",
+	"emailAgreement": "studio.13mkt@gmail.com",
 	"facebookUrl": "",
 	"twitterUrl": "",
 	"linkedinUrl": "",

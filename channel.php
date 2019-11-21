@@ -35,12 +35,12 @@
 	};
 
 	// If agreement data are present, then display the button
-	if ($data->agreement == 'yes' && (!empty($data->email))) {
+	if ($data->agreement == 'yes' && (!empty($data->emailAgreement))) {
 		$button_agreement = '
-			<a class="button secondary" href="https://form.myjotform.com/80842486098569?hostEmail='.$data->email.'&whichShow='.$data->title.'" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_a_agreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>
+			<a class="button secondary" href="https://form.myjotform.com/80842486098569?hostEmail='.$data->emailAgreement.'&whichShow='.$data->title.'" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_a_agreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>
 		';
 	}
-	elseif ($data->agreement == 'yes' && $data->email !== '') {
+	elseif ($data->agreement == 'yes' && $data->emailAgreement !== '') {
 		$button_agreement = '
 			<a class="button secondary" href="https://form.myjotform.com/80842486098569?whichShow='.$data->title.'" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_a_agreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>
 		';
@@ -53,7 +53,7 @@
 	if ($data->agreement == 'Yes' || $data->agreement == 'yes') {
 		$text_agreement = '
 			<div class="flexdir-ltr-mob flexwrap pad-double-t-mob">
-				<p>Before appearing as a guest, please complete the <a href="https://form.myjotform.com/80842486098569" target="_blank" rel="noopener" title="Media Usage Agreement" id="article_channel_p_mediausageagreement" aria-label="Media Usage Agreement"><span>Media Usage Agreement</span></a>. This enables us to publish the podcast and frees you to use it for your own promotional purposes.</p>
+				<p>Before appearing as a guest, please complete the Media Usage Agreement. This enables us to publish the podcast and frees you to use it for your own promotional purposes.</p>
 			</div>
 		';
 	}

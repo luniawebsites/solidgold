@@ -71,6 +71,36 @@
 		';
 	};
 
+	// If buy button data 1 are present, then display the button
+	if ($data->buyLink1Label == '') {
+		$button_buyButton1 == '';
+	}
+	else {
+		$button_buyButton1 = '
+			<a class="button secondary" href="'.$data->buyLink1Url.'" target="_blank" rel="noopener" title="'.$data->buyLink1Label.'" id="article_channel_a_buylink1" aria-label="'.$data->buyLink1Label.'"><span>'.$data->buyLink1Label.'</span></a>
+		';
+	};
+
+	// If buy button data 2 are present, then display the button
+	if ($data->buyLink2Label == '') {
+		$button_buyButton2 == '';
+	}
+	else {
+		$button_buyButton2 = '
+			<a class="button secondary" href="'.$data->buyLink2Url.'" target="_blank" rel="noopener" title="'.$data->buyLink2Label.'" id="article_channel_a_buylink2" aria-label="'.$data->buyLink2Label.'"><span>'.$data->buyLink2Label.'</span></a>
+		';
+	};
+
+	// If buy button data 3 are present, then display the button
+	if ($data->buyLink3Label == '') {
+		$button_buyButton3 == '';
+	}
+	else {
+		$button_buyButton3 = '
+			<a class="button secondary" href="'.$data->buyLink3Url.'" target="_blank" rel="noopener" title="'.$data->buyLink3Label.'" id="article_channel_a_buylink3" aria-label="'.$data->buyLink3Label.'"><span>'.$data->buyLink3Label.'</span></a>
+		';
+	};
+
 	// If website data are present, then display the icon
 	if ($data->websiteUrl == '') {
 		$icon_website == '';
@@ -266,6 +296,9 @@
 								'.$button_playlistUrl.'
 								'.$button_agreement.'
 								'.$button_extraButton.'
+								'.$button_buyButton1.'
+								'.$button_buyButton2.'
+								'.$button_buyButton3.'
 							</div>
 							<div>'.$text_agreement.'</div>
 							<div class="flexdir-ltr-mob flexwrap pad-double-t-mob">

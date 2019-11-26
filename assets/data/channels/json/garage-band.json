@@ -1,17 +1,31 @@
-{
+{	
 	"status": "public",
-	"title": "Garage Band",
+	"title": "Garage Band ",
 	"host": "Adam Alexander",
 	"coverFileName": "garage-band.jpg",
-	"filterKeywords": "garage band adam alexander",
+	"filterKeywords": "garage band adam alexander rabinowitz audible book",
+	"genre1": "",
+	"genre2": "",
+	"genre3": "",
+	"agreement": "",
+	"whatsappNumber": "",
 	"playlistUrl": "https://podlink.to/garageband",
+	"websiteUrl": "",
 	"email": "adam@imagin8.co.za",
 	"emailAgreement": "adam@imagin8.co.za",
 	"facebookUrl": "https://www.facebook.com/Garage-Band-2179974848913184",
 	"twitterUrl": "https://twitter.com/imaginator_sa",
 	"linkedinUrl": "https://www.linkedin.com/in/imagin8",
+	"instagramUrl": "",
+	"tumblrUrl": "",
 	"rssUrl": "https://podcaststudios.co.za/rss/garageband.xml",
-	"extraButtonLabel": "Buy on Amazon",
-	"extraButtonUrl": "https://www.amazon.com/Adam-Alexander/e/B00FGO6RYI",
-	"description": "<p>Nothing to do with music. Everything to do with getting even.</p>"
- }
+	"extraButtonLabel": "Listen on Audible",
+	"extraButtonUrl": "https://www.audible.com/pd/Garage-Band-Audiobook/B081VY6YQ1?asin=B081VY6YQ1",
+	"buyLink1Label": "New to Audible?",
+	"buyLink1Url": "https://www.audible.co.uk/pd/B081WBPF6Z/?source_code=AUKFrDlWS02231890H6-BK-ACX0-173738&ref=acx_bty_BK_ACX0_173738_rh_uk",
+	"buyLink2Label": "Read the eBook",
+	"buyLink2Url": "https://www.amazon.com/Adam-Alexander/e/B00FGO6RYI",
+	"buyLink3Label": "",
+	"buyLink3Url": "",
+	"description": "Nothing to do with music. Everything to do with getting even. After helping to build the Eastland Insurance company for 17 years, Lanthus Trilby is retrenched, without warning, to make way for 'younger, brighter minds'. Feeling angry and betrayed, the passive actuary wants to let his (former) boss feel his rage. His initial plans of keying his boss’ car quickly escalate well beyond merely blowing it up. Lanthus is going to take down the entire company. But his plan needs a team with special skills. The hacker, the daredevil, the explosives expert and the acrobatic pair join Lanthus to pull off the most daring caper the world has ever seen to bring Eastland Insurance to its knees. But as soon as than the plan begins, trouble sets in. The police are closing in, and someone else wants a piece of the action. Can Lanthus keep it together long enough to pull off his master plan?"
+}

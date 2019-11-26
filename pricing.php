@@ -125,24 +125,24 @@ MAIN
 
 							<h3>Hobby</h3>
 
-							<p>R1,000 / episode</p>
+							<p>R1,500 / episode</p>
 
 						</header>
 
 						<ul class="( pricing-comparison__list )">
-							<li><span class="pricing-comparison__heading">Studio 1</span>2 people</li>
-							<li><span class="pricing-comparison__heading">30 minutes</span>Studio time</li>
-							<li><span class="pricing-comparison__heading">1</span>Skype guest *</li>
+							<li><span class="pricing-comparison__heading">Studio 1</span>3 people</li>
+							<li><span class="pricing-comparison__heading">45 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">1</span>Remote guest *</li>
 							<li><span class="pricing-comparison__heading">1</span>Bed music track</li>
 							<li><span class="pricing-comparison__heading">Basic</span>Audio cleanup</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
-									<li>Introduction and closing segments</li>
+									<li>Opening and closing billboards</li>
 									<li>Introduction music</li>
-									<li>Website hosting & episode notes</li>
+									<li>Episode notes</li>
 									<li>Website channel page</li>
 									<li>Publishing to podcast platforms</li>
-									<li>Channel cover artwork</li>
+									<li></li>
 								</ul>
 							</li>
 						</ul>
@@ -164,24 +164,24 @@ MAIN
 						</header>
 
 						<ul class="( pricing-comparison__list )">
-							<li><span class="pricing-comparison__heading">Studio 1</span>3 people</li>
+							<li><span class="pricing-comparison__heading">Studio 2</span>4 people</li>
 							<li><span class="pricing-comparison__heading">60 minutes</span>Studio time</li>
-							<li><span class="pricing-comparison__heading">1</span>Skype guest *</li>
-							<li><span class="pricing-comparison__heading">2</span>Bed music tracks</li>
+							<li><span class="pricing-comparison__heading">2</span>Remote guests *</li>
+							<li><span class="pricing-comparison__heading">1</span>Bed music tracks</li>
 							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
-									<li>Introduction and closing segments</li>
+									<li>Opening and closing billboards</li>
 									<li>Introduction music</li>
-									<li>Website hosting & episode notes</li>
+									<li>Episode notes</li>
 									<li>Website channel page</li>
 									<li>Publishing to podcast platforms</li>
 									<li>Channel cover artwork</li>
-									<li>Social media artwork</li>
-									<li>Professional voice artist</li>
+									<!--- <li>Social media artwork</li>
+									<li>Professional voice artist</li> -->
 									<li>Sound effects</li>
 									<li>Guest phone-ins</li>
-									<li>Embedded player on your website</li>
+									<!-- <li>Embedded player on your website</li> -->
 								</ul>
 							</li>
 						</ul>
@@ -203,21 +203,21 @@ MAIN
 						</header>
 
 						<ul class="( pricing-comparison__list )">
-							<li><span class="pricing-comparison__heading">Studio 2</span>6 people</li>
+							<li><span class="pricing-comparison__heading">Studio 2</span>4 people</li>
 							<li><span class="pricing-comparison__heading">90 minutes</span>Studio time</li>
-							<li><span class="pricing-comparison__heading">3</span>Skype guests *</li>
-							<li><span class="pricing-comparison__heading">4</span>Bed music tracks</li>
+							<li><span class="pricing-comparison__heading">3</span>Remote guests</li>
+							<li><span class="pricing-comparison__heading">3</span>Bed music tracks</li>
 							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
-									<li>Introduction and closing segments</li>
+									<li>Opening and closing billboards</li>
 									<li>Introduction music</li>
-									<li>Website hosting & episode notes</li>
+									<li>Episode notes</li>
 									<li>Website channel page</li>
 									<li>Publishing to podcast platforms</li>
 									<li>Channel cover artwork</li>
-									<li>Social media artwork</li>
-									<li>Episode cover artwork</li>
+									<!-- <li>Social media artwork</li>
+									<li>Episode cover artwork</li> -->
 									<li>Professional voice artist</li>
 									<li>Sound effects</li>
 									<li>Guest phone-ins</li>
@@ -230,7 +230,7 @@ MAIN
 
 				</div>
 
-				<p class="pad-l-mob">* Skype guests replace studio guests</p>
+				<p class="pad-l-mob">* replace studio guests</p>
 
 			</div>
 

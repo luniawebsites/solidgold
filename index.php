@@ -413,9 +413,9 @@ MAIN
 
 				<h2 id="section_whatarepodcasts_h2_podcastsanythingeverywhere">Podcasts: <span class="no-break">Anything! Everywhere!</span></h2>
 
-				<p><strong>Podcasts</strong> are meaningful, entertaining and useful independent audio shows that can be downloaded free using an app on your phone, tablet or PC.</p>
+				<p><strong>Podcasts</strong> are meaningful, entertaining and useful independent audio shows that can be downloaded free using an app on your phone, tablet or PC. <strong>Like radio, but better.</strong> Podcasts are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel.</p>
 
-				<p><strong>Like radio, but better.</strong> Podcasts are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel.</p>
+				<p><strong>How many podcasts are there?</strong> We're expecting to cross the magical 1 million mark in early 2020. MyPodcastReviews.com has a <a href="https://mypodcastreviews.com/podcast-industry-statistics/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_whatarepodcasts_a_howmanypodcasts" aria-labelledby="section_whatarepodcasts_a_howmanypodcasts">cool page with up-to-date stats.</a></p>
 
 				<p><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables—if you can imagine it, you can podcast it.</p>
 				

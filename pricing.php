@@ -111,7 +111,7 @@ MAIN
 
 				<h2 id="article_episodepackages_h2_episodepackages">Episode packages</h2>
 
-				<p>Pay for 10 episodes upfront and we'll add a <strong>10% discount</strong> on the prices below. <strong>Prices exclude VAT</strong>.</p>
+				<p>Pay for 10 episodes up-front and we'll <strong>deduct 10%</strong> from the prices below. <strong>Prices exclude VAT</strong>.</p>
 
 				<div class="flexdir-ttb-mob flexdir-ltr-tab spread-mob pad-double-t-mob pad-b-mob">
 
@@ -130,10 +130,10 @@ MAIN
 						</header>
 
 						<ul class="( pricing-comparison__list )">
-							<li><span class="pricing-comparison__heading">Studio 1</span>3 people</li>
-							<li><span class="pricing-comparison__heading">45 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">Studio 2</span>3 people</li>
+							<li><span class="pricing-comparison__heading">30 - 45 minutes</span>Studio time</li>https://solidgoldstudios.co.za/pricing.php
 							<li><span class="pricing-comparison__heading">1</span>Remote guest *</li>
-							<li><span class="pricing-comparison__heading">1</span>Bed music track</li>
+							<li><span class="pricing-comparison__heading">1</span>Bed music track (library)</li>
 							<li><span class="pricing-comparison__heading">Basic</span>Audio cleanup</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
@@ -157,17 +157,17 @@ MAIN
 
 						<header class="pad-xy-mob theme-blue-mob">
 
-							<h3>Business</h3>
+							<h3>Business (most popular)</h3>
 
-							<p>R2,500 / episode</p>
+							<p>R2,750 / episode</p>
 
 						</header>
 
 						<ul class="( pricing-comparison__list )">
-							<li><span class="pricing-comparison__heading">Studio 2</span>4 people</li>
-							<li><span class="pricing-comparison__heading">60 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">Studio 1</span>4 people</li>
+							<li><span class="pricing-comparison__heading">45 - 60 minutes</span>Studio time</li>
 							<li><span class="pricing-comparison__heading">2</span>Remote guests *</li>
-							<li><span class="pricing-comparison__heading">1</span>Bed music tracks</li>
+							<li><span class="pricing-comparison__heading">1</span>Bed music track (library)</li>
 							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
@@ -203,10 +203,10 @@ MAIN
 						</header>
 
 						<ul class="( pricing-comparison__list )">
-							<li><span class="pricing-comparison__heading">Studio 2</span>4 people</li>
-							<li><span class="pricing-comparison__heading">90 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">Studio 1</span>4 people</li>
+							<li><span class="pricing-comparison__heading">60 - 90 minutes</span>Studio time</li>
 							<li><span class="pricing-comparison__heading">3</span>Remote guests</li>
-							<li><span class="pricing-comparison__heading">3</span>Bed music tracks</li>
+							<li><span class="pricing-comparison__heading">3</span>Bed music tracks (custom)</li>
 							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>

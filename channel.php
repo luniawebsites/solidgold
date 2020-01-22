@@ -24,6 +24,18 @@
 		</div>
 	';
 
+    // If donate data are present, then display the link
+    if ($data->donateLink == '') {
+        $text_donate = '';
+    }
+    else {
+        $text_donate = '
+            <p class="pad-t-mob">
+                <a href="'.$data->donateLink.'" target="_blank" rel="payment">Support this podcast</a>.
+            </p>
+        ';
+    };
+
 	// If playlist data are present, then display the button
 	if ($data->playlistUrl == '') {
 		$button_playlistUrl == '';
@@ -198,7 +210,7 @@
 
 		<!DOCTYPE html>
 		<html lang="en">
-		
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 		<link type="application/rss+xml" rel="alternate" title="'.$data->title.' with '.$data->host.'" href="'.$data->rssUrl.'"/>
@@ -213,7 +225,7 @@
 	include("assets/partials/base-url.html");
 
 	echo '
-		
+
 		<!--
 		PARTIAL: Google Tag Manager script
 		-->
@@ -224,12 +236,12 @@
 	include("assets/partials/google-tag-manager-script.html");
 
 	echo '
-		
-		<!-- 
+
+		<!--
 		LINK/PARTIAL: Defer load non-critical CSS
 		-->
 		<link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media=\'all\'">
-		
+
 		<meta name="description" content="'.$data->title.' podcast channel from Solid Gold Podcast Studios" />
 		<meta name="robots" content="index, follow" />
 		<meta name="classification" content="business" />
@@ -245,14 +257,14 @@
 		<link rel="canonical" href="https://solidgoldstudios.co.za/channel.php?title='.$file_name.'" />
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 		<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
-		
+
 	';
 
 	// Include Google tag manager body
 	include("assets/partials/google-tag-manager-body.html");
 
 	echo '
-		
+
 		<!--
 		STYLES: Inline load critical CSS
 		-->
@@ -277,7 +289,7 @@
 		<!--
 		MAIN
 		-->
-		
+
 		<div role="main"> <!-- This is used instead of <main> to ensure CSS grid works -->
 
 			<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_channel">
@@ -301,6 +313,7 @@
 								'.$button_buyButton3.'
 							</div>
 							<div>'.$text_agreement.'</div>
+                            <div>'.$text_donate.'</div>
 							<div class="flexdir-ltr-mob flexwrap pad-double-t-mob">
 								'.$icon_website.'
 								'.$icon_email.'
@@ -318,7 +331,7 @@
 				</div>
 
 			</article>
-		
+
 		</div>
 
 	';
@@ -330,7 +343,7 @@
 
 		<script src="assets/scripts/jquery/jquery.min.js"></script>
 		<script src="assets/scripts/jquery/pushy.min.js" defer></script>
-		
+
 		</html>
 
 	';

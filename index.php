@@ -98,13 +98,13 @@ HEADER: Hero
 			CONTENT
 			-->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">Be heard and understood.</h1>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, one must first be heard.</h1>
 
-			<p><strong>You have a story to tell.</strong> We'll help you tell it with podcasts.</p>
+			<p><strong>You have a story to tell!</strong> Tell it with podcasts.</p>
 
-			<p>We'll guide you through every step of making your own podcast so that your voice will <strong>#BeHeard.</strong> Here's a useful episode to listen to if you are<a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?"> wondering where to begin.</abbr></a></p>
+			<p>We'll guide you through making your own podcast so that your voice can <strong>#BeHeard</strong> over the noise. Listen to this podcast if you are<a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?"> wondering where to begin.</abbr></a></p>
 
-			<p>Solid Gold started in 1993 and is currently represented on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee. If you <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="header_hero_a_tribe" aria-labelledby="header_hero_a_tribe"><abbr title="Join our Tribe">join our mailing list</abbr></a>, you'll receive useful updates and insights from <strong>CEO Gavin Kennedy</strong>.</p>
+			<p>Starting out as a radio station in 1993, Solid Gold now helps many <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> produce their own podcasts. <!-- We're on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee to help set audio standards --> We invite you to <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="header_hero_a_tribe" aria-labelledby="header_hero_a_tribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> and receive useful updates and insights.</p>
 
 			<!--
 			LAYOUT CONTAINER

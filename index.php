@@ -100,11 +100,12 @@ HEADER: Hero
 
 			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, one must first be heard.</h1>
 
-			<p><strong>You have a story to tell!</strong> Tell it with podcasts.</p>
+			<p><strong>You have a story to tell</strong>, share it in a podcast.</p>
 
-			<p>We'll guide you through making your own podcast so that your voice can <strong>#BeHeard</strong> over the noise. Listen to this podcast if you are<a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?"> wondering where to begin.</abbr></a></p>
+			<p>We'll guide you through making your own podcast so that you can <strong>be heard</strong> over the noise of your competitors.</p>
 
-			<p>Starting out as a radio station in 1993, Solid Gold now helps many <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> produce their own podcasts. <!-- We're on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee to help set audio standards --> We invite you to <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="header_hero_a_tribe" aria-labelledby="header_hero_a_tribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> and receive useful updates and insights.</p>
+			<p>Founded in 1993, we help numerous <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. <!-- We're on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee to help set audio standards --> <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="header_hero_a_tribe" aria-labelledby="header_hero_a_tribe"><abbr title="Join our Tribe">Join our mailing list</abbr></a> to receive useful updates and insights, and listen to this podcast if you are<a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?"> wondering where to begin.</abbr></a></p>
+			<p>Solid Gold - helping <strong>you</strong> to <strong>#BeHeard</strong>.</p>
 
 			<!--
 			LAYOUT CONTAINER

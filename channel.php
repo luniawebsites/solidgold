@@ -163,6 +163,16 @@
 		';
 	};
 
+    // If youtube data are present, then display the icon
+	if ($data->youtubeUrl == '') {
+		$icon_youtube == '';
+	}
+	else {
+		$icon_youtube = '
+			<a class="encimage-icon-youtube effect-grow-hover" href="'.$data->youtubeUrl.'" target="_blank" rel="noopener" title="Visit '.$data->host.'\'s YouTube page" id="article_channel_a_youtube" aria-label="Visit '.$data->host.'\'s YouTube page"></a>
+		';
+	};
+
 	// If linkedin data are present, then display the icon
 	if ($data->linkedinUrl == '') {
 		$icon_linkedin == '';
@@ -322,6 +332,7 @@
 								'.$icon_twitter.'
 								'.$icon_linkedin.'
 								'.$icon_instagram.'
+                                '.$icon_youtube.'
 								'.$icon_tumblr.'
 								'.$icon_rss.'
 							</div>

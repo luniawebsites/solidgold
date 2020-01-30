@@ -111,7 +111,7 @@ MAIN
 
 				<h2 id="article_episodepackages_h2_episodepackages">Episode packages</h2>
 
-				<p>Pay for 10 episodes up-front and we'll <strong>deduct 10%</strong> from the prices below. <strong>Prices exclude VAT</strong>.</p>
+				<p><strong>Prices exclude VAT</strong>. Pay up-front and <strong>every 10th episode is FREE</strong>.</p>
 
 				<div class="flexdir-ttb-mob flexdir-ltr-tab spread-mob pad-double-t-mob pad-b-mob">
 
@@ -159,7 +159,7 @@ MAIN
 
 							<h3>Business (most popular)</h3>
 
-							<p>R2,750 / episode</p>
+							<p>R3,750 / episode</p>
 
 						</header>
 
@@ -198,7 +198,7 @@ MAIN
 
 							<h3>Professional</h3>
 
-							<p>R4,500 / episode</p>
+							<p>R4,950 / episode</p>
 
 						</header>
 

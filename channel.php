@@ -316,8 +316,8 @@
 							<div>'.$data->description.'</div>
 							<div class="flexdir-ttb-mob flexdir-ltr-des flexpos-lc-mob flexpos-lc-des pad-double-t-mob spread-mob">
 								'.$button_playlistUrl.'
+                                '.$button_extraButton.'
 								'.$button_agreement.'
-								'.$button_extraButton.'
 								'.$button_buyButton1.'
 								'.$button_buyButton2.'
 								'.$button_buyButton3.'

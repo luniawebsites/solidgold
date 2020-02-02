@@ -10,6 +10,7 @@ $message = $push.' sent to PubSubHubbub';
       <input type="url" name="hub.url" value="<?= $push ?>" hidden>
   </form>
   <p><?= $message ?></p>
+  <a href="https://pubsubhubbub.appspot.com/topic-details?hub.url=<?= $push ?>">Topic Details</a>
 </html>
 
 <script>

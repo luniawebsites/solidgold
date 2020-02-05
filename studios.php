@@ -441,7 +441,8 @@ MAIN
 						<h4>On location</h4>
 
 						<p>We come to your office or boardroom, or out in the field, with a <a href="https://www.zoom-na.com/products/field-video-recording/field-recording/h6-handy-recorder" target="_blank" rel="external noopener" id="article_studios_a_zoomh6" aria-labelledby="article_studios_a_zoomh6">Zoom H6</a> and professional microphones. We record your story for post-production and publishing back at the studios.</p>
-						<p>Think about how the location of a recording could add value to the conversation, or be a more efficient use of your time. For example, an interview with a busy Exec while they are driving to the airport, or at a conference, or even in the factory where your products are manufactured. Be creative!</p>
+						<p>Think about how the location of a recording could add value to the conversation, or be a more efficient use of your time. For example, an interview with a busy Exec while they are driving to the airport, or at a conference, or even in the factory where your products are manufactured.</p>
+						<p><strong>Be creative!</strong></p>
 
 					</div>
 

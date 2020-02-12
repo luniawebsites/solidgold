@@ -131,7 +131,7 @@ MAIN
 
 						<ul class="( pricing-comparison__list )">
 							<li><span class="pricing-comparison__heading">Studio 2</span>3 people</li>
-							<li><span class="pricing-comparison__heading">30 - 45 minutes</span>Studio time</li>https://solidgoldstudios.co.za/pricing.php
+							<li><span class="pricing-comparison__heading">30 - 45 minutes</span>Studio time</li>
 							<li><span class="pricing-comparison__heading">1</span>Remote guest *</li>
 							<li><span class="pricing-comparison__heading">1</span>Bed music track (library)</li>
 							<li><span class="pricing-comparison__heading">Basic</span>Audio cleanup</li>

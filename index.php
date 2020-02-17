@@ -14,7 +14,7 @@ PARTIAL: Google Tag Manager script
 -->
 <?php include("assets/partials/google-tag-manager-script.html"); ?>
 
-<!-- 
+<!--
 LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media='all'">
@@ -106,7 +106,7 @@ HEADER: Hero
 
 			<p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
 			<p>You might also want to <!-- We're on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee to help set audio standards --> <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="header_hero_a_tribe" aria-labelledby="header_hero_a_tribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> to receive useful updates and insights.</p>
-			<p><strong>Let's make a podcast!</strong>.</p>
+			<p><strong>Let's make a podcast!</strong></p>
 
 			<!--
 			LAYOUT CONTAINER
@@ -121,6 +121,8 @@ HEADER: Hero
 				<a class="encimage-brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="IAB logo" id="header_hero_a_iab" aria-label="IAB logo"></a>
 
 				<a class="encimage-brand-castbox-first-network" href="https://castbox.fm/search?q=solid%20gold%20studios&country=us&skip=0&limit=50&order=relevance&research=1" target="_blank" rel="noopener" title="Castbox logo" id="header_hero_a_castbox" aria-label="Castbox logo"></a>
+
+				<!-- <a class="encimage-brand-iono" href="https://iono.fm/" target="_blank" rel="noopener" title="iono fm logo" id="header_hero_a_iono" aria-label="iono fm logo"></a> -->
 
 			</div>
 
@@ -300,7 +302,7 @@ MAIN
 					<!--
 					HIDDEN HEADING (needed for semantic validation)
 					-->
-	
+
 					<h2 id="section_previousblogposts_h2_title" hidden>Previous Blog Posts</h2>
 
 					<!--
@@ -420,7 +422,7 @@ MAIN
 				<!-- <p><strong>Like radio, but better.</strong> Podcasts are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel, we'll show you how.</p> -->
 
 				<p><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables—if you can imagine it, you can podcast it.</p>
-				
+
 				<p>Use a free app such as <a href="https://itunes.apple.com/us/app/apple-podcasts/id525463029?mt=8" target="_blank" rel="noopener" id="section_whatarepodcasts_a_applepodcasts" aria-labelledby="section_whatarepodcasts_a_applepodcasts">Apple Podcasts</a>, <a href="https://castbox.fm/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_castbox" aria-labelledby="section_whatarepodcasts_a_castbox">Castbox</a>, <a href="https://www.stitcher.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_stitcher" aria-labelledby="section_whatarepodcasts_a_stitcher">Stitcher</a> or <a href="https://www.spotify.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_spotify" aria-labelledby="section_whatarepodcasts_a_spotify">Spotify</a> to follow podcast channels of your choice. The app can even download new episodes for you automatically.</p>
 
 			</div>
@@ -584,7 +586,7 @@ MAIN
 				<p class="text-l-mob"><strong>32% of the US population</strong> listened to a podcast last month. There are more than 700,000 active podcast shows and more than 20-million episodes listed on Apple Podcasts alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
 
 				<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_statistics_a_podcastinsightstats" aria-labelledby="section_statistics_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2019</span>)</small></p>
-						
+
 			</div>
 
 		</div>
@@ -871,7 +873,7 @@ MAIN
 				<div class="flexdir-ttb-mob flexpos-cc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
 
 					<a class="button primary" href="https://landing.mailerlite.com/webforms/landing/t1l2j0" title="Join the Solid Gold Tribe" id="article_jointhesolid_a_joinourmailing" aria-labelledby="article_jointhesolid_a_signup article_jointhesolid_h2_jointhesolid"><span>Sign Up</span></a>
-			
+
 				</div>
 
 			</div>
@@ -925,7 +927,7 @@ MAIN
 				<h2 id="section_guesttraining_h2_guidelinesonhow">Guidelines on how to be an effective podcast guest.</h2>
 
 				<p>Ensuring that your message is heard is our highest priority. To help you with this, we've put together a free <a href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" id="section_guesttraining_a_podcastguest101" aria-labelledby="section_guesttraining_a_podcastguest101">Podcast Guest 101 Course</a> which you can listen to as a podcast.</p>
-				
+
 				<p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
 
 				<p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>

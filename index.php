@@ -134,7 +134,7 @@ HEADER: Hero
 
 				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_doyouwant"><span>How Podcasts Are Used</span></a>
 
-				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_doyouwant"><span>Podcast Channels</span></a>
+				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_doyouwant"><span>Podcast Clients</span></a>
 
 			</div>
 

@@ -260,15 +260,15 @@ MAIN
 							</tr>
 							<tr>
 								<td class="no-break">Additional hour(s)</td>
-								<td>R150</td> 
+								<td>R200</td> 
 							</tr>
 							<tr>
 								<td class="no-break">Full day (10 hours)</td>
-								<td>R125</td> 
+								<td>R150</td> 
 							</tr>
 							<tr>
 								<td class="no-break">Full week (5 days)</td>
-								<td>R99</td> 
+								<td>R125</td> 
 							</tr>
 						</table>
 

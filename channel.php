@@ -139,7 +139,7 @@
 	}
 	else {
 		$icon_whatsapp = '
-			<a class="encimage-icon-whatsapp effect-grow-hover" href="https://api.whatsapp.com/send?phone='.$data->whatsappNumber.'&text=Hi%20there" target="_blank" rel="noopener" title="Send '.$data->host.' a WhatsApp message" id="article_channel_a_whatsapp" aria-label="Send '.$data->host.' a WhatsApp message"></a>
+			<a class="encimage-icon-whatsapp effect-grow-hover" href="https://api.whatsapp.com/send?phone='.$data->whatsappNumber.'&text=['.$data->title.'] Hi%20there" target="_blank" rel="noopener" title="Send '.$data->host.' a WhatsApp message" id="article_channel_a_whatsapp" aria-label="Send '.$data->host.' a WhatsApp message"></a>
 		';
 	};
 

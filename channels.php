@@ -14,7 +14,7 @@ PARTIAL: Google Tag Manager script
 -->
 <?php include("assets/partials/google-tag-manager-script.html"); ?>
 
-<!-- 
+<!--
 LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media='all'">

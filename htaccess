@@ -55,8 +55,8 @@ ErrorDocument 404 http://www.solidgoldstudios.co.za/errors/404.php
 	ExpiresByType text/xml "access 30 minutes"
 	ExpiresByType text/txt "access 30 minutes"
 	# Images (1 week)
-	ExpiresByType image/svg "access 1 week"
-	ExpiresByType image/svg+xml "access 1 week"
+	ExpiresByType image/svg "access 1 minute"
+	ExpiresByType image/svg+xml "access 1 minute"
 	ExpiresByType image/webp "access 1 week"
 	ExpiresByType image/jpg "access 1 week"
 	ExpiresByType image/jpeg "access 1 week"
@@ -75,7 +75,7 @@ ErrorDocument 404 http://www.solidgoldstudios.co.za/errors/404.php
 		Header set Cache-Control "max-age=1800, must-revalidate"
 	</filesmatch>
 	# Images (1 week)
-	<filesmatch "\.(svg|webp|jpg|jpeg|png)$">
+	<filesmatch "\.(webp|jpg|jpeg|png)$">
 		Header set Cache-Control "max-age=604800, must-revalidate"
 	</filesmatch>
 	# Fonts (1 week)

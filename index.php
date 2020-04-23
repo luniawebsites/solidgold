@@ -109,7 +109,10 @@ HEADER: Hero
 			<p>Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
 
 			<p>And drop us a mail If you'd like to receive our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to podcast from home</abbr></a>.</p>
+
 			<p><strong>Let's make a podcast!</strong></p>
+
+            <p>We provide Private Podcasts in partnership with</p>
 
 			<!--
 			LAYOUT CONTAINER
@@ -121,9 +124,7 @@ HEADER: Hero
 				IMAGES
 				-->
 
-				<a class="encimage-brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="IAB logo" id="header_hero_a_iab" aria-label="IAB logo"></a>
-
-				<a class="encimage-brand-castbox-first-network" href="https://castbox.fm/search?q=solid%20gold%20studios&country=us&skip=0&limit=50&order=relevance&research=1" target="_blank" rel="noopener" title="Castbox logo" id="header_hero_a_castbox" aria-label="Castbox logo"></a>
+                <a class="encimage-brand-storyboard" href="https://trystoryboard.com/" target="_blank" rel="noopener" title="Storyboard logo" id="header_hero_a_storyboard" aria-label="Storyboard logo"></a>
 
 				<!-- <a class="encimage-brand-iono" href="https://iono.fm/" target="_blank" rel="noopener" title="iono fm logo" id="header_hero_a_iono" aria-label="iono fm logo"></a> -->
 

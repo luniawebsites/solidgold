@@ -92,6 +92,8 @@ MAIN
 				<p>As founder and CEO of Solid Gold Podcast Studios, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener" title="Start WhatsApp chat" id="article_contact_a_whatsapp" aria-labelledby="article_contact_a_whatsapp article_contact_h1_helloimgavin">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener" title="Email me directly" id="article_contact_a_emailmedirectly" aria-labelledby="article_contact_a_emailmedirectly article_contact_h1_helloimgavin">email me directly</a> if you have any questions about podcasting.</p>
 
 				<p>We've been involved in video and audio production since the early 1990s and are hugely excited by the new opportunities that are available for podcast producers and production.</p>
+
+				<p>You might also want to <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="article_contact_a_subscribe" aria-labelledby="article_contact_a_subscribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> to receive useful updates and insights.</p>
 				
 				<p>Are you ready to <strong>#BeHeard</strong>?</p>
 
@@ -177,6 +179,8 @@ MAIN
 							<span class="text-note">Your information is kept confidential and you are not added to any other mailing lists</span>
 
 						</div>
+
+						<p>If you <strong>do</strong> want to receive useful updates and insights, then please <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="article_contact_a_subscribe" aria-labelledby="article_contact_a_subscribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> now.</p>
 
 				</div>
 

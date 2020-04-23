@@ -100,12 +100,15 @@ HEADER: Hero
 
 			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, you must first be heard.</h1>
 
-			<p><strong>Podcasts are a very effective way to be heard.</strong></p>
+			<p><strong>We will guide you through every step of your podcast journey.</strong></p>
 
-			<p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p>
+			<!-- <p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p> -->
 
-			<p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
-			<p>You might also want to <!-- We're on the <a href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" title="IAB" rel="noopener" id="header_hero_a_iab" aria-labelledby="header_hero_a_iab"><abbr title="Interactive Advertising Bureau">IAB</abbr></a> Digital Audio committee to help set audio standards --> <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="header_hero_a_tribe" aria-labelledby="header_hero_a_tribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> to receive useful updates and insights.</p>
+			<!-- <p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p> -->
+
+			<p>Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
+
+			<p>And drop us a mail If you'd like to receive our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to podcast from home</abbr></a>.</p>
 			<p><strong>Let's make a podcast!</strong></p>
 
 			<!--

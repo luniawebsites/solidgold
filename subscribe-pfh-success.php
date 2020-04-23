@@ -23,7 +23,7 @@ LINK/PARTIAL: Defer load non-critical CSS
 <meta name="pagename" content="" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="MobileOptimized" content="320" />
-<title>Your Message Has Been Sent</title>
+<title>Podcast from home with Solid Gold Podcast Studios</title>
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
@@ -68,12 +68,13 @@ MAIN
 
 			<div>
 
-				<h1>Thank you, your message has <span class="no-break">been sent</span></h1>
+				<h1>Welcome!</h1>
 
-				<p>We'll get back to you as soon as we can.</p>
-
-				<p>You might also want to <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="article_contact_a_subscribe" aria-labelledby="article_contact_a_subscribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> to receive useful updates and insights.</p>
-
+				<p>Our article <strong>'How to Podcast From Home'</strong> is on its way to you.</p>
+				<p>I hope it adds some value.</p>
+				<p>Please do share your story and home studio pics with us on our <a href="https://www.facebook.com/solidgoldpodcaststudios/" target="_blank" rel="noopener" id="pfh_subscribe" aria-labelledby="pfh_subscribe">Facebook page</a></p>
+				<p><strong>#BeHeard</strong></p>
+		
 			</div>
 
 		</div>

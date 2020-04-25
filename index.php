@@ -98,7 +98,7 @@ HEADER: Hero
 			CONTENT
 			-->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, you must first be heard.</h1>
+			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, we must first be heard.</h1>
 
 			<p><strong>We will guide you through every step of your podcast journey.</strong></p>
 
@@ -106,13 +106,11 @@ HEADER: Hero
 
 			<!-- <p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p> -->
 
+			<p>Are you caught in the lock-down? Then read our helpful article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to sound your best when recording at home</abbr></a>.</p>
+
 			<p>Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
 
-			<p>And drop us a mail If you'd like to receive our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to podcast from home</abbr></a>.</p>
-
-			<p><strong>Let's make a podcast!</strong></p>
-
-            <p>We provide Private Podcasts in partnership with</p>
+			            <p>In addition to public-facing podcasts, we provide <strong>Private Podcasts</strong> in partnership with</p>
 
 			<!--
 			LAYOUT CONTAINER
@@ -129,6 +127,9 @@ HEADER: Hero
 				<!-- <a class="encimage-brand-iono" href="https://iono.fm/" target="_blank" rel="noopener" title="iono fm logo" id="header_hero_a_iono" aria-label="iono fm logo"></a> -->
 
 			</div>
+
+			<p></p>
+			<p>Are you ready? — <strong> Let's make a podcast!</strong></p>
 
 			<!--
 			BUTTON CONTAINER

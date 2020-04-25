@@ -100,7 +100,7 @@ HEADER: Hero
 
 			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, we must first be heard.</h1>
 
-			<p><strong>We will guide you through every step of your podcast journey.</strong></p>
+			<p><strong>Solid Gold will guide you through every step of your podcasting journey.</strong></p>
 
 			<!-- <p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p> -->
 
@@ -108,9 +108,9 @@ HEADER: Hero
 
 			<p>Are you caught in the lock-down? Then read our helpful article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to sound your best when recording at home</abbr></a>.</p>
 
-			<p>Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
+			<p>New to podcasting? Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
 
-			            <p>In addition to public-facing podcasts, we provide <strong>Private Podcasts</strong> in partnership with</p>
+			            <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
 
 			<!--
 			LAYOUT CONTAINER

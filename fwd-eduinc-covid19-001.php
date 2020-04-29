@@ -21,7 +21,7 @@ PARTIAL: Google Tag Manager body
 -->
 <?php include("assets/partials/google-tag-manager-body.html"); ?>
 
-<meta http-equiv="refresh" content="1; url=https://podcaststudios.co.za/audio/eduinc-covid19/eduinc-covid19-001.mp3">
+<meta http-equiv="refresh" content="1; url=https://chtbl.com/track/85158/podcaststudios.co.za/audio/eduinc/edu-inc-009-covid19-weve-got-this.mp3">
 
 </body>
 </html>

@@ -124,7 +124,7 @@ HEADER: Hero
 
                 <a class="encimage-brand-storyboard" href="https://trystoryboard.com/" target="_blank" rel="noopener" title="Storyboard logo" id="header_hero_a_storyboard" aria-label="Storyboard logo"></a>
 
-				<!-- <a class="encimage-brand-iono" href="https://iono.fm/" target="_blank" rel="noopener" title="iono fm logo" id="header_hero_a_iono" aria-label="iono fm logo"></a> -->
+				<a class="encimage-brand-iono" href="https://iono.fm/" target="_blank" rel="noopener" title="iono fm logo" id="header_hero_a_iono" aria-label="iono fm logo"></a>
 
 			</div>
 

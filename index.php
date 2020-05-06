@@ -110,7 +110,7 @@ HEADER: Hero
 
 			<p>New to podcasting? Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p>
 
-			            <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
+			<p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
 
 			<!--
 			LAYOUT CONTAINER
@@ -124,12 +124,9 @@ HEADER: Hero
 
                 <a class="encimage-brand-storyboard" href="https://trystoryboard.com/" target="_blank" rel="noopener" title="Storyboard logo" id="header_hero_a_storyboard" aria-label="Storyboard logo"></a>
 
-				<a class="encimage-brand-iono" href="https://iono.fm/" target="_blank" rel="noopener" title="iono fm logo" id="header_hero_a_iono" aria-label="iono fm logo"></a>
-
 			</div>
 
-			<p></p>
-			<p>Are you ready? — <strong> Let's make a podcast!</strong></p>
+			<p class="pad-t-mob">Are you ready? — <strong> Let's make a podcast!</strong></p>
 
 			<!--
 			BUTTON CONTAINER

@@ -932,7 +932,9 @@ MAIN
 
 				<p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
 
+<!--
 				<p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
+-->				
 
 			</div>
 
@@ -1020,7 +1022,9 @@ MAIN
 
 				<a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
 
+<!--
 				<a class="button secondary" href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" title="Email us to book your space on our next Master Class" id="section_guesttraining_a_bookmasterclass" aria-labelledby="section_guesttraining_a_bookmasterclass"><span>Book Master Class</span></a>
+-->				
 
 			</div>
 

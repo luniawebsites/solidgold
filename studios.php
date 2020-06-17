@@ -14,7 +14,7 @@ PARTIAL: Google Tag Manager script
 -->
 <?php include("assets/partials/google-tag-manager-script.html"); ?>
 
-<!-- 
+<!--
 LINK/PARTIAL: Defer load non-critical CSS
 -->
 <link rel="stylesheet" href="assets/non-critical.min.css" media="print" onload="this.media='all'">
@@ -160,19 +160,19 @@ MAIN
 								<td class="no-break">Engineer</td>
 								<td>
 									<span class="encimage-studioicon-engineer" title="Engineer"></span>
-								</td> 
+								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Host</td>
 								<td>
 									<span class="encimage-studioicon-host" title="Host"></span>
-								</td> 
+								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Guests</td>
 								<td>
 									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
-								</td> 
+								</td>
 							</tr>
 						</table>
 
@@ -190,15 +190,15 @@ MAIN
 						<table>
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R950</td> 
+								<td>R950</td>
 							</tr>
 							<tr>
 								<td class="no-break">Additional hour(s)</td>
-								<td>R750</td> 
+								<td>R750</td>
 							</tr>
 							<tr>
 								<td class="no-break">Full day</td>
-								<td>R650</td> 
+								<td>R650</td>
 							</tr>
 						</table>
 
@@ -232,13 +232,13 @@ MAIN
 								<td class="no-break">Host</td>
 								<td>
 									<span class="encimage-studioicon-host" title="Host"></span>
-								</td> 
+								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Guests</td>
 								<td>
 									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
-								</td> 
+								</td>
 							</tr>
 						</table>
 
@@ -256,19 +256,19 @@ MAIN
 						<table>
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R250</td> 
+								<td>R250</td>
 							</tr>
 							<tr>
 								<td class="no-break">Additional hour(s)</td>
-								<td>R200</td> 
+								<td>R200</td>
 							</tr>
 							<tr>
 								<td class="no-break">Full day (10 hours)</td>
-								<td>R150</td> 
+								<td>R150</td>
 							</tr>
 							<tr>
 								<td class="no-break">Full week (5 days)</td>
-								<td>R125</td> 
+								<td>R125</td>
 							</tr>
 						</table>
 
@@ -277,15 +277,15 @@ MAIN
 						<table>
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R550</td> 
+								<td>R550</td>
 							</tr>
 							<tr>
 								<td class="no-break">Additional hours</td>
-								<td>R350</td> 
+								<td>R350</td>
 							</tr>
 							<tr>
 								<td class="no-break">Full day (10 hours)</td>
-								<td>R325</td> 
+								<td>R325</td>
 							</tr>
 						</table>
 
@@ -319,19 +319,19 @@ MAIN
 								<td class="no-break">Engineer</td>
 								<td>
 									<span class="encimage-studioicon-engineer" title="Engineer"></span>
-								</td> 
+								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Producers/Clients</td>
 								<td>
 									<span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span>
-								</td> 
+								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Voice Artists</td>
 								<td>
 									<span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span>
-								</td> 
+								</td>
 							</tr>
 						</table>
 
@@ -348,15 +348,15 @@ MAIN
 						<table>
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R1,150</td> 
+								<td>R1,150</td>
 							</tr>
 							<tr>
 								<td class="no-break">Additional</td>
-								<td>R850</td> 
+								<td>R850</td>
 							</tr>
 							<tr>
 								<td class="no-break">Full day (10 hrs)</td>
-								<td>R750</td> 
+								<td>R750</td>
 							</tr>
 						</table>
 
@@ -393,16 +393,16 @@ MAIN
 						<table class="margin-b-mob">
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R750</td> 
+								<td>R750</td>
 							</tr>
 
 							<tr>
 								<td class="no-break">Additional hour(s)</td>
-								<td>R350</td> 
+								<td>R350</td>
 							</tr>
 							<tr>
 								<td class="no-break">Full day (10 hours)</td>
-								<td>R325</td> 
+								<td>R325</td>
 							</tr>
 						</table>
 
@@ -412,10 +412,10 @@ MAIN
 
 						<table class="margin-b-mob">
 							<tr>
-								<td>Chroma key</td> 
+								<td>Chroma key</td>
 							</tr>
 							<tr>
-								<td>Set dressing</td> 
+								<td>Set dressing</td>
 							</tr>
 						</table>
 

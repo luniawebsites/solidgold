@@ -45,7 +45,7 @@ Prerender most likely next page
 SCRIPT: Inline load modernizer webp detection (defer causes images not to show in IE11)
 -->
 <script>
-	<?php include("assets/scripts/modernizr-webp.js"); ?>
+    <?php include("assets/scripts/modernizr-webp.js"); ?>
 </script>
 
 <!--
@@ -57,7 +57,7 @@ PARTIAL: Google Tag Manager body
 STYLES: Inline load critical CSS
 -->
 <style>
-	<?php include("assets/critical.min.css"); ?>
+    <?php include("assets/critical.min.css"); ?>
 </style>
 
 <!--
@@ -76,73 +76,73 @@ HEADER: Hero
 
 <header class="pad-respond-xy-mob theme-white-mob" id="header_hero" aria-labelledby="header_hero_h1_doyouwant">
 
-	<!--
-	LAYOUT CONTAINER
-	-->
+    <!--
+    LAYOUT CONTAINER
+    -->
 
-	<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain spread-respond pad-y-mob">
+    <div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain spread-respond pad-y-mob">
 
-		<!--
-		IMAGE
-		-->
+        <!--
+        IMAGE
+        -->
 
-		<div class="width-40-tab width-50-des margin-b-mob-only encimage-sketch-group-on-phones"></div>
+        <div class="width-40-tab width-50-des margin-b-mob-only encimage-sketch-group-on-phones"></div>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-		<div class="width-60-tab width-50-des">
+        <div class="width-60-tab width-50-des">
 
-			<!--
-			CONTENT
-			-->
+            <!--
+            CONTENT
+            -->
 
-			<h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, we must first be heard.</h1>
+            <h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, we must first be heard.</h1>
 
-			<p><strong>Solid Gold will guide you through every step of your podcasting journey.</strong></p>
+            <p><strong>Solid Gold will guide you through every step of your podcasting journey.</strong></p>
 
-			<!-- <p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p> -->
+            <!-- <p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p> -->
 
-			<!-- <p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p> -->
+            <!-- <p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p> -->
 
-			<p>Are you working from home? Our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to sound your best</abbr></a> will help when recording or presenting at home. Ever wondered why you <a href="https://landing.mailerlite.com/webforms/landing/m8m6z8" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_cringe"><abbr title="Why Do I Cringe">cringe at the sound of your own voice?</abbr></a></p>
+            <p>Are you working from home? Our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to sound your best</abbr></a> will help when recording or presenting at home. Ever wondered why you <a href="https://landing.mailerlite.com/webforms/landing/m8m6z8" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_cringe"><abbr title="Why Do I Cringe">cringe at the sound of your own voice?</abbr></a></p>
 
-			<p>New to podcasting? Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">searching for information on where and how to begin</abbr></a>.</p>
+            <p>New to podcasting? Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">searching for information on where and how to begin</abbr></a>.</p>
 
-			<p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
+            <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			<div class="flexdir-ltr-mob spread-mob pad-t-mob">
+            <div class="flexdir-ltr-mob spread-mob pad-t-mob">
 
-				<!--
-				IMAGES
-				-->
+                <!--
+                IMAGES
+                -->
 
                 <a class="encimage-brand-storyboard" href="https://trystoryboard.com/" target="_blank" rel="noopener" title="Storyboard logo" id="header_hero_a_storyboard" aria-label="Storyboard logo"></a>
 
-			</div>
+            </div>
 
-			<p class="pad-t-mob">Are you ready? — <strong> Let's make a podcast!</strong></p>
+            <p class="pad-t-mob">Are you ready? — <strong> Let's make a podcast!</strong></p>
 
-			<!--
-			BUTTON CONTAINER
-			-->
+            <!--
+            BUTTON CONTAINER
+            -->
 
-			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
+            <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
 
-				<a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_doyouwant"><span>How Podcasts Are Used</span></a>
+                <a class="button primary" href="use-cases.php" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_doyouwant"><span>How Podcasts Are Used</span></a>
 
-				<a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_doyouwant"><span>Podcast Clients</span></a>
+                <a class="button secondary" href="channels.php" title="See the Solid Gold Podcast Studios podcast channels" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels header_hero_h1_doyouwant"><span>Podcast Clients</span></a>
 
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
 </header>
 
@@ -152,933 +152,939 @@ MAIN
 
 <div role="main"> <!-- This is used instead of the more semantically-correct <main> to ensure CSS auro-grid works -->
 
-	<!--
-	ARTICLE: Tell the world your story
-	-->
+    <!--
+    ARTICLE: Tell the world your story
+    -->
 
-	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="article_telltheworld" aria-labelledby="article_telltheworld_h2_telltheworld">
+    <article class="pad-respond-xy-mob theme-dark-grey-mob" id="article_telltheworld" aria-labelledby="article_telltheworld_h2_telltheworld">
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
+        <div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			<div class="flexdir-ttb-mob pad-b-mob">
+            <div class="flexdir-ttb-mob pad-b-mob">
 
-				<!--
-				CONTENT
-				-->
+                <!--
+                CONTENT
+                -->
 
-				<h2 class="text-c-mob" id="article_telltheworld_h2_telltheworld">#BeHeard: Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
+                <h2 class="text-c-mob" id="article_telltheworld_h2_telltheworld">#BeHeard: Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
 
-				<p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="article_telltheworld_a_onchange" aria-labelledby="article_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
+                <p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="article_telltheworld_a_onchange" aria-labelledby="article_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
 
-			</div>
+            </div>
 
-			<!--
-			FIGURE: Corrie Petzer's Origin Story
-			-->
+            <!--
+            FIGURE: Corrie Petzer's Origin Story
+            -->
 
-			<figure>
+            <figure>
 
-				<!--
-				LAYOUT CONTAINER
-				-->
+                <!--
+                LAYOUT CONTAINER
+                -->
 
-				<div class="flexdir-ttb-mob flexpos-ct-mob">
+                <div class="flexdir-ttb-mob flexpos-ct-mob">
 
-					<!--
-					CONTENT
-					-->
+                    <!--
+                    CONTENT
+                    -->
 
-					<h3 class="text-c-mob">Corrie Petzer's Origin Story</h3>
+                    <h3 class="text-c-mob">Corrie Petzer's Origin Story</h3>
 
-					<audio class="pad-t-mob" preload="none" controls>
-						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
-					</audio>
+                    <audio class="pad-t-mob" preload="none" controls>
+                        <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
+                    </audio>
 
-					<figcaption class="pad-t-mob text-c-mob">Duration 2:21</figcaption>
+                    <figcaption class="pad-t-mob text-c-mob">Duration 2:21</figcaption>
 
-				</div>
+                </div>
 
-			</figure>
+            </figure>
 
-		</div>
+        </div>
 
-	</article>
+    </article>
 
-	<!--
-	ARTICLE: Blog posts
-	-->
+    <!--
+    ARTICLE: Blog posts
+    -->
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="article_blogposts" aria-labelledby="section_featuredblogpost_h2_title">
+    <article class="pad-respond-xy-mob theme-light-grey-mob" id="article_blogposts" aria-labelledby="section_featuredblogpost_h2_title">
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-		<div class="flexdir-ttb-mob constrain pad-respond-y-mob">
+        <div class="flexdir-ttb-mob constrain pad-respond-y-mob">
 
-			<!--
-			ARIA HIDDEN LABEL
-			-->
+            <!--
+            ARIA HIDDEN LABEL
+            -->
 
-			<div aria-hidden="true"><span class="text-heading-badge--light">Blog Posts</span></div>
+            <div aria-hidden="true"><span class="text-heading-badge--light">Blog Posts</span></div>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			<div class="flexdir-ttb-mob flexdir-ltr-tab constrain spread-double-mob">
+            <div class="flexdir-ttb-mob flexdir-ltr-tab constrain spread-double-mob">
 
-				<!--
-				SECTION CONTAINER
-				-->
+                <!--
+                SECTION CONTAINER
+                -->
 
-				<section class="flexdir-ttb-mob width-60-tab constrain pad-respond-r-mob border-r-tab" id="section_featuredblogpost_h2_title">
+                <section class="flexdir-ttb-mob width-60-tab constrain pad-respond-r-mob border-r-tab" id="section_featuredblogpost_h2_title">
 
-					<!--
-					SCRIPT: Display featured blog post
-					-->
+                    <!--
+                    SCRIPT: Display featured blog post
+                    -->
 
-					<?php
+                    <?php
 
-						// Create a custom function
-						// ----------------------------------------------------------------------
+                        // Create a custom function
+                        // ----------------------------------------------------------------------
 
-						function featuredBlogPost() {
+                        function featuredBlogPost() {
 
-							// Get all json files from this folder
-							$folder = glob('assets/data/blog-posts/json/*.json');
+                            // Get all json files from this folder
+                            $folder = glob('assets/data/blog-posts/json/*.json');
 
-							// Get the last json file from the folder
-							$file = array_slice($folder, 1);
-								foreach ($folder as $file) {
-							};
+                            // Get the last json file from the folder
+                            $file = array_slice($folder, 1);
+                                foreach ($folder as $file) {
+                            };
 
-							// Get the contents of the json file
-							$contents = file_get_contents($file);
+                            // Get the contents of the json file
+                            $contents = file_get_contents($file);
 
-							// Decode the contents of the json file
-							$data = json_decode($contents);
+                            // Decode the contents of the json file
+                            $data = json_decode($contents);
 
-							// Construct the file name
-							$file_name = basename($file, '.json');
+                            // Construct the file name
+                            $file_name = basename($file, '.json');
 
-							// Construct the link to the php template and add the file name as a referrer
-							$file_url = 'blog-post.php?title='.$file_name.'';
+                            // Construct the link to the php template and add the file name as a referrer
+                            $file_url = 'blog.php?title='.$file_name.'';
 
-							// Combine and display all the html for this function
-							echo '
-								<h2 id="section_featuredblogpost_h2_title" aria-labelledby="section_featuredblogpost_h2_title"><a href="'.$file_url.'" title="'.$data->title.'" aria-labelledby="section_featuredblogpost_h2_title">'.$data->title.'</h2>
-								<p class="pad-t-mob">'.$data->introText.'</p>
-								<div class="flexdir-ttb-mob flexpos-lc-mob pad-double-t-mob">
-									<a class="button primary" href="'.$file_url.'" title="Read post" id="section_featuredblogpost_a_readmore" aria-labelledby="section_featuredblogpost_a_readmore section_featuredblogpost_h2_title"><span>Read Post</span></a>
-								</div>
-							';
+                            // Combine and display all the html for this function
+                            echo '
+                                <h2 id="section_featuredblogpost_h2_title" aria-labelledby="section_featuredblogpost_h2_title"><a href="'.$file_url.'" title="'.$data->title.'" aria-labelledby="section_featuredblogpost_h2_title">'.$data->title.'</h2>
 
-						};
+                                <p class="pad-t-mob">'.$data->introText.'</p>
 
-						// Display the function's final html
-						// ----------------------------------------------------------------------
+                                <div class="flexdir-ltr-mob pad-double-t-mob">
 
-						echo '
-							'.featuredBlogPost().'
-						';
+                                    <a class="button primary" href="'.$file_url.'" title="Read post" id="section_featuredblogpost_a_readmore" aria-labelledby="section_featuredblogpost_a_readmore section_featuredblogpost_h2_title"><span>Read Post</span></a>
 
-					?>
+                                    <a class="button primary margin-l-mob" href="blog.php" title="Visit blog" id="section_featuredblogpost_a_visitblog" aria-labelledby="section_featuredblogpost_a_visitblog section_featuredblogpost_h2_title"><span>Visit Blog</span></a>
 
-				</section>
+                                </div>
+                            ';
 
-				<!--
-				SECTION CONTAINER
-				-->
+                        };
 
-				<section class="flexdir-ttb-mob flexpos-lc-mob width-40-tab" id="section_previousblogposts_h2_title">
+                        // Display the function's final html
+                        // ----------------------------------------------------------------------
 
-					<!--
-					HIDDEN HEADING (needed for semantic validation)
-					-->
+                        echo '
+                            '.featuredBlogPost().'
+                        ';
 
-					<h2 id="section_previousblogposts_h2_title" hidden>Previous Blog Posts</h2>
+                    ?>
 
-					<!--
-					SCRIPT: Display content from previous blog posts
-					-->
+                </section>
 
-					<?php
+                <!--
+                SECTION CONTAINER
+                -->
 
-						// Create a custom function
-						// ----------------------------------------------------------------------
+                <section class="flexdir-ttb-mob flexpos-lc-mob width-40-tab" id="section_previousblogposts_h2_title">
 
-						function previousBlogPosts() {
+                    <!--
+                    HIDDEN HEADING (needed for semantic validation)
+                    -->
 
-							// Designate the folder that contains the json files
-							$folder = 'assets/data/blog-posts/json/';
+                    <h2 id="section_previousblogposts_h2_title" hidden>Previous Blog Posts</h2>
 
-							// Get all json files from the designated folder
-							foreach (glob(''.$folder.'*.json') as $file) {
-								$files[] = $file;
-							};
+                    <!--
+                    SCRIPT: Display content from previous blog posts
+                    -->
 
-							// Sort the array of json files in descending order so we get the latest file first
-							rsort($files);
+                    <?php
 
-							$filter = array_slice($files, 1, 3);
+                        // Create a custom function
+                        // ----------------------------------------------------------------------
 
-							// Create a separate instance of each json file's string
-							// ----------------------------------------------------------------------
+                        function previousBlogPosts() {
 
-							foreach ($filter as $file) {
+                            // Designate the folder that contains the json files
+                            $folder = 'assets/data/blog-posts/json/';
 
-								// Get the contents of the json file, decode the string, then get the file name
-								$json_data = file_get_contents($file);
-								$data = json_decode($json_data);
-								$file_name = basename($file, '.json');
+                            // Get all json files from the designated folder
+                            foreach (glob(''.$folder.'*.json') as $file) {
+                                $files[] = $file;
+                            };
 
-								// Construct the link to the php template and add the file name as a referrer
-								$file_url = 'blog-post.php?title='.$file_name.'';
+                            // Sort the array of json files in descending order so we get the latest file first
+                            rsort($files);
 
-								// Combine and display all the html for this function
-								echo '
-									<a class="previous-blog-post-heading" href="'.$file_url.'" id="section_previousblogposts_a_title" aria-labelledby="section_previousblogposts_a_title section_previousblogposts_h2_title">
-										'.$data->title.'
-									</a>
-								';
+                            $filter = array_slice($files, 1, 3);
 
-							};
+                            // Create a separate instance of each json file's string
+                            // ----------------------------------------------------------------------
 
-							// Break the reference with the last element
-							unset($file);
+                            foreach ($filter as $file) {
 
-						};
+                                // Get the contents of the json file, decode the string, then get the file name
+                                $json_data = file_get_contents($file);
+                                $data = json_decode($json_data);
+                                $file_name = basename($file, '.json');
 
-						// Display the function's final html
-						// ----------------------------------------------------------------------
+                                // Construct the link to the php template and add the file name as a referrer
+                                $file_url = 'blog.php?title='.$file_name.'';
 
-						echo '
-							'.previousBlogPosts().'
-						';
+                                // Combine and display all the html for this function
+                                echo '
+                                    <a class="previous-blog-post-heading" href="'.$file_url.'" id="section_previousblogposts_a_title" aria-labelledby="section_previousblogposts_a_title section_previousblogposts_h2_title">
+                                        '.$data->title.'
+                                    </a>
+                                ';
 
-					?>
+                            };
 
-				</section>
+                            // Break the reference with the last element
+                            unset($file);
 
-			</div>
+                        };
 
-		</div>
+                        // Display the function's final html
+                        // ----------------------------------------------------------------------
 
-	</article>
+                        echo '
+                            '.previousBlogPosts().'
+                        ';
 
-	<!--
-	ARTICLE: What are podcasts?
-	-->
+                    ?>
 
-	<article class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white-mob" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
+                </section>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+            </div>
 
-		<div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lb-mob flexpos-cb-tab constrain pad-respond-t-mob">
+        </div>
 
-			<!--
-			FIGURE
-			-->
+    </article>
 
-			<figure class="flexdir-ltr-tab flexpos-cb-tab width-80-tab width-70-des pad-t-mob">
+    <!--
+    ARTICLE: What are podcasts?
+    -->
 
-				<!--
-				IMAGE
-				-->
+    <article class="pattern-section-item pad-respond-x-mob pad-respond-t-mob theme-white-mob" id="section_whatarepodcasts" aria-label="section_whatarepodcasts_h2_podcastsanythingeverywhere">
 
-				<div class="image-castbox-screenshot-on-iphonex bgpos-lb-mob bgpos-cb-tab"></div>
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-			</figure>
+        <div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lb-mob flexpos-cb-tab constrain pad-respond-t-mob">
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            FIGURE
+            -->
 
-			<div class="margin-b-mob pad-respond-b-mob">
+            <figure class="flexdir-ltr-tab flexpos-cb-tab width-80-tab width-70-des pad-t-mob">
 
-				<!--
-				ARIA HIDDEN LABEL
-				-->
+                <!--
+                IMAGE
+                -->
 
-				<div aria-hidden="true"><span class="text-heading-badge--light">What Are Podcasts?</span></div>
+                <div class="image-castbox-screenshot-on-iphonex bgpos-lb-mob bgpos-cb-tab"></div>
 
-				<!--
-				CONTENT
-				-->
+            </figure>
 
-				<h2 id="section_whatarepodcasts_h2_podcastsanythingeverywhere">Podcasts: <span class="no-break">Anything! Everywhere!</span></h2>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-				<p><strong>Like radio, but better - Podcasts</strong> are meaningful, entertaining and useful independent audio shows that can be downloaded free using an app on your phone, tablet or PC.</p>
+            <div class="margin-b-mob pad-respond-b-mob">
 
-				<!-- <p><strong>Like radio, but better.</strong> Podcasts are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel, we'll show you how.</p> -->
+                <!--
+                ARIA HIDDEN LABEL
+                -->
 
-				<p><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables—if you can imagine it, you can podcast it.</p>
+                <div aria-hidden="true"><span class="text-heading-badge--light">What Are Podcasts?</span></div>
 
-				<p>Use a free app such as <a href="https://itunes.apple.com/us/app/apple-podcasts/id525463029?mt=8" target="_blank" rel="noopener" id="section_whatarepodcasts_a_applepodcasts" aria-labelledby="section_whatarepodcasts_a_applepodcasts">Apple Podcasts</a>, <a href="https://castbox.fm/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_castbox" aria-labelledby="section_whatarepodcasts_a_castbox">Castbox</a>, <a href="https://www.stitcher.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_stitcher" aria-labelledby="section_whatarepodcasts_a_stitcher">Stitcher</a> or <a href="https://www.spotify.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_spotify" aria-labelledby="section_whatarepodcasts_a_spotify">Spotify</a> to follow podcast channels of your choice. The app can even download new episodes for you automatically.</p>
+                <!--
+                CONTENT
+                -->
 
-			</div>
+                <h2 id="section_whatarepodcasts_h2_podcastsanythingeverywhere">Podcasts: <span class="no-break">Anything! Everywhere!</span></h2>
 
-		</div>
+                <p><strong>Like radio, but better - Podcasts</strong> are meaningful, entertaining and useful independent audio shows that can be downloaded free using an app on your phone, tablet or PC.</p>
 
-	</article>
+                <!-- <p><strong>Like radio, but better.</strong> Podcasts are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel, we'll show you how.</p> -->
 
-	<!--
-	ARTICLE: Why podcast?
-	-->
+                <p><strong>Podcasts educate, inform or entertain,</strong> and are often a combination of these three objectives. For example, a fun gameshow that's really teaching history or science. From poetry to arts and drama, advice on how to grow your business to growing your own vegetables—if you can imagine it, you can podcast it.</p>
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_whypodcast" aria-labelledby="section_whypodcast_h2_youhavea">
+                <p>Use a free app such as <a href="https://itunes.apple.com/us/app/apple-podcasts/id525463029?mt=8" target="_blank" rel="noopener" id="section_whatarepodcasts_a_applepodcasts" aria-labelledby="section_whatarepodcasts_a_applepodcasts">Apple Podcasts</a>, <a href="https://castbox.fm/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_castbox" aria-labelledby="section_whatarepodcasts_a_castbox">Castbox</a>, <a href="https://www.stitcher.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_stitcher" aria-labelledby="section_whatarepodcasts_a_stitcher">Stitcher</a> or <a href="https://www.spotify.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_spotify" aria-labelledby="section_whatarepodcasts_a_spotify">Spotify</a> to follow podcast channels of your choice. The app can even download new episodes for you automatically.</p>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+            </div>
 
-		<div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lb-tab constrain spread-respond pad-y-mob">
+        </div>
 
-			<!--
-			FIGURE
-			-->
+    </article>
 
-			<figure class="flexdir-ttb-mob flexdir-ttb-tab theme-dark-grey">
+    <!--
+    ARTICLE: Why podcast?
+    -->
 
-				<!--
-				IMAGE
-				-->
+    <article class="pad-respond-xy-mob theme-light-grey-mob" id="section_whypodcast" aria-labelledby="section_whypodcast_h2_youhavea">
 
-				<div class="margin-b-mob-only encimage-sketch-woman-on-couch"></div>
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-			</figure>
+        <div class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lb-tab constrain spread-respond pad-y-mob">
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            FIGURE
+            -->
 
-			<div class="flexdir-ttb-mob theme-light-grey-mob">
+            <figure class="flexdir-ttb-mob flexdir-ttb-tab theme-dark-grey">
 
-				<!--
-				ARIA HIDDEN LABEL
-				-->
+                <!--
+                IMAGE
+                -->
 
-				<div aria-hidden="true"><span class="text-heading-badge--light">Why Podcast?</span></div>
+                <div class="margin-b-mob-only encimage-sketch-woman-on-couch"></div>
 
-				<!--
-				CONTENT
-				-->
+            </figure>
 
-				<h2 id="section_whypodcast_h2_youhavea">You have a captive audience.</h2>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-				<p>Your audience <strong>chooses to listen to you</strong>, and is likely to do so while driving around. This is something they can't do with a video or a brochure. It's like your customers asking you to send a sales representative to drive around with them explaining a case study.</p>
+            <div class="flexdir-ttb-mob theme-light-grey-mob">
 
-			</div>
+                <!--
+                ARIA HIDDEN LABEL
+                -->
 
-		</div>
+                <div aria-hidden="true"><span class="text-heading-badge--light">Why Podcast?</span></div>
 
-		<!--
-		LAYOUT CONTAINER: Genuine engagement/always available
-		-->
+                <!--
+                CONTENT
+                -->
 
-		<div class="flexdir-ttb-mob constrain pad-y-mob">
+                <h2 id="section_whypodcast_h2_youhavea">You have a captive audience.</h2>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+                <p>Your audience <strong>chooses to listen to you</strong>, and is likely to do so while driving around. This is something they can't do with a video or a brochure. It's like your customers asking you to send a sales representative to drive around with them explaining a case study.</p>
 
-			<div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
+            </div>
 
-				<!--
-				FIGURE: Genuine engagement
-				-->
+        </div>
 
-				<figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
+        <!--
+        LAYOUT CONTAINER: Genuine engagement/always available
+        -->
 
-					<!--
-					CONTENT
-					-->
+        <div class="flexdir-ttb-mob constrain pad-y-mob">
 
-					<div class="encimage-sketch-woman-phone-love" title="Woman holding cell phone with hearts"></div>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-					<h3 class="pad-t-mob text-c-mob">Genuine engagement</h3>
+            <div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
 
-					<p class="text-c-mob">Podcasts dive deeply into your content and help build trust between you and your audience.</p>
+                <!--
+                FIGURE: Genuine engagement
+                -->
 
-				</figure>
+                <figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-				<!--
-				FIGURE: Always available
-				-->
+                    <!--
+                    CONTENT
+                    -->
 
-				<figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
+                    <div class="encimage-sketch-woman-phone-love" title="Woman holding cell phone with hearts"></div>
 
-					<!--
-					CONTENT
-					-->
+                    <h3 class="pad-t-mob text-c-mob">Genuine engagement</h3>
 
-					<div class="encimage-sketch-swinging-on-tree" title="Woman looking at device while swinging on tree"></div>
+                    <p class="text-c-mob">Podcasts dive deeply into your content and help build trust between you and your audience.</p>
 
-					<h3 class="pad-t-mob text-c-mob">Always available</h3>
+                </figure>
 
-					<p class="text-c-mob">Podcasts are a great companion to daily life and turn an activity into an informative experience.</p>
+                <!--
+                FIGURE: Always available
+                -->
 
-				</figure>
+                <figure class="flexdir-ttb-mob flexpos-cc-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-			</div>
+                    <!--
+                    CONTENT
+                    -->
 
-		</div>
+                    <div class="encimage-sketch-swinging-on-tree" title="Woman looking at device while swinging on tree"></div>
 
-	</article>
+                    <h3 class="pad-t-mob text-c-mob">Always available</h3>
 
-	<!--
-	ARTICLE: Statistics
-	-->
+                    <p class="text-c-mob">Podcasts are a great companion to daily life and turn an activity into an informative experience.</p>
 
-	<article class="pad-respond-xy-mob theme-white-mob" id="section_statistics" aria-labelledby="section_statistics_h2_podcastingisbig">
+                </figure>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+            </div>
 
-		<div class="flexdir-btt-mob flexdir-rtl-tab flexpos-cc-tab constrain spread-respond pad-respond-y-mob">
+        </div>
 
-			<!--
-			FIGURE
-			-->
+    </article>
 
-			<figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab">
+    <!--
+    ARTICLE: Statistics
+    -->
 
-				<!--
-				CONTENT
-				-->
+    <article class="pad-respond-xy-mob theme-white-mob" id="section_statistics" aria-labelledby="section_statistics_h2_podcastingisbig">
 
-				<figcaption class="pad-double-b-mob">US population that listens to podcasts each month</figcaption>
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-				<div class="image-chart"></div>
+        <div class="flexdir-btt-mob flexdir-rtl-tab flexpos-cc-tab constrain spread-respond pad-respond-y-mob">
 
-			</figure>
+            <!--
+            FIGURE
+            -->
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab">
 
-			<div class="pad-b-mob-only">
+                <!--
+                CONTENT
+                -->
 
-				<!--
-				ARIA HIDDEN LABEL
-				-->
+                <figcaption class="pad-double-b-mob">US population that listens to podcasts each month</figcaption>
 
-				<div aria-hidden="true"><span class="text-heading-badge--light">Statistics</span></div>
+                <div class="image-chart"></div>
 
-				<!--
-				CONTENT
-				-->
+            </figure>
 
-				<h2 id="section_statistics_h2_podcastingisbig">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-				<p><strong>How many podcasts are there?</strong> We're expecting to cross the magical 1 million mark in early 2020. MyPodcastReviews.com has a <a href="https://mypodcastreviews.com/podcast-industry-statistics/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_statistics_a_howmanypodcasts" aria-labelledby="section_statistics_a_howmanypodcasts">cool page with up-to-date stats.</a></p>
+            <div class="pad-b-mob-only">
 
-				<p class="text-l-mob"><strong>37% of the US population</strong> listened to a podcast last month. There are more than 930,000 active podcast shows and more than 27-million episodes listed on Apple Podcasts alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
+                <!--
+                ARIA HIDDEN LABEL
+                -->
 
-				<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_statistics_a_podcastinsightstats" aria-labelledby="section_statistics_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2020</span>)</small></p>
+                <div aria-hidden="true"><span class="text-heading-badge--light">Statistics</span></div>
 
-			</div>
+                <!--
+                CONTENT
+                -->
 
-		</div>
+                <h2 id="section_statistics_h2_podcastingisbig">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
 
-	</article>
+                <p><strong>How many podcasts are there?</strong> We're expecting to cross the magical 1 million mark in early 2020. MyPodcastReviews.com has a <a href="https://mypodcastreviews.com/podcast-industry-statistics/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_statistics_a_howmanypodcasts" aria-labelledby="section_statistics_a_howmanypodcasts">cool page with up-to-date stats.</a></p>
 
-	<!--
-	ARTICLE: Your listeners are everywhere
-	-->
+                <p class="text-l-mob"><strong>37% of the US population</strong> listened to a podcast last month. There are more than 930,000 active podcast shows and more than 27-million episodes listed on Apple Podcasts alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
 
-	<article class="pad-respond-xy-mob theme-white-mob border-t-mob" id="section_yourlistenersare" aria-labelledby="section_yourlistenersare_h2_yourlistenersare">
+                <p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_statistics_a_podcastinsightstats" aria-labelledby="section_statistics_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2020</span>)</small></p>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+            </div>
 
-		<div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-y-mob">
+        </div>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+    </article>
 
-			<div class="width-60-des">
+    <!--
+    ARTICLE: Your listeners are everywhere
+    -->
 
-				<!--
-				FIGURE
-				-->
+    <article class="pad-respond-xy-mob theme-white-mob border-t-mob" id="section_yourlistenersare" aria-labelledby="section_yourlistenersare_h2_yourlistenersare">
 
-				<figure class="flexdir-ttb-mob flexpos-rc-mob pad-xy-mob theme-light-grey-mob border-mob">
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-					<!--
-					CONTENT
-					-->
+        <div class="flexdir-btt-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-y-mob">
 
-					<p class="pad-b-mob caption">US podcast listeners by location</p>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-					<table>
+            <div class="width-60-des">
 
-						<tr>
-							<td>Home</td>
-							<td class="text-r-mob">49%</td>
-						</tr>
+                <!--
+                FIGURE
+                -->
 
-						<tr>
-							<td>Driving</td>
-							<td class="text-r-mob">22%</td>
-						</tr>
+                <figure class="flexdir-ttb-mob flexpos-rc-mob pad-xy-mob theme-light-grey-mob border-mob">
 
-						<tr>
-							<td>Work</td>
-							<td class="text-r-mob">11%</td>
-						</tr>
+                    <!--
+                    CONTENT
+                    -->
 
-						<tr>
-							<td>Exercising</td>
-							<td class="text-r-mob">4%</td>
-						</tr>
+                    <p class="pad-b-mob caption">US podcast listeners by location</p>
 
-						<tr>
-							<td class="no-break">Walking around</td>
-							<td class="text-r-mob">3%</td>
-						</tr>
+                    <table>
 
-					</table>
+                        <tr>
+                            <td>Home</td>
+                            <td class="text-r-mob">49%</td>
+                        </tr>
 
-				</figure>
+                        <tr>
+                            <td>Driving</td>
+                            <td class="text-r-mob">22%</td>
+                        </tr>
 
-			</div>
+                        <tr>
+                            <td>Work</td>
+                            <td class="text-r-mob">11%</td>
+                        </tr>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+                        <tr>
+                            <td>Exercising</td>
+                            <td class="text-r-mob">4%</td>
+                        </tr>
 
-			<div class="flexdir-ttb-mob pad-b-mob-only">
+                        <tr>
+                            <td class="no-break">Walking around</td>
+                            <td class="text-r-mob">3%</td>
+                        </tr>
 
-				<!--
-				CONTENT
-				-->
+                    </table>
 
-				<h2 id="section_yourlistenersare_h2_yourlistenersare">Your listeners are everywhere.</h2>
+                </figure>
 
-				<p>Nearly one in three podcast listeners are engaged while <strong>driving, exercising or walking around</strong>. Time that was once spent listening to radio or music is now being used productively.</p>
+            </div>
 
-				<p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_yourlistenersare_a_podcastinsightstats" aria-labelledby="section_yourlistenersare_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2019</span>)</small></p>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			</div>
+            <div class="flexdir-ttb-mob pad-b-mob-only">
 
-		</div>
+                <!--
+                CONTENT
+                -->
 
-	</article>
+                <h2 id="section_yourlistenersare_h2_yourlistenersare">Your listeners are everywhere.</h2>
 
-	<!--
-	ARTICLE: Services
-	-->
+                <p>Nearly one in three podcast listeners are engaged while <strong>driving, exercising or walking around</strong>. Time that was once spent listening to radio or music is now being used productively.</p>
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_services" aria-labelledby="section_services_h2_weofferan">
+                <p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_yourlistenersare_a_podcastinsightstats" aria-labelledby="section_yourlistenersare_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2019</span>)</small></p>
 
-		<!--
-		HEADER
-		-->
+            </div>
 
-		<header class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain pad-respond-y-mob">
+        </div>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+    </article>
 
-			<div class="flexdir-ttb-mob theme-light-grey-mob">
+    <!--
+    ARTICLE: Services
+    -->
 
-				<!--
-				ARIA HIDDEN LABEL
-				-->
+    <article class="pad-respond-xy-mob theme-light-grey-mob" id="section_services" aria-labelledby="section_services_h2_weofferan">
 
-				<div aria-hidden="true"><span class="text-heading-badge--light">Services</span></div>
+        <!--
+        HEADER
+        -->
 
-				<!--
-				CONTENT
-				-->
+        <header class="flexdir-ttb-mob flexdir-rtl-tab flexpos-lc-tab constrain pad-respond-y-mob">
 
-				<h2 id="section_services_h2_weofferan">We offer an end-to-end podcast service.</h2>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-				<p>We are so much more than a podcast studio. Our full service offering guides you right from the start through the entire process. Whether you're an <strong>absolute beginner or a seasoned professional</strong>, we ensure everything gets done right—including concept, production, publishing and even hosting.</p>
+            <div class="flexdir-ttb-mob theme-light-grey-mob">
 
-			</div>
+                <!--
+                ARIA HIDDEN LABEL
+                -->
 
-		</header>
+                <div aria-hidden="true"><span class="text-heading-badge--light">Services</span></div>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+                <!--
+                CONTENT
+                -->
 
-		<div class="flexdir-ttb-mob constrain pad-y-mob">
+                <h2 id="section_services_h2_weofferan">We offer an end-to-end podcast service.</h2>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+                <p>We are so much more than a podcast studio. Our full service offering guides you right from the start through the entire process. Whether you're an <strong>absolute beginner or a seasoned professional</strong>, we ensure everything gets done right—including concept, production, publishing and even hosting.</p>
 
-			<div class="grid-auto-respond-16">
+            </div>
 
-				<!--
-				SECTION: Personality design
-				-->
+        </header>
 
-				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-					<!--
-					CONTENT
-					-->
+        <div class="flexdir-ttb-mob constrain pad-y-mob">
 
-					<div class="icon-hand-paintbrush" title="Hand holding paintbrush"></div>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-					<h3 class="pad-t-mob">Personality design</h3>
+            <div class="grid-auto-respond-16">
 
-					<p>We help you explore how your show will look, sound and feel. What does the introduction sound like? Is it loud and brash, or soft and intellectual? Is your cover art bright red or subdued blue?</p>
+                <!--
+                SECTION: Personality design
+                -->
 
-				</section>
+                <section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-				<!--
-				SECTION: Studio recording
-				-->
+                    <!--
+                    CONTENT
+                    -->
 
-				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+                    <div class="icon-hand-paintbrush" title="Hand holding paintbrush"></div>
 
-					<!--
-					CONTENT
-					-->
+                    <h3 class="pad-t-mob">Personality design</h3>
 
-					<div class="icon-guests" title="Three excited people"></div>
+                    <p>We help you explore how your show will look, sound and feel. What does the introduction sound like? Is it loud and brash, or soft and intellectual? Is your cover art bright red or subdued blue?</p>
 
-					<h3 class="pad-t-mob">Studio recording</h3>
+                </section>
 
-					<p>This is the fun bit, where you're now in a professional podcast studio, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
+                <!--
+                SECTION: Studio recording
+                -->
 
-				</section>
+                <section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-				<!--
-				SECTION: Editing
-				-->
+                    <!--
+                    CONTENT
+                    -->
 
-				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+                    <div class="icon-guests" title="Three excited people"></div>
 
-					<!--
-					CONTENT
-					-->
+                    <h3 class="pad-t-mob">Studio recording</h3>
 
-					<div class="icon-scissors" title="Pair of scissors"></div>
+                    <p>This is the fun bit, where you're now in a professional podcast studio, chatting to guests and asking your questions. This is the meat and potatoes of the entire show.</p>
 
-					<h3 class="pad-t-mob">Editing</h3>
+                </section>
 
-					<p>One of our experienced editors dives in and makes everything sound better. Unwanted "ums and ahs" are removed, misspoken sentences are taken out, the content is cleaned up and bed music is laid down.</p>
+                <!--
+                SECTION: Editing
+                -->
 
-				</section>
+                <section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-				<!--
-				SECTION: Editing
-				-->
+                    <!--
+                    CONTENT
+                    -->
 
-				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+                    <div class="icon-scissors" title="Pair of scissors"></div>
 
-					<!--
-					CONTENT
-					-->
+                    <h3 class="pad-t-mob">Editing</h3>
 
-					<div class="icon-website-stars" title="Web browser page with stars"></div>
+                    <p>One of our experienced editors dives in and makes everything sound better. Unwanted "ums and ahs" are removed, misspoken sentences are taken out, the content is cleaned up and bed music is laid down.</p>
 
-					<h3 class="pad-t-mob">Hosting</h3>
+                </section>
 
-					<p>We host all your podcasts and provide you with a dedicated web page for sharing show notes, additional information about each episode, pictures, links to guests and other resources.</p>
+                <!--
+                SECTION: Editing
+                -->
 
-				</section>
+                <section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-				<!--
-				SECTION: Publishing
-				-->
+                    <!--
+                    CONTENT
+                    -->
 
-				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+                    <div class="icon-website-stars" title="Web browser page with stars"></div>
 
-					<!--
-					CONTENT
-					-->
+                    <h3 class="pad-t-mob">Hosting</h3>
 
-					<div class="icon-publishing" title="Web browser page with play button"></div>
+                    <p>We host all your podcasts and provide you with a dedicated web page for sharing show notes, additional information about each episode, pictures, links to guests and other resources.</p>
 
-					<h3 class="pad-t-mob">Publishing</h3>
+                </section>
 
-					<p>We take care of getting your show to the widest possible audience using the largest, most trusted networks and aggregators, including Apple Podcasts, Spotify, Google Play, Stitcher, Castbox and TuneIn.</p>
+                <!--
+                SECTION: Publishing
+                -->
 
-				</section>
+                <section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-				<!--
-				SECTION: Promotion
-				-->
+                    <!--
+                    CONTENT
+                    -->
 
-				<section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
+                    <div class="icon-publishing" title="Web browser page with play button"></div>
 
-					<!--
-					CONTENT
-					-->
+                    <h3 class="pad-t-mob">Publishing</h3>
 
-					<div class="icon-rocket" title="Rocket lifting off"></div>
+                    <p>We take care of getting your show to the widest possible audience using the largest, most trusted networks and aggregators, including Apple Podcasts, Spotify, Google Play, Stitcher, Castbox and TuneIn.</p>
 
-					<h3 class="pad-t-mob">Promotion</h3>
+                </section>
 
-					<p>We promote your episodes on our website blog and social media platforms. If you choose our <a href="pricing.php" id="section_services_a_businesspackage" aria-label="section_services_a_businesspackage">business package</a> (or higher), you can embed the episode on your own website.</p>
+                <!--
+                SECTION: Promotion
+                -->
 
-				</section>
+                <section class="flexdir-ttb-mob flexpos-lt-mob pad-respond-xy-mob radius-mob theme-white-mob">
 
-			</div>
+                    <!--
+                    CONTENT
+                    -->
 
-		</div>
+                    <div class="icon-rocket" title="Rocket lifting off"></div>
 
-	</article>
+                    <h3 class="pad-t-mob">Promotion</h3>
 
-	<!--
-	ARTICLE: Join the Solid Gold Tribe
-	-->
+                    <p>We promote your episodes on our website blog and social media platforms. If you choose our <a href="pricing.php" id="section_services_a_businesspackage" aria-label="section_services_a_businesspackage">business package</a> (or higher), you can embed the episode on your own website.</p>
 
-	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="article_jointhesolid" aria-labelledby="article_jointhesolid_h2_jointhesolid">
+                </section>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+            </div>
 
-		<div class="flexdir-btt-mob constrain spread-respond pad-respond-y-mob">
+        </div>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+    </article>
 
-			<div class="flexdir-ttb-mob text-c-mob">
+    <!--
+    ARTICLE: Join the Solid Gold Tribe
+    -->
 
-				<!--
-				CONTENT
-				-->
+    <article class="pad-respond-xy-mob theme-dark-grey-mob" id="article_jointhesolid" aria-labelledby="article_jointhesolid_h2_jointhesolid">
 
-				<h2 id="article_jointhesolid_h2_jointhesolid">Join the Solid Gold Tribe.</h2>
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-				<p>We don't send a lot of mail. What we do send is focused and helpful.</p>
+        <div class="flexdir-btt-mob constrain spread-respond pad-respond-y-mob">
 
-				<!--
-				BUTTON CONTAINER
-				-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-				<div class="flexdir-ttb-mob flexpos-cc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
+            <div class="flexdir-ttb-mob text-c-mob">
 
-					<a class="button primary" href="https://landing.mailerlite.com/webforms/landing/t1l2j0" title="Join the Solid Gold Tribe" id="article_jointhesolid_a_joinourmailing" aria-labelledby="article_jointhesolid_a_signup article_jointhesolid_h2_jointhesolid"><span>Sign Up</span></a>
+                <!--
+                CONTENT
+                -->
 
-				</div>
+                <h2 id="article_jointhesolid_h2_jointhesolid">Join the Solid Gold Tribe.</h2>
 
-			</div>
+                <p>We don't send a lot of mail. What we do send is focused and helpful.</p>
 
-		</div>
+                <!--
+                BUTTON CONTAINER
+                -->
 
-	</article>
+                <div class="flexdir-ttb-mob flexpos-cc-mob flexpos-lc-tab spread-mob pad-double-t-mob">
 
-	<!--
-	ARTICLE: Guest training
-	-->
+                    <a class="button primary" href="https://landing.mailerlite.com/webforms/landing/t1l2j0" title="Join the Solid Gold Tribe" id="article_jointhesolid_a_joinourmailing" aria-labelledby="article_jointhesolid_a_signup article_jointhesolid_h2_jointhesolid"><span>Sign Up</span></a>
 
-	<article class="pad-respond-xy-mob theme-light-grey-mob" id="section_guesttraining" aria-labelledby="section_guesttraining_h2_guidelinesonhow">
+                </div>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+            </div>
 
-		<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-b-mob">
+        </div>
 
-			<!--
-			FIGURE
-			-->
+    </article>
 
-			<figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab theme-dark-grey">
+    <!--
+    ARTICLE: Guest training
+    -->
 
-				<!--
-				CONTENT
-				-->
+    <article class="pad-respond-xy-mob theme-light-grey-mob" id="section_guesttraining" aria-labelledby="section_guesttraining_h2_guidelinesonhow">
 
-				<div class="margin-y-mob encimage-sketch-podcast-training" title="Guest sitting at table with microphone"></div>
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-			</figure>
+        <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lc-tab constrain spread-respond pad-respond-b-mob">
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            FIGURE
+            -->
 
-			<div class="flexdir-ttb-mob theme-light-grey-mob">
+            <figure class="flexdir-ttb-mob flexdir-ttb-tab flexpos-lc-mob flexpos-cc-tab theme-dark-grey">
 
-				<!--
-				ARIA HIDDEN LABEL
-				-->
+                <!--
+                CONTENT
+                -->
 
-				<div aria-hidden="true"><span class="text-heading-badge--light">Guest Training</span></div>
+                <div class="margin-y-mob encimage-sketch-podcast-training" title="Guest sitting at table with microphone"></div>
 
-				<!--
-				CONTENT
-				-->
+            </figure>
 
-				<h2 id="section_guesttraining_h2_guidelinesonhow">Guidelines on how to be an effective podcast guest.</h2>
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-				<p>Ensuring that your message is heard is our highest priority. To help you with this, we've put together a free <a href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" id="section_guesttraining_a_podcastguest101" aria-labelledby="section_guesttraining_a_podcastguest101">Podcast Guest 101 Course</a> which you can listen to as a podcast.</p>
+            <div class="flexdir-ttb-mob theme-light-grey-mob">
 
-				<p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
+                <!--
+                ARIA HIDDEN LABEL
+                -->
+
+                <div aria-hidden="true"><span class="text-heading-badge--light">Guest Training</span></div>
+
+                <!--
+                CONTENT
+                -->
+
+                <h2 id="section_guesttraining_h2_guidelinesonhow">Guidelines on how to be an effective podcast guest.</h2>
+
+                <p>Ensuring that your message is heard is our highest priority. To help you with this, we've put together a free <a href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" id="section_guesttraining_a_podcastguest101" aria-labelledby="section_guesttraining_a_podcastguest101">Podcast Guest 101 Course</a> which you can listen to as a podcast.</p>
+
+                <p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
 
 <!--
-				<p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
--->				
+                <p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
+-->
 
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-		<div class="flexdir-ttb-mob constrain pad-y-mob">
+        <div class="flexdir-ttb-mob constrain pad-y-mob">
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			<div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
+            <div class="flexdir-ttb-mob flexdir-ltr-tab spread-respond">
 
-				<!--
-				FIGURE: Intro to our Podcast Guest 101 series
-				-->
+                <!--
+                FIGURE: Intro to our Podcast Guest 101 series
+                -->
 
-				<figure class="pad-respond-xy-mob radius-mob theme-white-mob">
+                <figure class="pad-respond-xy-mob radius-mob theme-white-mob">
 
-					<!--
-					LAYOUT CONTAINER
-					-->
+                    <!--
+                    LAYOUT CONTAINER
+                    -->
 
-					<div class="flexdir-ttb-mob flexpos-ct-mob">
+                    <div class="flexdir-ttb-mob flexpos-ct-mob">
 
-						<!--
-						CONTENT
-						-->
+                        <!--
+                        CONTENT
+                        -->
 
-						<h3 class="text-c-mob">Introduction</h3>
+                        <h3 class="text-c-mob">Introduction</h3>
 
-						<audio class="pad-t-mob" preload="none" controls>
-							<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
-						</audio>
+                        <audio class="pad-t-mob" preload="none" controls>
+                            <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
+                        </audio>
 
-						<figcaption class="pad-t-mob text-c-mob">Duration 2:08</figcaption>
+                        <figcaption class="pad-t-mob text-c-mob">Duration 2:08</figcaption>
 
-					</div>
+                    </div>
 
-				</figure>
+                </figure>
 
-				<!--
-				FIGURE: Episode 1: Getting Settled
-				-->
+                <!--
+                FIGURE: Episode 1: Getting Settled
+                -->
 
-				<figure class="pad-respond-xy-mob radius-mob theme-white-mob">
+                <figure class="pad-respond-xy-mob radius-mob theme-white-mob">
 
-					<!--
-					LAYOUT CONTAINER
-					-->
+                    <!--
+                    LAYOUT CONTAINER
+                    -->
 
-					<div class="flexdir-ttb-mob flexpos-ct-mob">
+                    <div class="flexdir-ttb-mob flexpos-ct-mob">
 
-						<!--
-						CONTENT
-						-->
+                        <!--
+                        CONTENT
+                        -->
 
-						<h3 class="text-c-mob">Episode 1: Getting Settled</h3>
+                        <h3 class="text-c-mob">Episode 1: Getting Settled</h3>
 
-						<audio class="pad-t-mob" preload="none" controls>
-							<source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
-						</audio>
+                        <audio class="pad-t-mob" preload="none" controls>
+                            <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
+                        </audio>
 
-						<figcaption class="pad-t-mob text-c-mob">Duration 1:59</figcaption>
+                        <figcaption class="pad-t-mob text-c-mob">Duration 1:59</figcaption>
 
-					</div>
+                    </div>
 
-				</figure>
+                </figure>
 
-			</div>
+            </div>
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
+            <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
 
-				<!--
-				BUTTON CONTAINER
-				-->
+                <!--
+                BUTTON CONTAINER
+                -->
 
-				<a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
+                <a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
 
 <!--
-				<a class="button secondary" href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" title="Email us to book your space on our next Master Class" id="section_guesttraining_a_bookmasterclass" aria-labelledby="section_guesttraining_a_bookmasterclass"><span>Book Master Class</span></a>
--->				
+                <a class="button secondary" href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" title="Email us to book your space on our next Master Class" id="section_guesttraining_a_bookmasterclass" aria-labelledby="section_guesttraining_a_bookmasterclass"><span>Book Master Class</span></a>
+-->
 
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</article>
+    </article>
 
-	<!--
-	ARTICLE: Not yet convinced, but still interested?
-	-->
+    <!--
+    ARTICLE: Not yet convinced, but still interested?
+    -->
 
-	<article class="pad-respond-xy-mob theme-dark-grey-mob" id="section_notyetconvinced" aria-labelledby="section_notyetconvinced_h2_notyetconvinced">
+    <article class="pad-respond-xy-mob theme-dark-grey-mob" id="section_notyetconvinced" aria-labelledby="section_notyetconvinced_h2_notyetconvinced">
 
-		<!--
-		LAYOUT CONTAINER
-		-->
+        <!--
+        LAYOUT CONTAINER
+        -->
 
-		<div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
+        <div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
 
-			<!--
-			LAYOUT CONTAINER
-			-->
+            <!--
+            LAYOUT CONTAINER
+            -->
 
-			<div class="flexdir-ttb-mob">
+            <div class="flexdir-ttb-mob">
 
-				<!--
-				CONTENT
-				-->
+                <!--
+                CONTENT
+                -->
 
-				<h2 class="text-c-mob" id="section_notyetconvinced_h2_notyetconvinced">Not yet convinced, but still interested?</h2>
+                <h2 class="text-c-mob" id="section_notyetconvinced_h2_notyetconvinced">Not yet convinced, but still interested?</h2>
 
-				<p class="text-c-mob">Download a podcast player for your phone from the App Store or on Google Play. Start exploring and trying episodes you might like. Once you've listened to a few and experienced this phenomenon for yourself, <a href="contact.php" id="section_notyetconvinced_a_getintouch" aria-labelledby="section_notyetconvinced_a_getintouch">get in touch with us</a> and we can discuss how we can help you tell your story and <i>#BeHeard</i>.</p>
+                <p class="text-c-mob">Download a podcast player for your phone from the App Store or on Google Play. Start exploring and trying episodes you might like. Once you've listened to a few and experienced this phenomenon for yourself, <a href="contact.php" id="section_notyetconvinced_a_getintouch" aria-labelledby="section_notyetconvinced_a_getintouch">get in touch with us</a> and we can discuss how we can help you tell your story and <i>#BeHeard</i>.</p>
 
-				<!--
-				LAYOUT CONTAINER
-				-->
+                <!--
+                LAYOUT CONTAINER
+                -->
 
-				<div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
+                <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob spread-mob pad-double-t-mob">
 
-						<!--
-						CONTENT
-						-->
+                        <!--
+                        CONTENT
+                        -->
 
-						<a class="badge-app-store" href="https://www.apple.com/ios/app-store/" target="_blank" rel="noopener" title="App Store" id="section_notyetconvinced_a_appstore" aria-label="App Store"></a>
+                        <a class="badge-app-store" href="https://www.apple.com/ios/app-store/" target="_blank" rel="noopener" title="App Store" id="section_notyetconvinced_a_appstore" aria-label="App Store"></a>
 
-						<a class="badge-google-play" href="https://play.google.com/store/search?q=podcast&c=apps&hl=en"  target="_blank" rel="noopener" title="Google Play" id="section_notyetconvinced_a_googleplay" aria-label="Google Play"></a>
+                        <a class="badge-google-play" href="https://play.google.com/store/search?q=podcast&c=apps&hl=en"  target="_blank" rel="noopener" title="Google Play" id="section_notyetconvinced_a_googleplay" aria-label="Google Play"></a>
 
-					</div>
+                    </div>
 
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</article>
+    </article>
 
 </div>
 

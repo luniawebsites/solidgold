@@ -100,15 +100,17 @@ HEADER: Hero
 
             <h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, we must first be heard.</h1>
 
-            <p><strong>Solid Gold will guide you through every step of your podcasting journey.</strong></p>
+            <p><strong>Solid Gold Podcasts</strong> will guide you through every step of your exciting podcasting journey.</p>
 
             <!-- <p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p> -->
 
             <!-- <p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p> -->
 
-            <p>Are you working from home? Our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to sound your best</abbr></a> will help when recording or presenting at home. Ever wondered why you <a href="https://landing.mailerlite.com/webforms/landing/m8m6z8" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_cringe"><abbr title="Why Do I Cringe">cringe at the sound of your own voice?</abbr></a></p>
+            <p>If you're thinking about making your own podcast, <a href="https://pod.link/1441645116" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">these conversations are a good place to begin</abbr></a>, and using <a href="http://tiny.cc/sgstemplate" target="_blank" title="template" rel="noopener" id="header_hero_a_template" aria-labelledby="header_hero_a_template"><abbr title="Start a podcast template">this podcast template</abbr></a> will really get you moving!</p>
 
-            <p>New to podcasting? Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">searching for information on where and how to begin</abbr></a>.</p>
+            <p>If you're still working from home, our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to improve your sound quality</abbr></a> will help when recording or presenting. And here's a fun story on why you <a href="https://landing.mailerlite.com/webforms/landing/m8m6z8" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_cringe"><abbr title="Why Do I Cringe">cringe at the sound of your own voice</abbr></a>.</p>
+
+           
 
             <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
 

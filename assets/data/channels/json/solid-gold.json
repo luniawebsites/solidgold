@@ -1,17 +1,17 @@
 {
 	"status": "public",
-	"title": "Demos and Samples",
-	"host": "Solid Gold Podcast Studios",
+	"title": "Solid Gold Podcasts",
+	"host": "Demos and Samples",
 	"coverFileName": "demos-and-samples.jpg",
-	"filterKeywords": "another solid gold podcast podcast studios",
+	"filterKeywords": "another solid gold podcast studios demo sample showcase example",
 	"agreement": "yes",
 	"playlistUrl": "https://podlink.to/sgs",
-	"email": "gavin@solidgoldstudios.co.za",
-	"emailAgreement": "gavin@solidgoldstudios.co.za",
+	"email": "gavin@solidgold.co.za",
+	"emailAgreement": "gavin@solidgold.co.za",
 	"facebookUrl": "https://www.facebook.com/solidgoldrecordingstudios/",
 	"twitterUrl": "https://twitter.com/solidgoldpods",
 	"linkedinUrl": "https://www.linkedin.com/company/solid-gold-podcast-studios/",
 	"instagramUrl": "https://www.instagram.com/solidgoldpods/",
 	"rssUrl": "https://podcaststudios.co.za/rss/solidgoldstudios.xml",
-	"description": "<p>Welcome to the Solid Gold Podcast Studios <i>Demo and Samples</i> channel.</p>"
+	"description": "<p>Welcome to a selection of <i>Solid Gold Podcast Demos and Samples</i>.</p>"
 }

@@ -109,9 +109,13 @@ MAIN
 				CONTENT
 				-->
 
-				<h2 id="article_episodepackages_h2_episodepackages">Episode packages</h2>
+				<h2 id="article_episodepackages_h2_episodepackages">Popular podcast production packages</h2>
 
-				<p><strong>Prices exclude VAT</strong>. Pay up-front and <strong>every 10th episode is FREE</strong>.</p>
+				<p>Pricing <strong>excludes </strong>VAT.</p>
+				<p>Pay up-front and <strong>every 10th episode is FREE</strong>.</p>
+				<p><strong>Initial setup and consultation costs</strong> are quoted on a per-project basis.</p>
+				<p><strong>Video</strong>, ranging from single- to multi-camera, is available.</p>
+				<p>Monthly <strong>hosting</strong> starts at R99</p>
 
 				<div class="flexdir-ttb-mob flexdir-ltr-tab spread-mob pad-double-t-mob pad-b-mob">
 
@@ -131,13 +135,12 @@ MAIN
 
 						<ul class="( pricing-comparison__list )">
 							<li><span class="pricing-comparison__heading">Studio 2</span>3 people</li>
-							<li><span class="pricing-comparison__heading">30 - 45 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">approx 30 minutes</span>Episode length</li>
 							<li><span class="pricing-comparison__heading">1</span>Remote guest *</li>
 							<li><span class="pricing-comparison__heading">1</span>Bed music track (library)</li>
-							<li><span class="pricing-comparison__heading">Basic</span>Audio cleanup</li>
+							<li><span class="pricing-comparison__heading">Basic</span>Audio cleanup (top n tail)</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
-									<li>Opening and closing billboards</li>
 									<li>Introduction music</li>
 									<li>Episode notes</li>
 									<li>Website channel page</li>
@@ -165,10 +168,10 @@ MAIN
 
 						<ul class="( pricing-comparison__list )">
 							<li><span class="pricing-comparison__heading">Studio 1</span>4 people</li>
-							<li><span class="pricing-comparison__heading">45 - 60 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">usually 30 - 40 minutes</span>Episode length</li>
 							<li><span class="pricing-comparison__heading">2</span>Remote guests *</li>
 							<li><span class="pricing-comparison__heading">1</span>Bed music track (library)</li>
-							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>
+							<li><span class="pricing-comparison__heading">Advanced</span>Audio cleanup (ums n ers)</li>
 							<li><span class="pricing-comparison__heading">Including</span>
 								<ul>
 									<li>Opening and closing billboards</li>
@@ -204,7 +207,7 @@ MAIN
 
 						<ul class="( pricing-comparison__list )">
 							<li><span class="pricing-comparison__heading">Studio 1</span>4 people</li>
-							<li><span class="pricing-comparison__heading">60 - 90 minutes</span>Studio time</li>
+							<li><span class="pricing-comparison__heading">up to 60 minutes</span>Episode length</li>
 							<li><span class="pricing-comparison__heading">3</span>Remote guests</li>
 							<li><span class="pricing-comparison__heading">3</span>Bed music tracks (custom)</li>
 							<li><span class="pricing-comparison__heading">Full</span>Audio cleanup</li>

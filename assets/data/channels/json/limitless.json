@@ -1,9 +1,10 @@
-{
+{	
 	"status": "public",
-	"title": "Limitless Podcast",
-	"host": "Studio.13",
-	"coverFileName": "limitless.jpg",
+	"title": "Limitless Conversations",
+	"host": "Carla, Dominique and Lebogang",
+	"coverFileName": "limitless-000b.jpg",
 	"filterKeywords": "limitless carla fernnades dominique reeby lebogang ndaba woke girls black africa talk",
+	"donateLink": "",
 	"genre1": "",
 	"genre2": "",
 	"genre3": "",
@@ -18,6 +19,7 @@
 	"linkedinUrl": "",
 	"instagramUrl": "https://www.instagram.com/limitless.podcast.sa",
 	"tumblrUrl": "",
+	"youtubeUrl": "",
 	"rssUrl": "https://podcaststudios.co.za/rss/limitless.xml",
 	"extraButtonLabel": "",
 	"extraButtonUrl": "",
@@ -27,5 +29,5 @@
 	"buyLink2Url": "",
 	"buyLink3Label": "",
 	"buyLink3Url": "",
-	"description": "The podcast for woke girls who love dumb stuff.</p><p>Scintillating, quirky, fun, intelligent and motivating conversations hosted by three young millennial women with diverse backgrounds. Each season, we invite guests that are aligned with a topical discussion to unpack in conversation and discussions a series of trending topics such as the challenges the youth and millennials face, adulting, state of the culture, society, social media, pop culture, fashion, music, tech and entrepreneurship. The aim is to create content that stimulates thinking, drives conversations and creates a new African narrative of thought leaders. With hosts Carla Fernnades, Dominique Reeby, and Lebogang Ndaba."
+	"description": "<h3>The podcast for woke girls that love dumb stuff.</h3><p>Scintillating, quirky, fun, intelligent and motivating conversations hosted by three young millennial women with diverse backgrounds. Each season, we invite guests that are aligned with a topical discussion to unpack in conversation and discussions a series of trending topics such as the challenges the youth and millennials face, adulting, state of the culture, society, social media, pop culture, fashion, music, tech and entrepreneurship.</p><p>The aim is to create content that stimulates thinking, drives conversations and creates a new African narrative of thought leaders. With hosts Carla Fernnades, Dominique Reeby, and Lebogang Ndaba."
 }

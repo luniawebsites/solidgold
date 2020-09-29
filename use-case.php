@@ -19,7 +19,7 @@
 		<html lang="en">
 		<meta charset="utf-8">
 		<script>
-			window.location = "https://solidgoldstudios.co.za/errors/404.php"
+			window.location = "https://solidgold.co.za/errors/404.php"
 		</script>
 		</html>
 		';
@@ -147,10 +147,10 @@
 		<meta property="og:title" content="Solid Gold Podcast Studios | '.$data->title.'" />
 		<meta property="og:description" content="'.$data->title.' podcast use case from Solid Gold Podcast Studios" />
 		<meta property="og:locale" content="en_ZA" />
-		<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+		<meta property="og:image" content="https://solidgold.co.za/assets/images/logo.png" />
 		<meta property="og:type" content="website" />
 		<title>Solid Gold Podcast Studios | '.$data->title.'</title>
-		<link rel="canonical" href="https://solidgoldstudios.co.za/use-case.php?title='.$file_name.'" />
+		<link rel="canonical" href="https://solidgold.co.za/use-case.php?title='.$file_name.'" />
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 		<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 		

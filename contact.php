@@ -28,11 +28,11 @@ LINK/PARTIAL: Defer load non-critical CSS
 <meta property="og:title" content="Solid Gold Podcast Studios | Contact" />
 <meta property="og:description" content="Podcast recording studios contact" />
 <meta property="og:locale" content="en_ZA" />
-<meta property="og:url" content="https://solidgoldstudios.co.za/contact.php" />
-<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:url" content="https://solidgold.co.za/contact.php" />
+<meta property="og:image" content="https://solidgold.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
 <title>Contact Solid Gold Podcast Studios</title>
-<link rel="canonical" href="https://solidgoldstudios.co.za/contact.php" />
+<link rel="canonical" href="https://solidgold.co.za/contact.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
@@ -89,7 +89,7 @@ MAIN
 
 				<h1 id="article_contact_h1_helloimgavin">Hello, I'm Gavin Kennedy</h1>
 
-				<p>As founder and CEO of Solid Gold Podcast Studios, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener" title="Start WhatsApp chat" id="article_contact_a_whatsapp" aria-labelledby="article_contact_a_whatsapp article_contact_h1_helloimgavin">WhatsApp</a> or <a href="mailto:gavin@solidgoldstudios.co.za" target="_blank" rel="noopener" title="Email me directly" id="article_contact_a_emailmedirectly" aria-labelledby="article_contact_a_emailmedirectly article_contact_h1_helloimgavin">email me directly</a> if you have any questions about podcasting.</p>
+				<p>As founder and CEO of Solid Gold Podcast Studios, my vision is to be your Podcast Partner of Choice, and my mission is to help you <strong>share your story</strong> through high-quality, creative podcasts. Please feel free to <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin" target="_blank" rel="noopener" title="Start WhatsApp chat" id="article_contact_a_whatsapp" aria-labelledby="article_contact_a_whatsapp article_contact_h1_helloimgavin">WhatsApp</a> or <a href="mailto:gavin@solidgold.co.za" target="_blank" rel="noopener" title="Email me directly" id="article_contact_a_emailmedirectly" aria-labelledby="article_contact_a_emailmedirectly article_contact_h1_helloimgavin">email me directly</a> if you have any questions about podcasting.</p>
 
 				<p>We've been involved in video and audio production since the early 1990s and are hugely excited by the new opportunities that are available for podcast producers and production.</p>
 

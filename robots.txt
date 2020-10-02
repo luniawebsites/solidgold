@@ -18,4 +18,4 @@ Disallow: /sheets/
 Disallow: /*.scss$
 Disallow: /*.md$
 
-Sitemap: https://solidgoldstudios/sitemap.xml
+Sitemap: https://solidgold.co.za/sitemap.xml

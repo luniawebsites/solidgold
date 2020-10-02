@@ -28,11 +28,11 @@ LINK/PARTIAL: Defer load non-critical CSS
 <meta property="og:title" content="Solid Gold Podcast Studios | Channels" />
 <meta property="og:description" content="Podcast recording studios channels" />
 <meta property="og:locale" content="en_ZA" />
-<meta property="og:url" content="https://solidgoldstudios.co.za/channels.php" />
-<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:url" content="https://solidgold.co.za/channels.php" />
+<meta property="og:image" content="https://solidgold.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
 <title>Solid Gold Podcast Studios | Channels</title>
-<link rel="canonical" href="https://solidgoldstudios.co.za/channels.php" />
+<link rel="canonical" href="https://solidgold.co.za/channels.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 

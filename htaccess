@@ -1,11 +1,11 @@
 ## Redirects ##
 Redirect 302 /radioedits https://podcaststudios.co.za/audio/grounded/radioedits
 Redirect 302 /editor/jodyjulius https://drive.google.com/open?id=1AFxh72PuXD6ArrMf4wTwJhnqT0dKq30v
-Redirect 302 http://www.solidgoldstudios.co.za/trade-marks.php https://solidgoldstudios.co.za
+Redirect 302 http://www.solidgold.co.za/trade-marks.php https://solidgold.co.za
 
 ## Redirect errors ##
-ErrorDocument 403 http://www.solidgoldstudios.co.za/errors/403.php
-ErrorDocument 404 http://www.solidgoldstudios.co.za/errors/404.php
+ErrorDocument 403 http://www.solidgold.co.za/errors/403.php
+ErrorDocument 404 http://www.solidgold.co.za/errors/404.php
 
 ## GZIP compression ##
 <ifModule mod_gzip.c>

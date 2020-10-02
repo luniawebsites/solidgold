@@ -28,11 +28,11 @@ LINK/PARTIAL: Defer load non-critical CSS
 <meta property="og:title" content="Solid Gold Podcast Studio | #BeHeard" />
 <meta property="og:description" content="Podcast recording studio #BeHeard" />
 <meta property="og:locale" content="en_ZA" />
-<meta property="og:url" content="https://solidgoldstudios.co.za/" />
-<meta property="og:image" content="https://solidgoldstudios.co.za/assets/images/logo.png" />
+<meta property="og:url" content="https://solidgold.co.za/" />
+<meta property="og:image" content="https://solidgold.co.za/assets/images/logo.png" />
 <meta property="og:type" content="website" />
 <title>Solid Gold Podcast Studios | #BeHeard</title>
-<link rel="canonical" href="https://solidgoldstudios.co.za/index.php" />
+<link rel="canonical" href="https://solidgold.co.za/index.php" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon.png">
 
@@ -110,7 +110,7 @@ HEADER: Hero
 
             <p>If you're still working from home, our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to improve your sound quality</abbr></a> will help when recording or presenting. And here's a fun story on why you <a href="https://landing.mailerlite.com/webforms/landing/m8m6z8" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_cringe"><abbr title="Why Do I Cringe">cringe at the sound of your own voice</abbr></a>.</p>
 
-           
+
 
             <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
 
@@ -178,37 +178,19 @@ MAIN
 
                 <h2 class="text-c-mob" id="article_telltheworld_h2_telltheworld">#BeHeard: Tell the world <span class="no-break text-yellow-mob">your story</span>.</h2>
 
-                <p class="text-c-mob">This short, powerful podcast clip from Petro Du Pisani's channel <a href="channel-template.php?channel=on-change.xml" id="article_telltheworld_a_onchange" aria-labelledby="article_telltheworld_a_onchange">On Change</a> gives you a demonstration of the effect of sincere and motivated story-telling. Telling your origin story is possibly the most effective way to share how your personal or business values were shaped.</p>
-
-            </div>
-
-            <!--
-            FIGURE: Corrie Petzer's Origin Story
-            -->
-
-            <figure>
+                <p class="text-c-mob">Radio programmes have been around for decades, yet podcasts have become one of the most significant new media formats of the <span class="no-break">21st century</span>. Podcasts are still a new form of media, and so there is plenty of room for innovation.<p>
 
                 <!--
-                LAYOUT CONTAINER
+                BUTTON CONTAINER
                 -->
 
-                <div class="flexdir-ttb-mob flexpos-ct-mob">
+                <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob flexpos-cc-tab spread-mob pad-double-t-mob">
 
-                    <!--
-                    CONTENT
-                    -->
-
-                    <h3 class="text-c-mob">Corrie Petzer's Origin Story</h3>
-
-                    <audio class="pad-t-mob" preload="none" controls>
-                        <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/solid-gold-studios-sample-storytelling-corrie.mp3" type="audio/mpeg">
-                    </audio>
-
-                    <figcaption class="pad-t-mob text-c-mob">Duration 2:21</figcaption>
+                    <a class="button primary" href="https://castbox.fm/episode/Podcasts%3A-A-Storytelling-Breakthrough-id1487156-id300721906?utm_campaign=a_share_ep&utm_medium=dlink&utm_source=a_share" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" target="_blank" rel="noopener" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_doyouwant"><span>How this monumental change occurred</span></a>
 
                 </div>
 
-            </figure>
+            </div>
 
         </div>
 
@@ -941,7 +923,7 @@ MAIN
                 <p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
 
 <!--
-                <p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
+                <p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgold.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
 -->
 
             </div>
@@ -979,7 +961,7 @@ MAIN
                         <h3 class="text-c-mob">Introduction</h3>
 
                         <audio class="pad-t-mob" preload="none" controls>
-                            <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
+                            <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgold/sgs-podcast-guest-101-v2-part-01.mp3" type="audio/mpeg">
                         </audio>
 
                         <figcaption class="pad-t-mob text-c-mob">Duration 2:08</figcaption>
@@ -1007,7 +989,7 @@ MAIN
                         <h3 class="text-c-mob">Episode 1: Getting Settled</h3>
 
                         <audio class="pad-t-mob" preload="none" controls>
-                            <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgoldstudios/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
+                            <source src="https://chtbl.com/track/podcaststudios.co.za/audio/solidgold/sgs-podcast-guest-101-v2-part-02.mp3" type="audio/mpeg">
                         </audio>
 
                         <figcaption class="pad-t-mob text-c-mob">Duration 1:59</figcaption>
@@ -1031,7 +1013,7 @@ MAIN
                 <a class="button primary" href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" title="Listen to more free training episodes" id="section_guesttraining_a_listentomore" aria-labelledby="section_guesttraining_a_listentomore"><span>Listen to More Episodes</span></a>
 
 <!--
-                <a class="button secondary" href="mailto:training@solidgoldstudios.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" title="Email us to book your space on our next Master Class" id="section_guesttraining_a_bookmasterclass" aria-labelledby="section_guesttraining_a_bookmasterclass"><span>Book Master Class</span></a>
+                <a class="button secondary" href="mailto:training@solidgold.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" title="Email us to book your space on our next Master Class" id="section_guesttraining_a_bookmasterclass" aria-labelledby="section_guesttraining_a_bookmasterclass"><span>Book Master Class</span></a>
 -->
 
             </div>

@@ -78,7 +78,8 @@ HEADER
 		<h1 id="header_channels_h1_podcastchannels">Podcast channels</h1>
 
 		<p>"It doesn't matter how many people you reach, but that you reach the people who matter." - Gavin Kennedy</p>
-		<p>We use <a href="https://chartable.com/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_chartable" aria-labelledby="header_channels_a_chartable"> Chartable.com</a> and <a href="https://cloudtower.co.za/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_cloudtower" aria-labelledby="header_channels_a_cloudtower"> CloudTower.co.za</a> to track usage. You can view the<a href="https://chartable.com/privacy?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_chartableprivacypolicy" aria-labelledby="header_channels_a_chartableprivacypolicy"> CCPA/GDPR/Etc Privacy Policy</a>.</p>
+		<p>We use <a href="https://chartable.com/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_chartable" aria-labelledby="header_channels_a_chartable">Chartable.com</a> and <a href="https://cloudtower.co.za/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_cloudtower" aria-labelledby="header_channels_a_cloudtower">CloudTower.co.za</a> to track usage. You can view the<a href="https://chartable.com/privacy?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_chartableprivacypolicy" aria-labelledby="header_channels_a_chartableprivacypolicy"> CCPA/GDPR/Etc Privacy Policy</a>.</p>
+        <p>We are an <a href="https://affiliate-program.amazon.com/help/node/topic/GHQNZAU6669EZS98" target="_blank" rel="noopener" id="header_channels_a_cloudtower" aria-labelledby="header_channels_a_cloudtower">Amazon Associate</a> and earn from qualifying purchases.</p>
 
 		<!--
 		FORM

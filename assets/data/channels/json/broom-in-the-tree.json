@@ -1,16 +1,16 @@
 {	
-	"status": "comingSoon",
+	"status": "public",
 	"title": "Broom in the Tree",
 	"host": "Nicky Kennedy",
 	"coverFileName": "broom-in-the-tree-000a.jpg",
 	"filterKeywords": "nicky kennedy broom in the tree event planning",
-	"donateLink": "",
+	"donateLink": "http://paypal.me/gakennedy",
 	"genre1": "",
 	"genre2": "",
 	"genre3": "",
 	"agreement": "yes",
-	"whatsappNumber": "",
-	"playlistUrl": "https://podlink.to/events",
+	"whatsappNumber": "27834548934",
+	"playlistUrl": "https://iono.fm/c/5876",
 	"websiteUrl": "https://nickykennedy.co.za",
 	"email": "nicky@nickykennedy.co.za",
 	"emailAgreement": "nicky@nickykennedy.co.za",
@@ -20,7 +20,7 @@
 	"instagramUrl": "",
 	"tumblrUrl": "",
 	"youtubeUrl": "",
-	"rssUrl": "https://podcaststudios.co.za/rss/broom-in-the-tree.xml",
+	"rssUrl": "https://iono.fm/rss/chan/5876",
 	"extraButtonLabel": "",
 	"extraButtonUrl": "",
 	"buyLink1Label": "",
@@ -29,5 +29,5 @@
 	"buyLink2Url": "",
 	"buyLink3Label": "",
 	"buyLink3Url": "",
-	"description": "<h3>Learn from the experts how to manage and co-ordinate your next executive or premier event...</h3><p>"
+	"description": "<h3>Making dreams come true</h3><p>In this series, you get to listen in on conversations with renowned experts in all aspects of event management.</p><p>Nicky Kennedy's guests share with you their stories, their memories, their tips, tricks, and even some behind-the-scenes insights so that your next event, from a candle-lit dinner to a wedding for thousands, creates beautiful memories."
 }

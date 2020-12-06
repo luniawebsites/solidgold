@@ -72,7 +72,9 @@ MAIN
 
 				<p>We'll get back to you as soon as we can.</p>
 
-				<p>You might also want to <a href="https://landing.mailerlite.com/webforms/landing/t1l2j0" target="_blank" rel="noopener" id="article_contact_a_subscribe" aria-labelledby="article_contact_a_subscribe"><abbr title="Join our Tribe">join our mailing list</abbr></a> to receive useful updates and insights.</p>
+				<p>If it's a <strong>podcast emergency</strong> you can <a href="https://api.whatsapp.com/send?phone=27832271409&text=[SGS]%20Hello%20Gavin..." target="_blank" rel="noopener" id="reach_us_on_whatsapp" aria-labelledby="reach_us_on_whatsapp"><abbr title="Reach us on WhatsApp">reach us on WhatsApp</abbr></a> too.</p>
+
+				<p>#BeHeard</p>
 
 			</div>
 

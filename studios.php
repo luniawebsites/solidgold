@@ -82,15 +82,15 @@ HEADER
 
 	<div class="constrain pad-y-mob">
 
-		<h1 id="header_studios_h1_awiderange">A wide range of podcast studio options</h1>
+		<h1 id="header_studios_h1_awiderange">Five podcast studios for a wide range of options</h1>
 
-		<p>All our studios are professionally equipped for <strong>high-quality recording</strong>, and are <strong>air-conditioned and comfortably furnished</strong>.</p>
+		<p>All our studios are <strong>professionally equipped</strong> for <strong>high-quality recording</strong>, and are <strong>air-conditioned and comfortably furnished</strong>.</p>
 
 		<p>We understand and appreciate that to have open, honest and meaningful conversations, hosts and guests need to feel comfortable and at ease. We also understand that our clients' recording, production, editing and hosting needs vary in complexity and budget.</p>
 
-		<p>We've built a number of studios (with six more coming soon) to meet these varying requirements, and we're certain one of them is perfect for you! From a large, high-counter studio designed for group conversations to a DIY studio ideal for hobbyists, we have a space to match your recording needs.</p>
+		<p>We've built 5 dedicated podcast studios (with 5 more coming soon) to meet these varying requirements, and we're certain one of them is perfect for you! From a large, high-counter studio designed for group conversations to a DIY studio ideal for hobbyists, we have a space to match your recording needs.</p>
 
-		<em class="theme-light-grey-mob accent-green-mob">All studios can record Zoom, Skype, WhatsApp, <a href="https://squadcast.fm/?ref=solidgold" target="_blank" ref="noopener" id="header_studios_a_squadcastfm" aria-labelledby="header_studios_a_squadcastfm">SquadCast.fm</a> and phone conversations, as well as client sources such as playout from laptops or Echo.</em>
+		<em class="theme-light-grey-mob accent-green-mob">All studios can record Zoom, Meet, Teams, Skype, WhatsApp and POTS (plain old telephone system) conversations, however, for superior remote recording we use Virtual Studio Software like <a href="https://squadcast.fm/?ref=solidgold" target="_blank" ref="noopener" id="header_studios_a_squadcastfm" aria-labelledby="header_studios_a_squadcastfm">SquadCast</a> and <a href="https://riverside.fm?via=gavin" target="_blank" ref="noopener" id="header_studios_a_riversidefm" aria-labelledby="header_studios_a_riversidefm">Riverside</a>.</em>
 
 		<p>Our open-plan office space is designed to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many clients like to work from our offices on recording days!</p>
 

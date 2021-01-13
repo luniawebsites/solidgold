@@ -98,37 +98,29 @@ HEADER: Hero
             CONTENT
             -->
 
-            <h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, we must first be heard.</h1>
+            <h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, you must first be heard</h1>
 
-            <p><strong>Solid Gold Podcasts</strong> will guide you through every step of your exciting podcasting journey.</p>
+            <p>Our friendly team of podcast professionals will help you turn your concept or content into a podcast that delivers your message.</p>
 
-            <!-- <p>We'll guide you through the process of <strong>making your own podcast</strong> so that your voice can <strong>be heard</strong> over the noise of your competitors.</p> -->
+            <p>Whether in one of our 5 specialised podcast studios in Randburg, South Africa, or as a Pop-Up Podcast™ at your office, we have the people, professional equipment and know-how to make your podcast.</p>
 
-            <!-- <p>Founded in 1993, we help our <a href="channels.php" target="_blank" rel="noopener" id="header_hero_a_podcastchannels" aria-labelledby="header_hero_a_podcastchannels"><abbr title="Clients">clients</abbr></a> to stand out from the crowd by producing their own podcasts. Listen to this interview if you are <a href="https://castbox.fm/app/castbox/player/id1478229/id185658959?v=8.10.3&autoplay=0" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">wondering where to begin</abbr></a>.</p> -->
-
-            <p>If you're thinking about making your own podcast, <a href="https://pod.link/1441645116" target="_blank" title="begin" rel="noopener" id="header_hero_a_begin" aria-labelledby="header_hero_a_begin"><abbr title="Where to begin?">these conversations are a good place to begin</abbr></a>, and using <a href="http://tiny.cc/sgstemplate" target="_blank" title="template" rel="noopener" id="header_hero_a_template" aria-labelledby="header_hero_a_template"><abbr title="Start a podcast template">this podcast template</abbr></a> will really get you moving!</p>
-
-            <p>If you're still working from home, our article on <a href="https://landing.mailerlite.com/webforms/landing/w5t4g5" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_pfh"><abbr title="Podcast From Home">how to improve your sound quality</abbr></a> will help when recording or presenting. And here's a fun story on why you <a href="https://landing.mailerlite.com/webforms/landing/m8m6z8" target="_blank" rel="noopener" id="header_hero_a_pfh" aria-labelledby="header_hero_a_cringe"><abbr title="Why Do I Cringe">cringe at the sound of your own voice</abbr></a>.</p>
-
-
-
-            <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p>
+            <!-- <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p> -->
 
             <!--
             LAYOUT CONTAINER
             -->
 
-            <div class="flexdir-ltr-mob spread-mob pad-t-mob">
+            <!-- <div class="flexdir-ltr-mob spread-mob pad-t-mob"> -->
 
                 <!--
                 IMAGES
                 -->
 
-                <a class="encimage-brand-storyboard" href="https://trystoryboard.com/" target="_blank" rel="noopener" title="Storyboard logo" id="header_hero_a_storyboard" aria-label="Storyboard logo"></a>
+                <!-- <a class="encimage-brand-storyboard" href="https://trystoryboard.com/" target="_blank" rel="noopener" title="Storyboard logo" id="header_hero_a_storyboard" aria-label="Storyboard logo"></a> -->
 
-            </div>
+            <!-- </div> -->
 
-            <p class="pad-t-mob">Are you ready? — <strong> Let's make a podcast!</strong></p>
+            <!-- <p class="pad-t-mob">Are you ready? — <strong> Let's make a podcast!</strong></p> -->
 
             <!--
             BUTTON CONTAINER
@@ -186,7 +178,51 @@ MAIN
 
                 <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob flexpos-cc-tab spread-mob pad-double-t-mob">
 
-                    <a class="button primary" href="https://castbox.fm/episode/Podcasts%3A-A-Storytelling-Breakthrough-id1487156-id300721906?utm_campaign=a_share_ep&utm_medium=dlink&utm_source=a_share" title="There must be 50 ways to use a podcast" id="header_hero_a_howpodcastsare" target="_blank" rel="noopener" aria-labelledby="header_hero_a_howpodcastsare header_hero_h1_doyouwant"><span>How this monumental change occurred</span></a>
+                    <a class="button primary" href="https://castbox.fm/episode/Podcasts%3A-A-Storytelling-Breakthrough-id1487156-id300721906?utm_campaign=a_share_ep&utm_medium=dlink&utm_source=a_share" title="How this monumental change occurred" id="header_hero_a_howthismonumental" target="_blank" rel="noopener" aria-labelledby="article_telltheworld_h2_telltheworld"><span>How this monumental change occurred</span></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </article>
+
+    <!--
+    ARTICLE: Partnerships
+    -->
+
+    <article class="pad-respond-xy-mob theme-white-mob" id="article_partnerships" aria-labelledby="article_partnerships_h2_partnerships">
+
+        <!--
+        LAYOUT CONTAINER
+        -->
+
+        <div class="flexdir-ttb-mob constrain spread-respond pad-respond-y-mob">
+
+            <!--
+            LAYOUT CONTAINER
+            -->
+
+            <div class="flexdir-ttb-mob">
+
+                <!--
+                CONTENT
+                -->
+
+                <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cb-mob flexpos-cb-tab">
+
+                    <!--
+                    IMAGES
+                    -->
+
+                    <a class="encimage-brand-iab-member" href="https://iabsa.net/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" title="IAB logo" id="header_hero_a_iab" aria-label="IAB logo"></a>
+
+                    <a class="encimage-brand-podcast-taxonomy" href="https://podcasttaxonomy.com/" target="_blank" rel="noopener" title="Podcast Taxonomy logo" id="header_hero_a_podcasttaxonomy" aria-label="Podcast Taxonomy logo"></a>
+
+                    <a class="encimage-brand-ariba" href="http://discovery.ariba.com/profile/AN01526756401" target="_blank" rel="noopener" title="View Solid Gold Podcast Studios profile on Ariba Discovery" id="header_hero_a_ariba" aria-label="Ariba logo"></a>
+
+                    <a class="encimage-brand-podcast-academy" href="https://www.thepodcastacademy.com/" target="_blank" rel="noopener" title="Podcast Academy logo" id="header_hero_a_podcastacademy" aria-label="Podcast Academy logo"></a>
 
                 </div>
 

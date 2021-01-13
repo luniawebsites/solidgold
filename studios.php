@@ -150,7 +150,7 @@ MAIN
 
                     <picture>
                         <source srcset="assets/images/photos/mobile/podcast-studio-popup.webp" type="image/webp" />
-                        <img class="fg-image-card-mob border-mob" src="assets/images/photos/podcast-studio-popup.jpg" title="Podcast studio 5" alt="Podcast studio 5" />
+                        <img class="fg-image-card-mob border-mob" src="assets/images/photos/podcast-studio-popup.jpg" title="Podcast studio popup" alt="Podcast studio popup" />
                     </picture>
 
                     <div class="pad-xy-mob">

@@ -170,7 +170,7 @@ MAIN
                                     <td class="no-break">Audio Engineer</td>
                                     <td>
                                         <!-- <span class="encimage-studioicon-engineer" title="Engineer"></span> -->
-                                        1
+                                        Per brief
                                     </td>
                                 </tr>
                                 <tr>
@@ -208,6 +208,10 @@ MAIN
                                 <td class="no-break">First hour</td>
                                 <td>From R1,950</td>
                             </tr>
+							<tr>
+								<td class="no-break">Per additional hour</td>
+								<td>From R1,250</td>
+							</tr>                            
                         </table>
 
                     </div>
@@ -235,7 +239,7 @@ MAIN
 
                         <p>Multiple remote guests can be included using cell or HD video conferencing remote studio software.</p>
 
-						<h4 class="pad-half-b-mob">Maximum 8 people</h4>
+						<h4 class="pad-half-b-mob">Maximum 7 people</h4>
 
 						<table class="margin-b-mob">
 							<tr>
@@ -259,7 +263,7 @@ MAIN
                                     <span class="encimage-studioicon-guest" title="Guest"></span>
                                     <span class="encimage-studioicon-guest" title="Guest"></span>
                                     <span class="encimage-studioicon-guest" title="Guest"></span> -->
-                                    4
+                                    3
 								</td>
 							</tr>
                             <tr>
@@ -352,7 +356,7 @@ MAIN
 						<table>
 							<tr>
 								<td class="no-break">Per hour</td>
-								<td>R250</td>
+								<td>R300</td>
 							</tr>
 						</table>
 
@@ -473,11 +477,11 @@ MAIN
                         <table class="margin-b-mob">
                             <tr>
                                 <td class="no-break">First hour</td>
-                                <td>R1,250</td>
+                                <td>R950</td>
                             </tr>
                             <tr>
                                 <td class="no-break">Per additional hour (DIY)</td>
-                                <td>R750</td>
+                                <td>R650</td>
                             </tr>
                         </table>
 
@@ -526,7 +530,7 @@ MAIN
                         <table class="margin-b-mob">
                             <tr>
                                 <td class="no-break">Per hour</td>
-                                <td>R150</td>
+                                <td>R200</td>
                             </tr>
                         </table>
 

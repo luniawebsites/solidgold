@@ -609,11 +609,11 @@ MAIN
 
                 <h2 id="section_statistics_h2_podcastingisbig">Podcasting is big. <span class="no-break">Really big.</span> <span class="no-break">And growing fast.</span></h2>
 
-                <p><strong>How many podcasts are there?</strong> We're expecting to cross the magical 1 million mark in early 2020. MyPodcastReviews.com has a <a href="https://mypodcastreviews.com/podcast-industry-statistics/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_statistics_a_howmanypodcasts" aria-labelledby="section_statistics_a_howmanypodcasts">cool page with up-to-date stats.</a></p>
+                <!-- <p><strong>How many podcasts are there?</strong> We're expecting to cross the magical 1 million mark in early 2020. MyPodcastReviews.com has a <a href="https://mypodcastreviews.com/podcast-industry-statistics/?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="section_statistics_a_howmanypodcasts" aria-labelledby="section_statistics_a_howmanypodcasts">cool page with up-to-date stats.</a></p> -->
 
-                <p class="text-l-mob"><strong>37% of the US population</strong> listened to a podcast last month. There are more than 930,000 active podcast shows and more than 27-million episodes listed on Apple Podcasts alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
+                <p class="text-l-mob"><strong>37% of the US population</strong> listened to a podcast last month. Over each of the past few years, the number of podcasts has doubled, re-doubled, and doubled again. There are now more than 1,750,000 active podcast shows and more than 43-million episodes listed on Apple Podcasts alone. These staggering numbers are part of the reason we're so excited to provide you with an end-to-end podcast service.</p>
 
-                <p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_statistics_a_podcastinsightstats" aria-labelledby="section_statistics_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2020</span>)</small></p>
+                <p class="text-l-mob"><small>Source: <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank" rel="noopener" id="section_statistics_a_podcastinsightstats" aria-labelledby="section_statistics_a_podcastinsightstats">Podcast Insight Stats</a> (from Edison Research <span class="no-break">and Nielsen, 2021</span>)</small></p>
 
             </div>
 

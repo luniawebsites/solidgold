@@ -82,9 +82,17 @@ HEADER
 
 	<div class="constrain pad-y-mob">
 
-		<h1 id="header_studios_h1_awiderange">Five podcast studios for a wide range of options</h1>
+		<h1 id="header_studios_h1_awiderange">Podcast studios with a wide range of options</h1>
 
-		<p>All our studios are <strong>professionally equipped</strong> for <strong>high-quality recording</strong>, and are <strong>air-conditioned and comfortably furnished</strong>.</p>
+        <p>Our professional studios are designed for podcasts. We accommodate a very wide range of configurations and options to make sure your content is recorded and heard by your target audience.</p>
+
+        <p>From roundtable discussions to monologues, audio books, interviews and armchair chats, we have a studio that fits your needs.</p>
+
+        <p>Studios are configured to suit different inputs, including cell and WhatsApp calls, Zoom, Google Meet, Skype and Microsoft Teams video conferencing.</p>
+
+        <p>We also offer excellent coffee in our famous mugs, with bottled water always available.</p>
+
+		<!-- <p>All our studios are <strong>professionally equipped</strong> for <strong>high-quality recording</strong>, and are <strong>air-conditioned and comfortably furnished</strong>.</p>
 
 		<p>We understand and appreciate that to have open, honest and meaningful conversations, hosts and guests need to feel comfortable and at ease. We also understand that our clients' recording, production, editing and hosting needs vary in complexity and budget.</p>
 
@@ -92,7 +100,7 @@ HEADER
 
 		<em class="theme-light-grey-mob accent-green-mob">All studios can record Zoom, Meet, Teams, Skype, WhatsApp and POTS (plain old telephone system) conversations, however, for superior remote recording we use Virtual Studio Software like <a href="https://squadcast.fm/?ref=solidgold" target="_blank" ref="noopener" id="header_studios_a_squadcastfm" aria-labelledby="header_studios_a_squadcastfm">SquadCast</a> and <a href="https://riverside.fm?via=gavin" target="_blank" ref="noopener" id="header_studios_a_riversidefm" aria-labelledby="header_studios_a_riversidefm">Riverside</a>.</em>
 
-		<p>Our open-plan office space is designed to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many clients like to work from our offices on recording days!</p>
+		<p>Our open-plan office space is designed to facilitate and encourage creative interaction during the entire production process. With unlimited coffee, free Wi-Fi, editing workstations, boardroom, couches, indoor workspaces and outdoor chill spots, it's easy to see why so many clients like to work from our offices on recording days!</p> -->
 
 		<!--
 		BUTTON CONTAINER
@@ -134,6 +142,78 @@ MAIN
 
 			<div class="grid-auto-respond-20">
 
+                <!--
+                FIGURE
+                -->
+
+                <figure class="flexdir-ttb-mob radius-mob theme-white-mob">
+
+                    <picture>
+                        <source srcset="assets/images/photos/mobile/podcast-studio-popup.webp" type="image/webp" />
+                        <img class="fg-image-card-mob border-mob" src="assets/images/photos/podcast-studio-popup.jpg" title="Podcast studio 5" alt="Podcast studio 5" />
+                    </picture>
+
+                    <div class="pad-xy-mob">
+
+                        <h3>Pop-up Podcasts</h3>
+
+                        <h4>The studio comes to you</h4>
+
+                        <p>The most expensive part of a podcast is usually the value of the host's and guests' time. This means that travelling to our studios isn't always     viable or practical. More and more we're reminded that content trumps form and clients want to record their public or private podcasts in their own boardrooms, at trade shows, during conferences or even in a moving car (a la Carpool Karaoke).</p>
+
+                        <p>This is why we've invested extensively in Pop-Up Podcast™ solutions, where professional crew and state-of-the-art equipment bring the studio to you.</p>
+
+
+                        <p>
+                            <table class="margin-b-mob">
+                                <tr>
+                                    <td class="no-break">Audio Engineer</td>
+                                    <td>
+                                        <!-- <span class="encimage-studioicon-engineer" title="Engineer"></span> -->
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="no-break">Host</td>
+                                    <td>
+                                        <!-- <span class="encimage-studioicon-host" title="Host"></span> -->
+                                        Per brief
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="no-break">Guests</td>
+                                    <td>
+                                        <!-- <span class="encimage-studioicon-guest" title="Guest"></span>
+                                        <span class="encimage-studioicon-guest" title="Guest"></span>
+                                        <span class="encimage-studioicon-guest" title="Guest"></span>
+                                        <span class="encimage-studioicon-guest" title="Guest"></span> -->
+                                        Per brief
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="no-break">Producers/Clients</td>
+                                    <td>
+                                        <!-- <span class="encimage-studioicon-client" title="Client"></span>
+                                        <span class="encimage-studioicon-client" title="Client"></span> -->
+                                        Per brief
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+
+                        <h4 class="pad-half-b-mob">Rate</h4>
+
+                        <table class="margin-b-mob">
+                            <tr>
+                                <td class="no-break">First hour</td>
+                                <td>From R1,950</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                </figure>
+
 				<!--
 				FIGURE
 				-->
@@ -151,54 +231,66 @@ MAIN
 
 						<h4>Large professional and corporate</h4>
 
-						<p>Designed and furnished to facilitate conversation. A solid wood and leather inlay countertop at bar height, with raised leather seating, makes this an ideal setting for in-depth discussions and interviews. This studio easily accommodates larger groups for panel discussions, group interviews and announcements.</p>
+                        <p>Designed and furnished to facilitate engaged conversations. A solid wood and leather inlay countertop at bar height, with raised leather seating, makes this an ideal setting for in-depth discussions, deep dives and your more serious interviews. This studio is ideal for business conversations, group interviews and announcements.</p>
+
+                        <p>Multiple remote guests can be included using cell or HD video conferencing remote studio software.</p>
 
 						<h4 class="pad-half-b-mob">Maximum 8 people</h4>
 
 						<table class="margin-b-mob">
 							<tr>
-								<td class="no-break">Engineer</td>
+								<td class="no-break">Audio Engineer</td>
 								<td>
-									<span class="encimage-studioicon-engineer" title="Engineer"></span>
+									<!-- <span class="encimage-studioicon-engineer" title="Engineer"></span> -->
+                                    1
 								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Host</td>
 								<td>
-									<span class="encimage-studioicon-host" title="Host"></span>
+									<!-- <span class="encimage-studioicon-host" title="Host"></span> -->
+                                    1
 								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Guests</td>
 								<td>
-									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
+									<!-- <span class="encimage-studioicon-guest" title="Guest"></span>
+                                    <span class="encimage-studioicon-guest" title="Guest"></span>
+                                    <span class="encimage-studioicon-guest" title="Guest"></span>
+                                    <span class="encimage-studioicon-guest" title="Guest"></span> -->
+                                    4
 								</td>
 							</tr>
+                            <tr>
+                                <td class="no-break">Producers/Clients</td>
+                                <td>
+                                    <!-- <span class="encimage-studioicon-client" title="Client"></span>
+                                    <span class="encimage-studioicon-client" title="Client"></span> -->
+                                    2
+                                </td>
+                            </tr>
 						</table>
 
-						<h4>Inputs</h4>
+						<!-- <h4>Inputs</h4>
 
 						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
 							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
 							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
 							<span class="encimage-studioicon-bluetooth" title="Bluetooth input is available during your recording"></span>
 							<span class="encimage-studioicon-laptop" title="Laptop input is available during your recording"></span>
-						</div>
+						</div> -->
 
-						<h4 class="pad-half-b-mob">Hourly rates with Engineer</h4>
+						<h4 class="pad-half-b-mob">Rates with Audio Engineer</h4>
 
 						<table>
 							<tr>
 								<td class="no-break">First hour</td>
+								<td>R1,250</td>
+							</tr>
+							<tr>
+								<td class="no-break">Per additional hour</td>
 								<td>R950</td>
-							</tr>
-							<tr>
-								<td class="no-break">Additional hour(s)</td>
-								<td>R750</td>
-							</tr>
-							<tr>
-								<td class="no-break">Full day</td>
-								<td>R650</td>
 							</tr>
 						</table>
 
@@ -221,9 +313,11 @@ MAIN
 
 						<h3>Studio 2</h3>
 
-						<h4>Dry-hire, DIY and hobbyist</h4>
+						<h4>DIY, hobbyist and dry-hire</h4>
 
-						<p>Perfect for the DIY or hobbyist podcaster with basic skills who needs a high-quality, quiet place to record. Professionally equipped for three people, and available to hire by the hour (without the need for a sound engineer).</p>
+                        <p>If you've outgrown using your bedroom, kitchen or living room for recording and are ready to take your podcast to the next level, then this is the studio to help you grow and be taken more seriously. This studio is professionally equipped for 3 people and can take 2 remote callers or video conference participants.</p>
+
+                        <p>Your first session includes basic training so you can operate this studio yourself and avoid the cost of an audio engineer.</p>
 
 						<h4 class="pad-half-b-mob">Maximum 3 people</h4>
 
@@ -231,61 +325,34 @@ MAIN
 							<tr>
 								<td class="no-break">Host</td>
 								<td>
-									<span class="encimage-studioicon-host" title="Host"></span>
+									<!-- <span class="encimage-studioicon-host" title="Host"></span> -->
+                                    1
 								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Guests</td>
 								<td>
-									<span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span>
+									<!-- <span class="encimage-studioicon-guest" title="Guest"></span><span class="encimage-studioicon-guest" title="Guest"></span> -->
+                                    2
 								</td>
 							</tr>
 						</table>
 
-						<h4>Inputs</h4>
+						<!-- <h4>Inputs</h4>
 
 						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
 							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
 							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
 							<span class="encimage-studioicon-bluetooth" title="Bluetooth input is available during your recording"></span>
 							<span class="encimage-studioicon-laptop" title="Laptop input is available during your recording"></span>
-						</div>
+						</div> -->
 
-						<h4 class="pad-half-b-mob">Hourly DIY rates (dry hire)</h4>
+						<h4 class="pad-half-b-mob">Rate</h4>
 
 						<table>
 							<tr>
-								<td class="no-break">First hour</td>
+								<td class="no-break">Per hour</td>
 								<td>R250</td>
-							</tr>
-							<tr>
-								<td class="no-break">Additional hour(s)</td>
-								<td>R225</td>
-							</tr>
-							<tr>
-								<td class="no-break">Full day (10 hours)</td>
-								<td>R200</td>
-							</tr>
-							<tr>
-								<td class="no-break">Full week (5 days)</td>
-								<td>R175</td>
-							</tr>
-						</table>
-
-						<h4 class="pad-t-mob pad-half-b-mob">Hourly rates with Engineer</h4>
-
-						<table>
-							<tr>
-								<td class="no-break">First hour</td>
-								<td>R550</td>
-							</tr>
-							<tr>
-								<td class="no-break">Additional hours</td>
-								<td>R350</td>
-							</tr>
-							<tr>
-								<td class="no-break">Full day (10 hours)</td>
-								<td>R325</td>
 							</tr>
 						</table>
 
@@ -308,55 +375,56 @@ MAIN
 
 						<h3>Studio 3</h3>
 
-						<h4>Post-production</h4>
+						<h4>Client-centric post-production</h4>
 
-						<p>Oriented toward post-production, this studio is familiar to communication and media professionals with its separate soundproof booth and large couch area for directors, producers and clients.  Also used for recording and producing audiobooks, radio commercials and video soundtracks.</p>
+                        <p>Oriented toward post-production, this studio is familiar to communication and media professionals with its separate soundproof booth and large couch area for directors, producers and clients.</p>
+
+                        <p>This studio is also used to record and produce radio commercials, video soundtracks, documentaries and training material.</p>
 
 						<h4 class="pad-half-b-mob">Maximum 10 people</h4>
 
 						<table class="margin-b-mob">
 							<tr>
-								<td class="no-break">Engineer</td>
+								<td class="no-break">Audio Engineer</td>
 								<td>
-									<span class="encimage-studioicon-engineer" title="Engineer"></span>
+									<!-- <span class="encimage-studioicon-engineer" title="Engineer"></span> -->
+                                    1
 								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Producers/Clients</td>
 								<td>
-									<span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span><span class="encimage-studioicon-client" title="Client"></span>
+									<!-- <span class="encimage-studioicon-client" title="Client"></span> -->
+                                    6
 								</td>
 							</tr>
 							<tr>
 								<td class="no-break">Voice Artists</td>
 								<td>
-									<span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span>
+									<!-- <span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span><span class="encimage-studioicon-guest" title="Voice Artist"></span> -->
+                                    3
 								</td>
 							</tr>
 						</table>
 
-						<h4>Inputs</h4>
+						<!-- <h4>Inputs</h4>
 
 						<div class="flexdir-ltr-mob spread-half-mob margin-double-b-mob">
 							<span class="encimage-studioicon-skype" title="Skype calls are available during your recording"></span>
 							<span class="encimage-studioicon-whatsapp" title="WhatsApp calls are available during your recording"></span>
 							<span class="encimage-studioicon-laptop" title="Bluetooth input is available during your recording"></span>
-						</div>
+						</div> -->
 
-						<h4 class="pad-half-b-mob">Hourly rates with Engineer</h4>
+						<h4 class="pad-half-b-mob">Rates with Audio Engineer</h4>
 
 						<table>
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R1,150</td>
+								<td>R1,250</td>
 							</tr>
 							<tr>
-								<td class="no-break">Additional</td>
-								<td>R850</td>
-							</tr>
-							<tr>
-								<td class="no-break">Full day (10 hrs)</td>
-								<td>R750</td>
+								<td class="no-break">Per additional hour</td>
+								<td>R950</td>
 							</tr>
 						</table>
 
@@ -379,34 +447,41 @@ MAIN
 
 						<h3>Studio 4</h3>
 
-						<h4>Large TV-like</h4>
+						<h4>Large round table and re-configurable furniture</h4>
 
-						<p>We believe that the setting for a conversation often has a great influence on the content. For example, a conversation at a desk or in a studio will sound very different from one held between two people in armchairs with a coffee table and potplant alongside. Similarly, a round-table discussion works best, well, around a table. For this reason we created the magical 50m<sup>2</sup> set-dressed studio where you can set the scene for the conversation you want to have.</p>
+                        <p>Setting the scene for a conversation has a great influence on the sound of the content. For example, a conversation at a desk or in a studio will sound very different from one held between two people in armchairs with a coffee table and potplant alongside. Similarly, a roundtable discussion works best, well, around a table. For this reason we created this magical 50m² studio where you can select and re-arrange the furniture and backdrop to set the scene for the conversation you want to have.</p>
 
-						<p>Whether it's couches, beanbags or a fireside chat with a library backdrop—hey, even a <i>Wayne's World Bedroom</i> is possible—you can let your imagination run wild.</p>
+                        <p>Whether it's couches, beanbags or a fireside chat with a library backdrop—hey, even a Wayne's World Bedroom is possible—you can let your imagination run wild.</p>
 
-						<p>This studio lends itself to simultaneous recording of your YouTube channel, with the added bonus of an infinity curve and green screen for chroma key shoots.</p>
+                        <p>This studio lends itself to simultaneous video recording.</p>
 
-
-						<h4 class="pad-half-b-mob">DIY rates (dry hire)</h4>
+						<h4 class="pad-half-b-mob">Rates with Audio Engineer</h4>
 
 						<table class="margin-b-mob">
 							<tr>
 								<td class="no-break">First hour</td>
-								<td>R750</td>
-							</tr>
-
-							<tr>
-								<td class="no-break">Additional hour(s)</td>
-								<td>R350</td>
+								<td>R1,250</td>
 							</tr>
 							<tr>
-								<td class="no-break">Full day (10 hours)</td>
-								<td>R325</td>
+								<td class="no-break">Per additional hour</td>
+								<td>R950</td>
 							</tr>
 						</table>
 
-						<p>Sound reduced with basic lighting, some furniture (and unlimited coffee) included. Additional equipment, crew and set dressing POA.</p>
+                        <h4 class="pad-half-b-mob">Rates (DIY)</h4>
+
+                        <table class="margin-b-mob">
+                            <tr>
+                                <td class="no-break">First hour</td>
+                                <td>R1,250</td>
+                            </tr>
+                            <tr>
+                                <td class="no-break">Per additional hour (DIY)</td>
+                                <td>R750</td>
+                            </tr>
+                        </table>
+
+						<!-- <p>Sound reduced with basic lighting, some furniture (and unlimited coffee) included. Additional equipment, crew and set dressing POA.</p>
 
 						<h4 class="pad-half-b-mob">Options</h4>
 
@@ -417,7 +492,7 @@ MAIN
 							<tr>
 								<td>Set dressing</td>
 							</tr>
-						</table>
+						</table> -->
 
 					</div>
 
@@ -438,11 +513,22 @@ MAIN
 
 						<h3>Studio 5</h3>
 
-						<h4>On location</h4>
+						<h4>Audio books and webinars</h4>
 
-						<p>We come to your office or boardroom, or out in the field, with a <a href="https://www.zoom-na.com/products/field-video-recording/field-recording/h6-handy-recorder" target="_blank" rel="external noopener" id="article_studios_a_zoomh6" aria-labelledby="article_studios_a_zoomh6">Zoom H6</a> and professional microphones. We record your story for post-production and publishing back at the studios.</p>
-						<p>Think about how the location of a recording could add value to the conversation, or be a more efficient use of your time. For example, an interview with a busy Exec while they are driving to the airport, or at a conference, or even in the factory where your products are manufactured.</p>
-						<p><strong>Be creative!</strong></p>
+                        <p>In late 2020, Amazon announced that audio book sales had overtaken ebook sales for the first time. Given the substantial growth we've seen in the number of clients recording audio books, we built an additional studio fit for purpose.</p>
+
+                        <p>It's also ideal for pre-recording webinar presentations.</p>
+
+                        <h4 class="pad-half-b-mob">Maximum 1 person</h4>
+
+                        <h4 class="pad-half-b-mob">Rate</h4>
+
+                        <table class="margin-b-mob">
+                            <tr>
+                                <td class="no-break">Per hour</td>
+                                <td>R150</td>
+                            </tr>
+                        </table>
 
 					</div>
 

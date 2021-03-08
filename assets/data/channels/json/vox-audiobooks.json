@@ -1,16 +1,16 @@
 {	
 	"status": "public",
-	"title": "Vox Pod",
-	"host": "Find your Podcast Host voice",
-	"coverFileName": "vox-pod-000a.jpg",
-	"filterKeywords": "vox pod voice host",
+	"title": "Vox Audiobooks",
+	"host": "Find your Audiobook voice",
+	"coverFileName": "vox-audiobooks-000a.jpg",
+	"filterKeywords": "vox audiobook voice narrate",
 	"donateLink": "http://paypal.me/gakennedy",
 	"genre1": "",
 	"genre2": "",
 	"genre3": "",
 	"agreement": "yes",
 	"whatsappNumber": "27832271409",
-	"playlistUrl": "https://pod.link/vox",
+	"playlistUrl": "https://pod.link/audiobooks",
 	"websiteUrl": "https://vox.org.za",
 	"email": "mail@vox.org.za",
 	"emailAgreement": "mail@vox.org.za",
@@ -20,7 +20,7 @@
 	"instagramUrl": "",
 	"tumblrUrl": "",
 	"youtubeUrl": "",
-	"rssUrl": "https://iono.fm/rss/chan/5787",
+	"rssUrl": "https://iono.fm/rss/chan/6150",
 	"extraButtonLabel": "",
 	"extraButtonUrl": "",
 	"buyLink1Label": "",
@@ -29,5 +29,5 @@
 	"buyLink2Url": "",
 	"buyLink3Label": "",
 	"buyLink3Url": "",
-	"description": "<h3>Are you looking for the perfect host for your next podcast?</h3><p>Your search is over!</p><p>Our selection of voices deliver professional performances for every kind of interview, performance, or conversation you can imagine.</p><p>To be understood, you must first be heard."
+	"description": "<h3>Are you looking for the narrator for your next audiobook?</h3><p>Your search is over!</p><p>Our selection of narrators deliver professional performances for every kind of book you can imagine.</p><p>To be understood, you must first be heard."
 }

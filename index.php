@@ -210,7 +210,7 @@ MAIN
                 CONTENT
                 -->
 
-                <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cb-mob flexpos-cb-tab">
+                <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-cc-mob flexpos-c-tab">
 
                     <!--
                     IMAGES

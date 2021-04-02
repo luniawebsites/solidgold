@@ -530,7 +530,7 @@ MAIN
                         <table class="margin-b-mob">
                             <tr>
                                 <td class="no-break">Per hour</td>
-                                <td>R200</td>
+                                <td>R250</td>
                             </tr>
                         </table>
 

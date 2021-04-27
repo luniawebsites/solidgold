@@ -954,13 +954,12 @@ MAIN
 
                 <h2 id="section_guesttraining_h2_guidelinesonhow">Guidelines on how to be an effective podcast guest.</h2>
 
-                <p>Ensuring that your message is heard is our highest priority. To help you with this, we've put together a free <a href="https://fanlink.to/sgsgreen/" target="_blank" rel="noopener" id="section_guesttraining_a_podcastguest101" aria-labelledby="section_guesttraining_a_podcastguest101">Podcast Guest 101 Course</a> which you can listen to as a podcast.</p>
+                <p>Ensuring that your message is heard is our highest priority. To help you with this, we've put together a free <a href="https://pod.link/guest" target="_blank" rel="noopener" id="section_guesttraining_a_podcastguest101" aria-labelledby="section_guesttraining_a_podcastguest101">Podcast Guest 101 Course</a> which you can listen to as a podcast.</p>
 
                 <p>Get hints, tips and guidelines on how to be an effective podcast guest and get your message across. You should keep a pen and paper handy to take notes.</p>
 
-<!--
-                <p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our Podcast Guest Master Class. Drop us an email to <a href="mailto:training@solidgold.co.za?subject=Podcast%20Guest%20Master%20Class%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space on our next Master Class</a>.</p>
--->
+                <p>If you're going to be a guest on more podcasts in future—and given the explosive growth in this space, that's highly likely—then join us on our <strong>Podcast Guest Workshop</strong>. Drop us an email to <a href="mailto:training@solidgold.co.za?subject=Podcast%20Guest%20Workshop%20Query" target="_blank" rel="noopener" id="section_guesttraining_a_mailtotraining" aria-labelledby="section_guesttraining_a_mailtotraining">book your space</a> and get useful hands-on experience so you're better prepared.</p>
+
 
             </div>
 

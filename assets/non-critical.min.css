@@ -357,7 +357,19 @@ td:first-of-type {
     background-repeat: no-repeat;
     background-size: 260px 320px;
     width: 260px;
-    height: 320px; } }
+    height: 320px; }
+  .webp .image-audiobooks {
+    background: url("images/photos/mobile/audiobooks.webp");
+    background-repeat: no-repeat;
+    background-size: 400px 335px;
+    width: 400px;
+    height: 335px; }
+  .no-webp .image-audiobooks {
+    background: url("images/photos/mobile/audiobooks.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 335px;
+    width: 400px;
+    height: 335px; } }
 
 @media screen and (min-width: 768px) {
   .card-bgimage {

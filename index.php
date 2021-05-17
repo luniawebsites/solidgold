@@ -100,9 +100,9 @@ HEADER: Hero
 
             <h1 class="margin-t-mob-only" id="header_hero_h1_doyouwant">To be understood, you must first be heard</h1>
 
-            <p>Our friendly team of podcast professionals will help you turn your concept or content into a podcast that delivers your message.</p>
+            <p>Our friendly team of professionals will help you turn your concept and content into a podcast or audiobook that delivers your message.</p>
 
-            <p>Whether in one of our 5 specialised podcast studios in Randburg, South Africa, or as a Pop-Up Podcast™ at your office, we have the people, professional equipment and know-how to make your podcast.</p>
+            <p>Whether in one of our 11 specialised podcast studios in Randburg, South Africa, or as a Pop-Up Podcast™ at your office, we have the people, professional equipment and know-how to help you be heard.</p>
 
             <!-- <p>We also provide Corporate <strong>Private Podcasts</strong> in partnership with</p> -->
 
@@ -445,7 +445,7 @@ MAIN
 
                 <h2 id="section_whatarepodcasts_h2_podcastsanythingeverywhere">Podcasts: <span class="no-break">Anything! Everywhere!</span></h2>
 
-                <p><strong>Like radio, but better - Podcasts</strong> are meaningful, entertaining and useful independent audio shows that can be downloaded free using an app on your phone, tablet or PC.</p>
+                <p><strong>Like radio, but better.</strong> Podcasts are meaningful, entertaining and useful independent audio shows that can be downloaded free using an app on your phone, tablet or PC.</p>
 
                 <!-- <p><strong>Like radio, but better.</strong> Podcasts are pre-recorded and published in channels. Episodes range from a few minutes to several hours in length. Anyone can start their own podcast channel, we'll show you how.</p> -->
 
@@ -454,6 +454,62 @@ MAIN
                 <p>Use a free app such as <a href="https://itunes.apple.com/us/app/apple-podcasts/id525463029?mt=8" target="_blank" rel="noopener" id="section_whatarepodcasts_a_applepodcasts" aria-labelledby="section_whatarepodcasts_a_applepodcasts">Apple Podcasts</a>, <a href="https://castbox.fm/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_castbox" aria-labelledby="section_whatarepodcasts_a_castbox">Castbox</a>, <a href="https://www.stitcher.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_stitcher" aria-labelledby="section_whatarepodcasts_a_stitcher">Stitcher</a> or <a href="https://www.spotify.com/download" target="_blank" rel="noopener" id="section_whatarepodcasts_a_spotify" aria-labelledby="section_whatarepodcasts_a_spotify">Spotify</a> to follow podcast channels of your choice. The app can even download new episodes for you automatically.</p>
 
             </div>
+
+        </div>
+
+    </article>
+
+    <!--
+    ARTICLE: Audiobooks
+    -->
+
+    <article class="pattern-section-item pad-respond-x-mob pad-respond-t-mob border-t-mob theme-white-mob" id="section_audiobooks" aria-label="section_audiobooks_h2_audiobooksaremore">
+
+        <!--
+        LAYOUT CONTAINER
+        -->
+
+        <div class="flexdir-ttb-mob flexdir-ltr-tab flexpos-lb-mob flexpos-cb-tab constrain pad-respond-t-mob">
+
+            <!--
+            LAYOUT CONTAINER
+            -->
+
+            <div class="margin-b-mob pad-respond-b-mob">
+
+                <!--
+                ARIA HIDDEN LABEL
+                -->
+
+                <div aria-hidden="true"><span class="text-heading-badge--light">Audiobooks</span></div>
+
+                <!--
+                CONTENT
+                -->
+
+                <h2 id="section_whatarepodcasts_h2_audiobooksaremore">Audiobooks are more popular <span class="no-break">than ebooks</span></h2>
+
+                <p>Podcasts are not alone when it comes to massive growth. In 2020, <a href="https://goodereader.com/blog/audiobooks/audiobook-trends-and-statistics-for-2020" target="_blank" rel="noopener">audiobooks outsold ebooks</a>. With no end in sight for this trend, and to accommodate our numerous clients who write books, we've built more studios dedicated to recording audiobooks.</p>
+
+                <p>If you don’t want to read your book yourself, you’re in luck! We’ve gathered together a <a href="https://audiobooks.org.za" target="_blank" rel="noopener">delightful group of excellent voices</a> to read it for you.</p>
+
+                <p>For a cost estimate to turn your creation into an audiobook, email us at <a href="mailto:audiobooks@solidgold.co.za" rel="noopener">audiobooks@solidgold.co.za</a> and let us know how many chapters there are and an approximate word count.</p>
+
+            </div>
+
+            <!--
+            FIGURE
+            -->
+
+            <figure class="flexdir-ltr-tab flexpos-cb-tab width-80-tab width-70-des pad-t-mob">
+
+                <!--
+                IMAGE
+                -->
+
+                <div class="image-audiobooks bgpos-lb-mob bgpos-cb-tab"></div>
+
+            </figure>
 
         </div>
 

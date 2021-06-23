@@ -80,7 +80,9 @@ HEADER
 		<p><strong>"It doesn't matter how many people you reach, but that you reach the people who matter."</strong> - Gavin Kennedy</p>
 		<p></p>
 		<p>We use <a href="https://chartable.com/?utm_source=Solid%20Gold%20Podcasts" target="_blank" rel="noopener" id="header_channels_a_chartable" aria-labelledby="header_channels_a_chartable">Chartable.com</a> and <a href="https://iono.fm?utm_source=Solid%20Gold%20Podcasts" target="_blank" rel="noopener" id="header_channels_a_iono" aria-labelledby="header_channels_a_ionofm">Iono.fm</a> to track usage. You can view the<a href="https://chartable.com/privacy?utm_source=Solid%20Gold%20Podcast%20Studios" target="_blank" rel="noopener" id="header_channels_a_chartableprivacypolicy" aria-labelledby="header_channels_a_chartableprivacypolicy"> CCPA/GDPR/Etc Privacy Policy</a>.</p>
-        <p>We are an <a href="https://affiliate-program.amazon.com/help/node/topic/GHQNZAU6669EZS98" target="_blank" rel="noopener" id="header_channels_a_cloudtower" aria-labelledby="header_channels_a_cloudtower">Amazon Associate</a> and earn from qualifying purchases.</p>
+
+<!--        <p>We are an <a href="https://affiliate-program.amazon.com/help/node/topic/GHQNZAU6669EZS98" target="_blank" rel="noopener" id="header_channels_a_cloudtower" aria-labelledby="header_channels_a_cloudtower">Amazon Associate</a> and earn from qualifying purchases.</p>
+-->	
 
 		<!--
 		FORM
